@@ -1,0 +1,37 @@
+{
+  "name": "@foray1010/renovate-config",
+  "version": "0.0.0",
+  "license": "MIT",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":automergeMinor",
+        ":assignAndReview(foray1010)"
+      ],
+      "timezone": "Asia/Hong_Kong",
+      "schedule": [
+        "after 2am and before 5am"
+      ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": [
+          "after 5am and before 7am on Monday"
+        ]
+      },
+      "packageRules": [
+        {
+          "packagePatterns": [
+            "^import-sort-"
+          ],
+          "groupName": "import-sort monorepo"
+        }
+      ],
+      "prCreation": "not-pending",
+      "stabilityDays": 3
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
