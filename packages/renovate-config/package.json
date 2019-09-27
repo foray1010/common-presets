@@ -19,6 +19,11 @@
           "after 5am and before 7am on Monday"
         ]
       },
+      "kubernetes": {
+        "fileMatch": [
+          "-deployment\\.yml$"
+        ]
+      },
       "packageRules": [
         {
           "packagePatterns": [
