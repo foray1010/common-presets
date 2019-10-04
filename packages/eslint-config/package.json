@@ -7,22 +7,26 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "eslint-find-rules:main": "eslint-find-rules --unused",
+    "eslint-find-rules:react": "eslint-find-rules --unused ./react.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.2",
     "@typescript-eslint/parser": "^2.3.2",
     "confusing-browser-globals": "^1.0.9",
+    "eslint-config-prettier": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^22.17.0",
-    "eslint-plugin-react": "^7.15.1",
-    "eslint-plugin-react-hooks": "^2.1.1"
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.1.2"
   },
   "peerDependencies": {
     "eslint": ">=6"
   },
   "devDependencies": {
     "eslint": "6.5.1",
-    "eslint-find-rules": "3.4.0"
+    "eslint-find-rules": "3.4.0",
+    "typescript": "3.6.3"
   }
 }
