@@ -18,6 +18,9 @@ module.exports = {
     "eslint-plugin-jest",
     "eslint-plugin-prettier",
   ],
+  env: {
+    node: true,
+  },
   rules: {
     // this rule doesn't support commonjs, some dependencies are using commonjs
     "import/default": "off",
