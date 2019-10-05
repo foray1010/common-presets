@@ -6,13 +6,18 @@ module.exports = {
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:jest/style",
+    "plugin:prettier/recommended",
     "eslint-config-prettier",
   ],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: "script",
   },
-  plugins: ["eslint-plugin-import", "eslint-plugin-jest"],
+  plugins: [
+    "eslint-plugin-import",
+    "eslint-plugin-jest",
+    "eslint-plugin-prettier",
+  ],
   rules: {
     // this rule doesn't support commonjs, some dependencies are using commonjs
     "import/default": "off",
