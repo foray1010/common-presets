@@ -8,6 +8,7 @@ jobs:
       - restore_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
       - run: "yarn install --frozen-lockfile"
+      - run: "yarn lerna bootstrap"
       - save_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
           paths:
