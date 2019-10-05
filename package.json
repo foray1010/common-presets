@@ -1,6 +1,9 @@
 {
   "name": "common-presets",
   "private": true,
+  "engines": {
+    "node": ">=8.9"
+  },
   "scripts": {
     "ci": "yarn lint",
     "lint": "eslint --resolve-plugins-relative-to=packages/eslint-config ."
