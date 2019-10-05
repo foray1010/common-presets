@@ -5,7 +5,7 @@ module.exports = {
     "eslint:recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:jest/style",
+    "plugin:jest/recommended",
     "plugin:prettier/recommended",
     "eslint-config-prettier",
   ],
