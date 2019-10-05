@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.2.1...@foray1010/eslint-config@1.2.2) (2019-10-05)
+
+### Bug Fixes
+
+- **eslint-config:** allow es6 globals ([e21782b](https://github.com/foray1010/common-presets/commit/e21782b))
+
 ## [1.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.2.0...@foray1010/eslint-config@1.2.1) (2019-10-05)
 
 ### Bug Fixes
