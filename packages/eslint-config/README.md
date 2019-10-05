@@ -1,4 +1,4 @@
-# @foray1010/eslint-config
+# `@foray1010/eslint-config`
 
 It aims at providing a general eslint config for:
 

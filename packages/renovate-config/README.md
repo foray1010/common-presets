@@ -1,4 +1,4 @@
-# @foray1010/renovate-config
+# `@foray1010/renovate-config`
 
 My personal renovate preset to sync renovate config across different repositories
 
