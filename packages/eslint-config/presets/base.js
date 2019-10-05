@@ -26,6 +26,8 @@ module.exports = {
     "import/default": "off",
     // doesn't work with redux-saga/effects
     "import/named": "off",
+    // commonjs must use strict mode
+    strict: ["error", "global"],
   },
   overrides: [
     {
