@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.2.0...@foray1010/eslint-config@1.2.1) (2019-10-05)
+
+### Bug Fixes
+
+- **eslint-config:** do not lint jest coding style ([8ad8d01](https://github.com/foray1010/common-presets/commit/8ad8d01))
+
 # [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.1.0...@foray1010/eslint-config@1.2.0) (2019-10-05)
 
 ### Features
