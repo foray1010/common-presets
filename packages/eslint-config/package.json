@@ -23,7 +23,8 @@
     "eslint-plugin-jest": "^22.17.0",
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
-    "eslint-plugin-react-hooks": "^2.1.2"
+    "eslint-plugin-react-hooks": "^2.1.2",
+    "typescript": "^3.6.3"
   },
   "peerDependencies": {
     "eslint": ">=6",
@@ -31,7 +32,6 @@
   },
   "devDependencies": {
     "eslint": "6.5.1",
-    "eslint-find-rules": "3.4.0",
-    "typescript": "3.6.3"
+    "eslint-find-rules": "3.4.0"
   }
 }
