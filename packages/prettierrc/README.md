@@ -1,11 +1,13 @@
 # `@foray1010/prettierrc`
 
-> TODO: description
+## Installation
 
-## Usage
+1. `npm install --save-dev prettier @foray1010/prettierrc`
 
-```
-const prettierrc = require('@foray1010/prettierrc');
+2. Create an `.prettierrc.js` in the project root
 
-// TODO: DEMONSTRATE API
-```
+   ```js
+   'use strict'
+
+   module.exports = require('@foray1010/prettierrc')
+   ```
