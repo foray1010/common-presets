@@ -12,6 +12,10 @@
     "stylelint-config-standard": "^19.0.0",
     "stylelint-prettier": "^1.1.1"
   },
+  "peerDependencies": {
+    "stylelint": ">=11",
+    "prettier": "*"
+  },
   "devDependencies": {
     "stylelint": "11.0.0"
   }
