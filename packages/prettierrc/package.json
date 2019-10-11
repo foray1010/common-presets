@@ -1,0 +1,15 @@
+{
+  "name": "@foray1010/prettierrc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  }
+}

@@ -1,2 +1,2 @@
 extends:
-  - "./packages/eslint-config"
+  - './packages/eslint-config'

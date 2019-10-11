@@ -2,15 +2,15 @@ version: 2
 jobs:
   build:
     docker:
-      - image: "circleci/node:8"
+      - image: 'circleci/node:8'
     steps:
-      - "checkout"
+      - 'checkout'
       - restore_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
-      - run: "yarn install --frozen-lockfile"
-      - run: "yarn lerna bootstrap"
+      - run: 'yarn install --frozen-lockfile'
+      - run: 'yarn lerna bootstrap'
       - save_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
           paths:
-            - "~/.cache/yarn"
-      - run: "yarn ci"
+            - '~/.cache/yarn'
+      - run: 'yarn ci'

@@ -24,5 +24,5 @@ Z for looser rules
 
    ```yml
    extends:
-     - "@foray1010/stylelint-config"
+     - '@foray1010/stylelint-config'
    ```

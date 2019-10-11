@@ -1,24 +1,24 @@
-"use strict";
+'use strict'
 
-const restrictedGlobals = require("confusing-browser-globals");
+const restrictedGlobals = require('confusing-browser-globals')
 
 module.exports = {
-  extends: ["plugin:react/recommended", "eslint-config-prettier/react"],
+  extends: ['plugin:react/recommended', 'eslint-config-prettier/react'],
   parserOptions: {
-    sourceType: "module",
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ["eslint-plugin-react", "eslint-plugin-react-hooks"],
+  plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
   settings: {
     react: {
-      version: "detect",
+      version: 'detect',
     },
   },
   rules: {
-    "no-restricted-globals": ["error", ...restrictedGlobals],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error",
+    'no-restricted-globals': ['error', ...restrictedGlobals],
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'error',
   },
-};
+}
