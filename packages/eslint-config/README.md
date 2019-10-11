@@ -25,9 +25,9 @@ Z for looser rules
    ```yml
    # for general purpose, support TypeScript
    extends:
-     - "@foray1010/eslint-config"
+     - '@foray1010/eslint-config'
 
    # for frontend React project, support TypeScript
    extends:
-     - "@foray1010/eslint-config/react"
+     - '@foray1010/eslint-config/react'
    ```
