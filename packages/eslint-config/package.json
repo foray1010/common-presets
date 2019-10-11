@@ -10,7 +10,6 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint .",
     "eslint-find-rules:main": "eslint-find-rules --unused",
     "eslint-find-rules:react": "eslint-find-rules --unused ./react.js"
   },
