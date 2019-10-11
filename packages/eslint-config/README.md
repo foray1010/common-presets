@@ -31,3 +31,15 @@ Z for looser rules
    extends:
      - '@foray1010/eslint-config/react'
    ```
+
+1. Use default eslintignore via npm script
+
+   ```json
+   {
+     "scripts": {
+       "eslint": "eslint --ignore-path=node_modules/@foray1010/eslint-config/eslintignore"
+     }
+   }
+   ```
+
+   then use `npm run eslint` or `yarn eslint` to replace `eslint`

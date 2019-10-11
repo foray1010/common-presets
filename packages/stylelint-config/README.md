@@ -26,3 +26,15 @@ Z for looser rules
    extends:
      - '@foray1010/stylelint-config'
    ```
+
+1. Use default stylelintignore via npm script
+
+   ```json
+   {
+     "scripts": {
+       "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
+     }
+   }
+   ```
+
+   then use `npm run stylelint` or `yarn stylelint` to replace `stylelint`

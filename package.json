@@ -6,7 +6,9 @@
   },
   "scripts": {
     "ci": "yarn lint",
-    "lint": "eslint --resolve-plugins-relative-to=packages/eslint-config ."
+    "eslint": "eslint --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
+    "lint": "yarn eslint .",
+    "prettier": "prettier --ignore-path=packages/prettierrc/prettierignore"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
