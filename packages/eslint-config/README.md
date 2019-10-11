@@ -37,7 +37,7 @@ Z for looser rules
    ```json
    {
      "scripts": {
-       "eslint": "eslint --ignore-path=node_modules/@foray1010/eslint-config/eslintignore"
+       "eslint": "eslint --ext=js,mjs,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore"
      }
    }
    ```

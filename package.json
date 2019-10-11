@@ -6,7 +6,7 @@
   },
   "scripts": {
     "ci": "yarn lint",
-    "eslint": "eslint --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
+    "eslint": "eslint --ext=js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
     "lint": "yarn eslint .",
     "prettier": "prettier --ignore-path=packages/prettierrc/prettierignore"
   },
