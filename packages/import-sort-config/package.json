@@ -1,0 +1,20 @@
+{
+  "name": "@foray1010/import-sort-config",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "import-sort-parser-babylon": "^6.0.0",
+    "import-sort-parser-typescript": "^6.0.0",
+    "import-sort-style-module": "^6.0.0"
+  },
+  "peerDependencies": {
+    "import-sort-cli": ">=6"
+  }
+}
