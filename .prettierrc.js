@@ -1,3 +1,3 @@
 'use strict'
 
-module.exports = require('./packages/prettierrc')
+module.exports = require('./packages/prettier-config')
