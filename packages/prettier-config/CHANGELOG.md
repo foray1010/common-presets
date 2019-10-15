@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.1.0...@foray1010/prettier-config@1.2.0) (2019-10-15)
+
+### Features
+
+- **prettier-config:** treat .babelrc as json format ([c81a803](https://github.com/foray1010/common-presets/commit/c81a8039b1ff4947c62746138ae9d7d612f134c1))
+
 # 1.1.0 (2019-10-15)
 
 ### Features
