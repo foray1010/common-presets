@@ -27,6 +27,12 @@
       "packageRules": [
         {
           "packagePatterns": [
+            "^@foray1010/.+-config$"
+          ],
+          "groupName": "@foray1010/common-presets monorepo"
+        },
+        {
+          "packagePatterns": [
             "^import-sort-"
           ],
           "groupName": "import-sort monorepo"
