@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.2.0...@foray1010/prettier-config@1.3.0) (2019-10-15)
+
+### Features
+
+- **prettier-config:** do not ignore circleci & github config files ([98168e0](https://github.com/foray1010/common-presets/commit/98168e06303c2ffdefd49a33cd6a39a4cc39cdc9))
+
 # [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.1.0...@foray1010/prettier-config@1.2.0) (2019-10-15)
 
 ### Features
