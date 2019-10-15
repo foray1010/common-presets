@@ -8,4 +8,13 @@ module.exports = {
   semi: false,
   singleQuote: true,
   trailingComma: 'all',
+
+  overrides: [
+    {
+      files: ['.babelrc'],
+      options: {
+        parser: 'json',
+      },
+    },
+  ],
 }
