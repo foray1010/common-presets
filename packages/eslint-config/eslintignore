@@ -1,4 +1,8 @@
+# lint hidden files
+!.*
+# do not lint files inside hidden directories
 .*/
+
 build/
 coverage/
 dist/
