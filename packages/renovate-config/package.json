@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/renovate-config",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "license": "MIT",
   "renovate-config": {
     "default": {

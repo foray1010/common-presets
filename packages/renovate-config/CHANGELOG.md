@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.4.0...@foray1010/renovate-config@0.5.0) (2019-10-16)
+
+### Features
+
+- create @foray1010/remark-preset ([e3d8413](https://github.com/foray1010/common-presets/commit/e3d8413133278ed93f5415aa45103bd777f6afca))
+
 # [0.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.3.0...@foray1010/renovate-config@0.4.0) (2019-10-16)
 
 ### Features

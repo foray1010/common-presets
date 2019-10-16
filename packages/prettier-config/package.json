@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/prettier-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "license": "MIT",
   "main": "index.js",
   "engines": {
