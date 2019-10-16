@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.3.0...@foray1010/prettier-config@1.4.0) (2019-10-16)
+
+### Features
+
+- lint all hidden files ([e695ea3](https://github.com/foray1010/common-presets/commit/e695ea3c8ba2a5862d0c80cd4b0a19e2bd3f2bfc))
+
 # [1.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.2.0...@foray1010/prettier-config@1.3.0) (2019-10-15)
 
 ### Features
