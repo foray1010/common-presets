@@ -1,6 +1,3 @@
-.*/
-!.circleci/
-!.github/
 build/
 coverage/
 dist/
