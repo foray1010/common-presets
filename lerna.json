@@ -1,5 +1,13 @@
 {
   "command": {
+    "publish": {
+      "ignoreChanges": [
+        "**/__fixtures__/**",
+        "**/__mocks__/**",
+        "**/__tests__/**",
+        "yarn.lock"
+      ]
+    },
     "version": {
       "conventionalCommits": true,
       "message": "chore(release): publish"
