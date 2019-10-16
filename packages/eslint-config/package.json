@@ -26,11 +26,10 @@
     "typescript": "^3.6.3"
   },
   "peerDependencies": {
-    "eslint": ">=6",
-    "prettier": "*"
+    "eslint": ">=6 <7",
+    "prettier": ">=1.13.0 <2"
   },
   "devDependencies": {
-    "eslint": "6.5.1",
     "eslint-find-rules": "3.4.0"
   }
 }

@@ -15,6 +15,6 @@
     "import-sort-style-module": "^6.0.0"
   },
   "peerDependencies": {
-    "import-sort-cli": ">=6"
+    "import-sort-cli": ">=6 <7"
   }
 }
