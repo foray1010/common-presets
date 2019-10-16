@@ -32,6 +32,12 @@ module.exports = {
   },
   overrides: [
     {
+      files: ['*.mjs'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+    },
+    {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/eslint-recommended',
