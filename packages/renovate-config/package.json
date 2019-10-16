@@ -29,7 +29,8 @@
           "packagePatterns": [
             "^@foray1010/.+-config$"
           ],
-          "groupName": "@foray1010/common-presets monorepo"
+          "groupName": "@foray1010/common-presets monorepo",
+          "stabilityDays": 0
         },
         {
           "packagePatterns": [
