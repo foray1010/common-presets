@@ -7,5 +7,5 @@
   - 'git add'
 '*.md':
   - 'yarn prettier --write'
-  - 'remark'
+  - 'yarn remark'
   - 'git add'

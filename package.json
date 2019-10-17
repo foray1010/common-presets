@@ -8,8 +8,9 @@
     "ci": "yarn lint:js && yarn lint:md",
     "eslint": "eslint --ext=js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
     "lint:js": "yarn eslint .",
-    "lint:md": "yarn remark '*.md' 'packages/*/*.md'",
-    "prettier": "prettier --ignore-path=packages/prettier-config/prettierignore"
+    "lint:md": "yarn remark .",
+    "prettier": "prettier --ignore-path=packages/prettier-config/prettierignore",
+    "remark": "remark --ignore-path=.gitignore"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
