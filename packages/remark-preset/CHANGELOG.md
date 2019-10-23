@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@1.1.0...@foray1010/remark-preset@1.1.1) (2019-10-23)
+
+### Bug Fixes
+
+- **remark-preset:** allow \_ in md file name & disable frail ([ee6063f](https://github.com/foray1010/common-presets/commit/ee6063f5789765a51d2366e4c285a90ebd8bbf6f))
+
 # 1.1.0 (2019-10-16)
 
 ### Features
