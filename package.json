@@ -10,7 +10,7 @@
     "lint:js": "yarn eslint .",
     "lint:md": "yarn remark .",
     "prettier": "prettier --ignore-path=packages/prettier-config/prettierignore",
-    "remark": "remark --ignore-path=.gitignore"
+    "remark": "remark --frail --ignore-path=.gitignore"
   },
   "devDependencies": {
     "@commitlint/cli": "8.2.0",
