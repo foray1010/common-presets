@@ -1,5 +1,11 @@
 'use strict'
 
+const readPkgUp = require('read-pkg-up')
+
+const pkg = readPkgUp.sync()
+
+const isEsm = pkg.packageJson.type === 'module'
+
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -31,6 +37,18 @@ module.exports = {
     strict: ['error', 'global'],
   },
   overrides: [
+    {
+      files: ['*.js'],
+      parserOptions: {
+        sourceType: isEsm ? 'module' : 'script',
+      },
+    },
+    {
+      files: ['*.cjs'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
     {
       files: ['*.mjs'],
       parserOptions: {
