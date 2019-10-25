@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.6.0...@foray1010/eslint-config@1.7.0) (2019-10-25)
+
+### Features
+
+- support packageJson.type & cjs format ([fcb8920](https://github.com/foray1010/common-presets/commit/fcb8920cbbc8128e67f1ee3a003c8a887d8ed590))
+
 # [1.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.5.0...@foray1010/eslint-config@1.6.0) (2019-10-16)
 
 ### Features
