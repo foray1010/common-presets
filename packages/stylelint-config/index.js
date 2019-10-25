@@ -4,8 +4,8 @@ module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
-    'stylelint-prettier/recommended',
-    'stylelint-config-prettier',
+    // it requires `stylelint-config-prettier`
+    'stylelint-prettier/recommended.js',
   ],
   plugins: ['stylelint-prettier'],
   rules: {

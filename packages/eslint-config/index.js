@@ -1,5 +1,5 @@
 'use strict'
 
 module.exports = {
-  extends: ['./presets/base'],
+  extends: ['./presets/base.js'],
 }
