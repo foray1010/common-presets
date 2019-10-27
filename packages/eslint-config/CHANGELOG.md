@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.7.0...@foray1010/eslint-config@1.8.0) (2019-10-27)
+
+### Bug Fixes
+
+- **eslint-config:** add browser env to react preset ([f1c9ebc](https://github.com/foray1010/common-presets/commit/f1c9ebc7adfd8fbb3280fa02d19e11e5ceee9e7c))
+
+### Features
+
+- use eslint-plugin-node ([2faccbb](https://github.com/foray1010/common-presets/commit/2faccbb738ec94aa99e8c8c8b0fac163ca489124))
+
 # [1.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.6.0...@foray1010/eslint-config@1.7.0) (2019-10-25)
 
 ### Features
