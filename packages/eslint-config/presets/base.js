@@ -26,7 +26,6 @@ module.exports = {
   ],
   env: {
     es6: true,
-    node: true,
   },
   rules: {
     // this rule doesn't support commonjs, some dependencies are using commonjs
