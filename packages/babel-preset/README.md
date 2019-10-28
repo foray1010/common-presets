@@ -8,6 +8,6 @@
 
    ```json
    {
-     "presets": ["babel-preset-foray1010"]
+     "presets": ["@foray1010/babel-preset"]
    }
    ```
