@@ -2,6 +2,9 @@
   "name": "@foray1010/renovate-config",
   "version": "0.5.0",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "renovate-config": {
     "default": {
       "extends": [
@@ -42,8 +45,5 @@
       "prCreation": "not-pending",
       "stabilityDays": 3
     }
-  },
-  "publishConfig": {
-    "access": "public"
   }
 }

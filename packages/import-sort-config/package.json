@@ -3,12 +3,6 @@
   "version": "1.2.0",
   "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": ">=8.9"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "import-sort-parser-babylon": "^6.0.0",
     "import-sort-parser-typescript": "^6.0.0",
@@ -16,5 +10,11 @@
   },
   "peerDependencies": {
     "import-sort-cli": ">=6 <7"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

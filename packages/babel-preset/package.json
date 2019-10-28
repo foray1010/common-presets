@@ -1,15 +1,9 @@
 {
   "name": "@foray1010/babel-preset",
   "version": "1.0.0",
-  "license": "MIT",
   "private": true,
+  "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": ">=8.9"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@babel/plugin-transform-react-constant-elements": "7.6.3",
     "@babel/plugin-transform-react-inline-elements": "7.2.0",
@@ -22,5 +16,11 @@
   },
   "peerDependencies": {
     "core-js": ">=3 <4"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

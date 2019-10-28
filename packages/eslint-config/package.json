@@ -3,12 +3,6 @@
   "version": "1.8.0",
   "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": ">=8.9"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "eslint-find-rules:main": "eslint-find-rules --unused",
     "eslint-find-rules:react": "eslint-find-rules --unused ./react.js"
@@ -27,11 +21,17 @@
     "read-pkg-up": "^7.0.0",
     "typescript": "^3.6.3"
   },
+  "devDependencies": {
+    "eslint-find-rules": "3.4.0"
+  },
   "peerDependencies": {
     "eslint": ">=6 <7",
     "prettier": ">=1.13.0 <2"
   },
-  "devDependencies": {
-    "eslint-find-rules": "3.4.0"
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

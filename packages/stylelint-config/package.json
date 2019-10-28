@@ -3,12 +3,6 @@
   "version": "1.4.1",
   "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": ">=8.9"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "stylelint-config-css-modules": "^1.5.0",
     "stylelint-config-prettier": "^6.0.0",
@@ -18,5 +12,11 @@
   "peerDependencies": {
     "prettier": ">=1.13.0 <2",
     "stylelint": ">=11 <12"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

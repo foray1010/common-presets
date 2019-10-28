@@ -1,9 +1,6 @@
 {
   "name": "common-presets",
   "private": true,
-  "engines": {
-    "node": ">=8.9"
-  },
   "scripts": {
     "ci": "yarn lint:js && yarn lint:md",
     "eslint": "eslint --ext=cjs,js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
@@ -20,6 +17,10 @@
     "lerna": "3.18.3",
     "lint-staged": "9.4.2",
     "prettier": "1.18.2",
-    "remark-cli": "7.0.0"
+    "remark-cli": "7.0.0",
+    "sort-package-json": "1.22.1"
+  },
+  "engines": {
+    "node": ">=8.9"
   }
 }
