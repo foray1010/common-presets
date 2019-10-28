@@ -2,9 +2,9 @@
 
 const readPkgUp = require('read-pkg-up')
 
-const pkg = readPkgUp.sync()
+const { packageJson } = readPkgUp.sync()
 
-const isEsm = pkg.packageJson.type === 'module'
+const isEsm = packageJson.type === 'module'
 
 module.exports = {
   extends: [
