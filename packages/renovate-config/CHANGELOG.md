@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.5.0...@foray1010/renovate-config@0.6.0) (2019-10-28)
+
+### Features
+
+- **renovate-config:** always use `chore` as commit type ([9d431ff](https://github.com/foray1010/common-presets/commit/9d431ff7c5663a03e0eae880782891bbab7c0d22))
+- **renovate-config:** extend lockFileMaintenance schedule ([d392705](https://github.com/foray1010/common-presets/commit/d3927056b3e35954ce0f1abcb143ac3decea3263))
+- set priority - pin > lockfile maintainence > others ([f58fae7](https://github.com/foray1010/common-presets/commit/f58fae73270c3cffd64e845d5d3578fdfe0920ff))
+
 # [0.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.4.0...@foray1010/renovate-config@0.5.0) (2019-10-16)
 
 ### Features

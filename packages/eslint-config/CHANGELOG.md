@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.8.0...@foray1010/eslint-config@1.8.1) (2019-10-28)
+
+**Note:** Version bump only for package @foray1010/eslint-config
+
 # [1.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.7.0...@foray1010/eslint-config@1.8.0) (2019-10-27)
 
 ### Bug Fixes

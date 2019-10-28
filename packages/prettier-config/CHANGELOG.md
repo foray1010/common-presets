@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.5.0...@foray1010/prettier-config@1.5.1) (2019-10-28)
+
+### Bug Fixes
+
+- **prettier-config:** explicitly use some options ([31a1a21](https://github.com/foray1010/common-presets/commit/31a1a21778ba1d015ae613fa3a23e55c51f7a603))
+
 # [1.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.4.0...@foray1010/prettier-config@1.5.0) (2019-10-16)
 
 ### Features
