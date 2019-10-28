@@ -20,7 +20,11 @@
         "enabled": true,
         "schedule": [
           "after 5am and before 7am on Monday"
-        ]
+        ],
+        "prPriority": 1
+      },
+      "pin": {
+        "prPriority": 2
       },
       "kubernetes": {
         "fileMatch": [
