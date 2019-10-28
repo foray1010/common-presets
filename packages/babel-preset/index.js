@@ -1,28 +1,35 @@
 'use strict'
 
-const { getEnv } = require('./utils')
+const { getEnv, hasDep } = require('./utils')
+
+const isDev = getEnv() === 'development'
+const isTest = getEnv() === 'test'
+const isProd = getEnv() === 'production'
+
+const hasReact = hasDep('react')
+const hasTypescript = hasDep('typescript')
 
 module.exports = () => ({
   presets: [
     [
       '@babel/preset-env',
       {
-        modules: getEnv() === 'test' ? 'commonjs' : false,
+        modules: isTest ? 'commonjs' : false,
         useBuiltIns: 'entry',
         corejs: { version: 3, proposals: false },
       },
     ],
-    [
+    hasReact && [
       '@babel/preset-react',
       {
-        development: getEnv() === 'development',
+        development: isDev,
         useBuiltIns: true,
       },
     ],
-    '@babel/preset-typescript',
-  ],
+    hasTypescript && '@babel/preset-typescript',
+  ].filter(Boolean),
   plugins: [
-    ...(getEnv() === 'production'
+    ...(isProd && hasReact
       ? [
           '@babel/plugin-transform-react-constant-elements',
           '@babel/plugin-transform-react-inline-elements',
