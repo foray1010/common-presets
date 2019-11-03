@@ -9,7 +9,6 @@
     "default": {
       "extends": [
         "config:base",
-        ":semanticCommitTypeAll(chore)",
         ":automergeMinor",
         ":assignAndReview(foray1010)"
       ],
