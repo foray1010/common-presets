@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.6.0...@foray1010/renovate-config@0.7.0) (2019-11-03)
+
+### Features
+
+- **renovate-config:** mark dependencies as `fix` ([f5fb971](https://github.com/foray1010/common-presets/commit/f5fb97183483ff957e9354926e448e76d4b76c9c))
+
 # [0.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.5.0...@foray1010/renovate-config@0.6.0) (2019-10-28)
 
 ### Features
