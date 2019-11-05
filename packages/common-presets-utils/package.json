@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/common-presets-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
