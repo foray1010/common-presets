@@ -1,0 +1,15 @@
+{
+  "name": "@foray1010/common-presets-utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "read-pkg-up": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

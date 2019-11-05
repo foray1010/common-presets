@@ -5,6 +5,7 @@ This is a mono repository for storing presets that are commonly used in my proje
 ## Portal
 
 - [@foray1010/babel-preset](./packages/babel-preset)
+- [@foray1010/common-presets-utils](./packages/common-presets-utils)
 - [@foray1010/eslint-config](./packages/eslint-config)
 - [@foray1010/import-sort-config](./packages/import-sort-config)
 - [@foray1010/prettier-config](./packages/prettier-config)
