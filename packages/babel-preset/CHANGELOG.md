@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.4](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.3...@foray1010/babel-preset@1.1.4) (2019-11-05)
+
+### Bug Fixes
+
+- **babel-preset:** remove read-pkg-up ([2221982](https://github.com/foray1010/common-presets/commit/22219821eb5902eb37b77063de1d774d082e13b4))
+
 ## [1.1.3](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.2...@foray1010/babel-preset@1.1.3) (2019-11-05)
 
 **Note:** Version bump only for package @foray1010/babel-preset
