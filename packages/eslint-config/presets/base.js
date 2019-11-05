@@ -1,6 +1,8 @@
 'use strict'
 
-const { isESM } = require('@foray1010/common-presets-utils')
+const { hasDep, isESM } = require('@foray1010/common-presets-utils')
+
+const hasTypeScript = hasDep('typescript')
 
 const typescriptConfig = {
   extends: [
@@ -89,7 +91,8 @@ module.exports = {
     },
     {
       files: ['*.ts', '*.tsx'],
-      ...typescriptConfig,
+      // typescript plugins are depended on `typescript` package
+      ...(hasTypeScript ? typescriptConfig : {}),
     },
   ],
 }
