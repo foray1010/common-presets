@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.8.3...@foray1010/eslint-config@1.9.0) (2019-11-05)
+
+### Features
+
+- move typescript to peerDependencies ([48c53b5](https://github.com/foray1010/common-presets/commit/48c53b59f6ceabd6363f9440b9e376b921d048fe))
+
 ## [1.8.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.8.2...@foray1010/eslint-config@1.8.3) (2019-11-03)
 
 ### Bug Fixes
