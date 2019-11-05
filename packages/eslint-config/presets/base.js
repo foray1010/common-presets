@@ -1,10 +1,6 @@
 'use strict'
 
-const readPkgUp = require('read-pkg-up')
-
-const { packageJson } = readPkgUp.sync()
-
-const isEsm = packageJson.type === 'module'
+const { isESM } = require('@foray1010/common-presets-utils')
 
 const typescriptConfig = {
   extends: [
@@ -76,7 +72,7 @@ module.exports = {
     {
       files: ['*.js'],
       parserOptions: {
-        sourceType: isEsm ? 'module' : 'script',
+        sourceType: isESM() ? 'module' : 'script',
       },
     },
     {

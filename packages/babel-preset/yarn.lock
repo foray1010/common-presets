@@ -718,6 +718,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@foray1010/common-presets-utils@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@foray1010/common-presets-utils/-/common-presets-utils-1.1.0.tgz#9f599bb73a359395acc67dc90cc11af9e872a069"
+  integrity sha512-SICTZzN0HcorHmo9dySpOEn3cDIhfjU8p/xQEoX2IF7EbQNQosvu2T1hUyHk171RxU1h2dobrszR09iTO0NoDQ==
+  dependencies:
+    read-pkg-up "^7.0.0"
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
