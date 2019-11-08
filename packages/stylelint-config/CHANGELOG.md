@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.3](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.4.2...@foray1010/stylelint-config@1.4.3) (2019-11-08)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-css-modules to v2 ([#20](https://github.com/foray1010/common-presets/issues/20)) ([47bb787](https://github.com/foray1010/common-presets/commit/47bb787d75d962e738d47e559bf7bc8462e45607))
+
 ## [1.4.2](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.4.1...@foray1010/stylelint-config@1.4.2) (2019-10-28)
 
 **Note:** Version bump only for package @foray1010/stylelint-config
