@@ -47,7 +47,10 @@
         }
       ],
       "prCreation": "not-pending",
-      "stabilityDays": 3
+      "stabilityDays": 3,
+      "labels": [
+        "dependencies"
+      ]
     }
   }
 }
