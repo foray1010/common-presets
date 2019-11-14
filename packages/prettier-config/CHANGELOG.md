@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.5.1...@foray1010/prettier-config@2.0.0) (2019-11-14)
+
+### chore
+
+- remove support for .babelrc ([d8a5e99](https://github.com/foray1010/common-presets/commit/d8a5e995272173ecb884a7afae6000f07a85ca88))
+
+### Features
+
+- use 2 tab width for md ([77f951b](https://github.com/foray1010/common-presets/commit/77f951bcc35489513923e85067d07c1ba9871e64))
+
+### BREAKING CHANGES
+
+- .babelrc no longer automatically detect as json, use .babelrc.js instead
+
 ## [1.5.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@1.5.0...@foray1010/prettier-config@1.5.1) (2019-10-28)
 
 ### Bug Fixes

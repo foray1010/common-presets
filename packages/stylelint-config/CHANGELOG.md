@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.4.3...@foray1010/stylelint-config@1.5.0) (2019-11-14)
+
+### Features
+
+- **stylelint-config:** use idiomatic-css declaration order ([301b8fd](https://github.com/foray1010/common-presets/commit/301b8fd5610a9acd7a9e8308bac9fea4ef6fe5ed))
+
 ## [1.4.3](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.4.2...@foray1010/stylelint-config@1.4.3) (2019-11-08)
 
 ### Bug Fixes

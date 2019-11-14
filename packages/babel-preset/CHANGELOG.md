@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.5](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.4...@foray1010/babel-preset@1.1.5) (2019-11-14)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-css-modules to v2 ([#20](https://github.com/foray1010/common-presets/issues/20)) ([47bb787](https://github.com/foray1010/common-presets/commit/47bb787d75d962e738d47e559bf7bc8462e45607))
+
 ## [1.1.4](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.3...@foray1010/babel-preset@1.1.4) (2019-11-05)
 
 ### Bug Fixes
