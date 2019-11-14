@@ -4,6 +4,7 @@ module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
+    'stylelint-config-idiomatic-order',
     // it requires `stylelint-config-prettier`
     'stylelint-prettier/recommended.js',
   ],
