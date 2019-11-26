@@ -3,10 +3,6 @@
   "version": "1.9.0",
   "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "eslint-find-rules:main": "eslint-find-rules --unused",
-    "eslint-find-rules:react": "eslint-find-rules --unused ./react.js"
-  },
   "dependencies": {
     "@foray1010/common-presets-utils": "^1.1.0",
     "@typescript-eslint/eslint-plugin": "^2.3.2",
@@ -19,9 +15,6 @@
     "eslint-plugin-prettier": "^3.1.1",
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^2.1.2"
-  },
-  "devDependencies": {
-    "eslint-find-rules": "3.4.0"
   },
   "peerDependencies": {
     "eslint": ">=6 <7",
