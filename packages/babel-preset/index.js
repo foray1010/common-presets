@@ -21,6 +21,8 @@ module.exports = () => {
           corejs: { version: 3, proposals: false },
         },
       ],
+      '@babel/plugin-proposal-nullish-coalescing-operator',
+      '@babel/plugin-proposal-optional-chaining',
       hasReact && [
         '@babel/preset-react',
         {
