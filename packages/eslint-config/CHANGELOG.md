@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.9.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.9.0...@foray1010/eslint-config@1.9.1) (2019-11-27)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-css-modules to v2 ([#20](https://github.com/foray1010/common-presets/issues/20)) ([47bb787](https://github.com/foray1010/common-presets/commit/47bb787d75d962e738d47e559bf7bc8462e45607))
+
 # [1.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.8.3...@foray1010/eslint-config@1.9.0) (2019-11-05)
 
 ### Features

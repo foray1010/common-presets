@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.5...@foray1010/babel-preset@1.2.0) (2019-11-27)
+
+### Features
+
+- **babel-preset:** support TypeScript 3.7 new syntaxes ([ce63eea](https://github.com/foray1010/common-presets/commit/ce63eeaa15c23d43d30c5359758062bc48029578))
+
 ## [1.1.5](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.4...@foray1010/babel-preset@1.1.5) (2019-11-14)
 
 ### Bug Fixes
