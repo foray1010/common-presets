@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.2.0...@foray1010/babel-preset@1.2.1) (2019-11-27)
+
+### Bug Fixes
+
+- **babel-preset:** move presets to plugins ([8010b26](https://github.com/foray1010/common-presets/commit/8010b26c5164a0358a394e9e441e52cf192f3114))
+
 # [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.1.5...@foray1010/babel-preset@1.2.0) (2019-11-27)
 
 ### Features
