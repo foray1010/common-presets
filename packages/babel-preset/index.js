@@ -21,8 +21,6 @@ module.exports = () => {
           corejs: { version: 3, proposals: false },
         },
       ],
-      '@babel/plugin-proposal-nullish-coalescing-operator',
-      '@babel/plugin-proposal-optional-chaining',
       hasReact && [
         '@babel/preset-react',
         {
@@ -33,6 +31,8 @@ module.exports = () => {
       hasTypeScript && '@babel/preset-typescript',
     ].filter(Boolean),
     plugins: [
+      '@babel/plugin-proposal-nullish-coalescing-operator',
+      '@babel/plugin-proposal-optional-chaining',
       ...(isProd && hasReact
         ? [
             '@babel/plugin-transform-react-constant-elements',
