@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.2](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.5.1...@foray1010/stylelint-config@1.5.2) (2019-12-02)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-prettier to v7 ([#35](https://github.com/foray1010/common-presets/issues/35)) ([101f488](https://github.com/foray1010/common-presets/commit/101f4888743fbf1c4f767f8a179ae9900809cfd7))
+
 ## [1.5.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.5.0...@foray1010/stylelint-config@1.5.1) (2019-11-27)
 
 **Note:** Version bump only for package @foray1010/stylelint-config
