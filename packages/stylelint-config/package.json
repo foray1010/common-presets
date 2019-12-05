@@ -15,7 +15,7 @@
     "stylelint": ">=11 <13"
   },
   "engines": {
-    "node": ">=8.9"
+    "node": ">=10.13"
   },
   "publishConfig": {
     "access": "public"

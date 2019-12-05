@@ -7,7 +7,7 @@
     "prettier": ">=1.13.0 <2"
   },
   "engines": {
-    "node": ">=8.9"
+    "node": ">=10.13"
   },
   "publishConfig": {
     "access": "public"
