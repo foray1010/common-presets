@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@1.1.2...@foray1010/remark-preset@2.0.0) (2019-12-10)
+
+### chore
+
+- require nodejs 10 ([0a227b0](https://github.com/foray1010/common-presets/commit/0a227b09864d37082ac0167a13580eef3c32a85c))
+
+### BREAKING CHANGES
+
+- drop nodejs < 10.13
+
 ## [1.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@1.1.1...@foray1010/remark-preset@1.1.2) (2019-10-28)
 
 **Note:** Version bump only for package @foray1010/remark-preset

@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/babel-preset",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
@@ -11,7 +11,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "@babel/preset-typescript": "^7.6.0",
-    "@foray1010/common-presets-utils": "^1.1.0",
+    "@foray1010/common-presets-utils": "^2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
   "peerDependencies": {
