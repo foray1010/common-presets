@@ -8,7 +8,6 @@ module.exports = {
     // it requires `stylelint-config-prettier`
     'stylelint-prettier/recommended.js',
   ],
-  plugins: ['stylelint-prettier'],
   rules: {
     // not compatible with SCSS
     'at-rule-no-unknown': null,
