@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.0.0...@foray1010/eslint-config@2.0.1) (2019-12-16)
+
+### Bug Fixes
+
+- **eslint-config:** allow empty function ([fd124d0](https://github.com/foray1010/common-presets/commit/fd124d0a6af7a5e4d7ed44da087ae42cb83d7bd1))
+
 # [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@1.9.1...@foray1010/eslint-config@2.0.0) (2019-12-10)
 
 ### chore
