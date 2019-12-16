@@ -26,6 +26,8 @@ const typescriptConfig = {
     '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
     // prefer auto detect
     '@typescript-eslint/explicit-function-return-type': 'off',
+    // need empty function for react context default value
+    '@typescript-eslint/no-empty-function': 'off',
     // do not block functions referring to other functions
     '@typescript-eslint/no-use-before-define': [
       'error',
