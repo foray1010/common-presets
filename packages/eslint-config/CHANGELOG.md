@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.0.1...@foray1010/eslint-config@2.0.2) (2019-12-30)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-node to v11 ([#44](https://github.com/foray1010/common-presets/issues/44)) ([1844527](https://github.com/foray1010/common-presets/commit/18445278c9191337ab8e8828b0fb02db43caa946))
+
 ## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.0.0...@foray1010/eslint-config@2.0.1) (2019-12-16)
 
 ### Bug Fixes
