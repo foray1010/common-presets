@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@2.0.0...@foray1010/babel-preset@3.0.0) (2020-01-02)
+
+### Features
+
+- **babel-preset:** only polyfill when they are used ([ce3ef86](https://github.com/foray1010/common-presets/commit/ce3ef8672ba903982d7d96751700d7f15b6213b6))
+- **babel-preset:** polyfill shipped proposals ([9b37261](https://github.com/foray1010/common-presets/commit/9b372611ddf8fa5be6df38c349bc79c2e897fe6d))
+
+### BREAKING CHANGES
+
+- **babel-preset:** should remove core-js from entry point
+
 # [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@1.2.1...@foray1010/babel-preset@2.0.0) (2019-12-10)
 
 ### chore
