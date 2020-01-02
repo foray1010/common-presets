@@ -17,7 +17,7 @@ module.exports = () => {
         '@babel/preset-env',
         {
           modules: isTest ? 'commonjs' : false,
-          useBuiltIns: 'entry',
+          useBuiltIns: 'usage',
           corejs: { version: 3, proposals: false },
         },
       ],
