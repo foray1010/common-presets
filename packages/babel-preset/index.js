@@ -16,9 +16,10 @@ module.exports = () => {
       [
         '@babel/preset-env',
         {
+          corejs: 3,
           modules: isTest ? 'commonjs' : false,
+          shippedProposals: true,
           useBuiltIns: 'usage',
-          corejs: { version: 3, proposals: false },
         },
       ],
       hasReact && [
