@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.8.0...@foray1010/renovate-config@0.9.0) (2020-01-06)
+
+### Features
+
+- replace import-sort-cli by eslint-plugin-simple-import-sort ([d1c8580](https://github.com/foray1010/common-presets/commit/d1c858043bc0376442daf72551d4ea60cda1a6b5))
+
 # [0.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.7.0...@foray1010/renovate-config@0.8.0) (2019-11-08)
 
 ### Features
