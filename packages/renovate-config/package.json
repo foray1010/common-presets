@@ -38,12 +38,6 @@
           ],
           "groupName": "@foray1010/common-presets monorepo",
           "stabilityDays": 0
-        },
-        {
-          "packagePatterns": [
-            "^import-sort-"
-          ],
-          "groupName": "import-sort monorepo"
         }
       ],
       "prCreation": "not-pending",

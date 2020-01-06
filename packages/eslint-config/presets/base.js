@@ -60,6 +60,7 @@ module.exports = {
     'eslint-plugin-import',
     'eslint-plugin-jest',
     'eslint-plugin-prettier',
+    'eslint-plugin-simple-import-sort',
   ],
   env: {
     es6: true,
@@ -69,6 +70,8 @@ module.exports = {
     'import/default': 'off',
     // doesn't work with redux-saga/effects
     'import/named': 'off',
+    // auto sort import statements
+    'simple-import-sort/sort': 'error',
     // commonjs must use strict mode
     strict: ['error', 'global'],
   },
