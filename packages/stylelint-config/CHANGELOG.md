@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.0.0...@foray1010/stylelint-config@2.1.0) (2020-01-13)
+
+### Features
+
+- **stylelint-config:** support stylelint 13 ([559aca2](https://github.com/foray1010/common-presets/commit/559aca252e73e72561c6eaefcbe657a453d8400a))
+
 # [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@1.5.2...@foray1010/stylelint-config@2.0.0) (2019-12-10)
 
 ### Bug Fixes
