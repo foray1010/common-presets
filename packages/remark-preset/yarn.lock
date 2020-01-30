@@ -652,10 +652,10 @@ remark-preset-lint-recommended@^3.0.3:
     remark-lint-no-unused-definitions "^1.0.0"
     remark-lint-ordered-list-marker-style "^1.0.0"
 
-remark-preset-prettier@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/remark-preset-prettier/-/remark-preset-prettier-0.2.2.tgz#a46e31b0e1ab14f05e85f6ad0cb6bae636afa8d2"
-  integrity sha512-a2SwwAhO1H3d4GYdP8i6JLssrrGwIusV+3z7jxj6ZLl0e4o0hVRgke9xbdDFjnAImGQE72rJGjsuRvCFwqxHiQ==
+remark-preset-prettier@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/remark-preset-prettier/-/remark-preset-prettier-0.4.0.tgz#b0edae6b46286c255ca897d44901145867585ab3"
+  integrity sha512-Y0lwBg/xRyE8/yF4IYJVJxrUHSVE8WThbsnKS5/fE4lSAoX/s0yuiEl7gv/+OWA1G7r5o0xKLZPW3rJjhvfvpw==
 
 sliced@^1.0.1:
   version "1.0.1"
