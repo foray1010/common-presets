@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@2.0.0...@foray1010/remark-preset@2.0.1) (2020-02-13)
+
+### Bug Fixes
+
+- **deps:** update dependency remark-preset-prettier to ^0.4.0 ([dc5a5f5](https://github.com/foray1010/common-presets/commit/dc5a5f5dfee27aff585e0e8335967b1af5fc3d89))
+
 # [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@1.1.2...@foray1010/remark-preset@2.0.0) (2019-12-10)
 
 ### chore
