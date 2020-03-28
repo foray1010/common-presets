@@ -1,7 +1,7 @@
 'use strict'
 
 module.exports = {
-  arrowParens: 'avoid',
+  arrowParens: 'always',
   bracketSpacing: true,
   endOfLine: 'lf',
   jsxBracketSameLine: false,
