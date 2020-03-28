@@ -19,7 +19,7 @@
   },
   "peerDependencies": {
     "eslint": ">=6 <7",
-    "prettier": ">=1.13.0 <2",
+    "prettier": ">=1.13.0 <3",
     "typescript": "*"
   },
   "engines": {
