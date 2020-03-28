@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.1.1...@foray1010/eslint-config@2.2.0) (2020-03-28)
+
+### Features
+
+- **eslint-config:** support prettier v2 ([89cb0ec](https://github.com/foray1010/common-presets/commit/89cb0ec29fe74e987eeccca88591b25fc8156370))
+
 ## [2.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.1.0...@foray1010/eslint-config@2.1.1) (2020-03-28)
 
 ### Bug Fixes
