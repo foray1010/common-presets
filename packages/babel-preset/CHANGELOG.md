@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@3.0.0...@foray1010/babel-preset@3.0.1) (2020-03-28)
+
+### Bug Fixes
+
+- **deps:** update dependency remark-preset-prettier to ^0.4.0 ([dc5a5f5](https://github.com/foray1010/common-presets/commit/dc5a5f5dfee27aff585e0e8335967b1af5fc3d89))
+- **deps:** update dependency stylelint-config-standard to v20 ([#63](https://github.com/foray1010/common-presets/issues/63)) ([85e2c34](https://github.com/foray1010/common-presets/commit/85e2c3471f5db816958c1720b0d713665e13ac84))
+
 # [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@2.0.0...@foray1010/babel-preset@3.0.0) (2020-01-02)
 
 ### Features
