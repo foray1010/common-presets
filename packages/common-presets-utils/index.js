@@ -4,13 +4,13 @@ const readPkgUp = require('read-pkg-up')
 
 const { packageJson } = readPkgUp.sync()
 
-const hasDep = packageName =>
+const hasDep = (packageName) =>
   [
     packageJson.dependencies,
     packageJson.devDependencies,
     packageJson.peerDependencies,
   ]
-    .map(dependencies => Object.keys(dependencies || {}))
+    .map((dependencies) => Object.keys(dependencies || {}))
     .reduce((acc, dependencyNames) => acc.concat(dependencyNames), [])
     .includes(packageName)
 
