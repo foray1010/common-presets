@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.1.1...@foray1010/stylelint-config@2.2.0) (2020-03-28)
+
+### Features
+
+- **stylelint-config:** support prettier v2 ([1d72309](https://github.com/foray1010/common-presets/commit/1d723090d246eea611c7efcf004ff70aa755912a))
+
 ## [2.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.1.0...@foray1010/stylelint-config@2.1.1) (2020-02-13)
 
 ### Bug Fixes
