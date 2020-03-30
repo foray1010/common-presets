@@ -9,6 +9,9 @@
     "remark-preset-lint-recommended": "^3.0.3",
     "remark-preset-prettier": "^0.4.0"
   },
+  "peerDependencies": {
+    "remark-cli": ">=8"
+  },
   "engines": {
     "node": ">=10.13"
   },
