@@ -38,6 +38,13 @@
           ],
           "groupName": "@foray1010/common-presets monorepo",
           "stabilityDays": 0
+        },
+        {
+          "packagePatterns": [
+            "^@size-limit/",
+            "^size-limit$"
+          ],
+          "groupName": "size-limit monorepo"
         }
       ],
       "prCreation": "not-pending",
