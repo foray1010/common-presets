@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.9.0...@foray1010/renovate-config@0.10.0) (2020-03-31)
+
+### Features
+
+- **renovate:** group size-limit PRs ([ca74299](https://github.com/foray1010/common-presets/commit/ca742996b3fc177b865455bd9f9a1624415182a1))
+
 # [0.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.8.0...@foray1010/renovate-config@0.9.0) (2020-01-06)
 
 ### Features

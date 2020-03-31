@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@2.0.1...@foray1010/remark-preset@3.0.0) (2020-03-31)
+
+### chore
+
+- **remark-preset:** add remark-cli as peer dependency ([2ba331f](https://github.com/foray1010/common-presets/commit/2ba331f2edffa5a9916dd530ea286fde37fa25dc))
+
+### Features
+
+- reenable rules that are incompatible with CHANGELOG.md ([e54b16c](https://github.com/foray1010/common-presets/commit/e54b16cba93e4dcb3c2309057fd2fd3ccb5571d9))
+- **remark-preset:** provide remarkignore as default ignore file ([1dd5c28](https://github.com/foray1010/common-presets/commit/1dd5c2886da1d0208e907a61fbacc78c7cf1a217))
+
+### BREAKING CHANGES
+
+- **remark-preset:** require remark-cli >=8
+
 ## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@2.0.0...@foray1010/remark-preset@2.0.1) (2020-02-13)
 
 ### Bug Fixes
