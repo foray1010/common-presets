@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.0.0...@foray1010/remark-preset@3.0.1) (2020-04-05)
+
+### Bug Fixes
+
+- **deps:** update remark monorepo ([bf1af24](https://github.com/foray1010/common-presets/commit/bf1af24f4ca0635b3f2d27562855b8b4191d449c))
+
 # [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@2.0.1...@foray1010/remark-preset@3.0.0) (2020-03-31)
 
 ### chore
