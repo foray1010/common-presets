@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.10.0...@foray1010/renovate-config@1.0.0) (2020-04-20)
+
+### Features
+
+- create lock file maintenance pr before 7am ([e2b5958](https://github.com/foray1010/common-presets/commit/e2b5958539dac15eea1666cd7e3d5e8f58fa6f81))
+
 # [0.10.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@0.9.0...@foray1010/renovate-config@0.10.0) (2020-03-31)
 
 ### Features
