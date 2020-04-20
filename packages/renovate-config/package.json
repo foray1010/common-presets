@@ -19,7 +19,7 @@
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "after 5am and before 8am on Monday"
+          "after 5am and before 7am on Monday"
         ],
         "prPriority": 1
       },
