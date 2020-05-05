@@ -3,6 +3,10 @@
   "version": "2.2.0",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "*.js",
+    "stylelintignore"
+  ],
   "dependencies": {
     "stylelint-config-css-modules": "^2.0.0",
     "stylelint-config-idiomatic-order": "^8.0.0",

@@ -3,6 +3,10 @@
   "version": "4.0.0",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "*.js",
+    "prettierignore"
+  ],
   "peerDependencies": {
     "prettier": ">=2 <3"
   },

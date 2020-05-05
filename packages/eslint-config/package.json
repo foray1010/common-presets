@@ -3,6 +3,11 @@
   "version": "2.3.0",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "presets/",
+    "*.js",
+    "eslintignore"
+  ],
   "dependencies": {
     "@foray1010/common-presets-utils": "^2.0.1",
     "@typescript-eslint/eslint-plugin": "^2.3.2",

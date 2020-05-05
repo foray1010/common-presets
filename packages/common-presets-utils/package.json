@@ -3,6 +3,9 @@
   "version": "2.0.1",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "*.js"
+  ],
   "dependencies": {
     "read-pkg-up": "^7.0.0"
   },

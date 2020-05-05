@@ -3,6 +3,10 @@
   "version": "3.0.1",
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "*.js",
+    "remarkignore"
+  ],
   "dependencies": {
     "remark-preset-lint-consistent": "^3.0.0",
     "remark-preset-lint-markdown-style-guide": "^3.0.0",
