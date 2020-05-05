@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.2.2...@foray1010/eslint-config@2.3.0) (2020-05-05)
+
+### Features
+
+- **eslint:** lint react code using eslint-plugin-testing-library ([a7f0fd3](https://github.com/foray1010/common-presets/commit/a7f0fd33d704deef81a1aa9523a8ffdc738217bc))
+
 ## [2.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.2.1...@foray1010/eslint-config@2.2.2) (2020-05-05)
 
 ### Bug Fixes
