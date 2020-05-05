@@ -3,14 +3,22 @@
 const restrictedGlobals = require('confusing-browser-globals')
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'eslint-config-prettier/react'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:testing-library/react',
+    'eslint-config-prettier/react',
+  ],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
+  plugins: [
+    'eslint-plugin-react',
+    'eslint-plugin-react-hooks',
+    'eslint-plugin-testing-library',
+  ],
   env: {
     browser: true,
   },
