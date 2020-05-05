@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.2.1...@foray1010/eslint-config@2.2.2) (2020-05-05)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react-hooks to v4 ([ea6ba0c](https://github.com/foray1010/common-presets/commit/ea6ba0c65235df8dd96f78c4a77592bb97d44b84))
+
 ## [2.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.2.0...@foray1010/eslint-config@2.2.1) (2020-03-31)
 
 ### Bug Fixes
