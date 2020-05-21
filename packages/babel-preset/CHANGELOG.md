@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@3.0.2...@foray1010/babel-preset@4.0.0) (2020-05-21)
+
+### Features
+
+- use @babel/runtime to reduce bundle size ([70a86ab](https://github.com/foray1010/common-presets/commit/70a86abe178c24dc634585de66d00f496453053f))
+
+### BREAKING CHANGES
+
+- require @babel/runtime as peer dependency
+
 ## [3.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@3.0.1...@foray1010/babel-preset@3.0.2) (2020-05-05)
 
 **Note:** Version bump only for package @foray1010/babel-preset
