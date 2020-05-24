@@ -6,7 +6,6 @@ const hasTypeScript = hasDep('typescript')
 
 const typescriptConfig = {
   extends: [
-    'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
     'plugin:import/typescript',
