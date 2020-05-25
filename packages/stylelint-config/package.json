@@ -15,8 +15,8 @@
     "stylelint-prettier": "^1.1.1"
   },
   "peerDependencies": {
-    "prettier": ">=1.13.0 <3",
-    "stylelint": ">=11 <14"
+    "prettier": ">=2 <3",
+    "stylelint": ">=13 <14"
   },
   "engines": {
     "node": ">=10.13"
