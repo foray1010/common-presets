@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.0.0...@foray1010/babel-preset@5.0.1) (2020-06-01)
+
+### Bug Fixes
+
+- make core-js optional for library ([6430288](https://github.com/foray1010/common-presets/commit/64302880cdaabfd07c16e54eebbab33034f63c41))
+
 # [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@4.0.1...@foray1010/babel-preset@5.0.0) (2020-06-01)
 
 ### Bug Fixes
