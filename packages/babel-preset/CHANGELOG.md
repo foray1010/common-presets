@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@4.0.1...@foray1010/babel-preset@5.0.0) (2020-06-01)
+
+### Bug Fixes
+
+- disable useBuiltIns for react as cannot use with useSpread ([22f1554](https://github.com/foray1010/common-presets/commit/22f15545a5b0d162f366e8adcbc8a824b2141fd5))
+
+### Features
+
+- **babel-preset:** auto detect min node version if no browsers config ([18f88df](https://github.com/foray1010/common-presets/commit/18f88dfed552cec240606a64b573d0ad4767271c))
+- useESModules in transform-runtime ([41ac0a9](https://github.com/foray1010/common-presets/commit/41ac0a94583f6101c2da4cd956527907bf320044))
+- **babel-preset:** enable allowDeclareFields in typescript ([1b4efd0](https://github.com/foray1010/common-presets/commit/1b4efd003d7e4eeabf39c3cee356f9a481636e8f))
+- **babel-preset:** enable onlyRemoveTypeImports in typescript ([886e6bd](https://github.com/foray1010/common-presets/commit/886e6bd1bb126b49fae8a952c90baaf388ac53f9))
+- **babel-preset:** use spread syntax for jsx props ([81895c0](https://github.com/foray1010/common-presets/commit/81895c033a024eee72f8d816019cf975b71d8d8f))
+
+### BREAKING CHANGES
+
+- **babel-preset:** require typescript >=3.8.0
+
 ## [4.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@4.0.0...@foray1010/babel-preset@4.0.1) (2020-06-01)
 
 **Note:** Version bump only for package @foray1010/babel-preset

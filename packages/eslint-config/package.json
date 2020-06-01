@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "license": "MIT",
   "main": "index.js",
   "files": [
@@ -9,7 +9,7 @@
     "eslintignore"
   ],
   "dependencies": {
-    "@foray1010/common-presets-utils": "^2.0.2",
+    "@foray1010/common-presets-utils": "^2.1.0",
     "@typescript-eslint/eslint-plugin": "^3.0.0",
     "@typescript-eslint/parser": "^3.0.0",
     "confusing-browser-globals": "^1.0.9",
