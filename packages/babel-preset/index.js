@@ -30,7 +30,12 @@ module.exports = () => {
           useSpread: true,
         },
       ],
-      hasTypeScript && '@babel/preset-typescript',
+      hasTypeScript && [
+        '@babel/preset-typescript',
+        {
+          allowDeclareFields: true,
+        },
+      ],
     ].filter(Boolean),
     plugins: [
       '@babel/plugin-transform-runtime',

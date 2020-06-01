@@ -12,7 +12,7 @@
     "@babel/plugin-transform-runtime": "^7.9.6",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.6.3",
-    "@babel/preset-typescript": "^7.6.0",
+    "@babel/preset-typescript": "^7.10.1",
     "@foray1010/common-presets-utils": "^2.0.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24"
   },
