@@ -27,6 +27,7 @@ module.exports = () => {
         {
           development: isDev,
           useBuiltIns: true,
+          useSpread: true,
         },
       ],
       hasTypeScript && '@babel/preset-typescript',
