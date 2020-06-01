@@ -34,6 +34,7 @@ module.exports = () => {
         '@babel/preset-typescript',
         {
           allowDeclareFields: true,
+          onlyRemoveTypeImports: true,
         },
       ],
     ].filter(Boolean),
