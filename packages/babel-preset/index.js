@@ -33,8 +33,6 @@ module.exports = () => {
     ].filter(Boolean),
     plugins: [
       '@babel/plugin-transform-runtime',
-      '@babel/plugin-proposal-nullish-coalescing-operator',
-      '@babel/plugin-proposal-optional-chaining',
       ...(isProd && hasReact
         ? [
             '@babel/plugin-transform-react-constant-elements',
