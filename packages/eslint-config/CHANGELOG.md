@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.3.2...@foray1010/eslint-config@3.0.0) (2020-06-01)
+
+### Bug Fixes
+
+- **deps:** update typescript-eslint monorepo to v3 ([221565d](https://github.com/foray1010/common-presets/commit/221565dde29ab2fc3e9e5cedf66e10c957872e00))
+
+### BREAKING CHANGES
+
+- **deps:** require typescript >=3.3.1
+
 ## [2.3.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@2.3.1...@foray1010/eslint-config@2.3.2) (2020-05-21)
 
 **Note:** Version bump only for package @foray1010/eslint-config
