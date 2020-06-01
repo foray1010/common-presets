@@ -1,6 +1,8 @@
 'use strict'
 
-const { hasDep } = require('@foray1010/common-presets-utils')
+const { hasDep, pkg, pkgDir } = require('@foray1010/common-presets-utils')
+const browserslist = require('browserslist')
+const semver = require('semver')
 
 module.exports = () => {
   const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
@@ -11,6 +13,11 @@ module.exports = () => {
   const hasReact = hasDep('react')
   const hasTypeScript = hasDep('typescript')
 
+  const browsersConfig = browserslist.loadConfig({ path: pkgDir })
+  const envTargets = browsersConfig
+    ? { browsers: browsersConfig }
+    : { node: semver.minVersion(pkg.engines.node).format() }
+
   return {
     presets: [
       [
@@ -19,6 +26,7 @@ module.exports = () => {
           corejs: 3,
           modules: isTest ? 'commonjs' : false,
           shippedProposals: true,
+          targets: envTargets,
           useBuiltIns: 'usage',
         },
       ],
