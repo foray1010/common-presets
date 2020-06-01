@@ -10,6 +10,7 @@ module.exports = () => {
   const isTest = env === 'test'
   const isProd = env === 'production'
 
+  const hasCoreJS = hasDep('core-js')
   const hasReact = hasDep('react')
   const hasTypeScript = hasDep('typescript')
 
@@ -23,11 +24,10 @@ module.exports = () => {
       [
         '@babel/preset-env',
         {
-          corejs: 3,
+          ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
           modules: isTest ? 'commonjs' : false,
           shippedProposals: true,
           targets: envTargets,
-          useBuiltIns: 'usage',
         },
       ],
       hasReact && [
