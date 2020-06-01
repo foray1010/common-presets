@@ -26,7 +26,6 @@ module.exports = () => {
         '@babel/preset-react',
         {
           development: isDev,
-          useBuiltIns: true,
           useSpread: true,
         },
       ],
