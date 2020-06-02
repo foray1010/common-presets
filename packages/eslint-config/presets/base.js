@@ -22,13 +22,15 @@ const typescriptConfig = {
     // also sometime the types from third-party libraries are wrong
     '@typescript-eslint/ban-ts-comment': 'off',
     // prefer auto detect
-    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     // need empty function for react context default value
     '@typescript-eslint/no-empty-function': 'off',
     // some third party packages doesn't offer typings
     '@typescript-eslint/no-unsafe-assignment': 'off',
     // some third party packages doesn't offer typings
     '@typescript-eslint/no-unsafe-call': 'off',
+    // some third party packages doesn't offer typings
+    '@typescript-eslint/no-unsafe-return': 'off',
     // do not block functions referring to other functions
     '@typescript-eslint/no-use-before-define': [
       'error',
