@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.0.1...@foray1010/renovate-config@1.1.0) (2020-06-02)
+
+### Features
+
+- **renovate-config:** support @foray1010/tsconfig ([18d2fff](https://github.com/foray1010/common-presets/commit/18d2fffb19d238ee80395e887219fa1b34e535f0))
+
 ## [1.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.0.0...@foray1010/renovate-config@1.0.1) (2020-05-05)
 
 **Note:** Version bump only for package @foray1010/renovate-config
