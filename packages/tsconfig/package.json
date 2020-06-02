@@ -1,0 +1,18 @@
+{
+  "name": "@foray1010/tsconfig",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "typescript": ">=3.8.0"
+  },
+  "engines": {
+    "node": ">=10.13"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

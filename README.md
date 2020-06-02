@@ -11,3 +11,4 @@ This is a mono repository for storing presets that are commonly used in my proje
 - [@foray1010/remark-preset](./packages/remark-preset)
 - [@foray1010/renovate-config](./packages/renovate-config)
 - [@foray1010/stylelint-config](./packages/stylelint-config)
+- [@foray1010/tsconfig](./packages/tsconfig)
