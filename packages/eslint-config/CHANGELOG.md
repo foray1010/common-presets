@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.1...@foray1010/eslint-config@3.0.2) (2020-06-02)
+
+### Bug Fixes
+
+- **eslint-config:** follow @typescript-eslint/eslint-plugin rule changes ([ea317dd](https://github.com/foray1010/common-presets/commit/ea317dd592796b03678de99aa5e95da2afb9733d))
+
 ## [3.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.0...@foray1010/eslint-config@3.0.1) (2020-06-01)
 
 **Note:** Version bump only for package @foray1010/eslint-config
