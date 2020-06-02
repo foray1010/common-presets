@@ -20,13 +20,15 @@ const typescriptConfig = {
   rules: {
     // sometime it takes too much manpower to get the type right and may prefer to fix it later
     // also sometime the types from third-party libraries are wrong
-    '@typescript-eslint/ban-ts-ignore': 'off',
-    // do not force third-party object (e.g. api response) to follow camel case
-    '@typescript-eslint/camelcase': ['error', { properties: 'never' }],
+    '@typescript-eslint/ban-ts-comment': 'off',
     // prefer auto detect
     '@typescript-eslint/explicit-function-return-type': 'off',
     // need empty function for react context default value
     '@typescript-eslint/no-empty-function': 'off',
+    // some third party packages doesn't offer typings
+    '@typescript-eslint/no-unsafe-assignment': 'off',
+    // some third party packages doesn't offer typings
+    '@typescript-eslint/no-unsafe-call': 'off',
     // do not block functions referring to other functions
     '@typescript-eslint/no-use-before-define': [
       'error',
