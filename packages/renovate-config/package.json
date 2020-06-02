@@ -35,7 +35,7 @@
       "packageRules": [
         {
           "packagePatterns": [
-            "^@foray1010/.+-(config|preset)$"
+            "^@foray1010/.+(config|preset)$"
           ],
           "groupName": "@foray1010/common-presets monorepo",
           "stabilityDays": 0
