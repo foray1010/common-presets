@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.3...@foray1010/eslint-config@3.0.4) (2020-06-02)
+
+### Bug Fixes
+
+- **eslint-config:** disable @typescript-eslint/no-unsafe-member-access ([6a1479b](https://github.com/foray1010/common-presets/commit/6a1479b06a172bc4ed1d6320a77585b624974b94))
+
 ## [3.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.2...@foray1010/eslint-config@3.0.3) (2020-06-02)
 
 ### Bug Fixes
