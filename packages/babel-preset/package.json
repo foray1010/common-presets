@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/babel-preset",
-  "version": "5.0.1",
+  "version": "5.1.0",
   "license": "MIT",
   "main": "index.js",
   "files": [

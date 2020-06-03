@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.0.1...@foray1010/babel-preset@5.1.0) (2020-06-03)
+
+### Features
+
+- **babel-preset:** enable bugfixes flag in preset env ([236a801](https://github.com/foray1010/common-presets/commit/236a801d8ad1e350da3ae62db0d731dfb75cd7a2))
+
 ## [5.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.0.0...@foray1010/babel-preset@5.0.1) (2020-06-01)
 
 ### Bug Fixes
