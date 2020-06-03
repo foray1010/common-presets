@@ -24,10 +24,11 @@ module.exports = () => {
       [
         '@babel/preset-env',
         {
-          ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
+          bugfixes: true,
           modules: isTest ? 'commonjs' : false,
           shippedProposals: true,
           targets: envTargets,
+          ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
         },
       ],
       hasReact && [
