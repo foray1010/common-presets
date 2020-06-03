@@ -10,25 +10,23 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
 
 2. Create an `tsconfig.json` in the project root
 
-   for app:
+   for app (type checking only):
 
    ```json
    {
-     "extends": "@foray1010/tsconfig",
-     "compilerOptions": {
-       "emitDeclarationOnly": false,
-       "noEmit": true
-     }
+     "extends": "@foray1010/tsconfig"
    }
    ```
 
-   for library:
+   for library (type checking and generate typings):
 
    ```json
    {
      "extends": "@foray1010/tsconfig",
      "compilerOptions": {
-       "declarationDir": "build/dts"
+       "declarationDir": "build/dts",
+       "emitDeclarationOnly": true,
+       "noEmit": false
      }
    }
    ```

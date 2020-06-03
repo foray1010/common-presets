@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "declaration": true,
-    "emitDeclarationOnly": true,
     "esModuleInterop": true,
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "jsx": "react",
     "lib": ["ES2019", "DOM"],
     "moduleResolution": "node",
+    "noEmit": true,
     "noEmitOnError": true,
     "resolveJsonModule": true,
     "strict": true,
