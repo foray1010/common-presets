@@ -4,7 +4,7 @@ It aims at providing a general eslint config for:
 
 1. assisting developer to obtain better code quality
 
-1. no option on coding styles, leave it to [prettier](https://github.com/prettier/prettier)
+1. no opinion on coding styles, leave it to [prettier](https://github.com/prettier/prettier)
 
 ## Versioning
 
