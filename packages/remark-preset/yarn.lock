@@ -402,9 +402,9 @@ remark-lint-no-multiple-toplevel-headings@^2.0.0:
     unist-util-visit "^2.0.0"
 
 remark-lint-no-shell-dollars@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/remark-lint-no-shell-dollars/-/remark-lint-no-shell-dollars-2.0.0.tgz#d9f294727bf08e90e5c64a838416095d885512fc"
-  integrity sha512-1uEM0kSGlV6UY7w3PdIeIf/USFFvVuU1352myQdaiw/Wof7+uVXznFFCPnhJDTVlPN4vrgwFnLb32UwXrjkrQw==
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/remark-lint-no-shell-dollars/-/remark-lint-no-shell-dollars-2.0.1.tgz#58d1cb24eeb05676b23f43a00cccf55d2fe5c696"
+  integrity sha512-N+wOq3nmZ8WnCreWhi/rfIKQJPAz+pcbErQATcnQzH0znzldXlX8Ovlm54yDx/A+TmGMex/epkCwuiewIj9m4g==
   dependencies:
     unified-lint-rule "^1.0.0"
     unist-util-generated "^1.1.0"
