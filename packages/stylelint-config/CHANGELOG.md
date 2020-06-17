@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.2.3](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.2.2...@foray1010/stylelint-config@2.2.3) (2020-06-17)
+
+**Note:** Version bump only for package @foray1010/stylelint-config
+
 ## [2.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.2.1...@foray1010/stylelint-config@2.2.2) (2020-06-01)
 
 **Note:** Version bump only for package @foray1010/stylelint-config

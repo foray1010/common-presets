@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.0.0...@foray1010/tsconfig@2.0.1) (2020-06-17)
+
+### Bug Fixes
+
+- sync tsconfig target with lib ([a5f3f4a](https://github.com/foray1010/common-presets/commit/a5f3f4a2ea78c55f36d1329b8e1554d404213b27))
+
 # [2.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@1.1.0...@foray1010/tsconfig@2.0.0) (2020-06-03)
 
 ### Features
