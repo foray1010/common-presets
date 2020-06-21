@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.5...@foray1010/eslint-config@3.1.0) (2020-06-21)
+
+### Features
+
+- enable node/no-exports-assign ([bfa0067](https://github.com/foray1010/common-presets/commit/bfa0067c2143f746b28c1d393cbff12af9f6b622))
+- enable node/no-unpublished-bin ([cdd5842](https://github.com/foray1010/common-presets/commit/cdd5842ea97a6864583c89e92b31c7d9c28b5117))
+- enable node/no-unsupported-features/node-builtins ([4784ac6](https://github.com/foray1010/common-presets/commit/4784ac60cfd622e59fff1c4a2dc6f09aa838a30c))
+- use eslint-plugin-jest-dom with recommended config ([b7b7458](https://github.com/foray1010/common-presets/commit/b7b7458841fc92bbb6875e7edaaf97a3fc577776))
+
 ## [3.0.5](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.4...@foray1010/eslint-config@3.0.5) (2020-06-17)
 
 **Note:** Version bump only for package @foray1010/eslint-config
