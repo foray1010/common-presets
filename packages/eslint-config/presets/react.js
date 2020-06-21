@@ -4,6 +4,7 @@ const restrictedGlobals = require('confusing-browser-globals')
 
 module.exports = {
   extends: [
+    'plugin:jest-dom/recommended',
     'plugin:react/recommended',
     'plugin:testing-library/react',
     'eslint-config-prettier/react',
@@ -15,6 +16,7 @@ module.exports = {
     },
   },
   plugins: [
+    'eslint-plugin-jest-dom',
     'eslint-plugin-react',
     'eslint-plugin-react-hooks',
     'eslint-plugin-testing-library',
