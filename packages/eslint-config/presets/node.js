@@ -8,6 +8,8 @@ module.exports = {
   rules: {
     // disallow deprecated node APIs
     'node/no-deprecated-api': 'error',
+    // disallow the assignment to `exports`
+    'node/no-exports-assign': 'error',
     // disallow unsupported Node.js built-in APIs on the specified version
     'node/no-unsupported-features/node-builtins': 'error',
     // make `process.exit()` expressions the same code path as `throw`
