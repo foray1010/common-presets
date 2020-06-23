@@ -1,9 +1,12 @@
 {
   "name": "common-presets",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "ci": "yarn lint:js && yarn lint:md",
-    "eslint": "eslint --ext=cjs,js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore --resolve-plugins-relative-to=packages/eslint-config",
+    "eslint": "eslint --ext=cjs,js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore",
     "lint:js": "yarn eslint .",
     "lint:md": "yarn remark .",
     "prettier": "prettier --ignore-path=packages/prettier-config/prettierignore",
