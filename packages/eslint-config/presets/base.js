@@ -25,6 +25,8 @@ const typescriptConfig = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     // need empty function for react context default value
     '@typescript-eslint/no-empty-function': 'off',
+    // enforce correct usage of `void` type
+    '@typescript-eslint/no-invalid-void-type': 'error',
     // some third party packages doesn't offer typings
     '@typescript-eslint/no-unsafe-assignment': 'off',
     // some third party packages doesn't offer typings
