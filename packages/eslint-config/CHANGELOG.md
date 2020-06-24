@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.1.0...@foray1010/eslint-config@3.2.0) (2020-06-24)
+
+### Features
+
+- enforce correct usage of `void` type ([df1652e](https://github.com/foray1010/common-presets/commit/df1652ec9d9fd76afb6caefce4c0f1477041b20a))
+- eslint throw error on used variables and types ([3f5a17a](https://github.com/foray1010/common-presets/commit/3f5a17a27d22ff5de6658b2ba958a263d4065a9c))
+
 # [3.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.0.5...@foray1010/eslint-config@3.1.0) (2020-06-21)
 
 ### Features
