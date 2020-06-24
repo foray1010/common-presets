@@ -33,6 +33,16 @@ const typescriptConfig = {
     '@typescript-eslint/no-unsafe-member-access': 'off',
     // some third party packages doesn't offer typings
     '@typescript-eslint/no-unsafe-return': 'off',
+    // use @typescript-eslint/no-unused-vars-experimental as this rule doesn't support types
+    '@typescript-eslint/no-unused-vars': 'off',
+    // must remove unused variables and types
+    '@typescript-eslint/no-unused-vars-experimental': [
+      'error',
+      {
+        ignoreArgsIfArgsAfterAreUsed: true,
+        ignoredNamesRegex: false,
+      },
+    ],
     // do not block functions referring to other functions
     '@typescript-eslint/no-use-before-define': [
       'error',
