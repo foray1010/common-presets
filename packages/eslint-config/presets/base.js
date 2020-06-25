@@ -62,6 +62,7 @@ const typescriptConfig = {
     {
       files: ['*.test.*'],
       rules: {
+        // doesn't work with jest.fn<void>()
         '@typescript-eslint/no-invalid-void-type': 'off',
       },
     },
