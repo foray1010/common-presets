@@ -58,6 +58,14 @@ const typescriptConfig = {
     // redundant for composing functions
     '@typescript-eslint/unbound-method': 'off',
   },
+  overrides: [
+    {
+      files: ['*.test.*'],
+      rules: {
+        '@typescript-eslint/no-invalid-void-type': 'off',
+      },
+    },
+  ],
 }
 
 module.exports = {
