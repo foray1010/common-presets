@@ -13,7 +13,7 @@ const typescriptConfig = {
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: ['./tsconfig.json', './tsconfig.*.json'],
+    project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint/eslint-plugin'],
