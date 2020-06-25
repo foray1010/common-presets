@@ -1,6 +1,12 @@
 {
   "name": "@foray1010/babel-preset",
   "version": "5.1.1",
+  "bugs": "https://github.com/foray1010/common-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foray1010/common-presets.git",
+    "directory": "packages/babel-preset"
+  },
   "license": "MIT",
   "main": "index.js",
   "files": [
