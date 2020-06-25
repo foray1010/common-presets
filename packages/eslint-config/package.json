@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/eslint-config",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/eslint-config#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {
@@ -16,7 +16,7 @@
     "eslintignore"
   ],
   "dependencies": {
-    "@foray1010/common-presets-utils": "^2.1.0",
+    "@foray1010/common-presets-utils": "^2.1.1",
     "@typescript-eslint/eslint-plugin": "^3.0.0",
     "@typescript-eslint/parser": "^3.0.0",
     "confusing-browser-globals": "^1.0.9",
