@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.2.0...@foray1010/eslint-config@3.2.1) (2020-06-25)
+
+### Bug Fixes
+
+- disable no-invalid-void-type for test files ([3449625](https://github.com/foray1010/common-presets/commit/34496259737701f1a445212fb391d84551d8369e))
+
 # [3.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.1.0...@foray1010/eslint-config@3.2.0) (2020-06-24)
 
 ### Features
