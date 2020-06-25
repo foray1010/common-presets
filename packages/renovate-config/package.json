@@ -1,6 +1,6 @@
 {
   "name": "@foray1010/renovate-config",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/renovate-config#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {

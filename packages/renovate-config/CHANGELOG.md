@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.1.1...@foray1010/renovate-config@1.2.0) (2020-06-25)
+
+### Features
+
+- sync schedule for deps update & lockfile maintainence ([a2ba33d](https://github.com/foray1010/common-presets/commit/a2ba33dbc2b84bee8c317126a1756e24434c2e05))
+
 ## [1.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.1.0...@foray1010/renovate-config@1.1.1) (2020-06-25)
 
 **Note:** Version bump only for package @foray1010/renovate-config
