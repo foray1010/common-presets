@@ -5,13 +5,13 @@
     "importsNotUsedAsValues": "error",
     "isolatedModules": true,
     "jsx": "react",
-    "lib": ["ES2019", "DOM"],
+    "lib": ["ES2020", "DOM"],
     "moduleResolution": "node",
     "noEmit": true,
     "noEmitOnError": true,
     "resolveJsonModule": true,
     "strict": true,
-    "target": "ES2019",
+    "target": "ES2020",
     "useDefineForClassFields": true
   }
 }
