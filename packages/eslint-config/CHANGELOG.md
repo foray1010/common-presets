@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.2.2...@foray1010/eslint-config@3.3.0) (2020-06-25)
+
+### Features
+
+- support seperated tsconfig in monorepo ([20ebb75](https://github.com/foray1010/common-presets/commit/20ebb757bf138e8468586232e6618304975afe97))
+
 ## [3.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.2.1...@foray1010/eslint-config@3.2.2) (2020-06-25)
 
 **Note:** Version bump only for package @foray1010/eslint-config
