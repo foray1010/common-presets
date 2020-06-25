@@ -1,6 +1,13 @@
 {
   "name": "@foray1010/eslint-config",
   "version": "3.2.1",
+  "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/eslint-config#readme",
+  "bugs": "https://github.com/foray1010/common-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foray1010/common-presets.git",
+    "directory": "packages/eslint-config"
+  },
   "license": "MIT",
   "main": "index.js",
   "files": [

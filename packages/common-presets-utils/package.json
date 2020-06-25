@@ -1,6 +1,13 @@
 {
   "name": "@foray1010/common-presets-utils",
   "version": "2.1.0",
+  "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/common-presets-utils#readme",
+  "bugs": "https://github.com/foray1010/common-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foray1010/common-presets.git",
+    "directory": "packages/common-presets-utils"
+  },
   "license": "MIT",
   "main": "index.js",
   "files": [

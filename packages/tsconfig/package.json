@@ -1,6 +1,13 @@
 {
   "name": "@foray1010/tsconfig",
   "version": "2.0.1",
+  "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/tsconfig#readme",
+  "bugs": "https://github.com/foray1010/common-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foray1010/common-presets.git",
+    "directory": "packages/tsconfig"
+  },
   "license": "MIT",
   "main": "tsconfig.json",
   "files": [
