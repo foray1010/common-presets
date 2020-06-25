@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.3.0...@foray1010/eslint-config@3.4.0) (2020-06-25)
+
+### Features
+
+- support ES2020 ([1aaec79](https://github.com/foray1010/common-presets/commit/1aaec79fc9f2954319ef5c915a007b9fc34ce0d1))
+
 # [3.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.2.2...@foray1010/eslint-config@3.3.0) (2020-06-25)
 
 ### Features

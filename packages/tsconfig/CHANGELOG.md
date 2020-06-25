@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.0.2...@foray1010/tsconfig@2.1.0) (2020-06-25)
+
+### Features
+
+- support ES2020 ([1aaec79](https://github.com/foray1010/common-presets/commit/1aaec79fc9f2954319ef5c915a007b9fc34ce0d1))
+
 ## [2.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.0.1...@foray1010/tsconfig@2.0.2) (2020-06-25)
 
 **Note:** Version bump only for package @foray1010/tsconfig
