@@ -4,8 +4,7 @@
       "ignoreChanges": [
         "**/__fixtures__/**",
         "**/__mocks__/**",
-        "**/__tests__/**",
-        "yarn.lock"
+        "**/__tests__/**"
       ]
     },
     "version": {
