@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.1.5...@foray1010/babel-preset@5.2.0) (2020-07-09)
+
+### Features
+
+- support export all as namespace ([6cad869](https://github.com/foray1010/common-presets/commit/6cad869410611dc22ad597244ad454f472ff39b8))
+
 ## [5.1.5](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.1.4...@foray1010/babel-preset@5.1.5) (2020-07-06)
 
 **Note:** Version bump only for package @foray1010/babel-preset
