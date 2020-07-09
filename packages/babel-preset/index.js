@@ -47,6 +47,7 @@ module.exports = () => {
       ],
     ].filter(Boolean),
     plugins: [
+      '@babel/plugin-proposal-export-namespace-from',
       ['@babel/plugin-transform-runtime', { useESModules: true }],
       ...(isProd && hasReact
         ? [
