@@ -10,6 +10,8 @@ module.exports = () => {
   const isTest = env === 'test'
   const isProd = env === 'production'
 
+  const isCommonJS = isTest // as jest doesn't support ES modules
+
   const hasCoreJS = hasDep('core-js')
   const hasReact = hasDep('react')
   const hasTypeScript = hasDep('typescript')
@@ -25,7 +27,7 @@ module.exports = () => {
         '@babel/preset-env',
         {
           bugfixes: true,
-          modules: isTest ? 'commonjs' : false,
+          modules: isCommonJS ? 'commonjs' : false,
           shippedProposals: true,
           targets: envTargets,
           ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
@@ -48,7 +50,7 @@ module.exports = () => {
     ].filter(Boolean),
     plugins: [
       '@babel/plugin-proposal-export-namespace-from',
-      ['@babel/plugin-transform-runtime', { useESModules: true }],
+      ['@babel/plugin-transform-runtime', { useESModules: !isCommonJS }],
       ...(isProd && hasReact
         ? [
             '@babel/plugin-transform-react-constant-elements',
