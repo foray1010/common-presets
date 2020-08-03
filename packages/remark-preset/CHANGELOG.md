@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.1.0...@foray1010/remark-preset@3.2.0) (2020-08-03)
+
+### Features
+
+- **remark-preset:** skip checking dead urls when offline ([75e7881](https://github.com/foray1010/common-presets/commit/75e788158af1466f3f422f8e212212edcde4ab2a))
+
 # [3.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.0.3...@foray1010/remark-preset@3.1.0) (2020-07-06)
 
 ### Features

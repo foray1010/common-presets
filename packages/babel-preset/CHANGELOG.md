@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.0...@foray1010/babel-preset@5.2.1) (2020-08-03)
+
+### Bug Fixes
+
+- **babel-preset:** use commonjs for testing ([469c973](https://github.com/foray1010/common-presets/commit/469c973ea21f03cc9c726747b376808ec1e229a5))
+
 # [5.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.1.5...@foray1010/babel-preset@5.2.0) (2020-07-09)
 
 ### Features
