@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.5.0...@foray1010/eslint-config@3.6.0) (2020-08-04)
+
+### Features
+
+- **eslint-config:** add more rules for testing-library ([deded23](https://github.com/foray1010/common-presets/commit/deded23d0cbb717d47ccf61b26937e55bc730ea5))
+
 # [3.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.4.0...@foray1010/eslint-config@3.5.0) (2020-08-04)
 
 ### Features
