@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.4.0...@foray1010/eslint-config@3.5.0) (2020-08-04)
+
+### Features
+
+- **eslint-config:** supports linting hook dependencies for package `use-deep-compare` ([1def9bb](https://github.com/foray1010/common-presets/commit/1def9bba7e239ef351e34fced89e5a4fa250ea16))
+
 # [3.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.3.0...@foray1010/eslint-config@3.4.0) (2020-06-25)
 
 ### Features
