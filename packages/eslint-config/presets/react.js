@@ -32,6 +32,13 @@ module.exports = {
   rules: {
     'no-restricted-globals': ['error', ...restrictedGlobals],
     'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'error',
+    'react-hooks/exhaustive-deps': [
+      'error',
+      {
+        // support package `use-deep-compare`
+        additionalHooks:
+          '(useDeepCompareCallback|useDeepCompareEffect|useDeepCompareMemo)',
+      },
+    ],
   },
 }
