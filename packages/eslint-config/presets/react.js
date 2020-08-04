@@ -40,5 +40,13 @@ module.exports = {
           '(useDeepCompareCallback|useDeepCompareEffect|useDeepCompareMemo)',
       },
     ],
+    // explicitly assert the element to prevent reader missed the test cases
+    'testing-library/prefer-explicit-assert': 'error',
+    // better error message
+    'testing-library/prefer-presence-queries': 'error',
+    // using `screen` to avoid name collision
+    'testing-library/prefer-screen-queries': 'error',
+    // as `wait` is deprecated
+    'testing-library/prefer-wait-for': 'error',
   },
 }
