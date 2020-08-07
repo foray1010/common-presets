@@ -96,6 +96,19 @@ module.exports = {
     'import/default': 'off',
     // doesn't work with redux-saga/effects
     'import/named': 'off',
+    // do not allow import packages that are not listed in dependencies or peerDependencies
+    // allow import devDependencies in tests
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: [
+          '**/__fixtures__/**',
+          '**/__mocks__/**',
+          '**/__tests__/**',
+          '**/*.{spec,test}.{cjs,js,mjs,ts,tsx}',
+        ],
+      },
+    ],
     // auto sort import statements
     'simple-import-sort/sort': 'error',
     // commonjs must use strict mode
