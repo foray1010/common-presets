@@ -97,12 +97,14 @@ module.exports = {
     // doesn't work with redux-saga/effects
     'import/named': 'off',
     // do not allow import packages that are not listed in dependencies or peerDependencies
-    // allow import devDependencies in tests and files outside of src/
     'import/no-extraneous-dependencies': [
       'error',
       {
         devDependencies: [
-          '!**/src/**',
+          '!**/src/**', // allow files outside of src/
+          '**/.*', // allow config rc files
+
+          // allow test related files
           '**/__fixtures__/**',
           '**/__mocks__/**',
           '**/__tests__/**',
