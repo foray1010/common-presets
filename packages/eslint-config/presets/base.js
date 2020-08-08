@@ -110,6 +110,14 @@ module.exports = {
         ],
       },
     ],
+    // use the shortest path in import statement, but allow /index because it will be standard to omit index as default file in directory
+    'import/no-useless-path-segments': [
+      'error',
+      {
+        commonjs: true,
+        noUselessIndex: false,
+      },
+    ],
     // auto sort import statements
     'simple-import-sort/sort': 'error',
     // commonjs must use strict mode
