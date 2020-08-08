@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.6.0...@foray1010/eslint-config@3.7.0) (2020-08-08)
+
+### Bug Fixes
+
+- **eslint-config:** allow config rc files to import devDependencies ([91c88d9](https://github.com/foray1010/common-presets/commit/91c88d941fd48a87abe93b4213c14661de7b9290))
+- **eslint-config:** allow files outside of src/ to import devDependencies ([3e203ba](https://github.com/foray1010/common-presets/commit/3e203ba99162ad5b1b2231db079a382315d54bb9))
+
+### Features
+
+- **eslint-config:** do not allow import non-dependencies but allow tests to import devDependencies ([0654f63](https://github.com/foray1010/common-presets/commit/0654f63c77063bfe4800be88da8b421f563a6ae3))
+- **eslint-config:** use the shortest path in import statement ([52032c2](https://github.com/foray1010/common-presets/commit/52032c2d2156e0b23794e71befdbb59fee425b78))
+
 # [3.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.5.0...@foray1010/eslint-config@3.6.0) (2020-08-04)
 
 ### Features
