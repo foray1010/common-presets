@@ -60,7 +60,7 @@ const typescriptConfig = {
   },
   overrides: [
     {
-      files: ['*.test.*'],
+      files: ['**/*.{spec,test}.{cjs,js,mjs,ts,tsx}'],
       rules: {
         // doesn't work with jest.fn<void>()
         '@typescript-eslint/no-invalid-void-type': 'off',
