@@ -139,6 +139,8 @@ module.exports = {
               {
                 files: ['**/*.{spec,test}.{cjs,js,mjs,ts,tsx}'],
                 rules: {
+                  // testing-library's `act` may or may not response promise, this rule produces false alarm
+                  '@typescript-eslint/no-floating-promises': 'off',
                   // doesn't work with jest.fn<void>()
                   '@typescript-eslint/no-invalid-void-type': 'off',
                 },
