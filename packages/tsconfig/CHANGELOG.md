@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.1.0...@foray1010/tsconfig@3.0.0) (2020-08-21)
+
+### Features
+
+- **tsconfig:** enable incremental build ([fd5a956](https://github.com/foray1010/common-presets/commit/fd5a956c4b2b3824277cbc29a05c498752910e5b))
+
+### BREAKING CHANGES
+
+- **tsconfig:** require typescript >=4.0.2
+
 # [2.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.0.2...@foray1010/tsconfig@2.1.0) (2020-06-25)
 
 ### Features
