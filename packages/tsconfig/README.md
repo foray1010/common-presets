@@ -24,9 +24,9 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
    {
      "extends": "@foray1010/tsconfig",
      "compilerOptions": {
-       "declarationDir": "build/dts",
        "emitDeclarationOnly": true,
-       "noEmit": false
+       "noEmit": false,
+       "outDir": "build/dts"
      }
    }
    ```
