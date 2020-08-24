@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. `npm install --save-dev prettier @foray1010/prettier-config`
+1. `yarn add -DE prettier @foray1010/prettier-config`
 
 1. Create an `.prettierrc.js` in the project root
 

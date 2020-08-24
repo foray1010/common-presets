@@ -18,7 +18,7 @@ Z for looser rules
 
 ## Installation
 
-1. `npm install --save-dev stylelint @foray1010/stylelint-config`
+1. `yarn add -DE prettier stylelint @foray1010/stylelint-config`
 
 1. Create an `.stylelintrc.yml` in the project root
 

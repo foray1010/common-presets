@@ -18,7 +18,7 @@ Z for looser rules
 
 ## Installation
 
-1. `npm install --save-dev eslint @foray1010/eslint-config`
+1. `yarn add -DE eslint prettier @foray1010/eslint-config`
 
 1. Create an `.eslintrc.yml` in the project root
 

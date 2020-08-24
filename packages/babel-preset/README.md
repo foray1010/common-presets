@@ -2,9 +2,23 @@
 
 ## Installation
 
-1. `npm install --save-dev @foray1010/babel-preset && npm install core-js@^3.0.0`
+1. Install peer dependencies
 
-1. Create an `.babelrc.js` in the project root
+   for app (type checking only):
+
+   ```sh
+   yarn add -E @babel/runtime core-js
+   ```
+
+   for library (type checking and generate typings):
+
+   ```sh
+   yarn add @babel/runtime
+   ```
+
+2. `yarn add -DE @babel/core @foray1010/babel-preset`
+
+3. Create an `.babelrc.js` in the project root
 
    ```js
    'use strict'
