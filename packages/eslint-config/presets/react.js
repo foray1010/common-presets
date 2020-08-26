@@ -31,6 +31,29 @@ module.exports = {
   },
   rules: {
     'no-restricted-globals': ['error', ...restrictedGlobals],
+    'react/jsx-sort-props': [
+      'error',
+      {
+        // any prop starts with `on`
+        callbacksLast: true,
+        ignoreCase: true,
+        noSortAlphabetically: false,
+        reservedFirst: true,
+        shorthandFirst: false,
+        shorthandLast: false,
+      },
+    ],
+    'react/sort-prop-types': [
+      'error',
+      {
+        // any prop starts with `on`
+        callbacksLast: true,
+        ignoreCase: true,
+        noSortAlphabetically: false,
+        requiredFirst: false,
+        sortShapeProp: true,
+      },
+    ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': [
       'error',
