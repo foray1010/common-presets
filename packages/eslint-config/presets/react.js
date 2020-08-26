@@ -43,17 +43,6 @@ module.exports = {
         shorthandLast: false,
       },
     ],
-    'react/sort-prop-types': [
-      'error',
-      {
-        // any prop starts with `on`
-        callbacksLast: true,
-        ignoreCase: true,
-        noSortAlphabetically: false,
-        requiredFirst: false,
-        sortShapeProp: true,
-      },
-    ],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': [
       'error',
