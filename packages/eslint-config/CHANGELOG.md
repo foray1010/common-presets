@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.7.1...@foray1010/eslint-config@3.8.0) (2020-08-26)
+
+
+### Features
+
+* **eslint-config:** sort jsx props and prop-types ([cf2465b](https://github.com/foray1010/common-presets/commit/cf2465b72f7a8739bea8d8ef165d7ee4f6d75937))
+
+
+
+
+
 ## [3.7.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.7.0...@foray1010/eslint-config@3.7.1) (2020-08-19)
 
 ### Bug Fixes
