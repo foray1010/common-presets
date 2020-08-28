@@ -25,10 +25,26 @@ module.exports = {
     es6: true,
   },
   rules: {
+    // always use named function for easier to debug via stack trace
+    'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
     // doesn't work with redux-saga/effects
     'import/named': 'off',
+    // avoid anonymous function or class for easier to debug via stack trace
+    // for other types, enforcing named data can improve autocomplete when importing
+    'import/no-anonymous-default-export': [
+      'error',
+      {
+        allowArray: false,
+        allowArrowFunction: false,
+        allowAnonymousClass: false,
+        allowAnonymousFunction: false,
+        allowCallExpression: false,
+        allowLiteral: false,
+        allowObject: false,
+      },
+    ],
     // do not allow import packages that are not listed in dependencies or peerDependencies
     'import/no-extraneous-dependencies': [
       'error',
