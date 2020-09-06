@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.9.0...@foray1010/eslint-config@4.0.0) (2020-09-06)
+
+### Bug Fixes
+
+- **deps:** update eslint-plugin-jest to v24 ([eb05452](https://github.com/foray1010/common-presets/commit/eb05452c5f7c24843926d278c9a0be1badb04c88))
+- **deps:** update typescript-eslint monorepo to v4 ([8519d78](https://github.com/foray1010/common-presets/commit/8519d78d4e4b145da0f0991e38e9b970b43461a5))
+- **eslint-config:** only run test related rules on test files ([fcba1dd](https://github.com/foray1010/common-presets/commit/fcba1ddc79d8e437abecd3f48b194fb3592e03e4))
+
+### BREAKING CHANGES
+
+- **deps:** require eslint >=7.5.0
+
 # [3.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.8.1...@foray1010/eslint-config@3.9.0) (2020-08-28)
 
 ### Features
