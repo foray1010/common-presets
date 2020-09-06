@@ -2,25 +2,17 @@
 
 const restrictedGlobals = require('confusing-browser-globals')
 
+const { testFileGlobs } = require('./utils/testUtil')
+
 module.exports = {
-  extends: [
-    'plugin:jest-dom/recommended',
-    'plugin:react/recommended',
-    'plugin:testing-library/react',
-    'eslint-config-prettier/react',
-  ],
+  extends: ['plugin:react/recommended', 'eslint-config-prettier/react'],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
-  plugins: [
-    'eslint-plugin-jest-dom',
-    'eslint-plugin-react',
-    'eslint-plugin-react-hooks',
-    'eslint-plugin-testing-library',
-  ],
+  plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
   env: {
     browser: true,
   },
@@ -52,13 +44,22 @@ module.exports = {
           '(useDeepCompareCallback|useDeepCompareEffect|useDeepCompareMemo)',
       },
     ],
-    // explicitly assert the element to prevent reader missed the test cases
-    'testing-library/prefer-explicit-assert': 'error',
-    // better error message
-    'testing-library/prefer-presence-queries': 'error',
-    // using `screen` to avoid name collision
-    'testing-library/prefer-screen-queries': 'error',
-    // as `wait` is deprecated
-    'testing-library/prefer-wait-for': 'error',
   },
+  overrides: [
+    {
+      files: testFileGlobs,
+      extends: ['plugin:jest-dom/recommended', 'plugin:testing-library/react'],
+      plugins: ['eslint-plugin-jest-dom', 'eslint-plugin-testing-library'],
+      rules: {
+        // explicitly assert the element to prevent reader missed the test cases
+        'testing-library/prefer-explicit-assert': 'error',
+        // better error message
+        'testing-library/prefer-presence-queries': 'error',
+        // using `screen` to avoid name collision
+        'testing-library/prefer-screen-queries': 'error',
+        // as `wait` is deprecated
+        'testing-library/prefer-wait-for': 'error',
+      },
+    },
+  ],
 }

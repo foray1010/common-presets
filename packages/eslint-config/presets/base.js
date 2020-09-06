@@ -2,12 +2,13 @@
 
 const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
+const { testFileGlobs } = require('./utils/testUtil')
+
 module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
-    'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'eslint-config-prettier',
   ],
@@ -17,7 +18,6 @@ module.exports = {
   },
   plugins: [
     'eslint-plugin-import',
-    'eslint-plugin-jest',
     'eslint-plugin-prettier',
     'eslint-plugin-simple-import-sort',
   ],
@@ -52,12 +52,7 @@ module.exports = {
         devDependencies: [
           '!**/src/**', // allow files outside of src/
           '**/.*', // allow config rc files
-
-          // allow test related files
-          '**/__fixtures__/**',
-          '**/__mocks__/**',
-          '**/__tests__/**',
-          '**/*.{spec,test}.{cjs,js,mjs,ts,tsx}',
+          ...testFileGlobs,
         ],
       },
     ],
@@ -92,6 +87,11 @@ module.exports = {
       parserOptions: {
         sourceType: 'module',
       },
+    },
+    {
+      files: testFileGlobs,
+      extends: ['plugin:jest/recommended'],
+      plugins: ['eslint-plugin-jest'],
     },
     // typescript plugins are depended on `typescript` package
     ...(hasDep('typescript')
@@ -153,7 +153,7 @@ module.exports = {
             },
             overrides: [
               {
-                files: ['**/*.{spec,test}.{cjs,js,mjs,ts,tsx}'],
+                files: testFileGlobs,
                 rules: {
                   // testing-library's `act` may or may not response promise, this rule produces false alarm
                   '@typescript-eslint/no-floating-promises': 'off',
