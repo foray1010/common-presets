@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.0.0...@foray1010/eslint-config@4.0.1) (2020-09-11)
+
+### Bug Fixes
+
+- generic type does not work with react-hooks/exhaustive-deps ([253c7fa](https://github.com/foray1010/common-presets/commit/253c7faa574d6bb84aad0ab4c4a3b8258401d4b2))
+
 # [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@3.9.0...@foray1010/eslint-config@4.0.0) (2020-09-06)
 
 ### Bug Fixes
