@@ -23,6 +23,7 @@ module.exports = {
   },
   rules: {
     'no-restricted-globals': ['error', ...restrictedGlobals],
+    'react/jsx-no-useless-fragment': 'error',
     'react/jsx-sort-props': [
       'error',
       {
