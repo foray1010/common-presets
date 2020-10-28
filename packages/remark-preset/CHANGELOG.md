@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.3.0...@foray1010/remark-preset@3.4.0) (2020-10-28)
+
+### Features
+
+- **remark-preset:** support yaml frontmatter ([8582aac](https://github.com/foray1010/common-presets/commit/8582aacdb375eccec467d795b8eb3bf324805077))
+
 # [3.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.2.1...@foray1010/remark-preset@3.3.0) (2020-10-18)
 
 ### Features

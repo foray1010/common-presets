@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.0.1...@foray1010/eslint-config@4.1.0) (2020-10-28)
+
+### Features
+
+- **eslint-config:** enable react/jsx-no-useless-fragment ([c7c4b31](https://github.com/foray1010/common-presets/commit/c7c4b31fc663501aec2ca85e026630e82196f922))
+
 ## [4.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.0.0...@foray1010/eslint-config@4.0.1) (2020-09-11)
 
 ### Bug Fixes

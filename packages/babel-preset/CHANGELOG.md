@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.6](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.5...@foray1010/babel-preset@5.2.6) (2020-10-28)
+
+### Bug Fixes
+
+- **babel-preset:** do not use esm babel runtime to avoid problem when output cjs build ([2bbf4a9](https://github.com/foray1010/common-presets/commit/2bbf4a98a65eb21fd556c0f68445f481e0cd4b75))
+
 ## [5.2.5](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.4...@foray1010/babel-preset@5.2.5) (2020-09-11)
 
 **Note:** Version bump only for package @foray1010/babel-preset
