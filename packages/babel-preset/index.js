@@ -49,7 +49,7 @@ module.exports = () => {
       ],
     ].filter(Boolean),
     plugins: [
-      ['@babel/plugin-transform-runtime', { useESModules: !isCommonJS }],
+      '@babel/plugin-transform-runtime',
       ...(isProd && hasReact
         ? [
             '@babel/plugin-transform-react-constant-elements',
