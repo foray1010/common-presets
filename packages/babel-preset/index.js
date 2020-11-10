@@ -37,6 +37,7 @@ module.exports = () => {
         '@babel/preset-react',
         {
           development: isDev,
+          runtime: 'automatic',
           useSpread: true,
         },
       ],

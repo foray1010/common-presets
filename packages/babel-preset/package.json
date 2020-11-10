@@ -14,11 +14,11 @@
     "*.js"
   ],
   "dependencies": {
-    "@babel/plugin-transform-react-constant-elements": "^7.6.3",
-    "@babel/plugin-transform-react-inline-elements": "^7.2.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.12.1",
+    "@babel/plugin-transform-react-inline-elements": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.9.6",
     "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-react": "^7.12.5",
     "@babel/preset-typescript": "^7.10.1",
     "@foray1010/common-presets-utils": "^2.1.1",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
@@ -32,6 +32,7 @@
     "@babel/core": "^7.0.0",
     "@babel/runtime": "^7.9.6",
     "core-js": ">=3 <4",
+    "react": ">=17",
     "typescript": ">=3.8.0"
   },
   "engines": {
