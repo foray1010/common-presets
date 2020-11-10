@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.1.0...@foray1010/eslint-config@4.1.1) (2020-11-10)
+
+### Bug Fixes
+
+- **eslint-config:** disable react/react-in-jsx-scope for automatic react runtime ([71e0a5b](https://github.com/foray1010/common-presets/commit/71e0a5bb1b33d04f18cb866cd5dd21290bbb6ef4))
+
 # [4.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.0.1...@foray1010/eslint-config@4.1.0) (2020-10-28)
 
 ### Features

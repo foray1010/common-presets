@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.6...@foray1010/babel-preset@6.0.0) (2020-11-10)
+
+### Features
+
+- **babel-preset:** enable automatic react runtime ([7e62010](https://github.com/foray1010/common-presets/commit/7e620107f144b63fac1c4dcdec1be0e2f8b000c8))
+
+### BREAKING CHANGES
+
+- **babel-preset:** require react >=17
+
 ## [5.2.6](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.5...@foray1010/babel-preset@5.2.6) (2020-10-28)
 
 ### Bug Fixes
