@@ -13,8 +13,6 @@ module.exports = {
   rules: {
     // not compatible with SCSS
     'at-rule-no-unknown': null,
-    // doesn't work with cssnext mixins
-    'no-descending-specificity': null,
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
     'plugin/no-unsupported-browser-features': [
