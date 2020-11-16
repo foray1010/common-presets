@@ -11,8 +11,6 @@ module.exports = {
 
   plugins: ['stylelint-no-unsupported-browser-features'],
   rules: {
-    // not compatible with SCSS
-    'at-rule-no-unknown': null,
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
     'plugin/no-unsupported-browser-features': [
