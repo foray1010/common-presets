@@ -8,6 +8,8 @@ module.exports = {
     // it requires `stylelint-config-prettier`
     'stylelint-prettier/recommended.js',
   ],
+
+  plugins: ['stylelint-no-unsupported-browser-features'],
   rules: {
     // not compatible with SCSS
     'at-rule-no-unknown': null,
@@ -15,5 +17,11 @@ module.exports = {
     'no-descending-specificity': null,
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
+    'plugin/no-unsupported-browser-features': [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
   },
 }
