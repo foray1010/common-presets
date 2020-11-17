@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.1.1...@foray1010/eslint-config@4.2.0) (2020-11-17)
+
+### Features
+
+- **eslint-config:** lint browser compatibility ([1059794](https://github.com/foray1010/common-presets/commit/1059794652cbed74e5075c148e6dccb270f9539d))
+- **eslint-config:** lint JSDoc ([96a91b6](https://github.com/foray1010/common-presets/commit/96a91b6858866df237f33b73c6a6df094d095839))
+
 ## [4.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.1.0...@foray1010/eslint-config@4.1.1) (2020-11-10)
 
 ### Bug Fixes

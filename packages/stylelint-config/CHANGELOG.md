@@ -3,13 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.2.5...@foray1010/stylelint-config@2.3.0) (2020-11-17)
+
+### Features
+
+- **stylelint-config:** disallows colors that are suspiciously close to being identical ([205803f](https://github.com/foray1010/common-presets/commit/205803ff95662e6ce4fe19ac061512c4923c6690))
+- reenable at-rule-no-unknown since we are not using scss anymore ([de1a9f8](https://github.com/foray1010/common-presets/commit/de1a9f84c9df012a06ee3013cac5fdc8c5fcbc9c))
+- reenable no-descending-specificity since we are not using mixins anymore ([f8a590d](https://github.com/foray1010/common-presets/commit/f8a590dab01f3e2fae02f51133848623049bf89c))
+- show warnings on unsupported css based on browserslist ([0513439](https://github.com/foray1010/common-presets/commit/05134391c9f6f8e8b0566cffe4e735de1d04b7e3))
+
 ## [2.2.5](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.2.4...@foray1010/stylelint-config@2.2.5) (2020-08-26)
 
 **Note:** Version bump only for package @foray1010/stylelint-config
-
-
-
-
 
 ## [2.2.4](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.2.3...@foray1010/stylelint-config@2.2.4) (2020-06-25)
 
