@@ -55,6 +55,8 @@ module.exports = {
         // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
         'testing-library/no-await-sync-events': 'error',
         'testing-library/no-wait-for-empty-callback': 'error',
+        // avoid side effects inside `waitFor`
+        'testing-library/no-wait-for-snapshot': 'error',
         // explicitly assert the element to prevent reader missed the test cases
         'testing-library/prefer-explicit-assert': 'error',
         // better error message
