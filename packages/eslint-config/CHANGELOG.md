@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.2.0...@foray1010/eslint-config@4.3.0) (2020-11-17)
+
+### Features
+
+- avoid side effects inside `waitFor` ([7fccfe7](https://github.com/foray1010/common-presets/commit/7fccfe733a08c385d87e7af17528ea79c6c5788b))
+- avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings ([a060161](https://github.com/foray1010/common-presets/commit/a060161efb9cef788b3a032fe7f00e2b431085f9))
+
 # [4.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.1.1...@foray1010/eslint-config@4.2.0) (2020-11-17)
 
 ### Features
