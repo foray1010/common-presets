@@ -52,6 +52,9 @@ module.exports = {
       extends: ['plugin:jest-dom/recommended', 'plugin:testing-library/react'],
       plugins: ['eslint-plugin-jest-dom', 'eslint-plugin-testing-library'],
       rules: {
+        // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
+        'testing-library/no-await-sync-events': 'error',
+        'testing-library/no-wait-for-empty-callback': 'error',
         // explicitly assert the element to prevent reader missed the test cases
         'testing-library/prefer-explicit-assert': 'error',
         // better error message
