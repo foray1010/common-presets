@@ -9,6 +9,7 @@ module.exports = {
     'eslint:recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
+    'plugin:jsdoc/recommended',
     'plugin:prettier/recommended',
     'eslint-config-prettier',
   ],
@@ -18,6 +19,7 @@ module.exports = {
   },
   plugins: [
     'eslint-plugin-import',
+    'eslint-plugin-jsdoc',
     'eslint-plugin-prettier',
     'eslint-plugin-simple-import-sort',
   ],
@@ -64,6 +66,8 @@ module.exports = {
         noUselessIndex: false,
       },
     ],
+    // do not enforce JSDoc for internal methods
+    'jsdoc/require-jsdoc': 'off',
     // auto sort import statements
     'simple-import-sort/sort': 'error',
     // commonjs must use strict mode
