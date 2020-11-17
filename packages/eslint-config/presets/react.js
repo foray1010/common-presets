@@ -1,7 +1,5 @@
 'use strict'
 
-const restrictedGlobals = require('confusing-browser-globals')
-
 const { testFileGlobs } = require('./utils/testUtil')
 
 module.exports = {
@@ -12,17 +10,17 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
-  env: {
-    browser: true,
-  },
+  plugins: [
+    'eslint-config-prettier',
+    'eslint-plugin-react',
+    'eslint-plugin-react-hooks',
+  ],
   settings: {
     react: {
       version: 'detect',
     },
   },
   rules: {
-    'no-restricted-globals': ['error', ...restrictedGlobals],
     'react/jsx-no-useless-fragment': 'error',
     'react/jsx-sort-props': [
       'error',
