@@ -8,8 +8,10 @@ module.exports = {
     // it requires `stylelint-config-prettier`
     'stylelint-prettier/recommended.js',
   ],
-
-  plugins: ['stylelint-no-unsupported-browser-features'],
+  plugins: [
+    'stylelint-no-indistinguishable-colors',
+    'stylelint-no-unsupported-browser-features',
+  ],
   rules: {
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
@@ -19,5 +21,6 @@ module.exports = {
         severity: 'warning',
       },
     ],
+    'plugin/stylelint-no-indistinguishable-colors': true,
   },
 }
