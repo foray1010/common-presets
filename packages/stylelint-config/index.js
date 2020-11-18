@@ -13,6 +13,8 @@ module.exports = {
     'stylelint-no-unsupported-browser-features',
   ],
   rules: {
+    // false alarms when use with `:root` selector
+    'no-descending-specificity': null,
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
     'plugin/no-unsupported-browser-features': [
