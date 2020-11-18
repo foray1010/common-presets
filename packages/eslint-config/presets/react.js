@@ -11,7 +11,7 @@ module.exports = {
     },
   },
   plugins: [
-    'eslint-config-prettier',
+    'eslint-plugin-prettier',
     'eslint-plugin-react',
     'eslint-plugin-react-hooks',
   ],
