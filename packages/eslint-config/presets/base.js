@@ -68,8 +68,10 @@ module.exports = {
     ],
     // do not enforce JSDoc for internal methods
     'jsdoc/require-jsdoc': 'off',
+    // auto sort export statements
+    'simple-import-sort/exports': 'error',
     // auto sort import statements
-    'simple-import-sort/sort': 'error',
+    'simple-import-sort/imports': 'error',
     // commonjs must use strict mode
     strict: ['error', 'global'],
   },
