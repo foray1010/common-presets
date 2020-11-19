@@ -31,8 +31,12 @@ module.exports = {
     'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
+    // make sure import statements above the others
+    'import/first': 'error',
     // doesn't work with redux-saga/effects
     'import/named': 'off',
+    // separate import statements from the others
+    'import/newline-after-import': 'error',
     // avoid anonymous function or class for easier to debug via stack trace
     // for other types, enforcing named data can improve autocomplete when importing
     'import/no-anonymous-default-export': [
