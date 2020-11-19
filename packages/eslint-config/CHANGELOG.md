@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.3.1...@foray1010/eslint-config@4.4.0) (2020-11-19)
+
+### Features
+
+- make sure import statements above the others with line break ([85ef3d2](https://github.com/foray1010/common-presets/commit/85ef3d2341fbb9819539081a83f4c53bc02595ca))
+- **eslint-config:** sort export statements ([78e4f6a](https://github.com/foray1010/common-presets/commit/78e4f6ae2ead8d13ba82c84dbfa68b5ee823a56f))
+
 ## [4.3.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.3.0...@foray1010/eslint-config@4.3.1) (2020-11-18)
 
 ### Bug Fixes
