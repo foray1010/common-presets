@@ -3,13 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@3.0.1...@foray1010/tsconfig@4.0.0) (2020-11-20)
+
+### Features
+
+- **tsconfig:** enable automatic react runtime ([2d4d672](https://github.com/foray1010/common-presets/commit/2d4d672d92581a065cc5267c74e8eaac30227a6e))
+
+### BREAKING CHANGES
+
+- **tsconfig:** require typescript >=4.1.2 and react >=17
+
 ## [3.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@3.0.0...@foray1010/tsconfig@3.0.1) (2020-08-26)
 
 **Note:** Version bump only for package @foray1010/tsconfig
-
-
-
-
 
 # [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@2.1.0...@foray1010/tsconfig@3.0.0) (2020-08-21)
 
