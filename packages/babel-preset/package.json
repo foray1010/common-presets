@@ -33,7 +33,7 @@
     "@babel/runtime": "^7.9.6",
     "core-js": ">=3 <4",
     "react": ">=17",
-    "typescript": ">=3.8.0"
+    "typescript": ">=4.1.2"
   },
   "engines": {
     "node": ">=10.13"
