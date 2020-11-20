@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.0.0...@foray1010/babel-preset@6.0.1) (2020-11-20)
+
+### Bug Fixes
+
+- should require typescript 4.1 instead of 3 ([9947270](https://github.com/foray1010/common-presets/commit/99472709058ad49682f7fdf09668662c57b5bd0e))
+
 # [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@5.2.6...@foray1010/babel-preset@6.0.0) (2020-11-10)
 
 ### Features
