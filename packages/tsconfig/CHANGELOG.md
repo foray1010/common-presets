@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@4.0.0...@foray1010/tsconfig@4.1.0) (2020-11-22)
+
+### Features
+
+- enable forceConsistentCasingInFileNames and skipLibCheck (follow @tsconfig/recommended) ([1f38aea](https://github.com/foray1010/common-presets/commit/1f38aea9bd52e62dbe9a1397a0b39a03efb87d7f))
+
 # [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@3.0.1...@foray1010/tsconfig@4.0.0) (2020-11-20)
 
 ### Features
