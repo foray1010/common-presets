@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
     "incremental": true,
     "isolatedModules": true,
@@ -11,6 +12,7 @@
     "noEmit": true,
     "noEmitOnError": true,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "strict": true,
     "target": "ES2020",
     "useDefineForClassFields": true
