@@ -34,11 +34,6 @@
       "pin": {
         "prPriority": 2
       },
-      "kubernetes": {
-        "fileMatch": [
-          "-deployment\\.yml$"
-        ]
-      },
       "packageRules": [
         {
           "packagePatterns": [
