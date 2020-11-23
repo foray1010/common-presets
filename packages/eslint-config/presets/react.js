@@ -10,11 +10,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [
-    'eslint-plugin-prettier',
-    'eslint-plugin-react',
-    'eslint-plugin-react-hooks',
-  ],
+  plugins: ['eslint-plugin-react', 'eslint-plugin-react-hooks'],
   settings: {
     react: {
       version: 'detect',
