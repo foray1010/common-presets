@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/package",
   "name": "@foray1010/renovate-config",
   "version": "1.2.0",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/renovate-config#readme",
