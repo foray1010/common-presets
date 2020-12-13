@@ -27,7 +27,7 @@
     "semver": "^7.3.2"
   },
   "devDependencies": {
-    "@babel/core": "7.12.9"
+    "@babel/core": "7.12.10"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
