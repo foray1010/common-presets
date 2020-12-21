@@ -18,10 +18,7 @@ const babelPreset = declare(function presetDefinitions(
 
   const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
   const isDev = env === 'development'
-  const isTest = env === 'test'
   const isProd = env === 'production'
-
-  const isCommonJS = isTest // as jest doesn't support ES modules
 
   const hasCoreJS = hasDep('core-js')
   const hasReact = hasDep('react')
@@ -38,7 +35,7 @@ const babelPreset = declare(function presetDefinitions(
         '@babel/preset-env',
         {
           bugfixes: true,
-          modules: isCommonJS ? 'commonjs' : false,
+          modules: 'auto',
           shippedProposals: true,
           targets: envTargets,
           ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
