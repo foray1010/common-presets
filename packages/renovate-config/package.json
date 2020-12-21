@@ -23,12 +23,12 @@
       ],
       "timezone": "Asia/Hong_Kong",
       "schedule": [
-        "after 2 am and before 7 am"
+        "after 2am and before 7am"
       ],
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "after 2 am and before 7 am on Monday"
+          "after 2am and before 7am on Monday"
         ],
         "prPriority": 1
       },
