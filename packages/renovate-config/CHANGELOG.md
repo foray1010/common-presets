@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.1...@foray1010/renovate-config@1.2.2) (2020-12-21)
+
+### Reverts
+
+- "style: fix grammar mistakes" ([4e9e86f](https://github.com/foray1010/common-presets/commit/4e9e86f883c022c4d50db881be2631a300ff0e6a))
+
 ## [1.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.0...@foray1010/renovate-config@1.2.1) (2020-12-21)
 
 **Note:** Version bump only for package @foray1010/renovate-config
