@@ -1,10 +1,21 @@
 'use strict'
 
+const { declare } = require('@babel/helper-plugin-utils')
 const { hasDep, pkg, pkgDir } = require('@foray1010/common-presets-utils')
 const browserslist = require('browserslist')
 const semver = require('semver')
 
-module.exports = () => {
+const Modules = {
+  CommonJS: 'commonjs',
+  ESModules: 'esmodules',
+}
+
+const babelPreset = declare(function presetDefinitions(
+  api,
+  { dependenciesModules = Modules.CommonJS },
+) {
+  api.assertVersion(7)
+
   const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
   const isDev = env === 'development'
   const isTest = env === 'test'
@@ -50,7 +61,12 @@ module.exports = () => {
       ],
     ].filter(Boolean),
     plugins: [
-      '@babel/plugin-transform-runtime',
+      [
+        '@babel/plugin-transform-runtime',
+        {
+          useESModules: dependenciesModules === Modules.ESModules,
+        },
+      ],
       ...(isProd && hasReact
         ? [
             '@babel/plugin-transform-react-constant-elements',
@@ -63,4 +79,6 @@ module.exports = () => {
         : []),
     ],
   }
-}
+})
+
+module.exports = babelPreset

@@ -15,6 +15,7 @@
     "*.js"
   ],
   "dependencies": {
+    "@babel/helper-plugin-utils": "^7.10.4",
     "@babel/plugin-transform-react-constant-elements": "^7.12.1",
     "@babel/plugin-transform-react-inline-elements": "^7.12.1",
     "@babel/plugin-transform-runtime": "^7.9.6",
