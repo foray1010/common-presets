@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.0.1...@foray1010/babel-preset@6.1.0) (2020-12-21)
+
+### Features
+
+- **babel-preset:** add options dependenciesModules ([233e7a3](https://github.com/foray1010/common-presets/commit/233e7a381f938347cb241c194affd83c484ad434))
+- **babel-preset:** use @babel/preset-env auto modules ([3596fdb](https://github.com/foray1010/common-presets/commit/3596fdb7fc7d56b739cc6f655482c82affdefabd))
+
 ## [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.0.0...@foray1010/babel-preset@6.0.1) (2020-11-20)
 
 ### Bug Fixes

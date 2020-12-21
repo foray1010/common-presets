@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.4.0...@foray1010/eslint-config@4.4.1) (2020-12-21)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to v7 ([7e57ccd](https://github.com/foray1010/common-presets/commit/7e57ccd12a3e40b83ca062377f8bf9c0da2bc607))
+- **deps:** update dependency eslint-plugin-simple-import-sort to v7 ([5514a06](https://github.com/foray1010/common-presets/commit/5514a06e4b6048fe848ec3d24e417568e3f2e127))
+
 # [4.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.3.1...@foray1010/eslint-config@4.4.0) (2020-11-19)
 
 ### Features

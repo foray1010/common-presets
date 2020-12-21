@@ -3,24 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.1.1...@foray1010/prettier-config@4.1.2) (2020-12-21)
+
+**Note:** Version bump only for package @foray1010/prettier-config
+
 ## [4.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.1.0...@foray1010/prettier-config@4.1.1) (2020-08-26)
 
 **Note:** Version bump only for package @foray1010/prettier-config
 
-
-
-
-
 # [4.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.0.2...@foray1010/prettier-config@4.1.0) (2020-07-13)
-
 
 ### Features
 
-* sort package.json via prettier ([11dff1f](https://github.com/foray1010/common-presets/commit/11dff1fd6f410274a3611bd69cc5fc142aad3722))
-
-
-
-
+- sort package.json via prettier ([11dff1f](https://github.com/foray1010/common-presets/commit/11dff1fd6f410274a3611bd69cc5fc142aad3722))
 
 ## [4.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.0.1...@foray1010/prettier-config@4.0.2) (2020-06-25)
 
