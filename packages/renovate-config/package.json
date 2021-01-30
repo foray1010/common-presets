@@ -37,14 +37,14 @@
       },
       "packageRules": [
         {
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "^@foray1010/.+(config|preset)$"
           ],
           "groupName": "@foray1010/common-presets monorepo",
           "stabilityDays": 0
         },
         {
-          "packagePatterns": [
+          "matchPackagePatterns": [
             "^@size-limit/",
             "^size-limit$"
           ],
