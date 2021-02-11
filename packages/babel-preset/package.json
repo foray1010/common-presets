@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@foray1010/babel-preset",
-  "version": "6.1.0",
+  "version": "6.1.1",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/babel-preset#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {
