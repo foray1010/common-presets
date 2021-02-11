@@ -7,6 +7,7 @@ const { testFileGlobs } = require('./utils/testUtil')
 module.exports = {
   extends: [
     'eslint:recommended',
+    'plugin:eslint-comments/recommended',
     'plugin:import/errors',
     'plugin:import/warnings',
     'plugin:jsdoc/recommended',
@@ -18,6 +19,7 @@ module.exports = {
     sourceType: 'script',
   },
   plugins: [
+    'eslint-plugin-eslint-comments',
     'eslint-plugin-import',
     'eslint-plugin-jsdoc',
     'eslint-plugin-prettier',
@@ -29,6 +31,8 @@ module.exports = {
   rules: {
     // always use named function for easier to debug via stack trace
     'func-names': ['error', 'as-needed'],
+    // make sure every eslint-disable comments are in use
+    'eslint-comments/no-unused-disable': 'error',
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
     // make sure import statements above the others
