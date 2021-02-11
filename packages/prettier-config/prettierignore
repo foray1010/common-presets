@@ -3,3 +3,5 @@ coverage/
 dist/
 node_modules/
 out/
+# do not format auto-generated files
+pnpm-lock.yaml
