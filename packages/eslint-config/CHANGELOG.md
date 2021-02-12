@@ -3,21 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [4.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.4.1...@foray1010/eslint-config@4.5.0) (2021-02-11)
-
+## [4.5.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.5.0...@foray1010/eslint-config@4.5.1) (2021-02-12)
 
 ### Bug Fixes
 
-* **deps:** update dependency eslint-plugin-jsdoc to v31 ([fb32330](https://github.com/foray1010/common-presets/commit/fb32330904f3635af35a42afd5195b4d6ae529d4))
+- allow disable eslint rules for whole file without re-enable it in the end of the file ([fb182ed](https://github.com/foray1010/common-presets/commit/fb182edddacafe769904f954a55ee1ba4a8022d8))
 
+# [4.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.4.1...@foray1010/eslint-config@4.5.0) (2021-02-11)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v31 ([fb32330](https://github.com/foray1010/common-presets/commit/fb32330904f3635af35a42afd5195b4d6ae529d4))
 
 ### Features
 
-* **eslint-config:** lint eslint comments ([ef45fc4](https://github.com/foray1010/common-presets/commit/ef45fc427cd142ec0280756e32e1f907f77f32fe))
-
-
-
-
+- **eslint-config:** lint eslint comments ([ef45fc4](https://github.com/foray1010/common-presets/commit/ef45fc427cd142ec0280756e32e1f907f77f32fe))
 
 ## [4.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.4.0...@foray1010/eslint-config@4.4.1) (2020-12-21)
 
