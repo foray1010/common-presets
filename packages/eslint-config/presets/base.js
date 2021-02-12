@@ -31,6 +31,8 @@ module.exports = {
   rules: {
     // always use named function for easier to debug via stack trace
     'func-names': ['error', 'as-needed'],
+    // allow disable eslint rules for whole file without re-enable it in the end of the file
+    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     // make sure every eslint-disable comments are in use
     'eslint-comments/no-unused-disable': 'error',
     // this rule doesn't support commonjs, some dependencies are using commonjs
