@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.4.2](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.4.1...@foray1010/remark-preset@3.4.2) (2021-02-23)
+
+### Bug Fixes
+
+- allow title case on file name ([804a8e9](https://github.com/foray1010/common-presets/commit/804a8e9ea98dfdd3e92cf5164fe74131d5018df6))
+
 ## [3.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.4.0...@foray1010/remark-preset@3.4.1) (2020-12-21)
 
 **Note:** Version bump only for package @foray1010/remark-preset

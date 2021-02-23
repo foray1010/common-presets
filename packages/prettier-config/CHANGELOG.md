@@ -3,16 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [4.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.1.2...@foray1010/prettier-config@4.2.0) (2021-02-11)
-
+# [4.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.2.0...@foray1010/prettier-config@4.3.0) (2021-02-23)
 
 ### Features
 
-* **prettier-config:** ignore pnpm-lock.yaml ([ca427b2](https://github.com/foray1010/common-presets/commit/ca427b230b9085df7e1952a0bcef4e4d74b6e45e))
+- ignore files under .yarn/ ([e3487a7](https://github.com/foray1010/common-presets/commit/e3487a7191307b311fcd4f53a08ec8fcbb9efc7a))
 
+# [4.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.1.2...@foray1010/prettier-config@4.2.0) (2021-02-11)
 
+### Features
 
-
+- **prettier-config:** ignore pnpm-lock.yaml ([ca427b2](https://github.com/foray1010/common-presets/commit/ca427b230b9085df7e1952a0bcef4e4d74b6e45e))
 
 ## [4.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.1.1...@foray1010/prettier-config@4.1.2) (2020-12-21)
 
