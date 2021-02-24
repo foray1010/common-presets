@@ -44,9 +44,11 @@
           "stabilityDays": 0
         },
         {
+          "matchPackageNames": [
+            "size-limit"
+          ],
           "matchPackagePatterns": [
-            "^@size-limit/",
-            "^size-limit$"
+            "^@size-limit/"
           ],
           "groupName": "size-limit monorepo"
         }
