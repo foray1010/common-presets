@@ -10,6 +10,7 @@ just put a `.renovaterc.json` in project root
 
 ```json
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["@foray1010/renovate-config"]
 }
 ```
