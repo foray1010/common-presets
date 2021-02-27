@@ -15,8 +15,8 @@
     "remark": "remark --frail --ignore-path=packages/remark-preset/remarkignore --ignore-path-resolve-from=cwd"
   },
   "devDependencies": {
-    "@commitlint/cli": "12.0.0",
-    "@commitlint/config-conventional": "12.0.0",
+    "@commitlint/cli": "12.0.1",
+    "@commitlint/config-conventional": "12.0.1",
     "eslint": "7.20.0",
     "husky": "5.1.1",
     "lerna": "3.22.1",
