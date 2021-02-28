@@ -3,13 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [1.2.3](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.2...@foray1010/renovate-config@1.2.3) (2021-02-11)
+## [1.2.4](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.3...@foray1010/renovate-config@1.2.4) (2021-02-28)
 
 **Note:** Version bump only for package @foray1010/renovate-config
 
+## [1.2.3](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.2...@foray1010/renovate-config@1.2.3) (2021-02-11)
 
-
-
+**Note:** Version bump only for package @foray1010/renovate-config
 
 ## [1.2.2](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.1...@foray1010/renovate-config@1.2.2) (2020-12-21)
 

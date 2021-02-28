@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.6.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.6.0...@foray1010/eslint-config@4.6.1) (2021-02-28)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to v8 ([#237](https://github.com/foray1010/common-presets/issues/237)) ([b827b6f](https://github.com/foray1010/common-presets/commit/b827b6f7d84dcaa0a6f44020b6a7eda85496efd4))
+
 # [4.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.5.1...@foray1010/eslint-config@4.6.0) (2021-02-23)
 
 ### Bug Fixes
