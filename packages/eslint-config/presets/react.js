@@ -3,7 +3,7 @@
 const { testFileGlobs } = require('./utils/testUtil')
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'eslint-config-prettier/react'],
+  extends: ['plugin:react/recommended', 'eslint-config-prettier'],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
