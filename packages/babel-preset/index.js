@@ -31,6 +31,13 @@ const babelPreset = declare(function presetDefinitions(
   api.assertVersion(7)
 
   const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
+  // enable in next major version
+  /*
+  if (!env) {
+    throw new Error('missing env: BABEL_ENV or NODE_ENV')
+  }
+  */
+
   const isDev = env === 'development'
   const isProd = env === 'production'
   const isTest = env === 'test'
