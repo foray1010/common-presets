@@ -33,6 +33,7 @@ const babelPreset = declare(function presetDefinitions(
   const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
   const isDev = env === 'development'
   const isProd = env === 'production'
+  const isTest = env === 'test'
 
   const hasCoreJS = hasDep('core-js')
   const hasReact = hasDep('react')
@@ -53,7 +54,7 @@ const babelPreset = declare(function presetDefinitions(
       hasReact && [
         '@babel/preset-react',
         {
-          development: isDev,
+          development: isDev || isTest,
           runtime: 'automatic',
           useSpread: true,
         },
