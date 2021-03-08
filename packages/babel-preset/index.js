@@ -10,6 +10,20 @@ const Modules = {
   ESModules: 'esmodules',
 }
 
+const getEnvTargets = () => {
+  const browsersConfig = browserslist.loadConfig({ path: pkgDir })
+  if (browsersConfig) {
+    return { browsers: browsersConfig }
+  }
+
+  const nodeVersionRange = pkg.engines.node
+  if (nodeVersionRange) {
+    return { node: semver.minVersion(pkg.engines.node).format() }
+  }
+
+  throw new Error('no browserslist nor engines.node is found')
+}
+
 const babelPreset = declare(function presetDefinitions(
   api,
   { dependenciesModules = Modules.CommonJS },
@@ -24,11 +38,6 @@ const babelPreset = declare(function presetDefinitions(
   const hasReact = hasDep('react')
   const hasTypeScript = hasDep('typescript')
 
-  const browsersConfig = browserslist.loadConfig({ path: pkgDir })
-  const envTargets = browsersConfig
-    ? { browsers: browsersConfig }
-    : { node: semver.minVersion(pkg.engines.node).format() }
-
   return {
     presets: [
       [
@@ -37,7 +46,7 @@ const babelPreset = declare(function presetDefinitions(
           bugfixes: true,
           modules: 'auto',
           shippedProposals: true,
-          targets: envTargets,
+          targets: getEnvTargets(),
           ...(hasCoreJS ? { corejs: 3, useBuiltIns: 'usage' } : null),
         },
       ],
