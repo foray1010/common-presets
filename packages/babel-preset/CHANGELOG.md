@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.1.3...@foray1010/babel-preset@6.2.0) (2021-03-08)
+
+### Bug Fixes
+
+- explicitly throw error when cannot get env targets ([10a4dc2](https://github.com/foray1010/common-presets/commit/10a4dc26966e5f9d295b4d6d5a58061cb79fd8ad))
+- remove optional peer dependencies from package.json ([886e5f1](https://github.com/foray1010/common-presets/commit/886e5f1ad9969dfc57a598dfc6ab77dc5bf7f401))
+
+### Features
+
+- enable react development mode for test env ([f6e260d](https://github.com/foray1010/common-presets/commit/f6e260dcf1d8919bb75f71e53cfb6fc2a02ae252))
+
 ## [6.1.3](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.1.2...@foray1010/babel-preset@6.1.3) (2021-02-28)
 
 **Note:** Version bump only for package @foray1010/babel-preset

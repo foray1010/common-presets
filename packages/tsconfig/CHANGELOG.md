@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@4.1.1...@foray1010/tsconfig@4.1.2) (2021-03-08)
+
+### Bug Fixes
+
+- remove optional peer dependencies from package.json ([886e5f1](https://github.com/foray1010/common-presets/commit/886e5f1ad9969dfc57a598dfc6ab77dc5bf7f401))
+
 ## [4.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@4.1.0...@foray1010/tsconfig@4.1.1) (2020-12-21)
 
 **Note:** Version bump only for package @foray1010/tsconfig
