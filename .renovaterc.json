@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["@foray1010/renovate-config"]
+  "extends": ["@foray1010/renovate-config"],
+  "packageRules": [
+    {
+      "description": "do not pin dev dependencies to avoid releasing new version",
+      "matchPaths": ["packages/*/package.json"],
+      "rangeStrategy": "replace"
+    }
+  ]
 }
