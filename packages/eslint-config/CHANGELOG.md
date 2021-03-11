@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.6.2...@foray1010/eslint-config@4.7.0) (2021-03-11)
+
+### Features
+
+- **eslint-config:** avoid assigning anonymous function to object key ([8747450](https://github.com/foray1010/common-presets/commit/874745030157e9386bd7b3fe40d29bde6811bfad))
+
 ## [4.6.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.6.1...@foray1010/eslint-config@4.6.2) (2021-03-08)
 
 ### Bug Fixes
