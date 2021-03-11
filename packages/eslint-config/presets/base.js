@@ -82,6 +82,14 @@ module.exports = {
     'simple-import-sort/exports': 'error',
     // auto sort import statements
     'simple-import-sort/imports': 'error',
+    // avoid assigning anonymous function to object key which is harder to trace when debug
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        avoidExplicitReturnArrows: true,
+      },
+    ],
     // commonjs must use strict mode
     strict: ['error', 'global'],
   },
