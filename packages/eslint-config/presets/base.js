@@ -138,6 +138,17 @@ module.exports = {
               // sometime it takes too much manpower to get the type right and may prefer to fix it later
               // also sometime the types from third-party libraries are wrong
               '@typescript-eslint/ban-ts-comment': 'off',
+              // encourage to use private accessibility modifier
+              '@typescript-eslint/explicit-member-accessibility': [
+                'error',
+                {
+                  accessibility: 'explicit',
+                  overrides: {
+                    // don't bother because it is always public
+                    constructors: 'off',
+                  },
+                },
+              ],
               // prefer auto detect
               '@typescript-eslint/explicit-module-boundary-types': 'off',
               // need empty function for react context default value
