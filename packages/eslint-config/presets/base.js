@@ -135,9 +135,6 @@ module.exports = {
             },
             plugins: ['@typescript-eslint/eslint-plugin'],
             rules: {
-              // sometime it takes too much manpower to get the type right and may prefer to fix it later
-              // also sometime the types from third-party libraries are wrong
-              '@typescript-eslint/ban-ts-comment': 'off',
               // encourage to use private accessibility modifier
               '@typescript-eslint/explicit-member-accessibility': [
                 'error',
