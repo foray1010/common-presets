@@ -146,7 +146,7 @@ module.exports = {
                   },
                 },
               ],
-              // prefer auto detect
+              // sometimes auto detect can provide a better and narrower type
               '@typescript-eslint/explicit-module-boundary-types': 'off',
               // need empty function for react context default value
               '@typescript-eslint/no-empty-function': 'off',
