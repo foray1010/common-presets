@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.8.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.8.0...@foray1010/eslint-config@4.8.1) (2021-03-17)
+
+### Bug Fixes
+
+- disable no-unnecessary-condition to prevent false alarms ([7bb9669](https://github.com/foray1010/common-presets/commit/7bb9669bf102027e1c2167616f2c975cf743c7b5))
+
 # [4.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.7.0...@foray1010/eslint-config@4.8.0) (2021-03-17)
 
 ### Features
