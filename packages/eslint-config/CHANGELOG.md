@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.7.0...@foray1010/eslint-config@4.8.0) (2021-03-17)
+
+### Features
+
+- ban [@ts-ignore](https://github.com/ts-ignore) and use [@ts-expect-error](https://github.com/ts-expect-error) with descriptions ([2768348](https://github.com/foray1010/common-presets/commit/2768348dd42b1ca11db3a0415e9dd9170c320edb))
+- encourage to check error type before use in catch clauses ([c8e4d17](https://github.com/foray1010/common-presets/commit/c8e4d17b2e3ec6e7c4a91bdda66e3d26ddb1d3f4))
+- encourage to use private accessibility modifier ([e798816](https://github.com/foray1010/common-presets/commit/e7988160677f79d5226eb1d687fe51a9b4f6f2fa))
+- prevent unnecessary optional chain ([7cda6c1](https://github.com/foray1010/common-presets/commit/7cda6c10ea55d22b92c9c96d460b198df5171729))
+
 # [4.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.6.2...@foray1010/eslint-config@4.7.0) (2021-03-11)
 
 ### Features
