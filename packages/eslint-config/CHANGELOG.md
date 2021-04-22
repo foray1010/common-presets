@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.8.1...@foray1010/eslint-config@4.9.0) (2021-04-22)
+
+### Features
+
+- enforce import with extension for esm ([298b4ac](https://github.com/foray1010/common-presets/commit/298b4ace6f3cd75051111675596ab9689a13b3b9))
+
 ## [4.8.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.8.0...@foray1010/eslint-config@4.8.1) (2021-03-17)
 
 ### Bug Fixes
