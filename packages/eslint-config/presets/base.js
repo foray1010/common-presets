@@ -4,6 +4,14 @@ const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
 const { testFileGlobs } = require('./utils/testUtil')
 
+const esmRules = {
+  'import/extensions': [
+    'error',
+    // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
+    'always',
+  ],
+}
+
 module.exports = {
   extends: [
     'eslint:recommended',
@@ -99,6 +107,7 @@ module.exports = {
       parserOptions: {
         sourceType: isESM() ? 'module' : 'script',
       },
+      rules: isESM() ? esmRules : {},
     },
     {
       files: ['*.cjs'],
@@ -111,6 +120,7 @@ module.exports = {
       parserOptions: {
         sourceType: 'module',
       },
+      rules: esmRules,
     },
     {
       files: testFileGlobs,
