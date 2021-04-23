@@ -37,12 +37,12 @@ module.exports = {
     es6: true,
   },
   rules: {
-    // always use named function for easier to debug via stack trace
-    'func-names': ['error', 'as-needed'],
     // allow disable eslint rules for whole file without re-enable it in the end of the file
     'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
     // make sure every eslint-disable comments are in use
     'eslint-comments/no-unused-disable': 'error',
+    // always use named function for easier to debug via stack trace
+    'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
     // make sure import statements above the others
@@ -86,10 +86,6 @@ module.exports = {
     ],
     // do not enforce JSDoc for internal methods
     'jsdoc/require-jsdoc': 'off',
-    // auto sort export statements
-    'simple-import-sort/exports': 'error',
-    // auto sort import statements
-    'simple-import-sort/imports': 'error',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': [
       'error',
@@ -98,6 +94,10 @@ module.exports = {
         avoidExplicitReturnArrows: true,
       },
     ],
+    // auto sort export statements
+    'simple-import-sort/exports': 'error',
+    // auto sort import statements
+    'simple-import-sort/imports': 'error',
     // commonjs must use strict mode
     strict: ['error', 'global'],
   },
