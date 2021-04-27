@@ -16,15 +16,15 @@
   ],
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.10.4",
-    "@babel/plugin-transform-react-constant-elements": "^7.12.1",
+    "@babel/plugin-transform-react-constant-elements": "^7.13.13",
     "@babel/plugin-transform-react-inline-elements": "^7.12.1",
-    "@babel/plugin-transform-runtime": "^7.9.6",
-    "@babel/preset-env": "^7.11.0",
-    "@babel/preset-react": "^7.12.5",
+    "@babel/plugin-transform-runtime": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.10.1",
     "@foray1010/common-presets-utils": "^2.1.2",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "browserslist": "^4.12.0",
+    "browserslist": "^4.16.5",
     "semver": "^7.3.2"
   },
   "peerDependencies": {
