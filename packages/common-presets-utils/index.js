@@ -9,8 +9,7 @@ const pkgDir = path.dirname(pkgPath)
 
 const hasDep = (packageName) =>
   [pkg.dependencies, pkg.devDependencies, pkg.peerDependencies]
-    .map((dependencies) => Object.keys(dependencies || {}))
-    .reduce((acc, dependencyNames) => acc.concat(dependencyNames), [])
+    .flatMap((dependencies) => Object.keys(dependencies || {}))
     .includes(packageName)
 
 const isESM = () => pkg.type === 'module'

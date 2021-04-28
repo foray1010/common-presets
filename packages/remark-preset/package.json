@@ -10,9 +10,9 @@
     "directory": "packages/remark-preset"
   },
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    "*.js",
+    "*.{cjs,js,mjs}",
     "remarkignore"
   ],
   "dependencies": {
@@ -28,7 +28,7 @@
     "remark-cli": ">=8"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=12.13"
   },
   "publishConfig": {
     "access": "public"

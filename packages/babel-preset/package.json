@@ -10,9 +10,9 @@
     "directory": "packages/babel-preset"
   },
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    "*.js"
+    "*.{cjs,js,mjs}"
   ],
   "dependencies": {
     "@babel/helper-plugin-utils": "^7.10.4",
@@ -32,7 +32,7 @@
     "@babel/runtime": "^7.9.6"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=12.13"
   },
   "publishConfig": {
     "access": "public"

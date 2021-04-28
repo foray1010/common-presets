@@ -10,9 +10,9 @@
     "directory": "packages/prettier-config"
   },
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    "*.js",
+    "*.{cjs,js,mjs}",
     "prettierignore"
   ],
   "dependencies": {
@@ -22,7 +22,7 @@
     "prettier": ">=2 <3"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=12.13"
   },
   "publishConfig": {
     "access": "public"

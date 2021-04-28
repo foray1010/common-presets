@@ -10,9 +10,9 @@
     "directory": "packages/stylelint-config"
   },
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    "*.js",
+    "*.{cjs,js,mjs}",
     "stylelintignore"
   ],
   "dependencies": {

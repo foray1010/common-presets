@@ -10,15 +10,15 @@
     "directory": "packages/common-presets-utils"
   },
   "license": "MIT",
-  "main": "index.js",
+  "exports": "./index.js",
   "files": [
-    "*.js"
+    "*.{cjs,js,mjs}"
   ],
   "dependencies": {
     "read-pkg-up": "^7.0.0"
   },
   "engines": {
-    "node": ">=10.13"
+    "node": ">=12.13"
   },
   "publishConfig": {
     "access": "public"
