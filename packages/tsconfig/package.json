@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "files": [
-    "tsconfig.json"
+    "**/*.{cjs,js,json,mjs}"
   ],
   "peerDependencies": {
     "typescript": ">=4.1.2"

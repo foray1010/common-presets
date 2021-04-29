@@ -15,8 +15,7 @@
     "./react": "./react.js"
   },
   "files": [
-    "presets/",
-    "*.{cjs,js,mjs}",
+    "**/*.{cjs,js,json,mjs}",
     "eslintignore"
   ],
   "dependencies": {

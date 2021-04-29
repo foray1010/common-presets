@@ -12,7 +12,7 @@
   "license": "MIT",
   "exports": "./index.js",
   "files": [
-    "*.{cjs,js,mjs}",
+    "**/*.{cjs,js,json,mjs}",
     "stylelintignore"
   ],
   "dependencies": {
