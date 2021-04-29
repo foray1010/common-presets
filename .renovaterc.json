@@ -1,4 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["@foray1010/renovate-config"]
+  "extends": ["@foray1010/renovate-config"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies", "peerDependencies"],
+      "pin": {
+        "enabled": false
+      }
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "pin": {
+        "enabled": true
+      }
+    }
+  ]
 }
