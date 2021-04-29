@@ -15,7 +15,7 @@
     "*.{cjs,js,mjs}"
   ],
   "dependencies": {
-    "read-pkg-up": "7.0.1"
+    "read-pkg-up": "^7.0.0"
   },
   "engines": {
     "node": ">=12.13"
