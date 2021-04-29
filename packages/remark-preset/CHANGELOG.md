@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.4.2...@foray1010/remark-preset@4.0.0) (2021-04-29)
+
+### ⚠ BREAKING CHANGES
+
+- drop node 10
+
+### Bug Fixes
+
+- cannot load remark preset ([fe2ec5f](https://github.com/foray1010/common-presets/commit/fe2ec5fb28c33b812643cdf057b89397eef892ef))
+
+### Miscellaneous Chores
+
+- drop node 10 ([fc35a40](https://github.com/foray1010/common-presets/commit/fc35a406c7da58a192e32929723ec46cc17ae219))
+
 ## [3.4.2](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@3.4.1...@foray1010/remark-preset@3.4.2) (2021-02-23)
 
 ### Bug Fixes

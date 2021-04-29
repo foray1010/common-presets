@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@2.1.2...@foray1010/common-presets-utils@3.0.0) (2021-04-29)
+
+### ⚠ BREAKING CHANGES
+
+- drop node 10
+
+### Miscellaneous Chores
+
+- drop node 10 ([fc35a40](https://github.com/foray1010/common-presets/commit/fc35a406c7da58a192e32929723ec46cc17ae219))
+
 ## [2.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@2.1.1...@foray1010/common-presets-utils@2.1.2) (2020-12-21)
 
 **Note:** Version bump only for package @foray1010/common-presets-utils

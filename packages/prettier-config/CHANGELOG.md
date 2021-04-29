@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.3.0...@foray1010/prettier-config@5.0.0) (2021-04-29)
+
+### ⚠ BREAKING CHANGES
+
+- drop node 10
+
+### Miscellaneous Chores
+
+- drop node 10 ([fc35a40](https://github.com/foray1010/common-presets/commit/fc35a406c7da58a192e32929723ec46cc17ae219))
+
 # [4.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@4.2.0...@foray1010/prettier-config@4.3.0) (2021-02-23)
 
 ### Features

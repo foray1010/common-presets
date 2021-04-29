@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@3.0.0...@foray1010/stylelint-config@4.0.0) (2021-04-29)
+
+### ⚠ BREAKING CHANGES
+
+- drop node 10
+- require node >=12.13 & stylelint >=13.13
+
+### Features
+
+- add more rules via stylelint-config-standard v22 ([b919a77](https://github.com/foray1010/common-presets/commit/b919a77c66518f016f1ec54f073feff55ec56068))
+
+### Miscellaneous Chores
+
+- drop node 10 ([fc35a40](https://github.com/foray1010/common-presets/commit/fc35a406c7da58a192e32929723ec46cc17ae219))
+
 # [3.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@2.3.2...@foray1010/stylelint-config@3.0.0) (2021-03-11)
 
 ### Features
