@@ -6,7 +6,8 @@
       "matchDepTypes": ["dependencies", "peerDependencies"],
       "pin": {
         "enabled": false
-      }
+      },
+      "rangeStrategy": "replace"
     },
     {
       "matchDepTypes": ["devDependencies"],
