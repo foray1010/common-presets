@@ -36,6 +36,16 @@
       },
       "packageRules": [
         {
+          "matchDepTypes": [
+            "docker"
+          ],
+          "matchPackagePatterns": [
+            "^circleci/"
+          ],
+          "enabled": false,
+          "description": "ensure we are testing with the oldest supported node version in CI"
+        },
+        {
           "matchPackagePatterns": [
             "^@foray1010/.+(config|preset)$"
           ],
