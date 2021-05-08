@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.2.6](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.5...@foray1010/renovate-config@1.2.6) (2021-05-08)
+
+### Bug Fixes
+
+- ensure we are testing with the oldest supported node version in CI ([8237a50](https://github.com/foray1010/common-presets/commit/8237a5073f8cd267fc42020df3b4f79fa3816c84))
+
 ### [1.2.5](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.4...@foray1010/renovate-config@1.2.5) (2021-04-29)
 
 **Note:** Version bump only for package @foray1010/renovate-config

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [5.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.0...@foray1010/eslint-config@5.0.1) (2021-05-08)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v33 ([8129f8f](https://github.com/foray1010/common-presets/commit/8129f8fc74380c7f6ccb5ac53cdae38b84068912))
+- **deps:** update dependency eslint-plugin-testing-library to v4.2.0 ([8767be6](https://github.com/foray1010/common-presets/commit/8767be64c0053c50a1f77f91d5d4fdc6173bd444))
+
 ## [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@4.9.0...@foray1010/eslint-config@5.0.0) (2021-04-29)
 
 ### ⚠ BREAKING CHANGES
