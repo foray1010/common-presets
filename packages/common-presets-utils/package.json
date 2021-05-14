@@ -12,7 +12,8 @@
   "license": "MIT",
   "exports": "./index.js",
   "files": [
-    "**/*.{cjs,js,json,mjs}"
+    "**/*.{cjs,js,json,mjs}",
+    "*.md"
   ],
   "dependencies": {
     "read-pkg-up": "^7.0.1"

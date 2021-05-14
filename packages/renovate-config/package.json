@@ -10,6 +10,9 @@
     "directory": "packages/renovate-config"
   },
   "license": "MIT",
+  "files": [
+    "*.md"
+  ],
   "publishConfig": {
     "access": "public"
   },

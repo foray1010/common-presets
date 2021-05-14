@@ -16,6 +16,7 @@
   },
   "files": [
     "**/*.{cjs,js,json,mjs}",
+    "*.md",
     "eslintignore"
   ],
   "dependencies": {
