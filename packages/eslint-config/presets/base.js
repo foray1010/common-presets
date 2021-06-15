@@ -140,6 +140,9 @@ module.exports = {
             ],
             parser: '@typescript-eslint/parser',
             parserOptions: {
+              // faster linting on cli
+              // https://github.com/typescript-eslint/typescript-eslint/issues/3528
+              allowAutomaticSingleRunInference: true,
               project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
               sourceType: 'module',
             },
