@@ -17,8 +17,8 @@
   "devDependencies": {
     "@babel/core": "7.14.8",
     "@babel/runtime": "7.14.8",
-    "@commitlint/cli": "12.1.4",
-    "@commitlint/config-conventional": "12.1.4",
+    "@commitlint/cli": "13.1.0",
+    "@commitlint/config-conventional": "13.1.0",
     "eslint": "7.31.0",
     "husky": "7.0.1",
     "lerna": "4.0.0",
