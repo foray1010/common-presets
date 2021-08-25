@@ -21,7 +21,8 @@
       "extends": [
         "config:base",
         ":automergeMinor",
-        ":assignAndReview(foray1010)"
+        ":assignAndReview(foray1010)",
+        ":disableDependencyDashboard"
       ],
       "timezone": "Asia/Hong_Kong",
       "schedule": [
