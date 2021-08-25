@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [5.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.1...@foray1010/eslint-config@5.0.2) (2021-08-25)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v34 ([7ea9378](https://github.com/foray1010/common-presets/commit/7ea937870d6e8bffd76f94eda43ec2d0ded0a859))
+- **deps:** update dependency eslint-plugin-jsdoc to v35 ([2e76ed2](https://github.com/foray1010/common-presets/commit/2e76ed2f13ad5ae6871c92eee2bc4b96c5a63ee9))
+- **deps:** update dependency eslint-plugin-jsdoc to v36 ([eb2f739](https://github.com/foray1010/common-presets/commit/eb2f739e70ee1c5273c2359a40e92c9e314e8878))
+- opt-in single run detection for type-aware linting ([41a9957](https://github.com/foray1010/common-presets/commit/41a9957474a454d0540868296dedb528e93f1dde))
+
 ### [5.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.0...@foray1010/eslint-config@5.0.1) (2021-05-08)
 
 ### Bug Fixes

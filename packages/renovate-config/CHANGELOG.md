@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [1.2.7](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.6...@foray1010/renovate-config@1.2.7) (2021-08-25)
+
+### Bug Fixes
+
+- **renovate-config:** disable dependency dashboard ([66b1c2e](https://github.com/foray1010/common-presets/commit/66b1c2ef1e73167be9607108c5d66e6a9ad0cfbe))
+
 ### [1.2.6](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.5...@foray1010/renovate-config@1.2.6) (2021-05-08)
 
 ### Bug Fixes

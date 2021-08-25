@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [4.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@4.0.0...@foray1010/stylelint-config@4.0.1) (2021-08-25)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-no-unsupported-browser-features to v5 ([81fc5ee](https://github.com/foray1010/common-presets/commit/81fc5ee2657d0e7ee9ad05a49c46386e3cc5e383))
+
 ## [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@3.0.0...@foray1010/stylelint-config@4.0.0) (2021-04-29)
 
 ### ⚠ BREAKING CHANGES

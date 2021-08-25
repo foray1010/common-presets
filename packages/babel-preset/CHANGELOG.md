@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [7.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@7.0.0...@foray1010/babel-preset@7.0.1) (2021-08-25)
+
+**Note:** Version bump only for package @foray1010/babel-preset
+
 ## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@6.2.0...@foray1010/babel-preset@7.0.0) (2021-04-29)
 
 ### ⚠ BREAKING CHANGES
