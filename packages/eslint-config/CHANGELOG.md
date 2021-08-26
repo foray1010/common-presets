@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [5.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.3...@foray1010/eslint-config@5.0.4) (2021-08-26)
+
+### Bug Fixes
+
+- disable @typescript-eslint/restrict-plus-operands ([7a8732d](https://github.com/foray1010/common-presets/commit/7a8732d11a23479a4a1a3bdc74e5f40a15d38da9))
+
 ### [5.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.2...@foray1010/eslint-config@5.0.3) (2021-08-26)
 
 ### Bug Fixes
