@@ -195,6 +195,9 @@ module.exports = {
                   typedefs: true,
                 },
               ],
+              // 1. mistakenly recognize string as any in 4.29.3
+              // 2. allow `any` to be used in template string
+              '@typescript-eslint/restrict-template-expressions': 'off',
               // redundant for composing functions
               '@typescript-eslint/unbound-method': 'off',
             },
