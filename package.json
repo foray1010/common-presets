@@ -20,7 +20,7 @@
     "@commitlint/cli": "13.1.0",
     "@commitlint/config-conventional": "13.1.0",
     "eslint": "7.32.0",
-    "husky": "7.0.1",
+    "husky": "7.0.2",
     "lerna": "4.0.0",
     "lint-staged": "11.1.1",
     "prettier": "2.3.2",
