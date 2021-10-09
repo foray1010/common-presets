@@ -131,7 +131,7 @@ module.exports = {
     ...(hasDep('typescript')
       ? [
           {
-            files: ['*.{ts,tsx}'],
+            files: ['*.{cts,mts,ts,tsx}'],
             extends: [
               'plugin:@typescript-eslint/recommended',
               'plugin:@typescript-eslint/recommended-requiring-type-checking',

@@ -4,6 +4,6 @@ const testFileGlobs = [
   '**/__fixtures__/**',
   '**/__mocks__/**',
   '**/__tests__/**',
-  '**/*.{spec,test}.{cjs,js,mjs,ts,tsx}',
+  '**/*.{spec,test}.{cjs,cts,js,mjs,mts,ts,tsx}',
 ]
 exports.testFileGlobs = testFileGlobs

@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "ci": "yarn lint:js && yarn lint:md",
-    "eslint": "eslint --ext=cjs,js,mjs,ts,tsx --ignore-path=packages/eslint-config/eslintignore",
+    "eslint": "eslint --ext=cjs,cts,js,mjs,mts,ts,tsx --ignore-path=packages/eslint-config/eslintignore",
     "postinstall": "husky install",
     "lint:js": "yarn eslint .",
     "lint:md": "yarn remark .",
