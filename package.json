@@ -15,7 +15,7 @@
     "remark": "remark --frail --ignore-path=packages/remark-preset/remarkignore --ignore-path-resolve-from=cwd"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
+    "@babel/core": "7.15.8",
     "@babel/runtime": "7.15.4",
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
