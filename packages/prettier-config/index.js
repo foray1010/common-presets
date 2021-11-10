@@ -2,9 +2,9 @@
 
 module.exports = {
   arrowParens: 'always',
+  bracketSameLine: false,
   bracketSpacing: true,
   endOfLine: 'lf',
-  jsxBracketSameLine: false,
   jsxSingleQuote: true,
   printWidth: 80,
   quoteProps: 'as-needed',
