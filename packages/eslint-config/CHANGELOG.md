@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.4...@foray1010/eslint-config@6.0.0) (2021-11-10)
+
+### ⚠ BREAKING CHANGES
+
+- only support node ^12.22.0 || ^14.17.0 || >=16.13.0
+- **deps:** require eslint >=7.28.0
+
+### Features
+
+- support .cts and .mts ([bac92f3](https://github.com/foray1010/common-presets/commit/bac92f3d9315af4b8a51848a0cb5c3061ef49f20))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jest to v25 ([8fb9f81](https://github.com/foray1010/common-presets/commit/8fb9f818e19cf8c3c7efa5c862adcb22c433c5e4))
+- **deps:** update dependency eslint-plugin-jsdoc to v37 ([bcd1cef](https://github.com/foray1010/common-presets/commit/bcd1cefb4b918cf70724c9849ac20746f0f15fa1))
+- **deps:** update dependency eslint-plugin-prettier to v4 ([aa2e33e](https://github.com/foray1010/common-presets/commit/aa2e33e7406739ddde0141a4ad9c77685e4b7d31))
+- **deps:** update dependency eslint-plugin-testing-library to v5 ([19f7db5](https://github.com/foray1010/common-presets/commit/19f7db54f1c4c5993d0b5f885ced436c06a4e3dd))
+- **deps:** update typescript-eslint monorepo to v5 ([36d4840](https://github.com/foray1010/common-presets/commit/36d4840c107d483780ee6cf0e227be73d82bb918))
+
+### Miscellaneous Chores
+
+- bump node version requirement ([6906953](https://github.com/foray1010/common-presets/commit/6906953ac0b781376d5c8a17d27faef6a457278a))
+
 ### [5.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.3...@foray1010/eslint-config@5.0.4) (2021-08-26)
 
 ### Bug Fixes

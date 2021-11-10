@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@4.0.1...@foray1010/stylelint-config@5.0.0) (2021-11-10)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** require stylelint >=14 <15
+- only support node ^12.22.0 || ^14.17.0 || >=16.13.0
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-prettier to v9 ([b2beb16](https://github.com/foray1010/common-presets/commit/b2beb16dd361bb234dc5be143ea0900a8617964f))
+- **deps:** update dependency stylelint-config-standard to v23 ([7dc379b](https://github.com/foray1010/common-presets/commit/7dc379bde264e7d0d9ccf42ee031c6a79d262e37))
+- **deps:** update dependency stylelint-prettier to v2 ([e17b4d2](https://github.com/foray1010/common-presets/commit/e17b4d2e5aa14f7fbcb73bd44edbfd75f4ea623a))
+
+### Miscellaneous Chores
+
+- bump node version requirement ([6906953](https://github.com/foray1010/common-presets/commit/6906953ac0b781376d5c8a17d27faef6a457278a))
+- **deps:** update dependency stylelint to v14 ([#346](https://github.com/foray1010/common-presets/issues/346)) ([cdd7a24](https://github.com/foray1010/common-presets/commit/cdd7a24d0411427ab4a0a3e6aec267f2fae79667))
+
 ### [4.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@4.0.0...@foray1010/stylelint-config@4.0.1) (2021-08-25)
 
 ### Bug Fixes
