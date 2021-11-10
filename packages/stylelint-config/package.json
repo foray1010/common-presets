@@ -27,7 +27,7 @@
   },
   "peerDependencies": {
     "prettier": ">=2 <3",
-    "stylelint": ">=13.13.0 <14"
+    "stylelint": ">=14 <15"
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
