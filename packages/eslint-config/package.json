@@ -39,7 +39,7 @@
     "eslint-plugin-testing-library": "^5.0.0"
   },
   "peerDependencies": {
-    "eslint": ">=7.28.0 <8",
+    "eslint": "<9",
     "prettier": ">=2 <3"
   },
   "engines": {
