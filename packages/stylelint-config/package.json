@@ -30,7 +30,7 @@
     "stylelint": ">=13.13.0 <14"
   },
   "engines": {
-    "node": ">=12.13"
+    "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
   },
   "publishConfig": {
     "access": "public"
