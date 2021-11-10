@@ -1,2 +1,2 @@
 plugins:
-  - './packages/remark-preset'
+  - './packages/remark-preset/index.js'
