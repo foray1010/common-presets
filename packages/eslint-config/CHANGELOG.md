@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.0.0...@foray1010/eslint-config@6.0.1) (2021-11-10)
+
+### Bug Fixes
+
+- replace @typescript-eslint/no-unused-vars-experimental by @typescript-eslint/no-unused-vars ([cdff12f](https://github.com/foray1010/common-presets/commit/cdff12fe2f503187a0e8b03588bdc79279fbfea2))
+
 ## [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@5.0.4...@foray1010/eslint-config@6.0.0) (2021-11-10)
 
 ### ⚠ BREAKING CHANGES
