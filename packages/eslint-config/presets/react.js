@@ -30,6 +30,8 @@ module.exports = {
         shorthandLast: false,
       },
     ],
+    // rely on typescript instead, and it does not work well with types that are imported from elsewhere
+    'react/prop-types': 'off',
     // because we are using automatic react runtime
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
