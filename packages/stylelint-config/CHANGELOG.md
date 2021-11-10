@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [5.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@5.0.0...@foray1010/stylelint-config@5.0.1) (2021-11-10)
+
+### Bug Fixes
+
+- do not enforce case for id and class ([83d7ebc](https://github.com/foray1010/common-presets/commit/83d7ebc3abfd0b9443c2a52cf320d7f306e77bd4))
+
 ## [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@4.0.1...@foray1010/stylelint-config@5.0.0) (2021-11-10)
 
 ### ⚠ BREAKING CHANGES
