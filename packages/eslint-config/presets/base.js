@@ -167,6 +167,8 @@ module.exports = {
               '@typescript-eslint/no-implicit-any-catch': 'error',
               // enforce correct usage of `void` type
               '@typescript-eslint/no-invalid-void-type': 'error',
+              // many false alarms
+              '@typescript-eslint/no-unsafe-argument': 'off',
               // some third party packages doesn't offer typings
               '@typescript-eslint/no-unsafe-assignment': 'off',
               // some third party packages doesn't offer typings
