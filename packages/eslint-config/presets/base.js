@@ -175,6 +175,8 @@ module.exports = {
               '@typescript-eslint/no-unsafe-member-access': 'off',
               // some third party packages doesn't offer typings
               '@typescript-eslint/no-unsafe-return': 'off',
+              // must remove unused variables and types
+              '@typescript-eslint/no-unused-vars': 'error',
               // do not block functions referring to other functions
               '@typescript-eslint/no-use-before-define': [
                 'error',
