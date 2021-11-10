@@ -17,6 +17,10 @@ module.exports = {
     'no-descending-specificity': null,
     // if used with styled-component, not every js files have styles
     'no-empty-source': null,
+    // do not enforce case for class as camel case is more convenient to use in react
+    'selector-class-pattern': null,
+    // do not enforce case for id
+    'selector-id-pattern': null,
     'plugin/no-unsupported-browser-features': [
       true,
       {
