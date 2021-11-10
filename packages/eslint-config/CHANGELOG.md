@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.0.1...@foray1010/eslint-config@6.1.0) (2021-11-10)
+
+### Features
+
+- use error level for @typescript-eslint/no-unused-vars ([c635963](https://github.com/foray1010/common-presets/commit/c635963db88a75d8a0c61fda55f8e4c61b33766f))
+
+### Bug Fixes
+
+- disable @typescript-eslint/no-unsafe-argument ([ecad97d](https://github.com/foray1010/common-presets/commit/ecad97d960ab4545f981e79b7c24589ff150f7e1))
+- disable buggy react/prop-types ([bec417b](https://github.com/foray1010/common-presets/commit/bec417b909c9abf9b54dcff298c250f1430d318e))
+
 ### [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.0.0...@foray1010/eslint-config@6.0.1) (2021-11-10)
 
 ### Bug Fixes
