@@ -19,7 +19,7 @@
     "@babel/runtime": "7.16.5",
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0",
-    "eslint": "8.4.1",
+    "eslint": "8.5.0",
     "husky": "7.0.2",
     "lerna": "4.0.0",
     "lint-staged": "12.1.2",
