@@ -24,14 +24,14 @@
         ":assignAndReview(foray1010)",
         ":disableDependencyDashboard"
       ],
-      "timezone": "Asia/Hong_Kong",
+      "timezone": "Etc/UTC",
       "schedule": [
-        "after 2am and before 7am"
+        "after 12am and before 5am"
       ],
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "after 2am and before 7am on Monday"
+          "after 12am and before 5am on Monday"
         ],
         "prPriority": 1
       },
