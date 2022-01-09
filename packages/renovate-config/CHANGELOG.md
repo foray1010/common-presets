@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.7...@foray1010/renovate-config@1.3.0) (2022-01-09)
+
+### Features
+
+- update renovate scheduled time ([66c18a8](https://github.com/foray1010/common-presets/commit/66c18a8bc635e3003d8053e44e6431be2dd697a1))
+
 ### [1.2.7](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.2.6...@foray1010/renovate-config@1.2.7) (2021-08-25)
 
 ### Bug Fixes
