@@ -22,7 +22,7 @@
     "eslint": "8.9.0",
     "husky": "7.0.2",
     "lerna": "4.0.0",
-    "lint-staged": "12.3.3",
+    "lint-staged": "12.3.4",
     "prettier": "2.5.1",
     "remark-cli": "10.0.1",
     "stylelint": "14.5.0",
