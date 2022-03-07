@@ -167,6 +167,11 @@ module.exports = {
               '@typescript-eslint/no-implicit-any-catch': 'error',
               // enforce correct usage of `void` type
               '@typescript-eslint/no-invalid-void-type': 'error',
+              // allow using async function as event handler in frontend
+              '@typescript-eslint/no-misused-promises': [
+                'error',
+                { checksVoidReturn: false },
+              ],
               // many false alarms
               '@typescript-eslint/no-unsafe-argument': 'off',
               // some third party packages doesn't offer typings
