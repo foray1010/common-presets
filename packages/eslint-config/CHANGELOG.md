@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [6.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.1...@foray1010/eslint-config@6.1.2) (2022-03-07)
+
+### Bug Fixes
+
+- allow using async function as event handler in frontend ([6722b08](https://github.com/foray1010/common-presets/commit/6722b08a659e82bfdc8cba8fc1d0c9cd1d396d03))
+- **deps:** update dependency eslint-plugin-jest to v26 ([cee6be9](https://github.com/foray1010/common-presets/commit/cee6be913cee626709053989f2545780e0d46bb0))
+
 ### [6.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.0...@foray1010/eslint-config@6.1.1) (2022-01-09)
 
 ### Bug Fixes
