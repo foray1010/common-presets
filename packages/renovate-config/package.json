@@ -44,7 +44,7 @@
             "docker"
           ],
           "matchPackagePatterns": [
-            "^circleci/"
+            "^cimg/"
           ],
           "enabled": false,
           "description": "ensure we are testing with the oldest supported node version in CI"
