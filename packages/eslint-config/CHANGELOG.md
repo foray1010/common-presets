@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [6.1.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.2...@foray1010/eslint-config@6.1.3) (2022-03-20)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v38 ([294bd8b](https://github.com/foray1010/common-presets/commit/294bd8b03ee7c94e6e2fe6aad4a60c4d3654c7ca))
+
 ### [6.1.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.1...@foray1010/eslint-config@6.1.2) (2022-03-07)
 
 ### Bug Fixes
