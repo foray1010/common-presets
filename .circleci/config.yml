@@ -2,14 +2,15 @@ version: 2
 jobs:
   build:
     docker:
-      - image: 'cimg/node:14.19'
+      - image: 'circleci/node:14'
     steps:
       - 'checkout'
       - restore_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
-      - run: 'corepack yarn install --immutable'
+      - run: 'yarn install --frozen-lockfile'
+      - run: 'yarn lerna bootstrap'
       - save_cache:
           key: 'yarn-packages-{{ checksum "yarn.lock" }}'
           paths:
-            - '.yarn/cache'
-      - run: 'corepack yarn ci'
+            - '~/.cache/yarn'
+      - run: 'yarn ci'

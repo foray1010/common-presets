@@ -6,11 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "ci": "corepack yarn lint:js && corepack yarn lint:md",
+    "ci": "yarn lint:js && yarn lint:md",
     "eslint": "eslint --ext=cjs,cts,js,mjs,mts,ts,tsx --ignore-path=packages/eslint-config/eslintignore",
     "postinstall": "husky install",
-    "lint:js": "corepack yarn eslint .",
-    "lint:md": "corepack yarn remark .",
+    "lint:js": "yarn eslint .",
+    "lint:md": "yarn remark .",
     "prettier": "prettier --ignore-path=packages/prettier-config/prettierignore",
     "remark": "remark --frail --ignore-path=packages/remark-preset/remarkignore --ignore-path-resolve-from=cwd"
   },
@@ -30,6 +30,5 @@
   },
   "engines": {
     "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
-  },
-  "packageManager": "yarn@3.2.0"
+  }
 }
