@@ -2,11 +2,14 @@
 
 module.exports = {
   '*.{cjs,cts,js,mjs,mts,ts,tsx}': [
-    'yarn prettier --write',
-    'yarn eslint --fix',
+    'corepack yarn prettier --write',
+    'corepack yarn eslint --fix',
   ],
-  '*.{json,yaml,yml}': 'yarn prettier --write',
+  '*.{json,yaml,yml}': 'corepack yarn prettier --write',
   '*.{markdown,md}'(filenames) {
-    return [`yarn prettier --write ${filenames.join(' ')}`, 'yarn remark .']
+    return [
+      `corepack yarn prettier --write ${filenames.join(' ')}`,
+      'corepack yarn remark .',
+    ]
   },
 }
