@@ -60,6 +60,8 @@ module.exports = {
         'testing-library/prefer-presence-queries': 'error',
         // using `screen` to avoid name collision
         'testing-library/prefer-screen-queries': 'error',
+        // prefer @testing-library/user-event over fireEvent
+        'testing-library/prefer-user-event': 'error',
         // as `wait` is deprecated
         'testing-library/prefer-wait-for': 'error',
       },
