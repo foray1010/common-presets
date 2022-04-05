@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.3...@foray1010/eslint-config@6.2.0) (2022-04-05)
+
+### Features
+
+- enable testing-library/prefer-user-event ([5a1de13](https://github.com/foray1010/common-presets/commit/5a1de1348fbc591a35559d5710185487d6b31a87))
+
+### Bug Fixes
+
+- disable no-await-sync-events for @testing-library/user-event v14 ([372a3b5](https://github.com/foray1010/common-presets/commit/372a3b597f5cca2f53bbc895cd0e3da3c051263a))
+
 ### [6.1.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.2...@foray1010/eslint-config@6.1.3) (2022-03-20)
 
 ### Bug Fixes

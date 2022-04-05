@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [5.0.5](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@5.0.4...@foray1010/stylelint-config@5.0.5) (2022-04-05)
+
+### Bug Fixes
+
+- remove unmaintained stylelint-no-indistinguishable-colors ([8f52c6e](https://github.com/foray1010/common-presets/commit/8f52c6e5f237307d5c5c9aff2f76f98fbe26b4da))
+
 ### [5.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@5.0.3...@foray1010/stylelint-config@5.0.4) (2022-03-20)
 
 ### Bug Fixes
