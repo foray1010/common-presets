@@ -51,7 +51,6 @@ module.exports = {
       plugins: ['eslint-plugin-jest-dom', 'eslint-plugin-testing-library'],
       rules: {
         // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
-        'testing-library/no-await-sync-events': 'error',
         'testing-library/no-wait-for-empty-callback': 'error',
         // avoid side effects inside `waitFor`
         'testing-library/no-wait-for-snapshot': 'error',
