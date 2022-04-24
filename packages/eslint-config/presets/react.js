@@ -3,7 +3,11 @@
 const { testFileGlobs } = require('./utils/testUtil')
 
 module.exports = {
-  extends: ['plugin:react/recommended', 'eslint-config-prettier'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react/jsx-runtime',
+    'eslint-config-prettier',
+  ],
   parserOptions: {
     sourceType: 'module',
     ecmaFeatures: {
@@ -32,8 +36,6 @@ module.exports = {
     ],
     // rely on typescript instead, and it does not work well with types that are imported from elsewhere
     'react/prop-types': 'off',
-    // because we are using automatic react runtime
-    'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': [
       'error',
