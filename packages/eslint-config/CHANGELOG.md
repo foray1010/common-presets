@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.2.0...@foray1010/eslint-config@6.3.0) (2022-04-25)
+
+### Features
+
+- enable testing-library/no-global-regexp-flag-in-query ([6343da2](https://github.com/foray1010/common-presets/commit/6343da2038fca9c5ef03aa2ae02129f42ff00b82))
+- reenable testing-library/no-await-sync-events for fire events only ([966eb24](https://github.com/foray1010/common-presets/commit/966eb24ad9c3f7b15cb3c856de61516dace2075b))
+
+### Bug Fixes
+
+- **eslint-config:** use jsx-runtime config from react plugin ([806e1ab](https://github.com/foray1010/common-presets/commit/806e1ab25ac42b0bb5a269e01eef659bc12aa616))
+
 ## [6.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.1.3...@foray1010/eslint-config@6.2.0) (2022-04-05)
 
 ### Features
