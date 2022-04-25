@@ -21,7 +21,13 @@ module.exports = {
     },
   },
   rules: {
-    'react/jsx-no-useless-fragment': 'error',
+    'react/jsx-no-useless-fragment': [
+      'error',
+      {
+        // allow unnecessary fragment for single expression to bypass some typescript errors (e.g. do not allow string and only allow react element)
+        allowExpressions: true,
+      },
+    ],
     'react/jsx-sort-props': [
       'error',
       {
