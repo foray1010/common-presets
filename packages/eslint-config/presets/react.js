@@ -52,6 +52,13 @@ module.exports = {
       extends: ['plugin:jest-dom/recommended', 'plugin:testing-library/react'],
       plugins: ['eslint-plugin-jest-dom', 'eslint-plugin-testing-library'],
       rules: {
+        // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
+        'testing-library/no-await-sync-events': [
+          'error',
+          {
+            eventModules: ['fire-event'],
+          },
+        ],
         // global flag /g holds state and might cause false-positives while querying for elements
         'testing-library/no-global-regexp-flag-in-query': 'error',
         // explicitly assert the element to prevent reader missed the test cases
