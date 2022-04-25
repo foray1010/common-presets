@@ -54,16 +54,8 @@ module.exports = {
       rules: {
         // global flag /g holds state and might cause false-positives while querying for elements
         'testing-library/no-global-regexp-flag-in-query': 'error',
-        // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
-        'testing-library/no-wait-for-empty-callback': 'error',
-        // avoid side effects inside `waitFor`
-        'testing-library/no-wait-for-snapshot': 'error',
         // explicitly assert the element to prevent reader missed the test cases
         'testing-library/prefer-explicit-assert': 'error',
-        // better error message
-        'testing-library/prefer-presence-queries': 'error',
-        // using `screen` to avoid name collision
-        'testing-library/prefer-screen-queries': 'error',
         // prefer @testing-library/user-event over fireEvent
         'testing-library/prefer-user-event': 'error',
         // as `wait` is deprecated
