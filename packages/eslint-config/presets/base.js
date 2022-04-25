@@ -124,8 +124,12 @@ module.exports = {
     },
     {
       files: testFileGlobs,
-      extends: ['plugin:jest/recommended'],
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
       plugins: ['eslint-plugin-jest'],
+      rules: {
+        // make sure lifecycle hooks on the top for readability
+        'jest/prefer-hooks-on-top': 'error',
+      },
     },
     // typescript plugins are depended on `typescript` package
     ...(hasDep('typescript')
