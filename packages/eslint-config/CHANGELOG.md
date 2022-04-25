@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+### [6.3.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.3.0...@foray1010/eslint-config@6.3.1) (2022-04-25)
+
+### Bug Fixes
+
+- allow unnecessary fragment for single expression ([3208164](https://github.com/foray1010/common-presets/commit/320816415a3554c96a71275b0f36444bc9495259))
+
 ## [6.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.2.0...@foray1010/eslint-config@6.3.0) (2022-04-25)
 
 ### Features
