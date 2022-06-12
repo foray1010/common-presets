@@ -47,8 +47,6 @@ module.exports = {
     'import/default': 'off',
     // make sure import statements above the others
     'import/first': 'error',
-    // doesn't work with redux-saga/effects
-    'import/named': 'off',
     // separate import statements from the others
     'import/newline-after-import': 'error',
     // avoid anonymous function or class for easier to debug via stack trace
