@@ -210,8 +210,6 @@ module.exports = {
               {
                 files: testFileGlobs,
                 rules: {
-                  // testing-library's `act` may or may not response promise, this rule produces false alarm
-                  '@typescript-eslint/no-floating-promises': 'off',
                   // doesn't work with jest.fn<void>()
                   '@typescript-eslint/no-invalid-void-type': 'off',
                 },
