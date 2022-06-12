@@ -29,7 +29,7 @@
     "remark-cli": ">=10"
   },
   "engines": {
-    "node": "^12.22.0 || ^14.17.0 || >=16.13.0"
+    "node": "^14.17.0 || >=16.13.0 || >=18.0.0"
   },
   "publishConfig": {
     "access": "public"
