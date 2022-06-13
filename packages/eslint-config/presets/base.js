@@ -190,10 +190,18 @@ module.exports = {
               '@typescript-eslint/no-use-before-define': [
                 'error',
                 {
+                  /* options from eslint/no-use-before-define */
+                  // allow use function before defined as they could be hoisted
                   functions: false,
                   classes: true,
                   variables: true,
-                  typedefs: true,
+
+                  /* options from @typescript-eslint/no-use-before-define */
+                  enums: true,
+                  // confusing option, it will disable `typedefs`
+                  ignoreTypeReferences: false,
+                  // tsc allows types to be used before define
+                  typedefs: false,
                 },
               ],
               // fault alarms in 4.29.3
