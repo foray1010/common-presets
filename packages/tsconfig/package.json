@@ -15,7 +15,7 @@
     "*.md"
   ],
   "peerDependencies": {
-    "typescript": ">=4.1.2"
+    "typescript": "^4.1.2"
   },
   "engines": {
     "node": "^14.17.0 || >=16.13.0 || >=18.0.0"
