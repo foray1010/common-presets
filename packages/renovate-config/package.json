@@ -26,15 +26,15 @@
       ],
       "timezone": "Etc/UTC",
       "schedule": [
-        "after 12am and before 5am"
+        "after 12am and before 4am"
       ],
       "automergeSchedule": [
-        "after 5am and before 8am"
+        "after 4am and before 7am"
       ],
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "after 12am and before 5am on Monday"
+          "after 12am and before 4am on Monday"
         ],
         "prPriority": 1
       },
