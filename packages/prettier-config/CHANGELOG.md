@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@7.0.0...@foray1010/prettier-config@7.0.1) (2022-06-13)
+
+### Bug Fixes
+
+- should drop node 17 in version range ([0e911fd](https://github.com/foray1010/common-presets/commit/0e911fd737e472d699bfc32d866067ed6ccfa269))
+
 ## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@6.0.1...@foray1010/prettier-config@7.0.0) (2022-06-13)
 
 ### ⚠ BREAKING CHANGES
