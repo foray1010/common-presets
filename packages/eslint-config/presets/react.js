@@ -6,6 +6,7 @@ module.exports = {
   extends: [
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
+    'plugin:react-hooks/recommended',
     'eslint-config-prettier',
   ],
   parserOptions: {
@@ -42,7 +43,6 @@ module.exports = {
     ],
     // rely on typescript instead, and it does not work well with types that are imported from elsewhere
     'react/prop-types': 'off',
-    'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': [
       'error',
       {
