@@ -6,7 +6,8 @@
         "**/__fixtures__/**",
         "**/__mocks__/**",
         "**/__tests__/**",
-        "**/*.{spec,test}.{cjs,cts,js,mjs,mts,ts,tsx}"
+        "**/*.{spec,test}.{cjs,cts,js,mjs,mts,ts,tsx}",
+        "CHANGELOG.md"
       ]
     },
     "version": {
