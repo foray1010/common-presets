@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.4.0...@foray1010/eslint-config@7.0.0) (2022-06-13)
+
+### ⚠ BREAKING CHANGES
+
+- drop support for typescript >=5
+- drop eslint 7
+- drop node 12 and 17
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v39 ([f868271](https://github.com/foray1010/common-presets/commit/f8682716ee922a6a517d5c0173390dec0bd2e346))
+- reenable import/named ([62fe238](https://github.com/foray1010/common-presets/commit/62fe2389b852749d63735b02e4898708a132b522))
+- reenable no-floating-promises for test files ([3a03ad8](https://github.com/foray1010/common-presets/commit/3a03ad8e13f2b2440babc96880cd290f4ea6b386))
+- replace eslint-plugin-node by eslint-plugin-n ([764320c](https://github.com/foray1010/common-presets/commit/764320cc26795c245008ce5bdbb87662e5dbae60))
+
+### Miscellaneous Chores
+
+- drop eslint 7 ([543fd6a](https://github.com/foray1010/common-presets/commit/543fd6a702596e5e447a0797a4713d2f08478ecb))
+- drop node 12 and 17 ([c43351e](https://github.com/foray1010/common-presets/commit/c43351e0da92209fc3100d9cb1bc129af320fdac))
+- remove peerDependencies versions that are not sure if supported ([2175adb](https://github.com/foray1010/common-presets/commit/2175adb62efe7d1762f6f66ce9bb0e7adb5f82e5))
+
 ## [6.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@6.3.1...@foray1010/eslint-config@6.4.0) (2022-04-25)
 
 ### Features

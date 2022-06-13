@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@5.0.5...@foray1010/stylelint-config@6.0.0) (2022-06-13)
+
+### ⚠ BREAKING CHANGES
+
+- drop support for typescript >=5
+- **deps:** drop stylelint <14.9.0
+- drop node 12 and 17
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-standard to v26 ([bd9dd3b](https://github.com/foray1010/common-presets/commit/bd9dd3b4b9635dfee022c26d74d182da4bf8c391))
+
+### Miscellaneous Chores
+
+- drop node 12 and 17 ([c43351e](https://github.com/foray1010/common-presets/commit/c43351e0da92209fc3100d9cb1bc129af320fdac))
+- remove peerDependencies versions that are not sure if supported ([2175adb](https://github.com/foray1010/common-presets/commit/2175adb62efe7d1762f6f66ce9bb0e7adb5f82e5))
+
 ### [5.0.5](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@5.0.4...@foray1010/stylelint-config@5.0.5) (2022-04-05)
 
 ### Bug Fixes

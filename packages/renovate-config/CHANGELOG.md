@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.4.0...@foray1010/renovate-config@1.4.1) (2022-06-13)
+
+### Bug Fixes
+
+- update automerge schedule ([6dd9e95](https://github.com/foray1010/common-presets/commit/6dd9e958f2996577d76f1f76463d8f6f6a958e44))
+
 ## [1.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.3.1...@foray1010/renovate-config@1.4.0) (2022-06-01)
 
 ### Features

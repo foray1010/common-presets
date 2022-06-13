@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@8.0.0...@foray1010/babel-preset@9.0.0) (2022-06-13)
+
+### ⚠ BREAKING CHANGES
+
+- drop node 12 and 17
+
+### Miscellaneous Chores
+
+- drop node 12 and 17 ([c43351e](https://github.com/foray1010/common-presets/commit/c43351e0da92209fc3100d9cb1bc129af320fdac))
+
 ## [8.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@7.0.1...@foray1010/babel-preset@8.0.0) (2021-11-10)
 
 ### ⚠ BREAKING CHANGES
