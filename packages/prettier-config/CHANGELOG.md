@@ -7,13 +7,11 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### ⚠ BREAKING CHANGES
 
-- drop support for typescript >=5
 - drop node 12 and 17
 
 ### Miscellaneous Chores
 
 - drop node 12 and 17 ([c43351e](https://github.com/foray1010/common-presets/commit/c43351e0da92209fc3100d9cb1bc129af320fdac))
-- remove peerDependencies versions that are not sure if supported ([2175adb](https://github.com/foray1010/common-presets/commit/2175adb62efe7d1762f6f66ce9bb0e7adb5f82e5))
 
 ### [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@6.0.0...@foray1010/prettier-config@6.0.1) (2021-11-10)
 
