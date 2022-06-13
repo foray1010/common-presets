@@ -16,8 +16,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:eslint-comments/recommended',
-    'plugin:import/errors',
-    'plugin:import/warnings',
+    'plugin:import/recommended',
     'plugin:jsdoc/recommended',
     'plugin:prettier/recommended',
     'eslint-config-prettier',
