@@ -43,6 +43,8 @@ module.exports = {
     ],
     // rely on typescript instead, and it does not work well with types that are imported from elsewhere
     'react/prop-types': 'off',
+    // avoid unnecessary closing tags
+    'react/self-closing-comp': 'error',
     'react-hooks/exhaustive-deps': [
       'error',
       {
