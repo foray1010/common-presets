@@ -21,7 +21,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "eslint": "8.19.0",
     "husky": "8.0.1",
-    "lerna": "5.1.6",
+    "lerna": "5.1.8",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "remark-cli": "10.0.1",
