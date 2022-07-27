@@ -149,6 +149,11 @@ module.exports = {
             },
             plugins: ['@typescript-eslint/eslint-plugin'],
             rules: {
+              // separate type imports which allow certain optimizations within compilers
+              '@typescript-eslint/consistent-type-imports': [
+                'error',
+                { prefer: 'type-imports' },
+              ],
               // encourage to use private accessibility modifier
               '@typescript-eslint/explicit-member-accessibility': [
                 'error',
