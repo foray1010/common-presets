@@ -208,9 +208,17 @@ module.exports = {
               ],
               // fault alarms in 4.29.3
               '@typescript-eslint/restrict-plus-operands': 'off',
-              // 1. mistakenly recognize string as any in 4.29.3
-              // 2. allow `any` to be used in template string
-              '@typescript-eslint/restrict-template-expressions': 'off',
+              // allow primitive value in template string
+              '@typescript-eslint/restrict-template-expressions': [
+                'error',
+                {
+                  allowNumber: true,
+                  allowBoolean: true,
+                  allowAny: true, // mistakenly recognize string as any in 4.29.3
+                  allowNullish: true,
+                  allowRegExp: true,
+                },
+              ],
               // redundant for composing functions
               '@typescript-eslint/unbound-method': 'off',
             },
