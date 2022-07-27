@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.1.0...@foray1010/eslint-config@7.2.0) (2022-07-27)
+
+### Features
+
+- **eslint-config:** reenable @typescript-eslint/restrict-template-expressions ([772d768](https://github.com/foray1010/common-presets/commit/772d76811189b79efc0c49dcb4225ca6741da26c))
+- **eslint-config:** reenable @typescript-eslint/unbound-method ([8451f92](https://github.com/foray1010/common-presets/commit/8451f92d0a983a84bbb7181d75652bab84e6bedc))
+- **eslint-config:** separate type imports which allow certain optimizations within compilers ([15a15c9](https://github.com/foray1010/common-presets/commit/15a15c9f57dc9b58e52109d523b95df15c725b8e))
+
 ## [7.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.0.1...@foray1010/eslint-config@7.1.0) (2022-06-14)
 
 ### Features
