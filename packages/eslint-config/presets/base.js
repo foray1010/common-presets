@@ -219,8 +219,13 @@ module.exports = {
                   allowRegExp: true,
                 },
               ],
-              // redundant for composing functions
-              '@typescript-eslint/unbound-method': 'off',
+              // ignore static function as those are not supposed to use `this`
+              '@typescript-eslint/unbound-method': [
+                'error',
+                {
+                  ignoreStatic: true,
+                },
+              ],
             },
             overrides: [
               {
