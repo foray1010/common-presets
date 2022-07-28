@@ -222,9 +222,7 @@ module.exports = {
               // ignore static function as those are not supposed to use `this`
               '@typescript-eslint/unbound-method': [
                 'error',
-                {
-                  ignoreStatic: true,
-                },
+                { ignoreStatic: true },
               ],
             },
             overrides: [
@@ -233,6 +231,10 @@ module.exports = {
                 rules: {
                   // doesn't work with jest.fn<void>()
                   '@typescript-eslint/no-invalid-void-type': 'off',
+                  // replace by jest/unbound-method
+                  '@typescript-eslint/unbound-method': 'off',
+                  // allow passing an unbound method to `expect` calls
+                  'jest/unbound-method': ['error', { ignoreStatic: true }],
                 },
               },
             ],
