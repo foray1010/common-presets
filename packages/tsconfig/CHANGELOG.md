@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@7.0.1...@foray1010/tsconfig@8.0.0) (2022-07-28)
+
+### ⚠ BREAKING CHANGES
+
+- **tsconfig:** require typescript ^4.7.4
+
+### Features
+
+- **tsconfig:** enable noImplicitOverride ([f74a2f1](https://github.com/foray1010/common-presets/commit/f74a2f1351fd6eac1120aea4bfae3b4ec709d45d))
+
 ## [7.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@7.0.0...@foray1010/tsconfig@7.0.1) (2022-06-13)
 
 ### Bug Fixes
