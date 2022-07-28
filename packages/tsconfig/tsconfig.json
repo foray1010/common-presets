@@ -12,6 +12,7 @@
     "moduleResolution": "node",
     "noEmit": true,
     "noEmitOnError": true,
+    "noImplicitOverride": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
