@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.3.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.0...@foray1010/eslint-config@7.3.1) (2022-07-28)
+
+### Bug Fixes
+
+- **eslint-config:** allow arrow function in object ([2b7549b](https://github.com/foray1010/common-presets/commit/2b7549ba63f8b9697300becb99504b736c833c23))
+
 ## [7.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.2.0...@foray1010/eslint-config@7.3.0) (2022-07-28)
 
 ### Features
