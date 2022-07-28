@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.2.0...@foray1010/eslint-config@7.3.0) (2022-07-28)
+
+### Features
+
+- **eslint-config:** use jest/unbound-method for tests ([babe1d7](https://github.com/foray1010/common-presets/commit/babe1d7f9f9f208f60cb08e5ec52ac6b93136644))
+
 ## [7.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.1.0...@foray1010/eslint-config@7.2.0) (2022-07-27)
 
 ### Features
