@@ -84,13 +84,7 @@ module.exports = {
     // do not enforce JSDoc for internal methods
     'jsdoc/require-jsdoc': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
-    'object-shorthand': [
-      'error',
-      'always',
-      {
-        avoidExplicitReturnArrows: true,
-      },
-    ],
+    'object-shorthand': ['error', 'always'],
     // auto sort export statements
     'simple-import-sort/exports': 'error',
     // auto sort import statements
