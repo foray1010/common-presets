@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@6.0.1...@foray1010/remark-preset@7.0.0) (2022-08-02)
+
+### ⚠ BREAKING CHANGES
+
+- **remark-preset:** support remark >= 12
+
+### Features
+
+- **remark-preset:** support remark >= 12 ([f6f67e5](https://github.com/foray1010/common-presets/commit/f6f67e571f32e721abcb52ff8aafad453777e784))
+
+### Bug Fixes
+
+- **remark-preset:** cannot run in node 14.17 ([a1fb90a](https://github.com/foray1010/common-presets/commit/a1fb90a4b416b39e76cae104ffc0e56f68f1b23b))
+
 ## [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@6.0.0...@foray1010/remark-preset@6.0.1) (2022-06-13)
 
 ### Bug Fixes
