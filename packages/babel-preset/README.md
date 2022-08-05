@@ -18,7 +18,7 @@
 
 2. `yarn add -DE @babel/core @foray1010/babel-preset`
 
-3. Create an `.babelrc.js` in the project root
+3. Create an `.babelrc.cjs` in the project root
 
    ```js
    'use strict'

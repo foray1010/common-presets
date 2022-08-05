@@ -10,7 +10,7 @@
     "directory": "packages/remark-preset"
   },
   "license": "MIT",
-  "exports": "./index.js",
+  "exports": "./index.mjs",
   "files": [
     "**/*.{cjs,js,json,mjs}",
     "*.md",

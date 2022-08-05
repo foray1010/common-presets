@@ -4,11 +4,13 @@
 
 1. `yarn add -DE remark-cli @foray1010/remark-preset`
 
-1. Create an `.remarkrc.yml` in the project root
+1. Create an `.remarkrc.mjs` in the project root
 
-   ```yml
-   plugins:
-     - '@foray1010/remark-preset'
+   ```js
+   const config = {
+     plugins: ['@foray1010/remark-preset'],
+   }
+   export default config
    ```
 
 1. Use default remarkignore via npm script

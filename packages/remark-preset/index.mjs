@@ -1,6 +1,4 @@
-'use strict'
-
-module.exports = {
+const config = {
   plugins: [
     'remark-frontmatter',
     'remark-preset-lint-consistent',
@@ -15,3 +13,4 @@ module.exports = {
     'remark-validate-links',
   ],
 }
+export default config

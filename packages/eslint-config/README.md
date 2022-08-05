@@ -20,16 +20,24 @@ Z for looser rules
 
 1. `yarn add -DE eslint prettier @foray1010/eslint-config`
 
-1. Create an `.eslintrc.yml` in the project root
+1. Create an `.eslintrc.cjs` in the project root
 
-   ```yml
-   # for general purpose, support TypeScript
-   extends:
-     - '@foray1010/eslint-config'
+   ```js
+   'use strict'
 
-   # for frontend React project, support TypeScript
-   extends:
-     - '@foray1010/eslint-config/react'
+   module.exports = {
+     // for general purpose, support TypeScript
+     extends: ['@foray1010/eslint-config'],
+   }
+   ```
+
+   ```js
+   'use strict'
+
+   module.exports = {
+     // for frontend React project, support TypeScript
+     extends: ['@foray1010/eslint-config/react'],
+   }
    ```
 
 1. Use default eslintignore via npm script

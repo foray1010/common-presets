@@ -1,2 +1,0 @@
-plugins:
-  - './packages/remark-preset/index.js'

@@ -4,7 +4,7 @@
 
 1. `yarn add -DE prettier @foray1010/prettier-config`
 
-1. Create an `.prettierrc.js` in the project root
+1. Create an `.prettierrc.cjs` in the project root
 
    ```js
    'use strict'
