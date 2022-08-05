@@ -1,6 +1,9 @@
 'use strict'
 
 module.exports = {
+  pluginSearchDirs: false,
+  plugins: ['prettier-plugin-packagejson'],
+
   arrowParens: 'always',
   bracketSameLine: false,
   bracketSpacing: true,
