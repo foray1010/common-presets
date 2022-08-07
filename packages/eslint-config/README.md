@@ -22,21 +22,40 @@ Z for looser rules
 
 1. Create an `.eslintrc.cjs` in the project root
 
+   For general purpose, support TypeScript
+
    ```js
    'use strict'
 
    module.exports = {
-     // for general purpose, support TypeScript
+     root: true,
      extends: ['@foray1010/eslint-config'],
    }
    ```
 
+   For frontend React projects, support TypeScript
+
    ```js
    'use strict'
 
    module.exports = {
-     // for frontend React project, support TypeScript
+     root: true,
      extends: ['@foray1010/eslint-config/react'],
+   }
+   ```
+
+   For TS projects in monorepo, mark the `tsconfigRootDir` to use the correct `tsconfig.json`
+
+   ```js
+   'use strict'
+
+   module.exports = {
+     root: true,
+     extends: ['@foray1010/eslint-config'],
+     parserOptions: {
+       // Make sure the correct `tsconfig.json` is found in monorepo
+       tsconfigRootDir: __dirname,
+     },
    }
    ```
 
