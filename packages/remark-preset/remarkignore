@@ -2,6 +2,5 @@ build/
 coverage/
 dist/
 node_modules/
-out/
 # managed by standard-version, no need to lint
 CHANGELOG.md
