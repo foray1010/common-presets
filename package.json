@@ -22,7 +22,7 @@
     "eslint": "8.21.0",
     "fast-glob": "3.2.11",
     "husky": "8.0.1",
-    "lerna": "5.3.0",
+    "lerna": "5.4.0",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "remark-cli": "11.0.0",
