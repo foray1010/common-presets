@@ -7,7 +7,8 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react/jsx-runtime',
     'plugin:react-hooks/recommended',
-    'eslint-config-prettier',
+    // included eslint-config-prettier
+    'plugin:prettier/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {

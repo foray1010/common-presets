@@ -18,8 +18,8 @@ module.exports = {
     'plugin:eslint-comments/recommended',
     'plugin:import/recommended',
     'plugin:jsdoc/recommended',
+    // included eslint-config-prettier
     'plugin:prettier/recommended',
-    'eslint-config-prettier',
   ],
   parserOptions: {
     ecmaVersion: 2020,
@@ -131,7 +131,8 @@ module.exports = {
               'plugin:@typescript-eslint/recommended',
               'plugin:@typescript-eslint/recommended-requiring-type-checking',
               'plugin:import/typescript',
-              'eslint-config-prettier',
+              // included eslint-config-prettier
+              'plugin:prettier/recommended',
             ],
             parser: '@typescript-eslint/parser',
             parserOptions: {
