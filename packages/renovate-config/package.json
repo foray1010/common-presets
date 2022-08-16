@@ -39,6 +39,7 @@
         "prPriority": 1
       },
       "pin": {
+        "automerge": false,
         "prPriority": 2
       },
       "packageRules": [
