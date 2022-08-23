@@ -1,4 +1,4 @@
-const config = {
+const preset = {
   plugins: [
     'remark-frontmatter',
     'remark-preset-lint-consistent',
@@ -13,4 +13,4 @@ const config = {
     'remark-validate-links',
   ],
 }
-export default config
+export default preset
