@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "@foray1010/jest-preset",
+  "version": "1.0.0",
+  "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/jest-preset#readme",
+  "bugs": "https://github.com/foray1010/common-presets/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foray1010/common-presets.git",
+    "directory": "packages/jest-preset"
+  },
+  "license": "MIT",
+  "exports": "./jest-preset.mjs",
+  "files": [
+    "**/*.{cjs,js,json,mjs}",
+    "*.md"
+  ],
+  "peerDependencies": {
+    "jest": "^28.1.3",
+    "node-notifier": "^10.0.1"
+  },
+  "engines": {
+    "node": "^14.17.0 || ^16.13.0 || >=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
