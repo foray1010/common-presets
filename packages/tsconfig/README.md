@@ -14,6 +14,7 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
 
    ```json
    {
+     "$schema": "https://json.schemastore.org/tsconfig",
      "extends": "@foray1010/tsconfig"
    }
    ```
@@ -22,6 +23,7 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
 
    ```json
    {
+     "$schema": "https://json.schemastore.org/tsconfig",
      "extends": "@foray1010/tsconfig",
      "compilerOptions": {
        "emitDeclarationOnly": true,
