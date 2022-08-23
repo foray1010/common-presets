@@ -2,5 +2,5 @@
 
 module.exports = {
   root: true,
-  extends: ['./packages/eslint-config'],
+  extends: ['@foray1010/eslint-config'],
 }

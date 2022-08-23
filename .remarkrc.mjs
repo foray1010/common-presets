@@ -1,4 +1,4 @@
 const config = {
-  plugins: ['./packages/remark-preset/index.mjs'],
+  plugins: ['@foray1010/remark-preset'],
 }
 export default config

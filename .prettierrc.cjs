@@ -1,3 +1,4 @@
 'use strict'
 
-module.exports = require('./packages/prettier-config')
+// eslint-disable-next-line import/no-extraneous-dependencies
+module.exports = require('@foray1010/prettier-config')
