@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@7.0.1...@foray1010/prettier-config@7.0.2) (2022-08-24)
+
+### Bug Fixes
+
+- remove unused ignore patterns ([11d05bf](https://github.com/foray1010/common-presets/commit/11d05bf3e7cb001d1260f885089500e1ddf5fb02))
+
 ## [7.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@7.0.0...@foray1010/prettier-config@7.0.1) (2022-06-13)
 
 ### Bug Fixes

@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@6.0.1...@foray1010/stylelint-config@7.0.0) (2022-08-24)
+
+### ⚠ BREAKING CHANGES
+
+- **stylelint-config:** drop stylelint 14.10
+- **stylelint-config:** drop stylelint 14.9
+
+Co-authored-by: Alex Young <foray1010@users.noreply.github.com>
+
+### Bug Fixes
+
+- remove unused ignore patterns ([11d05bf](https://github.com/foray1010/common-presets/commit/11d05bf3e7cb001d1260f885089500e1ddf5fb02))
+- **stylelint-config:** update dependency stylelint-config-standard to v27 ([#502](https://github.com/foray1010/common-presets/issues/502)) ([0eb5cc1](https://github.com/foray1010/common-presets/commit/0eb5cc12f84907d0ee0935f17ffe691f9bafbf9c))
+- **stylelint-config:** update dependency stylelint-config-standard to v28 ([7ce3564](https://github.com/foray1010/common-presets/commit/7ce3564b766cc4c55d19ce8f63234564358ba9da))
+
 ## [6.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@6.0.0...@foray1010/stylelint-config@6.0.1) (2022-06-13)
 
 ### Bug Fixes

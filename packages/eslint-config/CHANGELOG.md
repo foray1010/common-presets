@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.3.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.1...@foray1010/eslint-config@7.3.2) (2022-08-24)
+
+### Bug Fixes
+
+- **eslint-config:** disable jsdoc/valid-types ([d1e4e17](https://github.com/foray1010/common-presets/commit/d1e4e17d097adecb3da790248b16a23cfdce34ff))
+- **eslint-config:** do not force react preset to use module ([477f15c](https://github.com/foray1010/common-presets/commit/477f15cd3f8ebdacbe3ab72aaa190054c1300610))
+- import eslint-config-prettier via plugin:prettier/recommended ([53b038b](https://github.com/foray1010/common-presets/commit/53b038bf5ab1f14d87edd4d230fd1f4aa4ae6232))
+- remove unused ignore patterns ([11d05bf](https://github.com/foray1010/common-presets/commit/11d05bf3e7cb001d1260f885089500e1ddf5fb02))
+
 ## [7.3.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.0...@foray1010/eslint-config@7.3.1) (2022-07-28)
 
 ### Bug Fixes

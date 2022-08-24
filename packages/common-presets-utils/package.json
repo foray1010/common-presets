@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@foray1010/common-presets-utils",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/common-presets-utils#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {
