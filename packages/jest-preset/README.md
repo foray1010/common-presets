@@ -8,7 +8,7 @@
 
    ```js
    const config = {
-     preset: '@foray1010/jest-preset',
+     preset: '@foray1010',
    }
    export default config
    ```
