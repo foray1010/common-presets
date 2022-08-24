@@ -6,7 +6,7 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
 
 ## Installation
 
-1. `yarn add -DE typescript @foray1010/tsconfig`
+1. `yarn add -DE @foray1010/tsconfig typescript`
 
 2. Create an `tsconfig.json` in the project root
 

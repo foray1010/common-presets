@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. `yarn add -DE jest @foray1010/jest-preset`
+1. `yarn add -DE @foray1010/jest-preset jest`
 
 1. Create an `jest.config.mjs` in the project root
 

@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. `yarn add -DE prettier @foray1010/prettier-config`
+1. `yarn add -DE @foray1010/prettier-config prettier`
 
 1. Create an `.prettierrc.cjs` in the project root
 

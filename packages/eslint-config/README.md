@@ -18,7 +18,7 @@ Z for looser rules
 
 ## Installation
 
-1. `yarn add -DE eslint prettier @foray1010/eslint-config`
+1. `yarn add -DE @foray1010/eslint-config eslint prettier`
 
 1. Create an `.eslintrc.cjs` in the project root
 

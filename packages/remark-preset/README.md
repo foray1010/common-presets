@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. `yarn add -DE remark-cli @foray1010/remark-preset`
+1. `yarn add -DE @foray1010/remark-preset remark-cli`
 
 1. Create an `.remarkrc.mjs` in the project root
 

@@ -18,7 +18,7 @@ Z for looser rules
 
 ## Installation
 
-1. `yarn add -DE prettier stylelint @foray1010/stylelint-config`
+1. `yarn add -DE @foray1010/stylelint-config prettier stylelint`
 
 1. Create an `.stylelintrc.cjs` in the project root
 
