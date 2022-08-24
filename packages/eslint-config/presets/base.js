@@ -86,6 +86,8 @@ module.exports = {
     ],
     // do not enforce JSDoc for internal methods
     'jsdoc/require-jsdoc': 'off',
+    // does not work well with TypeScript https://github.com/gajus/eslint-plugin-jsdoc/issues/145
+    'jsdoc/valid-types': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
     // auto sort export statements
