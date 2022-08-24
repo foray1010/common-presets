@@ -15,8 +15,14 @@
     "**/*.{cjs,js,json,mjs}",
     "*.md"
   ],
+  "scripts": {
+    "type:check": "tsc"
+  },
   "dependencies": {
     "read-pkg-up": "^7.0.1"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4"
   },
   "engines": {
     "node": "^14.17.0 || ^16.13.0 || >=18.0.0"

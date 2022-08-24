@@ -19,6 +19,9 @@
     "*.md",
     "eslintignore"
   ],
+  "scripts": {
+    "type:check": "tsc"
+  },
   "dependencies": {
     "@foray1010/common-presets-utils": "^5.0.1",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
@@ -37,6 +40,11 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-testing-library": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/confusing-browser-globals": "1.0.0",
+    "@types/eslint": "8.4.6",
+    "typescript": "4.7.4"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",

@@ -1,9 +1,11 @@
 'use strict'
 
+// @ts-expect-error
 const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
 const { testFileGlobs } = require('./utils/testUtil')
 
+/** @type {import('eslint').Linter.RulesRecord} */
 const esmRules = {
   'import/extensions': [
     'error',
@@ -12,6 +14,7 @@ const esmRules = {
   ],
 }
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     'eslint:recommended',

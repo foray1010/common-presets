@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "ci": "yarn lint:js && yarn lint:md",
+    "ci": "yarn lint:js && yarn lint:md && yarn workspaces run type:check",
     "eslint": "eslint --ext=cjs,cts,js,mjs,mts,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore",
     "postinstall": "husky install",
     "lint:js": "yarn eslint .",
@@ -15,7 +15,7 @@
     "remark": "remark --frail --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd"
   },
   "devDependencies": {
-    "@babel/core": "7.18.10",
+    "@babel/core": "7.18.13",
     "@babel/runtime": "7.18.9",
     "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.3",

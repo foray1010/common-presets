@@ -1,6 +1,7 @@
 'use strict'
 
 const { declare } = require('@babel/helper-plugin-utils')
+// @ts-expect-error
 const { hasDep, pkg, pkgDir } = require('@foray1010/common-presets-utils')
 const browserslist = require('browserslist')
 const semver = require('semver')
@@ -18,7 +19,7 @@ const getEnvTargets = () => {
 
   const nodeVersionRange = pkg.engines.node
   if (nodeVersionRange) {
-    return { node: semver.minVersion(pkg.engines.node).format() }
+    return { node: semver.minVersion(pkg.engines.node)?.format() }
   }
 
   throw new Error('no browserslist nor engines.node is found')

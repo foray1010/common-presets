@@ -13,6 +13,9 @@
   "files": [
     "*.md"
   ],
+  "scripts": {
+    "type:check": "echo 'Skipped: non-ts package'"
+  },
   "publishConfig": {
     "access": "public"
   },

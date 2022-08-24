@@ -16,6 +16,9 @@
     "*.md",
     "remarkignore"
   ],
+  "scripts": {
+    "type:check": "echo 'Skipped: non-ts package'"
+  },
   "dependencies": {
     "remark-frontmatter": "^4.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",

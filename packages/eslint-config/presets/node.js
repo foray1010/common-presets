@@ -1,5 +1,6 @@
 'use strict'
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   plugins: ['eslint-plugin-n'],
   env: {

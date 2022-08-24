@@ -2,6 +2,7 @@
 
 const { testFileGlobs } = require('./utils/testUtil')
 
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     'plugin:react/recommended',

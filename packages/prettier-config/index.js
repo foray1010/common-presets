@@ -1,5 +1,6 @@
 'use strict'
 
+/** @type {import('prettier').Config} */
 module.exports = {
   pluginSearchDirs: false,
   plugins: ['prettier-plugin-packagejson'],

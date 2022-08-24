@@ -1,3 +1,4 @@
+/** @type {import('jest').Config} */
 const preset = {
   bail: true,
   collectCoverage: true,
