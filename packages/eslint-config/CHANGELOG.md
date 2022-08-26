@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.3.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.3...@foray1010/eslint-config@7.3.4) (2022-08-26)
+
+### Bug Fixes
+
+- **eslint-config:** allow {} type ([930a2fa](https://github.com/foray1010/common-presets/commit/930a2fa03fe5f14435890226266c8b103baa8221))
+
 ## [7.3.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.2...@foray1010/eslint-config@7.3.3) (2022-08-24)
 
 **Note:** Version bump only for package @foray1010/eslint-config
