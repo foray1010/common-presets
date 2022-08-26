@@ -149,6 +149,17 @@ module.exports = {
             },
             plugins: ['@typescript-eslint/eslint-plugin'],
             rules: {
+              // extend existing rule
+              '@typescript-eslint/ban-types': [
+                'error',
+                {
+                  types: {
+                    // TypeScript team suggests to use `<T extends {}>` https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/#unconstrained-generics-no-longer-assignable-to
+                    '{}': false,
+                  },
+                  extendDefaults: true,
+                },
+              ],
               // separate type imports which allow certain optimizations within compilers
               '@typescript-eslint/consistent-type-imports': [
                 'error',
