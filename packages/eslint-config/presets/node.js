@@ -3,9 +3,6 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   plugins: ['eslint-plugin-n'],
-  env: {
-    node: true,
-  },
   rules: {
     // disallow deprecated node APIs
     'n/no-deprecated-api': 'error',

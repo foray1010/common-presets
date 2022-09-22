@@ -4,6 +4,7 @@ const { declare } = require('@babel/helper-plugin-utils')
 // @ts-expect-error
 const { hasDep, pkg, pkgDir } = require('@foray1010/common-presets-utils')
 const browserslist = require('browserslist')
+const process = require('process')
 const semver = require('semver')
 
 const Modules = {

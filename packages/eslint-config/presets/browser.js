@@ -9,6 +9,10 @@ module.exports = {
   env: {
     browser: true,
   },
+  globals: {
+    // keep it until webpack has an official way to define env: https://github.com/webpack/webpack/issues/15833
+    process: 'readonly',
+  },
   rules: {
     'no-restricted-globals': ['error', ...restrictedGlobals],
   },

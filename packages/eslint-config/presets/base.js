@@ -5,13 +5,28 @@ const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
 const { testFileGlobs } = require('./utils/testUtil')
 
-/** @type {import('eslint').Linter.RulesRecord} */
-const esmRules = {
-  'import/extensions': [
-    'error',
-    // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
-    'always',
-  ],
+/** @type {import('eslint').Linter.BaseConfig} */
+const cjsConfig = {
+  parserOptions: {
+    sourceType: 'script',
+  },
+  env: {
+    commonjs: true,
+  },
+}
+
+/** @type {import('eslint').Linter.BaseConfig} */
+const esmConfigForJs = {
+  parserOptions: {
+    sourceType: 'module',
+  },
+  rules: {
+    'import/extensions': [
+      'error',
+      // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
+      'always',
+    ],
+  },
 }
 
 /** @type {import('eslint').Linter.Config} */
@@ -26,7 +41,6 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 2020,
-    sourceType: 'script',
   },
   plugins: [
     'eslint-plugin-eslint-comments',
@@ -36,7 +50,11 @@ module.exports = {
     'eslint-plugin-simple-import-sort',
   ],
   env: {
-    es6: true,
+    /* Not using `node` to explicitly import node.js only built-in modules, e.g.
+     * import { Buffer } from 'node:buffer'
+     * import process from 'node:process'
+     */
+    'shared-node-browser': true,
   },
   rules: {
     // allow disable eslint rules for whole file without re-enable it in the end of the file
@@ -100,23 +118,15 @@ module.exports = {
   overrides: [
     {
       files: ['*.js'],
-      parserOptions: {
-        sourceType: isESM() ? 'module' : 'script',
-      },
-      rules: isESM() ? esmRules : {},
+      ...(isESM() ? esmConfigForJs : cjsConfig),
     },
     {
       files: ['*.cjs'],
-      parserOptions: {
-        sourceType: 'script',
-      },
+      ...cjsConfig,
     },
     {
       files: ['*.mjs'],
-      parserOptions: {
-        sourceType: 'module',
-      },
-      rules: esmRules,
+      ...esmConfigForJs,
     },
     {
       files: testFileGlobs,
