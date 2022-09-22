@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@9.0.2...@foray1010/babel-preset@9.1.0) (2022-09-22)
+
+### Features
+
+- **eslint-config:** explicitly import node.js only built-in modules ([969c1d2](https://github.com/foray1010/common-presets/commit/969c1d299a3d092eaa373ba9ceca4d7616076cfc))
+
 ## [9.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@9.0.1...@foray1010/babel-preset@9.0.2) (2022-08-24)
 
 **Note:** Version bump only for package @foray1010/babel-preset

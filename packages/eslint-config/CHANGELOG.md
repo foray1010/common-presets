@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.4...@foray1010/eslint-config@7.4.0) (2022-09-22)
+
+### Features
+
+- **eslint-config:** explicitly import node.js only built-in modules ([969c1d2](https://github.com/foray1010/common-presets/commit/969c1d299a3d092eaa373ba9ceca4d7616076cfc))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jest to v27 ([6534504](https://github.com/foray1010/common-presets/commit/65345046f6300b583d7a7b614ed4285486917e4d))
+
 ## [7.3.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.3...@foray1010/eslint-config@7.3.4) (2022-08-26)
 
 ### Bug Fixes

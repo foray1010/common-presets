@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@7.0.2...@foray1010/remark-preset@7.0.3) (2022-09-22)
+
+### Bug Fixes
+
+- **deps:** update dependency remark-preset-prettier to v2 ([3118038](https://github.com/foray1010/common-presets/commit/3118038584c8895e2cee7ccbdb8a6227493b98f6))
+
 ## [7.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@7.0.1...@foray1010/remark-preset@7.0.2) (2022-08-24)
 
 **Note:** Version bump only for package @foray1010/remark-preset
