@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.4.0...@foray1010/eslint-config@7.4.1) (2022-09-23)
+
+### Bug Fixes
+
+- **eslint-config:** allow es2020 globals ([f5d8e61](https://github.com/foray1010/common-presets/commit/f5d8e61a9f22572d3523e833671a1c9b24dff568))
+
 ## [7.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.3.4...@foray1010/eslint-config@7.4.0) (2022-09-22)
 
 ### Features
