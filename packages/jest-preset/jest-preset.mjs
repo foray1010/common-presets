@@ -3,7 +3,13 @@ const preset = {
   bail: true,
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.{cjs,cts,js,mjs,mts,ts,tsx}'],
-  coveragePathIgnorePatterns: ['/__fixtures__/', '/__mocks__/', '/__tests__/'],
+  coveragePathIgnorePatterns: [
+    '/\\.', // ignore all hidden files
+    '/__fixtures__/',
+    '/__mocks__/',
+    '/__tests__/',
+    '/node_modules/',
+  ],
   coverageReporters: ['lcov', 'text-summary'],
   errorOnDeprecated: true,
   notify: true,
