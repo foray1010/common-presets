@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@2.0.1...@foray1010/jest-preset@2.0.2) (2022-09-28)
+
+### Bug Fixes
+
+- **jest-preset:** ignore hidden files when calculating test coverage ([a979dad](https://github.com/foray1010/common-presets/commit/a979dad646fde58b7dc406d6434999b80e16c441))
+
 ## [2.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@2.0.0...@foray1010/jest-preset@2.0.1) (2022-09-22)
 
 **Note:** Version bump only for package @foray1010/jest-preset

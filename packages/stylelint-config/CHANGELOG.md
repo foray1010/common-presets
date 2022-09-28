@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@7.0.2...@foray1010/stylelint-config@7.0.3) (2022-09-28)
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-idiomatic-order to v9 ([e3a2c14](https://github.com/foray1010/common-presets/commit/e3a2c14b3640ecf7f8d155473a74815f1af55b19))
+
 ## [7.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@7.0.1...@foray1010/stylelint-config@7.0.2) (2022-09-22)
 
 **Note:** Version bump only for package @foray1010/stylelint-config
