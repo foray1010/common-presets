@@ -18,7 +18,7 @@
    ```json
    {
      "scripts": {
-       "remark": "remark --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd"
+       "remark": "remark --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd --silently-ignore"
      }
    }
    ```
