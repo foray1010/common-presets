@@ -159,7 +159,10 @@ module.exports = {
               project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
               sourceType: 'module',
             },
-            plugins: ['@typescript-eslint/eslint-plugin'],
+            plugins: [
+              '@typescript-eslint/eslint-plugin',
+              'eslint-plugin-functional',
+            ],
             rules: {
               // extend existing rule
               '@typescript-eslint/ban-types': [
@@ -229,6 +232,9 @@ module.exports = {
                   typedefs: false,
                 },
               ],
+              // use with functional/prefer-readonly-type
+              // mark class variables as readonly if it is not mutated
+              '@typescript-eslint/prefer-readonly': 'error',
               // fault alarms in 4.29.3
               '@typescript-eslint/restrict-plus-operands': 'off',
               // allow primitive value in template string
@@ -246,6 +252,18 @@ module.exports = {
               '@typescript-eslint/unbound-method': [
                 'error',
                 { ignoreStatic: true },
+              ],
+              // use with @typescript-eslint/prefer-readonly
+              'functional/prefer-readonly-type': [
+                'error',
+                {
+                  // sometimes it is easier to mutate, it should be fine to mutate within local scope
+                  allowLocalMutation: true,
+                  // don't force library consumer to use readonly type
+                  allowMutableReturnType: true,
+                  // allow mutating class variables
+                  ignoreClass: 'fieldsOnly',
+                },
               ],
             },
             overrides: [
