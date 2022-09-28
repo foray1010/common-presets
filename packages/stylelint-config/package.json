@@ -27,9 +27,6 @@
     "stylelint-no-unsupported-browser-features": "^5.0.4",
     "stylelint-prettier": "^2.0.0"
   },
-  "devDependencies": {
-    "typescript": "4.8.3"
-  },
   "peerDependencies": {
     "prettier": "^2.0.0",
     "stylelint": "^14.11.0"
