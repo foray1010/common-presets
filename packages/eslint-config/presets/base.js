@@ -155,7 +155,7 @@ module.exports = {
             parserOptions: {
               // faster linting on cli
               // https://github.com/typescript-eslint/typescript-eslint/issues/3528
-              // turned off because it doesn't work with @typescript-eslint/no-unsafe-* rules
+              // turned off because @typescript-eslint/no-unsafe-* rules will output wrong errors
               // allowAutomaticSingleRunInference: true,
               project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
               sourceType: 'module',
