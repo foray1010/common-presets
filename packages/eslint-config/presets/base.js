@@ -265,6 +265,8 @@ module.exports = {
                   ignoreClass: 'fieldsOnly',
                 },
               ],
+              // forbid unnecessary callback wrapper
+              'functional/prefer-tacit': 'error',
             },
             overrides: [
               {
