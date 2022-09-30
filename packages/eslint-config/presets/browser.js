@@ -15,5 +15,7 @@ module.exports = {
   },
   rules: {
     'no-restricted-globals': ['error', ...restrictedGlobals],
+    // frontend environment doesn't support node.js modules
+    'import/no-nodejs-modules': 'error',
   },
 }
