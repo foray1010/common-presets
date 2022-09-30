@@ -255,7 +255,8 @@ module.exports = {
                 },
               ],
               // forbid unnecessary callback wrapper
-              'functional/prefer-tacit': 'error',
+              // disabled due to https://github.com/eslint-functional/eslint-plugin-functional/issues/486
+              // 'functional/prefer-tacit': 'error',
             },
             overrides: [
               {
