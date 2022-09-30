@@ -205,16 +205,6 @@ module.exports = {
                 'error',
                 { checksVoidReturn: false },
               ],
-              // many false alarms
-              '@typescript-eslint/no-unsafe-argument': 'off',
-              // some third party packages doesn't offer typings
-              '@typescript-eslint/no-unsafe-assignment': 'off',
-              // some third party packages doesn't offer typings
-              '@typescript-eslint/no-unsafe-call': 'off',
-              // some third party packages doesn't offer typings
-              '@typescript-eslint/no-unsafe-member-access': 'off',
-              // some third party packages doesn't offer typings
-              '@typescript-eslint/no-unsafe-return': 'off',
               // do not block functions referring to other functions
               '@typescript-eslint/no-use-before-define': [
                 'error',
@@ -236,8 +226,6 @@ module.exports = {
               // use with functional/prefer-readonly-type
               // mark class variables as readonly if it is not mutated
               '@typescript-eslint/prefer-readonly': 'error',
-              // fault alarms in 4.29.3
-              '@typescript-eslint/restrict-plus-operands': 'off',
               // allow primitive value in template string
               '@typescript-eslint/restrict-template-expressions': [
                 'error',
