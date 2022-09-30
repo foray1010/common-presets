@@ -13,14 +13,31 @@ const cjsConfig = {
   env: {
     commonjs: true,
   },
+  rules: {
+    // commonjs must use strict mode
+    strict: ['error', 'global'],
+  },
+}
+
+/** @type {import('eslint').Linter.BaseConfig} */
+const esmConfig = {
+  parserOptions: {
+    sourceType: 'module',
+  },
+  plugins: ['eslint-plugin-simple-import-sort'],
+  rules: {
+    // auto sort export statements
+    'simple-import-sort/exports': 'error',
+    // auto sort import statements
+    'simple-import-sort/imports': 'error',
+  },
 }
 
 /** @type {import('eslint').Linter.BaseConfig} */
 const esmConfigForJs = {
-  parserOptions: {
-    sourceType: 'module',
-  },
+  ...esmConfig,
   rules: {
+    ...esmConfig.rules,
     'import/extensions': [
       'error',
       // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
@@ -47,7 +64,6 @@ module.exports = {
     'eslint-plugin-import',
     'eslint-plugin-jsdoc',
     'eslint-plugin-prettier',
-    'eslint-plugin-simple-import-sort',
   ],
   env: {
     // should align with parserOptions.ecmaVersion
@@ -110,12 +126,6 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
-    // auto sort export statements
-    'simple-import-sort/exports': 'error',
-    // auto sort import statements
-    'simple-import-sort/imports': 'error',
-    // commonjs must use strict mode
-    strict: ['error', 'global'],
   },
   overrides: [
     {
@@ -144,6 +154,10 @@ module.exports = {
       ? [
           {
             files: ['*.{cts,mts,ts,tsx}'],
+            ...esmConfig,
+          },
+          {
+            files: ['*.{cts,mts,ts,tsx}'],
             extends: [
               'plugin:@typescript-eslint/recommended',
               'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -158,7 +172,6 @@ module.exports = {
               // turned off because @typescript-eslint/no-unsafe-* rules will output wrong errors
               // allowAutomaticSingleRunInference: true,
               project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
-              sourceType: 'module',
             },
             plugins: [
               '@typescript-eslint/eslint-plugin',
