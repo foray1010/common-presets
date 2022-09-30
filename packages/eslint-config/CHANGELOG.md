@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.6.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.6.0...@foray1010/eslint-config@7.6.1) (2022-09-30)
+
+### Bug Fixes
+
+- **eslint-config:** disable functional/prefer-tacit ([e921649](https://github.com/foray1010/common-presets/commit/e921649d17802d3e866b075b1a5be39200e96991))
+
 ## [7.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.5.0...@foray1010/eslint-config@7.6.0) (2022-09-30)
 
 ### Features

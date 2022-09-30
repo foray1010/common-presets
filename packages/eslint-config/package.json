@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@foray1010/eslint-config",
-  "version": "7.6.0",
+  "version": "7.6.1",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/eslint-config#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {
