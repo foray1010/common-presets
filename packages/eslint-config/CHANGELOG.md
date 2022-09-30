@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.6.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.5.0...@foray1010/eslint-config@7.6.0) (2022-09-30)
+
+### Features
+
+- **eslint-config:** forbid unnecessary callback wrapper ([d560348](https://github.com/foray1010/common-presets/commit/d560348b26180cd81fb01ced982935df70f23d9e))
+- **eslint-config:** re-enable recommended [@typescript-eslint](https://github.com/typescript-eslint) rules ([4b46143](https://github.com/foray1010/common-presets/commit/4b461433b4ff2e3fe7ab909be7c9f6a42d7ccb5f))
+
+### Bug Fixes
+
+- **eslint-config:** disable allowAutomaticSingleRunInference ([53b8265](https://github.com/foray1010/common-presets/commit/53b8265bfddf3736b2f13409e53ddbb2be346d32))
+- **eslint-config:** disable allowAutomaticSingleRunInference ([ecb189c](https://github.com/foray1010/common-presets/commit/ecb189ce72c8185d7ad1cd44444463c5dd83b067))
+
 ## [7.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.4.1...@foray1010/eslint-config@7.5.0) (2022-09-28)
 
 ### Features
