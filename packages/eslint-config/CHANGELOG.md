@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.7.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.1...@foray1010/eslint-config@7.7.2) (2022-10-01)
+
+### Bug Fixes
+
+- **eslint-config:** allow **dirname and **filename in node.js ([14bf0bd](https://github.com/foray1010/common-presets/commit/14bf0bdbc29e20de085ea772529a415633980f22))
+
 ## [7.7.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.0...@foray1010/eslint-config@7.7.1) (2022-10-01)
 
 ### Bug Fixes
