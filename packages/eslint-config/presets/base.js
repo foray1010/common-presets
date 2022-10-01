@@ -177,6 +177,10 @@ module.exports = {
               '@typescript-eslint/eslint-plugin',
               'eslint-plugin-functional',
             ],
+            env: {
+              // allow commonjs globals as we haven't moved to es modules
+              commonjs: true,
+            },
             rules: {
               // extend existing rule
               '@typescript-eslint/ban-types': [
