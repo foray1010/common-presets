@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.6.1...@foray1010/eslint-config@7.7.0) (2022-10-01)
+
+### Features
+
+- **eslint-config:** do not allow node.js modules in frontend ([972f434](https://github.com/foray1010/common-presets/commit/972f434064891238cfc71db5379ac77be8f5e10d))
+- **eslint-config:** do not allow unknown global variables ([a62994e](https://github.com/foray1010/common-presets/commit/a62994e1aeee48202a03484ec1772a4016f86d93))
+
+### Bug Fixes
+
+- **eslint-config:** better error description when using global Buffer or process ([00e14ee](https://github.com/foray1010/common-presets/commit/00e14ee9c2f0afab8ebe78ecc89c3ab79b8a93f0))
+- **eslint-config:** skip nodejs related rules for react ([a7b12d7](https://github.com/foray1010/common-presets/commit/a7b12d7d0d428189ead3ecce7f4a59ae87c72536))
+
 ## [7.6.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.6.0...@foray1010/eslint-config@7.6.1) (2022-09-30)
 
 ### Bug Fixes
