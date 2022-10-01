@@ -8,6 +8,7 @@ module.exports = {
   plugins: ['eslint-plugin-compat'],
   env: {
     browser: true,
+    webextensions: true,
   },
   globals: {
     // keep it until webpack has an official way to define env: https://github.com/webpack/webpack/issues/15833
