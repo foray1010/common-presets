@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.7.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.0...@foray1010/eslint-config@7.7.1) (2022-10-01)
+
+### Bug Fixes
+
+- **eslint-config:** allow commonjs globals as we haven't moved to es modules ([08ab8d0](https://github.com/foray1010/common-presets/commit/08ab8d09244e2314de611a4fb1fda8552a958515))
+- **eslint-config:** allow webextensions globals in frontend ([7624ed5](https://github.com/foray1010/common-presets/commit/7624ed5f5e2c710a5d1abbb831b476190aca32d5))
+
 ## [7.7.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.6.1...@foray1010/eslint-config@7.7.0) (2022-10-01)
 
 ### Features
