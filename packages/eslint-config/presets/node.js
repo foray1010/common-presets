@@ -4,6 +4,10 @@
 module.exports = {
   plugins: ['eslint-plugin-n'],
   globals: {
+    // used in commonjs and typescript
+    __dirname: 'readonly',
+    // used in commonjs and typescript
+    __filename: 'readonly',
     // hack to mute no-undef error, and show n/prefer-global/buffer error instead
     Buffer: 'readonly',
     // hack to mute no-undef error, and show n/prefer-global/process error instead
