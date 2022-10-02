@@ -22,10 +22,20 @@ module.exports = {
     'n/no-unpublished-bin': 'error',
     // disallow unsupported Node.js built-in APIs on the specified version
     'n/no-unsupported-features/node-builtins': 'error',
-    // prefer `import { Buffer } from 'node:buffer'`
+    // prefer `import { Buffer } from 'node:buffer'` as it is not isomorphic
     'n/prefer-global/buffer': ['error', 'never'],
-    // prefer `import process from 'node:process'`
+    // prefer global `console` to be isomorphic
+    'n/prefer-global/console': ['error', 'always'],
+    // prefer `import process from 'node:process'` as it is not isomorphic
     'n/prefer-global/process': ['error', 'never'],
+    // prefer global `TextDecoder` to be isomorphic
+    'n/prefer-global/text-decoder': ['error', 'always'],
+    // prefer global `TextEncoder` to be isomorphic
+    'n/prefer-global/text-encoder': ['error', 'always'],
+    // prefer global `URLSearchParams` to be isomorphic
+    'n/prefer-global/url-search-params': ['error', 'always'],
+    // prefer global `URL` to be isomorphic
+    'n/prefer-global/url': ['error', 'always'],
     // make `process.exit()` expressions the same code path as `throw`
     'n/process-exit-as-throw': 'error',
     // enforce shebang on the entry bin file
