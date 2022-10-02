@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.7.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.2...@foray1010/eslint-config@7.7.3) (2022-10-02)
+
+### Bug Fixes
+
+- **eslint-config:** prefer isomorphic global variables ([fa098bc](https://github.com/foray1010/common-presets/commit/fa098bc9890d86facd9c592f1ed42515bc94d2af))
+
 ## [7.7.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.1...@foray1010/eslint-config@7.7.2) (2022-10-01)
 
 ### Bug Fixes
