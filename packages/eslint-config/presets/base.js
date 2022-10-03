@@ -64,6 +64,7 @@ module.exports = {
     'eslint-plugin-import',
     'eslint-plugin-jsdoc',
     'eslint-plugin-prettier',
+    'eslint-plugin-unicorn',
   ],
   env: {
     // should align with parserOptions.ecmaVersion
@@ -126,6 +127,8 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
+    // prefer Number static properties over global ones
+    'unicorn/prefer-number-properties': 'error',
   },
   overrides: [
     {
