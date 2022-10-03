@@ -272,8 +272,7 @@ module.exports = {
                 },
               ],
               // forbid unnecessary callback wrapper
-              // disabled due to https://github.com/eslint-functional/eslint-plugin-functional/issues/486
-              // 'functional/prefer-tacit': 'error',
+              'functional/prefer-tacit': 'error',
               // @typescript-eslint/eslint-plugin suggests to disable it: https://github.com/typescript-eslint/typescript-eslint/blob/2588e9ea55f78352fdd6ae92a306135aabb49a1a/docs/linting/TROUBLESHOOTING.md#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
               // It is disabled in recommended config but re-enabled here to enforce a subset of global variables that supported by both node.js and browsers
               'no-undef': 'error',
