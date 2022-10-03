@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.3...@foray1010/eslint-config@7.8.0) (2022-10-03)
+
+### Features
+
+- **eslint-config:** prefer Number static properties over global ones ([532df43](https://github.com/foray1010/common-presets/commit/532df43987f464ea3f3cfe1e5507b1077e14bced))
+- **eslint-config:** re-enable functional/prefer-tacit ([9f312cc](https://github.com/foray1010/common-presets/commit/9f312cc3ac05429a969f271c46e02d915bf44e41))
+
 ## [7.7.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.2...@foray1010/eslint-config@7.7.3) (2022-10-02)
 
 ### Bug Fixes
