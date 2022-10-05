@@ -206,10 +206,6 @@ module.exports = {
                 'error',
                 {
                   accessibility: 'explicit',
-                  overrides: {
-                    // don't bother because it is always public
-                    constructors: 'off',
-                  },
                 },
               ],
               // sometimes auto detect can provide a better and narrower type
