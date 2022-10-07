@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.8.0...@foray1010/eslint-config@7.9.0) (2022-10-07)
+
+### Features
+
+- use indexed syntax for accessing undefined fields ([7c1f9d6](https://github.com/foray1010/common-presets/commit/7c1f9d63349f0b34b00aa8608d6908763d964c3e))
+
+### Bug Fixes
+
+- **eslint-config:** enforce accessibility modifier in constructor in TS ([7cb3f2b](https://github.com/foray1010/common-presets/commit/7cb3f2b9f5de215255b1a541bac3cc1bd731589c))
+
 ## [7.8.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.7.3...@foray1010/eslint-config@7.8.0) (2022-10-03)
 
 ### Features

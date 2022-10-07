@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@foray1010/eslint-config",
-  "version": "7.8.0",
+  "version": "7.9.0",
   "homepage": "https://github.com/foray1010/common-presets/tree/master/packages/eslint-config#readme",
   "bugs": "https://github.com/foray1010/common-presets/issues",
   "repository": {
@@ -23,7 +23,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "@foray1010/common-presets-utils": "^5.0.4",
+    "@foray1010/common-presets-utils": "^5.1.0",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
     "confusing-browser-globals": "^1.0.10",

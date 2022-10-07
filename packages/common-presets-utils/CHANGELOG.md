@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@5.0.4...@foray1010/common-presets-utils@5.1.0) (2022-10-07)
+
+### Features
+
+- use indexed syntax for accessing undefined fields ([7c1f9d6](https://github.com/foray1010/common-presets/commit/7c1f9d63349f0b34b00aa8608d6908763d964c3e))
+
 ## [5.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@5.0.3...@foray1010/common-presets-utils@5.0.4) (2022-09-28)
 
 **Note:** Version bump only for package @foray1010/common-presets-utils

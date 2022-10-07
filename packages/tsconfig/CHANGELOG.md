@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@8.0.2...@foray1010/tsconfig@8.1.0) (2022-10-07)
+
+### Features
+
+- **tsconfig:** add DOM.Iterable in lib ([d04c00a](https://github.com/foray1010/common-presets/commit/d04c00a96dd6bf2223ec7ce2fb0238466d9b86df))
+- **tsconfig:** enable exactOptionalPropertyTypes ([51f22f5](https://github.com/foray1010/common-presets/commit/51f22f5463bbf4063e2e2f872bb29f51f3ccdf18))
+- **tsconfig:** enable noUncheckedIndexedAccess ([6557b74](https://github.com/foray1010/common-presets/commit/6557b74aca9ddffe27a744b6caf4386d0b42e32e))
+- use indexed syntax for accessing undefined fields ([7c1f9d6](https://github.com/foray1010/common-presets/commit/7c1f9d63349f0b34b00aa8608d6908763d964c3e))
+
 ## [8.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@8.0.1...@foray1010/tsconfig@8.0.2) (2022-08-24)
 
 **Note:** Version bump only for package @foray1010/tsconfig
