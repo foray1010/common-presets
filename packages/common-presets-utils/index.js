@@ -18,7 +18,7 @@ const hasDep = (packageName) =>
     .flatMap((dependencies) => Object.keys(dependencies ?? {}))
     .includes(packageName)
 
-const isESM = () => pkg?.type === 'module'
+const isESM = () => pkg?.['type'] === 'module'
 
 module.exports = {
   hasDep,

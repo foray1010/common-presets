@@ -14,6 +14,7 @@
     "noEmit": true,
     "noEmitOnError": true,
     "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,

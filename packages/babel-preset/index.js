@@ -32,7 +32,8 @@ const babelPreset = declare(function presetDefinitions(
 ) {
   api.assertVersion(7)
 
-  const env = process.env.BABEL_ENV || process.env.NODE_ENV || 'development'
+  const env =
+    process.env['BABEL_ENV'] || process.env['NODE_ENV'] || 'development'
   // enable in next major version
   /*
   if (!env) {

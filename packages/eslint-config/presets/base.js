@@ -201,6 +201,15 @@ module.exports = {
                 'error',
                 { prefer: 'type-imports' },
               ],
+              // disable the base rule as it can report incorrect errors, use @typescript-eslint/dot-notation instead
+              'dot-notation': 'off',
+              // only allow indexed syntax (e.g. `obj['key']`) for accessing undefined fields
+              '@typescript-eslint/dot-notation': [
+                'error',
+                {
+                  allowIndexSignaturePropertyAccess: true,
+                },
+              ],
               // encourage to use private accessibility modifier
               '@typescript-eslint/explicit-member-accessibility': [
                 'error',
