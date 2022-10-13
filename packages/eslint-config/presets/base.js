@@ -178,6 +178,7 @@ module.exports = {
             },
             plugins: [
               '@typescript-eslint/eslint-plugin',
+              'eslint-plugin-deprecation',
               'eslint-plugin-functional',
             ],
             env: {
@@ -267,6 +268,8 @@ module.exports = {
                 'error',
                 { ignoreStatic: true },
               ],
+              // do not allow usage of deprecated code
+              'deprecation/deprecation': 'error',
               // use with @typescript-eslint/prefer-readonly
               'functional/prefer-readonly-type': [
                 'error',
