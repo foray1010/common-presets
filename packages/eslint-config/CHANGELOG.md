@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.10.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.9.0...@foray1010/eslint-config@7.10.0) (2022-10-18)
+
+### Features
+
+- **eslint-config:** do not allow usage of deprecated code ([ed21e5e](https://github.com/foray1010/common-presets/commit/ed21e5e671a67230453a682e9f80519bdcb0e551))
+- **eslint-config:** encourage to use JS standard #private over TS private accessibility modifier ([5e913c8](https://github.com/foray1010/common-presets/commit/5e913c84e709a6d586fde790f122459170130a26))
+
 ## [7.9.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.8.0...@foray1010/eslint-config@7.9.0) (2022-10-07)
 
 ### Features
