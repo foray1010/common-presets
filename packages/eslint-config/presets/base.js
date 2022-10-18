@@ -284,6 +284,16 @@ module.exports = {
               ],
               // forbid unnecessary callback wrapper
               'functional/prefer-tacit': 'error',
+              'no-restricted-syntax': [
+                'error',
+                {
+                  // encourage to use JS standard #private over TS private accessibility modifier, but excluding constructor because it cannot be private in JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields#description
+                  selector:
+                    ':matches(PropertyDefinition, MethodDefinition)[accessibility="private"]:not([kind="constructor"])',
+                  message:
+                    'Use #private instead (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)',
+                },
+              ],
               // @typescript-eslint/eslint-plugin suggests to disable it: https://github.com/typescript-eslint/typescript-eslint/blob/2588e9ea55f78352fdd6ae92a306135aabb49a1a/docs/linting/TROUBLESHOOTING.md#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
               // It is disabled in recommended config but re-enabled here to enforce a subset of global variables that supported by both node.js and browsers
               'no-undef': 'error',
