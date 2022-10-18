@@ -289,7 +289,7 @@ module.exports = {
                 {
                   // encourage to use JS standard #private over TS private accessibility modifier, but excluding constructor because it cannot be private in JS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields#description
                   selector:
-                    ':matches(PropertyDefinition, MethodDefinition)[accessibility="private"]:not([kind="constructor"])',
+                    ':matches(PropertyDefinition, MethodDefinition, TSParameterProperty)[accessibility="private"]:not([kind="constructor"])',
                   message:
                     'Use #private instead (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)',
                 },
