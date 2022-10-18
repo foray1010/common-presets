@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.11.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.10.0...@foray1010/eslint-config@7.11.0) (2022-10-18)
+
+### Features
+
+- **eslint-config:** encourage to use JS standard #private in TSParameterProperty ([2f7b7f6](https://github.com/foray1010/common-presets/commit/2f7b7f6665f3fc520fc1a87878b2e5730e33b9aa))
+
 ## [7.10.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.9.0...@foray1010/eslint-config@7.10.0) (2022-10-18)
 
 ### Features
