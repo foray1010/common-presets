@@ -102,6 +102,14 @@ module.exports = {
         allowObject: false,
       },
     ],
+    // no circular dependency
+    'import/no-cycle': [
+      'error',
+      {
+        // speed up linting time
+        ignoreExternal: true,
+      },
+    ],
     // do not allow import packages that are not listed in dependencies or peerDependencies
     'import/no-extraneous-dependencies': [
       'error',
@@ -113,6 +121,8 @@ module.exports = {
         ],
       },
     ],
+    // forbid a module from importing itself
+    'import/no-self-import': 'error',
     // use the shortest path in import statement, but allow /index because it will be standard to omit index as default file in directory
     'import/no-useless-path-segments': [
       'error',
