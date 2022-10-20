@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.12.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.11.0...@foray1010/eslint-config@7.12.0) (2022-10-20)
+
+### Features
+
+- **eslint-config:** add checking on circular dependency and self import ([a42e38a](https://github.com/foray1010/common-presets/commit/a42e38a0a08de73265cf70185569b45587284a2f))
+
 ## [7.11.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.10.0...@foray1010/eslint-config@7.11.0) (2022-10-18)
 
 ### Features
