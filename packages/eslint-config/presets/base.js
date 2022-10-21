@@ -3,7 +3,7 @@
 // @ts-expect-error
 const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
-const { testFileGlobs } = require('./utils/testUtil')
+const { testFileGlobs } = require('./utils/testUtil.js')
 
 /** @type {import('eslint').Linter.BaseConfig} */
 const cjsConfig = {
@@ -30,19 +30,6 @@ const esmConfig = {
     'simple-import-sort/exports': 'error',
     // auto sort import statements
     'simple-import-sort/imports': 'error',
-  },
-}
-
-/** @type {import('eslint').Linter.BaseConfig} */
-const esmConfigForJs = {
-  ...esmConfig,
-  rules: {
-    ...esmConfig.rules,
-    'import/extensions': [
-      'error',
-      // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
-      'always',
-    ],
   },
 }
 
@@ -84,6 +71,21 @@ module.exports = {
     'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
+    // enforce extensions for both cjs and esm
+    'import/extensions': [
+      'error',
+      // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
+      'always',
+      {
+        pattern: {
+          // ignore cts/mts/ts/tsx because typescript uses cjs/mjs/js instead
+          cts: 'never',
+          mts: 'never',
+          ts: 'never',
+          tsx: 'never',
+        },
+      },
+    ],
     // make sure import statements above the others
     'import/first': 'error',
     // separate import statements from the others
@@ -143,7 +145,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.js'],
-      ...(isESM() ? esmConfigForJs : cjsConfig),
+      ...(isESM() ? esmConfig : cjsConfig),
     },
     {
       files: ['*.cjs'],
@@ -151,7 +153,7 @@ module.exports = {
     },
     {
       files: ['*.mjs'],
-      ...esmConfigForJs,
+      ...esmConfig,
     },
     {
       files: testFileGlobs,
@@ -186,15 +188,16 @@ module.exports = {
               // allowAutomaticSingleRunInference: true,
               project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
             },
+            settings: {
+              'import/resolver': {
+                typescript: true,
+              },
+            },
             plugins: [
               '@typescript-eslint/eslint-plugin',
               'eslint-plugin-deprecation',
               'eslint-plugin-functional',
             ],
-            env: {
-              // allow commonjs globals as we haven't moved to es modules
-              commonjs: true,
-            },
             rules: {
               // extend existing rule
               '@typescript-eslint/ban-types': [

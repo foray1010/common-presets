@@ -1,6 +1,6 @@
 'use strict'
 
-const { testFileGlobs } = require('./utils/testUtil')
+const { testFileGlobs } = require('./utils/testUtil.js')
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {

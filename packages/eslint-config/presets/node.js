@@ -1,13 +1,20 @@
 'use strict'
 
+// @ts-expect-error
+const { isESM } = require('@foray1010/common-presets-utils')
+
+/** @type {import('eslint').Linter.BaseConfig} */
+const cjsConfig = {
+  globals: {
+    __dirname: 'readonly',
+    __filename: 'readonly',
+  },
+}
+
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   plugins: ['eslint-plugin-n'],
   globals: {
-    // used in commonjs and typescript
-    __dirname: 'readonly',
-    // used in commonjs and typescript
-    __filename: 'readonly',
     // hack to mute no-undef error, and show n/prefer-global/buffer error instead
     Buffer: 'readonly',
     // hack to mute no-undef error, and show n/prefer-global/process error instead
@@ -41,4 +48,14 @@ module.exports = {
     // enforce shebang on the entry bin file
     'n/shebang': 'error',
   },
+  overrides: [
+    {
+      files: ['*.js'],
+      ...(isESM() ? {} : cjsConfig),
+    },
+    {
+      files: ['*.cjs', '*.cts'],
+      ...cjsConfig,
+    },
+  ],
 }
