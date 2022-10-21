@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.12.0...@foray1010/eslint-config@8.0.0) (2022-10-21)
+
+### ⚠ BREAKING CHANGES
+
+- enforce file extension and use native esm typescript
+
+### Features
+
+- enforce file extension and use native esm typescript ([c885710](https://github.com/foray1010/common-presets/commit/c8857103a3f828d2cf9946885495bd92d15b8d5d))
+
 ## [7.12.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.11.0...@foray1010/eslint-config@7.12.0) (2022-10-20)
 
 ### Features
