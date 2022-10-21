@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@9.0.1...@foray1010/tsconfig@9.1.0) (2022-10-21)
+
+### Features
+
+- **tsconfig:** add default config for ts-node ([c42433b](https://github.com/foray1010/common-presets/commit/c42433b288de72ee2999ad042268ba8cda43833c))
+
 ## [9.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@9.0.0...@foray1010/tsconfig@9.0.1) (2022-10-21)
 
 ### Bug Fixes
