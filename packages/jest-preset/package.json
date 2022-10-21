@@ -18,6 +18,9 @@
   "scripts": {
     "type:check": "tsc"
   },
+  "dependencies": {
+    "ts-jest-resolver": "^2.0.0"
+  },
   "peerDependencies": {
     "jest": "^29.0.1",
     "node-notifier": "^10.0.1"
