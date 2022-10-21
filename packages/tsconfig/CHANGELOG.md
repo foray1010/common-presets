@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@9.0.0...@foray1010/tsconfig@9.0.1) (2022-10-21)
+
+### Bug Fixes
+
+- use node module resolution as node16 does not work with many libraries ([3b37293](https://github.com/foray1010/common-presets/commit/3b37293ea42fefb2a7fa8362b21aac4d4f1d0a00))
+
 ## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@8.1.0...@foray1010/tsconfig@9.0.0) (2022-10-21)
 
 ### ⚠ BREAKING CHANGES
