@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@2.0.2...@foray1010/jest-preset@2.1.0) (2022-10-21)
+
+### Features
+
+- **jest-preset:** support native es modules typescript ([07ee4d3](https://github.com/foray1010/common-presets/commit/07ee4d3a4d6a9ed10598deed1a1d2e1390d3bb8c))
+
 ## [2.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@2.0.1...@foray1010/jest-preset@2.0.2) (2022-09-28)
 
 ### Bug Fixes
