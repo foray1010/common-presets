@@ -12,7 +12,7 @@
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "module": "Node16",
     "moduleDetection": "force",
-    "moduleResolution": "Node16",
+    "moduleResolution": "Node",
     "noEmit": true,
     "noEmitOnError": true,
     "noImplicitOverride": true,
