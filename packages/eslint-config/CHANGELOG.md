@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [8.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@8.0.0...@foray1010/eslint-config@8.0.1) (2022-10-22)
+
+### Bug Fixes
+
+- **eslint-config:** add back support for node 14.17 ([3264119](https://github.com/foray1010/common-presets/commit/3264119b95b5364cd6c952536dffce49b5f14955))
+
 ## [8.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@7.12.0...@foray1010/eslint-config@8.0.0) (2022-10-21)
 
 ### ⚠ BREAKING CHANGES
