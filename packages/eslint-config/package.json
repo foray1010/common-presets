@@ -43,7 +43,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^8.0.0",
     "eslint-plugin-testing-library": "^5.7.0",
-    "eslint-plugin-unicorn": "^42.0.0"
+    "eslint-plugin-unicorn": "^44.0.0"
   },
   "devDependencies": {
     "@types/confusing-browser-globals": "1.0.0",
