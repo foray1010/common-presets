@@ -139,10 +139,15 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
+    // use with `unicorn/throw-new-error`
+    // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
+    'unicorn/new-for-builtins': 'error',
     // prefer `import from 'node:xxx'`
     'unicorn/prefer-node-protocol': 'error',
     // prefer Number static properties over global ones
     'unicorn/prefer-number-properties': 'error',
+    // use with `unicorn/new-for-builtins`
+    'unicorn/throw-new-error': 'error',
   },
   overrides: [
     {
