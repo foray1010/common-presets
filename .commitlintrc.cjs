@@ -1,7 +1,7 @@
 'use strict'
 
 const fg = require('fast-glob')
-const path = require('path')
+const path = require('node:path')
 
 const packageJson = require('./package.json')
 

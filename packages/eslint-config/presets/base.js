@@ -139,6 +139,8 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
+    // prefer `import from 'node:xxx'`
+    'unicorn/prefer-node-protocol': 'error',
     // prefer Number static properties over global ones
     'unicorn/prefer-number-properties': 'error',
   },

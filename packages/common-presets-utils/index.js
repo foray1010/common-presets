@@ -1,6 +1,6 @@
 'use strict'
 
-const path = require('path')
+const path = require('node:path')
 const readPkgUp = require('read-pkg-up')
 
 const { packageJson: pkg, path: pkgPath } = readPkgUp.sync() ?? {}
