@@ -242,6 +242,8 @@ module.exports = {
               ],
               // sometimes auto detect can provide a better and narrower type
               '@typescript-eslint/explicit-module-boundary-types': 'off',
+              // disallow duplicated value in enum as it is error-prone
+              '@typescript-eslint/no-duplicate-enum-values': 'error',
               // need empty function for react context default value
               '@typescript-eslint/no-empty-function': 'off',
               // encourage to check error type before use in catch clauses
