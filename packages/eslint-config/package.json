@@ -24,8 +24,8 @@
   },
   "dependencies": {
     "@foray1010/common-presets-utils": "^5.1.0",
-    "@typescript-eslint/eslint-plugin": "^5.38.1",
-    "@typescript-eslint/parser": "^5.38.1",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
     "confusing-browser-globals": "^1.0.10",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-typescript": "^3.5.2",

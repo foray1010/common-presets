@@ -253,6 +253,8 @@ module.exports = {
                 'error',
                 { checksVoidReturn: false },
               ],
+              // declaration merging between classes and interfaces is unsafe
+              '@typescript-eslint/no-unsafe-declaration-merging': 'error',
               // do not block functions referring to other functions
               '@typescript-eslint/no-use-before-define': [
                 'error',
