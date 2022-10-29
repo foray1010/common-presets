@@ -11,8 +11,8 @@
   },
   "license": "MIT",
   "exports": {
-    ".": "./index.js",
-    "./react": "./react.js"
+    ".": "./index.cjs",
+    "./react": "./react.cjs"
   },
   "files": [
     "**/*.{cjs,js,json,mjs}",

@@ -2,5 +2,5 @@
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: ['./presets/base.js', './presets/node.js'],
+  extends: ['./presets/base.cjs', './presets/node.cjs'],
 }

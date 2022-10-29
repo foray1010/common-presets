@@ -3,7 +3,7 @@
 // @ts-expect-error
 const { hasDep, isESM } = require('@foray1010/common-presets-utils')
 
-const { testFileGlobs } = require('./utils/testUtil.js')
+const { testFileGlobs } = require('./utils/testUtil.cjs')
 
 /** @type {import('eslint').Linter.BaseConfig} */
 const cjsConfig = {
