@@ -289,6 +289,8 @@ module.exports = {
                   allowRegExp: true,
                 },
               ],
+              // avoid missed switch-case by requiring switch-case statements to be exhaustive with union type
+              '@typescript-eslint/switch-exhaustiveness-check': 'error',
               // ignore static function as those are not supposed to use `this`
               '@typescript-eslint/unbound-method': [
                 'error',
