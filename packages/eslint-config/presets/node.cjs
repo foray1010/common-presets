@@ -39,10 +39,10 @@ module.exports = {
     'n/prefer-global/text-decoder': ['error', 'always'],
     // prefer global `TextEncoder` to be isomorphic
     'n/prefer-global/text-encoder': ['error', 'always'],
-    // prefer global `URLSearchParams` to be isomorphic
-    'n/prefer-global/url-search-params': ['error', 'always'],
     // prefer global `URL` to be isomorphic
     'n/prefer-global/url': ['error', 'always'],
+    // prefer global `URLSearchParams` to be isomorphic
+    'n/prefer-global/url-search-params': ['error', 'always'],
     // make `process.exit()` expressions the same code path as `throw`
     'n/process-exit-as-throw': 'error',
     // enforce shebang on the entry bin file
