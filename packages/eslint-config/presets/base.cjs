@@ -280,6 +280,8 @@ module.exports = {
               // use with functional/prefer-readonly-type
               // mark class variables as readonly if it is not mutated
               '@typescript-eslint/prefer-readonly': 'error',
+              // make sure functions which return a promise will just return a rejected promise instead of throwing an error
+              '@typescript-eslint/promise-function-async': 'error',
               // allow primitive value in template string
               '@typescript-eslint/restrict-template-expressions': [
                 'error',
