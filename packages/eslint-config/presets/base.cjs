@@ -219,6 +219,8 @@ module.exports = {
                   extendDefaults: true,
                 },
               ],
+              // separate type exports which allow certain optimizations within compilers
+              '@typescript-eslint/consistent-type-exports': 'error',
               // separate type imports which allow certain optimizations within compilers
               '@typescript-eslint/consistent-type-imports': [
                 'error',
