@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@8.0.1...@foray1010/eslint-config@9.0.0) (2022-11-07)
+
+### ⚠ BREAKING CHANGES
+
+- drop nodejs 14.17 and 18.11
+
+### Features
+
+- **eslint-config:** disallow builtins to be created without `new` operator ([1c0c1a8](https://github.com/foray1010/common-presets/commit/1c0c1a86bbaf8a7c2bfcbd7998041418329fc8e2))
+- **eslint-config:** disallow duplicated value in enum as it is error-prone ([5795a82](https://github.com/foray1010/common-presets/commit/5795a82945eaeec967a8403e167defbe587b4583))
+- **eslint-config:** enable @typescript-eslint/no-unsafe-declaration-merging ([1b4abe2](https://github.com/foray1010/common-presets/commit/1b4abe27a5322729321b61f5d406cf9af7aaf51a))
+- **eslint-config:** make sure functions which return a promise will just return a rejected promise ([06603f4](https://github.com/foray1010/common-presets/commit/06603f42098f5492037c0114ecc50fac623a11c3))
+- **eslint-config:** prefer node protocol ([204e5c1](https://github.com/foray1010/common-presets/commit/204e5c168aacaa020d2481306489724dfd6da7bc))
+- **eslint-config:** require switch-case statements to be exhaustive with union type ([2b13aa6](https://github.com/foray1010/common-presets/commit/2b13aa60c1622a75f4a84133b3bf31b90b676057))
+- **eslint-config:** separate type exports which allow certain optimizations within compilers ([bbc6b9b](https://github.com/foray1010/common-presets/commit/bbc6b9b9a83fecf552ed85be838693ec04c8b149))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-import-resolver-typescript to v3 ([0ff474e](https://github.com/foray1010/common-presets/commit/0ff474ef79193b53a29ea0ad7026e3cc12e1227e))
+- **eslint-config:** does not report error when importing ts files without extension ([aea8307](https://github.com/foray1010/common-presets/commit/aea83079cae7967c405a38599b2ad63169cf8be6))
+
+### Miscellaneous Chores
+
+- drop nodejs 14.17 and 18.11 ([8e5c967](https://github.com/foray1010/common-presets/commit/8e5c9677b89d38c88de465f069bb5de683a8a40b))
+
 ## [8.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@8.0.0...@foray1010/eslint-config@8.0.1) (2022-10-22)
 
 ### Bug Fixes

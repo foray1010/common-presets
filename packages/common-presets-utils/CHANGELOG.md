@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@5.1.0...@foray1010/common-presets-utils@6.0.0) (2022-11-07)
+
+### ⚠ BREAKING CHANGES
+
+- drop nodejs 14.17 and 18.11
+
+### Features
+
+- **eslint-config:** prefer node protocol ([204e5c1](https://github.com/foray1010/common-presets/commit/204e5c168aacaa020d2481306489724dfd6da7bc))
+
+### Miscellaneous Chores
+
+- drop nodejs 14.17 and 18.11 ([8e5c967](https://github.com/foray1010/common-presets/commit/8e5c9677b89d38c88de465f069bb5de683a8a40b))
+
 ## [5.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@5.0.4...@foray1010/common-presets-utils@5.1.0) (2022-10-07)
 
 ### Features
