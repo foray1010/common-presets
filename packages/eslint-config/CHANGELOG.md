@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.0.0...@foray1010/eslint-config@9.0.1) (2022-11-07)
+
+### Reverts
+
+- **eslint-config:** does not report error when importing ts files without extension ([faeee28](https://github.com/foray1010/common-presets/commit/faeee281cd40ba6b22835ae5b8c9cd6d69d3815e))
+
 ## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@8.0.1...@foray1010/eslint-config@9.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES
