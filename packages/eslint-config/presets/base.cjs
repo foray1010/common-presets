@@ -71,7 +71,6 @@ module.exports = {
     'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
     'import/default': 'off',
-    // use with `n/file-extension-in-import`
     // enforce extensions for both cjs and esm
     'import/extensions': [
       'error',
@@ -79,7 +78,7 @@ module.exports = {
       'always',
       {
         pattern: {
-          // handled by `n/file-extension-in-import` because eslint-plugin-import does not support es modules in typescript files
+          // eslint-plugin-import does not support checking es modules in typescript files
           cts: 'never',
           mts: 'never',
           ts: 'never',
@@ -205,7 +204,6 @@ module.exports = {
               '@typescript-eslint/eslint-plugin',
               'eslint-plugin-deprecation',
               'eslint-plugin-functional',
-              'eslint-plugin-n',
             ],
             rules: {
               // extend existing rule
@@ -316,8 +314,6 @@ module.exports = {
               ],
               // forbid unnecessary callback wrapper
               'functional/prefer-tacit': 'error',
-              // use with `import/extensions` because it doesn't work with TypeScript
-              'n/file-extension-in-import': ['error', 'always'],
               'no-restricted-syntax': [
                 'error',
                 {
