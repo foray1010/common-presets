@@ -139,6 +139,8 @@ module.exports = {
     'jsdoc/valid-types': 'off',
     // prefer explicitly convert type for readability
     'no-implicit-coercion': 'error',
+    // make sure private class members are in-use
+    'no-unused-private-class-members': 'error',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
     // use with `unicorn/throw-new-error`
