@@ -137,6 +137,8 @@ module.exports = {
     'jsdoc/require-jsdoc': 'off',
     // does not work well with TypeScript https://github.com/gajus/eslint-plugin-jsdoc/issues/145
     'jsdoc/valid-types': 'off',
+    // prefer explicitly convert type for readability
+    'no-implicit-coercion': 'error',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
     // use with `unicorn/throw-new-error`
