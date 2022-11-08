@@ -143,6 +143,14 @@ module.exports = {
     'no-unused-private-class-members': 'error',
     // avoid assigning anonymous function to object key which is harder to trace when debug
     'object-shorthand': ['error', 'always'],
+    // prefer `const` when the variable won't be reassigned
+    'prefer-const': [
+      'error',
+      {
+        // if one of the variables will be reassigned, do not enforce `const`
+        destructuring: 'all',
+      },
+    ],
     // use with `unicorn/throw-new-error`
     // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
     'unicorn/new-for-builtins': 'error',
