@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.0.1...@foray1010/eslint-config@9.1.0) (2022-12-21)
+
+### Features
+
+- **eslint-config:** make sure private class members are in-use ([8d01342](https://github.com/foray1010/common-presets/commit/8d01342664696ab6bff9cc2f703bc53a81995ed5))
+- **eslint-config:** prefer `const` when the variable won't be reassigned ([e6b18a1](https://github.com/foray1010/common-presets/commit/e6b18a1dcc023ea346d96288f4c709b77578b2af))
+- **eslint-config:** prefer explicitly convert type for readability ([2b5f647](https://github.com/foray1010/common-presets/commit/2b5f64740415361173f0ca16a91c2714af72ed02))
+- **eslint-config:** require button type to avoid unexpected form submits ([891ff50](https://github.com/foray1010/common-presets/commit/891ff506217da96accd030fbbbea680569f4573b))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-unicorn to v45 ([cde868a](https://github.com/foray1010/common-presets/commit/cde868a7c95aaa4dad3acedb07a763ccc64582c9))
+
 ## [9.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.0.0...@foray1010/eslint-config@9.0.1) (2022-11-07)
 
 ### Reverts
