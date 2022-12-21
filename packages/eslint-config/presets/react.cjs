@@ -23,6 +23,8 @@ module.exports = {
     },
   },
   rules: {
+    // avoid unexpected form submits
+    'react/button-has-type': 'error',
     'react/jsx-no-useless-fragment': [
       'error',
       {
