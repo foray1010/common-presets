@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.12",
-    "@babel/runtime": "7.20.7",
+    "@babel/runtime": "7.20.13",
     "@commitlint/cli": "17.4.2",
     "@commitlint/config-conventional": "17.4.2",
     "eslint": "8.32.0",
