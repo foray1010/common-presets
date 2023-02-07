@@ -231,10 +231,12 @@ module.exports = {
               ],
               // separate type exports which allow certain optimizations within compilers
               '@typescript-eslint/consistent-type-exports': 'error',
-              // separate type imports which allow certain optimizations within compilers
               '@typescript-eslint/consistent-type-imports': [
                 'error',
-                { prefer: 'type-imports' },
+                {
+                  // separate type imports which allow certain optimizations within compilers
+                  prefer: 'type-imports',
+                },
               ],
               // disable the base rule as it can report incorrect errors, use @typescript-eslint/dot-notation instead
               'dot-notation': 'off',
@@ -260,6 +262,8 @@ module.exports = {
               '@typescript-eslint/no-empty-function': 'off',
               // encourage to check error type before use in catch clauses
               '@typescript-eslint/no-implicit-any-catch': 'error',
+              // when using typescript 5.0 with verbatimModuleSyntax flag on, compiler will not remove import statements with only inline type imports which lead to side effects
+              '@typescript-eslint/no-import-type-side-effects': 'error',
               // enforce correct usage of `void` type
               '@typescript-eslint/no-invalid-void-type': 'error',
               // allow using async function as event handler in frontend
