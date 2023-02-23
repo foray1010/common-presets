@@ -19,7 +19,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "read-pkg-up": "^7.0.1"
+    "read-pkg-up": "^9.0.0"
   },
   "engines": {
     "node": "^14.18.0 || ^16.13.0 || >=18.12.0"
