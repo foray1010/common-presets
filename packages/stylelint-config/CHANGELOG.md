@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.0.0...@foray1010/stylelint-config@10.1.0) (2023-02-25)
+
+### Features
+
+- **stylelint-config:** replace idiomatic-order by concentric-order ([f0b5fda](https://github.com/foray1010/common-presets/commit/f0b5fda61ed5fef4f2056003ddc323f9cab2ed29))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@9.0.0...@foray1010/stylelint-config@10.0.0) (2023-02-25)
 
 ### ⚠ BREAKING CHANGES
