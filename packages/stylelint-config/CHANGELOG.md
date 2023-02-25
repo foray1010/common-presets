@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.1.0...@foray1010/stylelint-config@10.1.1) (2023-02-25)
+
+### Bug Fixes
+
+- **stylelint-config:** use correct stylelint-config-concentric-order path ([67f0033](https://github.com/foray1010/common-presets/commit/67f003325cde0500284c06fe15fef0c9838c6bc4))
+
 ## [10.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.0.0...@foray1010/stylelint-config@10.1.0) (2023-02-25)
 
 ### Features
