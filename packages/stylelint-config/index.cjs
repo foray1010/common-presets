@@ -10,6 +10,8 @@ module.exports = {
   ],
   plugins: ['stylelint-no-unsupported-browser-features'],
   rules: {
+    // unnecessary and may cause unexpected results when used with stylelint-order
+    'comment-empty-line-before': null,
     // false alarms when use with `:root` selector
     'no-descending-specificity': null,
     // if used with styled-component, not every js files have styles
