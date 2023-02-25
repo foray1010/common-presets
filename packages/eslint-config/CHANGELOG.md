@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.1.0...@foray1010/eslint-config@9.2.0) (2023-02-25)
+
+### Features
+
+- **eslint-config:** avoid type imports with side effects ([ceda72a](https://github.com/foray1010/common-presets/commit/ceda72a42dab09540fe796cca7c88b82801f073d))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-jsdoc to v40 ([9d2a01e](https://github.com/foray1010/common-presets/commit/9d2a01e04880e21c2be8dd2e984ec5f01f28fcda))
+- **deps:** update dependency eslint-plugin-simple-import-sort to v10 ([5b258d7](https://github.com/foray1010/common-presets/commit/5b258d70b6c6f344645f983d6f7805edd2ee1908))
+- **deps:** update dependency eslint-plugin-simple-import-sort to v9 ([62d76f2](https://github.com/foray1010/common-presets/commit/62d76f2d2ef83ab5a909d3820a9f16acf387bbfa))
+
 ## [9.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.0.1...@foray1010/eslint-config@9.1.0) (2022-12-21)
 
 ### Features

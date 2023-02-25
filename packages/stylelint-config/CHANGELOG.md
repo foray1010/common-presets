@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@9.0.0...@foray1010/stylelint-config@10.0.0) (2023-02-25)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** update stylelint to v15
+
+### Bug Fixes
+
+- remove dependency on stylelint-config-prettier ([c7d26bb](https://github.com/foray1010/common-presets/commit/c7d26bb66055fb2104132f1fdada46e5c6ce069c))
+- **stylelint-config:** disable comment-empty-line-before ([20fbd76](https://github.com/foray1010/common-presets/commit/20fbd76dbff20275e6e5cfeca9a5c8323e6fb18f))
+
+### Miscellaneous Chores
+
+- **deps:** update stylelint to v15 ([5553334](https://github.com/foray1010/common-presets/commit/5553334c344e3ebbb6959de9ff14b8b4bad4a6e3))
+
 ## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@8.0.0...@foray1010/stylelint-config@9.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES
