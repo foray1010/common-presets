@@ -10004,19 +10004,19 @@ style-search@^0.1.0:
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
   integrity sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==
 
+stylelint-config-concentric-order@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-concentric-order/-/stylelint-config-concentric-order-5.1.0.tgz#2252fa5b611380ed06d1b6dc5aa010e7ec628424"
+  integrity sha512-+JEz/qSO/YBeegKtf25b3A1/7/pFRNiBCLAyrMkcwSJf2QKeBHJ5qm0FFKK0+5Os/wC+dKpmBPk0BOkQu+y8Zw==
+  dependencies:
+    stylelint-order "^5.0.0"
+
 stylelint-config-css-modules@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-css-modules/-/stylelint-config-css-modules-4.2.0.tgz#0196347d5c143eff9e2a3e97b1ba980253b6b8bf"
   integrity sha512-5x7lzPNCc42puQEAFdr7dSzQ00aIg1vCVyV+QPUiSp2oZILpAt8HTgveXaDttazxcwWPBNJrxrLpa556xUP7Bw==
   optionalDependencies:
     stylelint-scss "^4.3.0"
-
-stylelint-config-idiomatic-order@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-idiomatic-order/-/stylelint-config-idiomatic-order-9.0.0.tgz#8c04761ad41f234eb489f758d9b0b0d8743f7dd8"
-  integrity sha512-+LtfPycY1Paayf1MaERyh6BzVPnZxemX5NtzdUPqi4u8hyAR7859f/4EL02+Kr9va76iX7mbYC4HendocXKJZQ==
-  dependencies:
-    stylelint-order "^5.0.0"
 
 stylelint-config-recommended@^10.0.1:
   version "10.0.1"

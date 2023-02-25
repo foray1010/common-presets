@@ -20,8 +20,8 @@
     "type:check": "tsc"
   },
   "dependencies": {
+    "stylelint-config-concentric-order": "^5.1.0",
     "stylelint-config-css-modules": "^4.2.0",
-    "stylelint-config-idiomatic-order": "^9.0.0",
     "stylelint-config-standard": "^30.0.1",
     "stylelint-no-unsupported-browser-features": "^6.1.0",
     "stylelint-prettier": "^3.0.0"
