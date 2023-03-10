@@ -1331,6 +1331,14 @@
     esquery "^1.4.0"
     jsdoc-type-pratt-parser "~3.1.0"
 
+"@eslint-community/eslint-plugin-eslint-comments@^3.2.1":
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/@eslint-community/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-3.2.1.tgz#3c65061e27f155eae3744c3b30c5a8253a959040"
+  integrity sha512-/HZbjIGaVO2zLlWX3gRgiHmKRVvvqrC0zVu3eXnIj1ORxoyfGSj50l0PfDfqihyZAqrDYzSMdJesXzFjvAoiLQ==
+  dependencies:
+    escape-string-regexp "^1.0.5"
+    ignore "^5.2.4"
+
 "@eslint-community/eslint-utils@^4.1.2":
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.1.2.tgz#14ca568ddaa291dd19a4a54498badc18c6cfab78"
@@ -4201,14 +4209,6 @@ eslint-plugin-es@^4.1.0:
     eslint-utils "^2.0.0"
     regexpp "^3.0.0"
 
-eslint-plugin-eslint-comments@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-eslint-comments/-/eslint-plugin-eslint-comments-3.2.0.tgz#9e1cd7b4413526abb313933071d7aba05ca12ffa"
-  integrity sha512-0jkOl0hfojIHHmEHgmNdqv4fmh7300NdpA9FFpF7zaoLvB/QeXOGNLIo86oAveJFrfB1p05kC8hpEMHM8DwWVQ==
-  dependencies:
-    escape-string-regexp "^1.0.5"
-    ignore "^5.0.5"
-
 eslint-plugin-functional@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-functional/-/eslint-plugin-functional-4.4.1.tgz#de967e2a307387281ff78466ab66967f17ff9e99"
@@ -5300,7 +5300,7 @@ ignore-walk@^5.0.1:
   dependencies:
     minimatch "^5.0.1"
 
-ignore@^5.0.0, ignore@^5.0.4, ignore@^5.0.5, ignore@^5.1.1, ignore@^5.2.0, ignore@^5.2.4:
+ignore@^5.0.0, ignore@^5.0.4, ignore@^5.1.1, ignore@^5.2.0, ignore@^5.2.4:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
   integrity sha512-MAb38BcSbH0eHNBxn7ql2NH/kX33OkB3lZ1BNdh7ENeRChHTYsTvWrMubiIAMNS2llXEEgZ1MUOBtXChP3kaFQ==

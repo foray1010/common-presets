@@ -37,7 +37,7 @@ const esmConfig = {
 module.exports = {
   extends: [
     'eslint:recommended',
-    'plugin:eslint-comments/recommended',
+    'plugin:@eslint-community/eslint-comments/recommended',
     'plugin:import/recommended',
     'plugin:jsdoc/recommended',
     // included eslint-config-prettier
@@ -47,7 +47,7 @@ module.exports = {
     ecmaVersion: 2020,
   },
   plugins: [
-    'eslint-plugin-eslint-comments',
+    '@eslint-community/eslint-plugin-eslint-comments',
     'eslint-plugin-import',
     'eslint-plugin-jsdoc',
     'eslint-plugin-prettier',
@@ -64,9 +64,12 @@ module.exports = {
   },
   rules: {
     // allow disable eslint rules for whole file without re-enable it in the end of the file
-    'eslint-comments/disable-enable-pair': ['error', { allowWholeFile: true }],
+    '@eslint-community/eslint-comments/disable-enable-pair': [
+      'error',
+      { allowWholeFile: true },
+    ],
     // make sure every eslint-disable comments are in use
-    'eslint-comments/no-unused-disable': 'error',
+    '@eslint-community/eslint-comments/no-unused-disable': 'error',
     // always use named function for easier to debug via stack trace
     'func-names': ['error', 'as-needed'],
     // this rule doesn't support commonjs, some dependencies are using commonjs
