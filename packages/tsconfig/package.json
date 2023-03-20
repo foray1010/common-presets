@@ -18,7 +18,7 @@
     "type:check": "echo 'Skipped: non-ts package'"
   },
   "peerDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^5.0.2"
   },
   "engines": {
     "node": "^14.18.0 || ^16.13.0 || >=18.12.0"
