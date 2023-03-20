@@ -19,7 +19,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "ts-jest-resolver": "^2.0.0"
+    "ts-jest-resolver": "^2.0.1"
   },
   "peerDependencies": {
     "jest": "^29.0.1",
