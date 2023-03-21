@@ -26,7 +26,7 @@ If you need to compile TypeScript, use [@foray1010/babel-preset](../babel-preset
        "$schema": "https://json.schemastore.org/tsconfig",
        "extends": [
          "@foray1010/tsconfig/tsconfig.base.json",
-         "@foray1010/tsconfig/tsconfig.frontend.json"
+         "@foray1010/tsconfig/tsconfig.browser.json"
        ]
      }
      ```
