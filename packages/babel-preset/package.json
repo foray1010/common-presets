@@ -10,7 +10,8 @@
     "directory": "packages/babel-preset"
   },
   "license": "MIT",
-  "exports": "./index.cjs",
+  "type": "module",
+  "exports": "./index.mjs",
   "files": [
     "**/*.{cjs,js,json,mjs}",
     "*.md"

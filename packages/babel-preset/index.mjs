@@ -1,11 +1,12 @@
-'use strict'
+import process from 'node:process'
 
-const { declare } = require('@babel/helper-plugin-utils')
+import { declare } from '@babel/helper-plugin-utils'
+/* eslint-disable import/no-unresolved */
 // @ts-expect-error
-const { hasDep, pkg, pkgDir } = require('@foray1010/common-presets-utils')
-const browserslist = require('browserslist')
-const process = require('node:process')
-const semver = require('semver')
+import { hasDep, pkg, pkgDir } from '@foray1010/common-presets-utils'
+/* eslint-enable import/no-unresolved */
+import browserslist from 'browserslist'
+import semver from 'semver'
 
 const Modules = {
   CommonJS: 'commonjs',
@@ -98,4 +99,4 @@ const babelPreset = declare(function presetDefinitions(
   }
 })
 
-module.exports = babelPreset
+export default babelPreset
