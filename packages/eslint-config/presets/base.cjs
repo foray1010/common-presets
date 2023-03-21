@@ -44,7 +44,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 2021,
   },
   plugins: [
     '@eslint-community/eslint-plugin-eslint-comments',
