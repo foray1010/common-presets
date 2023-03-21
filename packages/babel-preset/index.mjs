@@ -29,7 +29,7 @@ const getEnvTargets = () => {
 
 const babelPreset = declare(function presetDefinitions(
   api,
-  { dependenciesModules = Modules.CommonJS },
+  { dependenciesModules = Modules.ESModules },
 ) {
   api.assertVersion(7)
 
