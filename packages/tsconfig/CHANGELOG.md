@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@10.0.0...@foray1010/tsconfig@11.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^16.14.0 || >=18.12.0`
+- **tsconfig:** require typescript v5
+
+### Features
+
+- support ES2021 ([40a0e28](https://github.com/foray1010/common-presets/commit/40a0e282c937825dfca1969c30ffc26e5bd2a27c))
+- **tsconfig:** require typescript v5 ([ef8b2e7](https://github.com/foray1010/common-presets/commit/ef8b2e72d2d96be4f41ba980fa79118c9e1bff47))
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@9.1.0...@foray1010/tsconfig@10.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES

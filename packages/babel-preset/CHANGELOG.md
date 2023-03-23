@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@10.0.0...@foray1010/babel-preset@11.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- **eslint-config:** migrate to eslint flat config and mjs
+- **babel-preset:** set default dependenciesModules to `esmodules`
+- **babel-preset:** require BABEL_ENV or NODE_ENV
+- **babel-preset:** use mjs
+- require node `^16.14.0 || >=18.12.0`
+
+### Features
+
+- **babel-preset:** require BABEL_ENV or NODE_ENV ([564a01b](https://github.com/foray1010/common-presets/commit/564a01b3ae602d121c00e30284bcc15b8fab0b56))
+- **babel-preset:** set default dependenciesModules to `esmodules` ([cf55f80](https://github.com/foray1010/common-presets/commit/cf55f8063eef13c9c32dcd1a955570c10cf29824))
+- **eslint-config:** migrate to eslint flat config and mjs ([d435d01](https://github.com/foray1010/common-presets/commit/d435d012faf1574dda750917dbada56048eecd09))
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Miscellaneous Chores
+
+- **babel-preset:** use mjs ([45ce9d8](https://github.com/foray1010/common-presets/commit/45ce9d81b84fa043bad670a1e32b93f0b171800b))
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@9.2.0...@foray1010/babel-preset@10.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES

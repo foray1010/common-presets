@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@8.0.0...@foray1010/remark-preset@9.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^16.14.0 || >=18.12.0`
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [8.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@7.0.4...@foray1010/remark-preset@8.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES

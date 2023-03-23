@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@8.0.1...@foray1010/prettier-config@9.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^16.14.0 || >=18.12.0`
+
+### Features
+
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [8.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@8.0.0...@foray1010/prettier-config@8.0.1) (2023-02-25)
 
 **Note:** Version bump only for package @foray1010/prettier-config

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.1.1...@foray1010/stylelint-config@11.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^16.14.0 || >=18.12.0`
+- **stylelint-config:** require stylelint `^15.3.0`
+
+### Features
+
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+- **stylelint-config:** update stylelint-config-standard to v31 ([8a5afc5](https://github.com/foray1010/common-presets/commit/8a5afc5b76d887269c0607b687ee2726fef85144))
+
 ## [10.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.1.0...@foray1010/stylelint-config@10.1.1) (2023-02-25)
 
 ### Bug Fixes

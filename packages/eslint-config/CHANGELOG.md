@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.2.0...@foray1010/eslint-config@10.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- **eslint-config:** migrate to eslint flat config and mjs
+- require node `^16.14.0 || >=18.12.0`
+
+### Features
+
+- **eslint-config:** migrate to eslint flat config and mjs ([d435d01](https://github.com/foray1010/common-presets/commit/d435d012faf1574dda750917dbada56048eecd09))
+- support ES2021 ([40a0e28](https://github.com/foray1010/common-presets/commit/40a0e282c937825dfca1969c30ffc26e5bd2a27c))
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-functional to v5 ([169a5c4](https://github.com/foray1010/common-presets/commit/169a5c4f7f7d10c6d2f5206e71942063f1b710cc))
+- **deps:** update dependency eslint-plugin-unicorn to v46 ([76621eb](https://github.com/foray1010/common-presets/commit/76621eb95fd7eb74fff3710ac739e4d12df1f768))
+- **eslint-config:** migrate eslint-plugin-eslint-comments to eslint-community version ([9a1ce64](https://github.com/foray1010/common-presets/commit/9a1ce646462cffd091d58fbbb39b0a83138f0f3b))
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [9.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.1.0...@foray1010/eslint-config@9.2.0) (2023-02-25)
 
 ### Features

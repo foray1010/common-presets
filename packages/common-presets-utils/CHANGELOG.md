@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@6.0.0...@foray1010/common-presets-utils@7.0.0) (2023-03-23)
+
+### ⚠ BREAKING CHANGES
+
+- **eslint-config:** migrate to eslint flat config and mjs
+- require node `^16.14.0 || >=18.12.0`
+
+### Features
+
+- **eslint-config:** migrate to eslint flat config and mjs ([d435d01](https://github.com/foray1010/common-presets/commit/d435d012faf1574dda750917dbada56048eecd09))
+- **tsconfig:** split tsconfig to mutliple files for different scenarios ([fcaf3ae](https://github.com/foray1010/common-presets/commit/fcaf3aee3f9f1851439d01631c2e8584bde685ba))
+
+### Miscellaneous Chores
+
+- require node `^16.14.0 || >=18.12.0` ([5baf6eb](https://github.com/foray1010/common-presets/commit/5baf6eba6d42958596c130724a502c59fe1a4e83))
+
 ## [6.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@5.1.0...@foray1010/common-presets-utils@6.0.0) (2022-11-07)
 
 ### ⚠ BREAKING CHANGES
