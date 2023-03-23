@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.0...@foray1010/eslint-config@10.0.1) (2023-03-23)
+
+### Bug Fixes
+
+- **eslint-config:** fix wrong assumption, `files` only does not filter ([661d0c6](https://github.com/foray1010/common-presets/commit/661d0c6bd05f688c8f6956fb26844e597c851dc4))
+- **eslint-config:** should not use ignores in config, and allow user defined ignores ([05b0ca0](https://github.com/foray1010/common-presets/commit/05b0ca09a76ed677c903b654cef3eeef7773610e))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@9.2.0...@foray1010/eslint-config@10.0.0) (2023-03-23)
 
 ### ⚠ BREAKING CHANGES
