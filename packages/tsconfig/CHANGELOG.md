@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@11.0.0...@foray1010/tsconfig@11.0.1) (2023-03-23)
+
+### Bug Fixes
+
+- **tsconfig:** 'isolatedModules' cannot be specified with 'verbatimModuleSyntax' ([bff99ca](https://github.com/foray1010/common-presets/commit/bff99cac127e28810fc49166ed750dd71d4eefc6))
+- **tsconfig:** does not work with existing eslint plugins because of multiple extends ([57e9674](https://github.com/foray1010/common-presets/commit/57e967488f8fea914c6d212c7e82d2187a582097))
+
 ## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@10.0.0...@foray1010/tsconfig@11.0.0) (2023-03-23)
 
 ### ⚠ BREAKING CHANGES
