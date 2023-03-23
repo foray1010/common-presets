@@ -2,8 +2,6 @@ import js from '@eslint/js'
 import eslintPluginEslintComments from '@eslint-community/eslint-plugin-eslint-comments'
 // @ts-expect-error
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
-import eslintPluginDeprecation from 'eslint-plugin-deprecation'
-import eslintPluginFunctional from 'eslint-plugin-functional'
 import eslintPluginImport from 'eslint-plugin-import'
 import eslintPluginJest from 'eslint-plugin-jest'
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
@@ -25,6 +23,10 @@ async function generateTypeScriptConfig() {
     await import('@typescript-eslint/eslint-plugin')
   ).default
   const typescriptEslintParser = (await import('@typescript-eslint/parser'))
+    .default
+  const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
+    .default
+  const eslintPluginFunctional = (await import('eslint-plugin-functional'))
     .default
 
   return [
