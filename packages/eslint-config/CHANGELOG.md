@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.2...@foray1010/eslint-config@10.0.3) (2023-03-23)
+
+### Bug Fixes
+
+- **eslint-config:** errors when using in project without typescript ([d357595](https://github.com/foray1010/common-presets/commit/d3575954b9dac1290c77ff23ece9ce3e7c8fcc2f))
+
 ## [10.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.1...@foray1010/eslint-config@10.0.2) (2023-03-23)
 
 ### Bug Fixes
