@@ -20,51 +20,95 @@ Z for looser rules
 
 1. `yarn add -DE @foray1010/eslint-config eslint prettier`
 
-1. Create an `.eslintrc.cjs` in the project root
+1. Create an `eslint.config.mjs` in the project root (It is not a standard config path, but we opts for `.mjs` extension to make it compatible with commonjs projects)
 
-   For general purpose, support TypeScript
+   - For general purpose or Node.js project (support TypeScript)
 
-   ```js
-   'use strict'
+     ```js
+     import {
+       eslintFilesConfig,
+       eslintIgnoresConfig,
+       eslintNodeConfig,
+     } from '@foray1010/eslint-config'
 
-   module.exports = {
-     root: true,
-     extends: ['@foray1010/eslint-config'],
-   }
-   ```
+     const config = [
+       ...eslintIgnoresConfig,
+       ...eslintFilesConfig,
+       ...eslintNodeConfig,
+     ]
+     export default config
+     ```
 
-   For frontend React projects, support TypeScript
+   - For general frontend projects (support TypeScript)
 
-   ```js
-   'use strict'
+     ```js
+     import {
+       eslintFilesConfig,
+       eslintIgnoresConfig,
+       eslintBrowserConfig,
+     } from '@foray1010/eslint-config'
 
-   module.exports = {
-     root: true,
-     extends: ['@foray1010/eslint-config/react'],
-   }
-   ```
+     const config = [
+       ...eslintIgnoresConfig,
+       ...eslintFilesConfig,
+       ...eslintBrowserConfig,
+     ]
+     export default config
+     ```
 
-   For TS projects in monorepo, mark the `tsconfigRootDir` to use the correct `tsconfig.json`
+   - For frontend React projects (support TypeScript)
 
-   ```js
-   'use strict'
+     ```js
+     import {
+       eslintFilesConfig,
+       eslintIgnoresConfig,
+       eslintReactConfig,
+     } from '@foray1010/eslint-config'
 
-   module.exports = {
-     root: true,
-     extends: ['@foray1010/eslint-config'],
-     parserOptions: {
-       // Make sure the correct `tsconfig.json` is found in monorepo
-       tsconfigRootDir: __dirname,
-     },
-   }
-   ```
+     const config = [
+       ...eslintIgnoresConfig,
+       ...eslintFilesConfig,
+       ...eslintReactConfig,
+     ]
+     export default config
+     ```
 
-1. Use default eslintignore via npm script
+   - You can apply config per different directories
+
+     ```js
+     import {
+       applyConfig,
+       eslintFilesConfig,
+       eslintIgnoresConfig,
+       eslintNodeConfig,
+       eslintReactConfig,
+     } from '@foray1010/eslint-config'
+
+     const config = [
+       ...eslintIgnoresConfig,
+       ...eslintFilesConfig,
+       ...applyConfig(
+         {
+           ignorePrefixes: ['src'],
+         },
+         eslintNodeConfig,
+       ),
+       ...applyConfig(
+         {
+           filePrefixes: ['src'],
+         },
+         eslintReactConfig,
+       ),
+     ]
+     export default config
+     ```
+
+1. Add npm script
 
    ```json
    {
      "scripts": {
-       "eslint": "eslint --ext=cjs,cts,js,mjs,mts,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore"
+       "eslint": "ESLINT_USE_FLAT_CONFIG=true eslint --config eslint.config.mjs"
      }
    }
    ```

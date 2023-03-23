@@ -2,12 +2,13 @@
   "$schema": "https://json.schemastore.org/package",
   "name": "common-presets",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "ci": "yarn lint:js && yarn lint:md && yarn workspaces run type:check",
-    "eslint": "eslint --ext=cjs,cts,js,mjs,mts,ts,tsx --ignore-path=node_modules/@foray1010/eslint-config/eslintignore",
+    "eslint": "ESLINT_USE_FLAT_CONFIG=true eslint --config eslint.config.mjs",
     "postinstall": "husky install",
     "lint:js": "yarn eslint .",
     "lint:md": "yarn remark .",

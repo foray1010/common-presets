@@ -10,20 +10,18 @@
     "directory": "packages/eslint-config"
   },
   "license": "MIT",
-  "exports": {
-    ".": "./index.cjs",
-    "./react": "./react.cjs"
-  },
+  "type": "module",
+  "exports": "./index.mjs",
   "files": [
     "**/*.{cjs,js,json,mjs}",
-    "*.md",
-    "eslintignore"
+    "*.md"
   ],
   "scripts": {
     "type:check": "tsc"
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
+    "@eslint/js": "^8.36.0",
     "@foray1010/common-presets-utils": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
@@ -43,14 +41,15 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-testing-library": "^5.10.2",
-    "eslint-plugin-unicorn": "^46.0.0"
+    "eslint-plugin-unicorn": "^46.0.0",
+    "globals": "^13.19.0"
   },
   "devDependencies": {
     "@types/confusing-browser-globals": "1.0.0",
     "@types/eslint": "8.21.3"
   },
   "peerDependencies": {
-    "eslint": "^8.0.0",
+    "eslint": "^8.36.0",
     "prettier": "^2.0.0"
   },
   "engines": {

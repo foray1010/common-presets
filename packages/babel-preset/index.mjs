@@ -1,10 +1,8 @@
 import process from 'node:process'
 
 import { declare } from '@babel/helper-plugin-utils'
-/* eslint-disable import/no-unresolved */
 // @ts-expect-error
 import { hasDep, pkg, pkgDir } from '@foray1010/common-presets-utils'
-/* eslint-enable import/no-unresolved */
 import browserslist from 'browserslist'
 import semver from 'semver'
 
