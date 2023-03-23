@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.3...@foray1010/eslint-config@10.0.4) (2023-03-23)
+
+### Bug Fixes
+
+- **eslint-config:** disable n/prefer-global hacks as they do not work with flat config ([4ede17d](https://github.com/foray1010/common-presets/commit/4ede17d93e403892bb731d1ad1900e19d03a8179))
+- **eslint-config:** still have errors when using in project without typescript ([a20ae50](https://github.com/foray1010/common-presets/commit/a20ae50a71af5970ee69565f153a94c520cc944b))
+
 ## [10.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.2...@foray1010/eslint-config@10.0.3) (2023-03-23)
 
 ### Bug Fixes
