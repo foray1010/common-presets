@@ -28,5 +28,4 @@ export const eslintReactConfig = [
   ...prettierConfig,
 ]
 
-export { default as eslintFilesConfig } from './bases/files.mjs'
 export { default as eslintIgnoresConfig } from './bases/ignores.mjs'

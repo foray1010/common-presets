@@ -1,9 +1,11 @@
 import path from 'node:path'
 
+import { supportedFilesGlob } from '../constants.mjs'
+
 /**
  * Extend the flat configs with default files and ignores
  * @param {{
- *   readonly filePrefixes?: string[] | undefined,
+ *   readonly filePrefixes: string[] | undefined,
  *   readonly ignorePrefixes?: string[] | undefined
  * }} options
  * @param {readonly import('eslint').Linter.FlatConfig[]} flatConfigs
@@ -19,11 +21,8 @@ export function applyConfig(options, flatConfigs) {
     }
 
     const keys = Object.keys(config)
-    if (
-      keys.length === 1 &&
-      (keys.includes('files') || keys.includes('ignores'))
-    ) {
-      throw new TypeError('Do not use `files` or `ignores` only')
+    if (keys.length === 1 && keys.includes('ignores')) {
+      throw new TypeError('Do not use `ignores` only')
     }
   }
 
@@ -46,7 +45,7 @@ export function applyConfig(options, flatConfigs) {
 function generateCombinations(prefixes, originalGlobs) {
   if (!prefixes || prefixes.length === 0) return originalGlobs
   if (!originalGlobs || originalGlobs.length === 0) {
-    return prefixes.map((prefix) => path.join(prefix, '**'))
+    return prefixes.map((prefix) => path.join(prefix, supportedFilesGlob))
   }
 
   const originalGlobList = [originalGlobs].flat()

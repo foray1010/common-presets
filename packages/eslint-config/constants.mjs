@@ -5,4 +5,6 @@ export const testFileGlobs = [
   '**/*.{spec,test}.{cjs,cts,js,mjs,mts,ts,tsx}',
 ]
 
+export const supportedFilesGlob = '**/*.{cjs,cts,js,mjs,mts,ts,tsx}'
+
 export const typeScriptFileGlobs = ['**/*.{cts,mts,ts,tsx}']
