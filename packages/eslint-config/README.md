@@ -73,7 +73,7 @@ Z for looser rules
        ...applyConfig(
          {
            filePrefixes: '.',
-           ignorePrefixes: ['src'],
+           ignores: ['src/**'],
          },
          eslintNodeConfig,
        ),

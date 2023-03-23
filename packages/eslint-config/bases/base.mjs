@@ -12,7 +12,11 @@ import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
 
-import { testFileGlobs, typeScriptFileGlobs } from '../constants.mjs'
+import {
+  testFileGlobs,
+  typeScriptFileGlobs,
+  typeScriptTestFileGlobs,
+} from '../constants.mjs'
 
 /** @type {import('eslint').Linter.FlatConfig} */
 const cjsConfig = {
@@ -354,8 +358,7 @@ const baseConfig = [
           },
         },
         {
-          files: typeScriptFileGlobs,
-          ignores: testFileGlobs.map((glob) => `!${glob}`),
+          files: typeScriptTestFileGlobs,
           plugins: {
             '@typescript-eslint': eslintPluginTypescriptEslint,
             jest: eslintPluginJest,
