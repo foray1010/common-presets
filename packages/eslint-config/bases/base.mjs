@@ -143,6 +143,10 @@ const baseConfig = [
           noUselessIndex: false,
         },
       ],
+      // turn off these rules as they do not support flat config: https://github.com/import-js/eslint-plugin-import/issues/2556
+      'import/namespace': 'off',
+      'import/no-named-as-default': 'off',
+      'import/no-named-as-default-member': 'off',
       // prefer explicitly convert type for readability
       'no-implicit-coercion': 'error',
       // make sure private class members are in-use

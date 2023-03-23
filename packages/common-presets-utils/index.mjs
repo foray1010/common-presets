@@ -1,6 +1,5 @@
 import path from 'node:path'
 
-// eslint-disable-next-line import/namespace
 import { readPackageUpSync } from 'read-pkg-up'
 
 const { packageJson: pkg, path: pkgPath } = readPackageUpSync() ?? {}
