@@ -56,7 +56,12 @@ async function generateTypeScriptConfig() {
         functional: eslintPluginFunctional,
       },
       rules: {
-        ...eslintPluginTypescriptEslint.configs['eslint-recommended']?.rules,
+        ...eslintPluginTypescriptEslint.configs[
+          'eslint-recommended'
+        ]?.overrides?.reduce(
+          (acc, override) => ({ ...acc, ...override.rules }),
+          {},
+        ),
         ...eslintPluginTypescriptEslint.configs['recommended']?.rules,
         ...eslintPluginTypescriptEslint.configs[
           'recommended-requiring-type-checking'
