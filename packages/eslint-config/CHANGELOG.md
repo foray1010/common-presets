@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.5...@foray1010/eslint-config@10.1.0) (2023-03-27)
+
+### Features
+
+- **eslint-config:** use inline type imports to avoid duplicate imports ([b6741bb](https://github.com/foray1010/common-presets/commit/b6741bbe0a95a579d1ae85ee32a1c75c309d20a9))
+
 ## [10.0.5](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.4...@foray1010/eslint-config@10.0.5) (2023-03-24)
 
 ### Bug Fixes
