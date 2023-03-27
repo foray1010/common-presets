@@ -85,6 +85,8 @@ async function generateTypeScriptConfig() {
           {
             // separate type imports which allow certain optimizations within compilers
             prefer: 'type-imports',
+            // Use inline type imports to avoid duplicate imports, but can be overridden by @typescript-eslint/no-import-type-side-effects
+            fixStyle: 'inline-type-imports',
           },
         ],
         // disable the base rule as it can report incorrect errors, use @typescript-eslint/dot-notation instead
