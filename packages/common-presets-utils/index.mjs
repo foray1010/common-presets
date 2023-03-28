@@ -1,8 +1,8 @@
 import path from 'node:path'
 
-import { readPackageUpSync } from 'read-pkg-up'
+import { readPackageUp } from 'read-pkg-up'
 
-const { packageJson: pkg, path: pkgPath } = readPackageUpSync() ?? {}
+const { packageJson: pkg, path: pkgPath } = (await readPackageUp()) ?? {}
 
 export { pkg }
 
