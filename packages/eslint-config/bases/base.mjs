@@ -79,7 +79,12 @@ async function generateTypeScriptConfig() {
           },
         ],
         // separate type exports which allow certain optimizations within compilers
-        '@typescript-eslint/consistent-type-exports': 'error',
+        '@typescript-eslint/consistent-type-exports': [
+          'error',
+          {
+            fixMixedExportsWithInlineTypeSpecifier: true,
+          },
+        ],
         '@typescript-eslint/consistent-type-imports': [
           'error',
           {
