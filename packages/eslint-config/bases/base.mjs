@@ -129,6 +129,13 @@ async function generateTypeScriptConfig() {
         ],
         // declaration merging between classes and interfaces is unsafe
         '@typescript-eslint/no-unsafe-declaration-merging': 'error',
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            // error is optional now
+            caughtErrors: 'all',
+          },
+        ],
         // do not block functions referring to other functions
         '@typescript-eslint/no-use-before-define': [
           'error',
