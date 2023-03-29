@@ -35,6 +35,8 @@ const nodeConfig = [
       'n/no-deprecated-api': 'error',
       // disallow the assignment to `exports`
       'n/no-exports-assign': 'error',
+      // use process.exitCode instead
+      'n/no-process-exit': 'error',
       // disallow `bin` files that npm ignores
       'n/no-unpublished-bin': 'error',
       // disallow unsupported Node.js built-in APIs on the specified version
