@@ -50,6 +50,8 @@ const reactConfig = [
           shorthandLast: false,
         },
       ],
+      // avoid unexpected react hook dead loops
+      'react/no-object-type-as-default-prop': 'error',
       // rely on typescript instead, and it does not work well with types that are imported from elsewhere
       'react/prop-types': 'off',
       // avoid unnecessary closing tags
