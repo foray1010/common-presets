@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.1.0...@foray1010/eslint-config@10.2.0) (2023-03-29)
+
+### Features
+
+- enable @typescript-eslint/no-unused-vars ([ff31b94](https://github.com/foray1010/common-presets/commit/ff31b94884796f00723f396469d53ea747109ff9))
+- **eslint-config:** enable n/no-process-exit ([9e9ddce](https://github.com/foray1010/common-presets/commit/9e9ddce3d43dad54fc9570e7f99bf7a6d3be009e))
+- **eslint-config:** enable react/jsx-no-leaked-render ([d65d8b4](https://github.com/foray1010/common-presets/commit/d65d8b4a83c50b050ce2ab68701c691b9c885cbf))
+- **eslint-config:** enable react/no-object-type-as-default-prop ([79c1639](https://github.com/foray1010/common-presets/commit/79c163963a3eaac503e79376ccf880b0165e6556))
+- **eslint-config:** prefer inline exports ([2a9de59](https://github.com/foray1010/common-presets/commit/2a9de5940a042607bc9556989937647d98236f86))
+
+### Reverts
+
+- Revert "fix(eslint-config): disable n/prefer-global hacks as they do not work with flat config" ([1e02034](https://github.com/foray1010/common-presets/commit/1e02034f6a5ec5d7d19230ddebcbcbf64e682022))
+
 ## [10.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.0.5...@foray1010/eslint-config@10.1.0) (2023-03-27)
 
 ### Features
