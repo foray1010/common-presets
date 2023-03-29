@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.2.0...@foray1010/eslint-config@10.2.1) (2023-03-29)
+
+### Bug Fixes
+
+- **eslint-config:** disable react/jsx-no-leaked-render as it does not recognize boolean type ([995d096](https://github.com/foray1010/common-presets/commit/995d096efa3627e46b48133ef9994fb4883a64c7))
+
 ## [10.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.1.0...@foray1010/eslint-config@10.2.0) (2023-03-29)
 
 ### Features
