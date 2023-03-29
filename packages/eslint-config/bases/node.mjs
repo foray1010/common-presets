@@ -20,6 +20,16 @@ const nodeConfig = [
     plugins: {
       n: eslintPluginN,
     },
+    languageOptions: {
+      globals: {
+        // hack to mute no-undef error, and show n/prefer-global/buffer error instead
+        // @ts-expect-error
+        Buffer: 'writable',
+        // hack to mute no-undef error, and show n/prefer-global/process error instead
+        // @ts-expect-error
+        process: 'writable',
+      },
+    },
     rules: {
       // disallow deprecated node APIs
       'n/no-deprecated-api': 'error',
