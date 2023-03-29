@@ -31,6 +31,8 @@ const reactConfig = [
       ...eslintPluginReactHooks.configs['recommended']?.rules,
       // avoid unexpected form submits
       'react/button-has-type': 'error',
+      // avoid displaying unexpected value, and align coding style with react native
+      'react/jsx-no-leaked-render': 'error',
       'react/jsx-no-useless-fragment': [
         'error',
         {
