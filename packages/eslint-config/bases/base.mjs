@@ -397,6 +397,8 @@ const baseConfig = [
       'unicorn/prefer-spread': 'off',
       // it is cleaner than `.replace(//g)`
       'unicorn/prefer-string-replace-all': 'error',
+      // sometimes it is less readable using ternary expressions
+      'unicorn/prefer-ternary': 'off',
       // webpack support on `top level await` is still experimental, and some legacy projects still use commonjs
       'unicorn/prefer-top-level-await': 'off',
       // use with `unicorn/new-for-builtins`
