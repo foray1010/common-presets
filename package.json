@@ -24,7 +24,7 @@
     "fast-glob": "3.2.12",
     "husky": "8.0.3",
     "jest": "29.5.0",
-    "lerna": "6.5.1",
+    "lerna": "6.6.1",
     "lint-staged": "13.2.0",
     "node-notifier": "10.0.1",
     "prettier": "2.8.7",
