@@ -284,8 +284,11 @@ const baseConfig = [
         Object.entries(
           eslintPluginUnicorn.configs['recommended']?.rules ?? {},
         ).filter(([ruleName]) => {
-          // only use recommended `prefer-` rules as other rules are too strict
-          return ruleName.startsWith('unicorn/prefer-')
+          // only use a subset of recommended rules as other rules are too strict
+          return (
+            ruleName.startsWith('unicorn/no-useless-') ||
+            ruleName.startsWith('unicorn/prefer-')
+          )
         }),
       ),
       // allow disable eslint rules for whole file without re-enable it in the end of the file
