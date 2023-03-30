@@ -388,6 +388,8 @@ const baseConfig = [
       'unicorn/prefer-event-target': 'error',
       // some legacy projects still use commonjs
       'unicorn/prefer-module': 'off',
+      // `Array.from(iterable)` is more readable than `[...iterable]`
+      'unicorn/prefer-spread': 'off',
       // it is cleaner than `.replace(//g)`
       'unicorn/prefer-string-replace-all': 'error',
       // use with `unicorn/new-for-builtins`
