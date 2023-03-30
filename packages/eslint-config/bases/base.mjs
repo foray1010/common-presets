@@ -391,6 +391,8 @@ const baseConfig = [
       'unicorn/prefer-event-target': 'error',
       // some legacy projects still use commonjs
       'unicorn/prefer-module': 'off',
+      // `querySelector` is slower than `getElementById`
+      'unicorn/prefer-query-selector': 'off',
       // `Array.from(iterable)` is more readable than `[...iterable]`
       'unicorn/prefer-spread': 'off',
       // it is cleaner than `.replace(//g)`
