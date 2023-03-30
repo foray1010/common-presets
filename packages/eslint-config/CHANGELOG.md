@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.4.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.4.0...@foray1010/eslint-config@10.4.1) (2023-03-30)
+
+### Bug Fixes
+
+- **eslint-config:** disable unicorn/prefer-top-level-await ([68f38ce](https://github.com/foray1010/common-presets/commit/68f38ce208e1d8af09ed7615d395bd9fe97064e3))
+
 ## [10.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.3.0...@foray1010/eslint-config@10.4.0) (2023-03-30)
 
 ### Features
