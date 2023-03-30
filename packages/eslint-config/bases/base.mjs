@@ -280,6 +280,14 @@ const baseConfig = [
     rules: {
       ...eslintPluginEslintComments.configs['recommended']?.rules,
       ...eslintPluginImport.configs['recommended']?.rules,
+      ...Object.fromEntries(
+        Object.entries(
+          eslintPluginUnicorn.configs['recommended']?.rules ?? {},
+        ).filter(([ruleName]) => {
+          // only use recommended `prefer-` rules as other rules are too strict
+          return ruleName.startsWith('unicorn/prefer-')
+        }),
+      ),
       // allow disable eslint rules for whole file without re-enable it in the end of the file
       '@eslint-community/eslint-comments/disable-enable-pair': [
         'error',
@@ -374,10 +382,14 @@ const baseConfig = [
       // use with `unicorn/throw-new-error`
       // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
       'unicorn/new-for-builtins': 'error',
-      // prefer `import from 'node:xxx'`
-      'unicorn/prefer-node-protocol': 'error',
-      // prefer Number static properties over global ones
-      'unicorn/prefer-number-properties': 'error',
+      // `at()` is simpler to use in array and string
+      'unicorn/prefer-at': 'error',
+      // EventTarget works on both node.js and browsers, but EventEmitter only works on node.js
+      'unicorn/prefer-event-target': 'error',
+      // some legacy projects still use commonjs
+      'unicorn/prefer-module': 'off',
+      // it is cleaner than `.replace(//g)`
+      'unicorn/prefer-string-replace-all': 'error',
       // use with `unicorn/new-for-builtins`
       'unicorn/throw-new-error': 'error',
     },
