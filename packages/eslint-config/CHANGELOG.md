@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.3.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.2.1...@foray1010/eslint-config@10.3.0) (2023-03-30)
+
+### Features
+
+- **eslint-config:** enable more `prefer-` rules from unicorn plugin ([2c0b411](https://github.com/foray1010/common-presets/commit/2c0b411a1ab5585db01f321e000239cf13758a94))
+
 ## [10.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.2.0...@foray1010/eslint-config@10.2.1) (2023-03-29)
 
 ### Bug Fixes
