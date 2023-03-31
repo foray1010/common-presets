@@ -22,7 +22,7 @@
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
     "@eslint/js": "^8.36.0",
-    "@foray1010/common-presets-utils": "^7.0.2",
+    "@foray1010/common-presets-utils": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
     "confusing-browser-globals": "^1.0.10",

@@ -2,6 +2,14 @@
 
 This is a mono repository for storing presets that are commonly used in my projects
 
+## Development Setup
+
+We are using [corepack](https://nodejs.org/api/corepack.html) to manage the `yarn` version
+
+```bash
+corepack enable
+```
+
 ## Portal
 
 - [@foray1010/babel-preset](./packages/babel-preset)

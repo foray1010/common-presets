@@ -27,7 +27,7 @@
     "@babel/preset-env": "^7.19.4",
     "@babel/preset-react": "^7.13.13",
     "@babel/preset-typescript": "^7.21.0",
-    "@foray1010/common-presets-utils": "^7.0.2",
+    "@foray1010/common-presets-utils": "workspace:^",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "browserslist": "^4.21.5",
     "semver": "^7.3.5"
