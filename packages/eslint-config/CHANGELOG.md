@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.4.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.4.2...@foray1010/eslint-config@10.4.3) (2023-03-31)
+
+### Bug Fixes
+
+- **eslint-config:** disable unicorn/prefer-ternary ([5a0739d](https://github.com/foray1010/common-presets/commit/5a0739dcf754c82f982d69318a2d3d563b01d5b6))
+
 ## [10.4.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.4.1...@foray1010/eslint-config@10.4.2) (2023-03-30)
 
 ### Bug Fixes
