@@ -20,7 +20,7 @@ Z for looser rules
 
 1. `yarn add -DE @foray1010/eslint-config eslint prettier`
 
-1. Create an `eslint.config.mjs` in the project root (It is not a standard config path, but we opts for `.mjs` extension to make it compatible with commonjs projects)
+2. Create an `eslint.config.js` in the project root
 
    - For general purpose or Node.js project (support TypeScript)
 
@@ -87,7 +87,15 @@ Z for looser rules
      export default config
      ```
 
-1. Add npm script
+3. If the project support ES Modules, you can directly use `eslint` command with the following setting in `package.json`.
+
+   ```json
+   {
+     "type": "module"
+   }
+   ```
+
+4. If the project does not support ES Modules, you have to put the config in `eslint.config.mjs` instead, and use the following npm script in `package.json`. Note that your editor may not support custom eslint config path and may not work properly.
 
    ```json
    {
