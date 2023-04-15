@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@11.0.2...@foray1010/babel-preset@11.1.0) (2023-04-15)
+
+### Features
+
+- **eslint-config:** enable functional/prefer-immutable-types and type-declaration-immutability ([9dc211e](https://github.com/foray1010/common-presets/commit/9dc211e550df72c4538a5526285ad635b1a491d5))
+
 ## [11.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/babel-preset@11.0.1...@foray1010/babel-preset@11.0.2) (2023-03-29)
 
 **Note:** Version bump only for package @foray1010/babel-preset

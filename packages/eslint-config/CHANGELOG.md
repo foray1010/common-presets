@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.4.3...@foray1010/eslint-config@10.5.0) (2023-04-15)
+
+### Features
+
+- **eslint-config:** enable functional/prefer-immutable-types and type-declaration-immutability ([9dc211e](https://github.com/foray1010/common-presets/commit/9dc211e550df72c4538a5526285ad635b1a491d5))
+
+### Bug Fixes
+
+- **eslint-config:** remove warning message when uses with typescript v5 ([c3b1a82](https://github.com/foray1010/common-presets/commit/c3b1a822f6e598db6571a467bbb32d083acacdbb))
+
 ## [10.4.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.4.2...@foray1010/eslint-config@10.4.3) (2023-03-31)
 
 ### Bug Fixes
