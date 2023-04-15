@@ -154,9 +154,6 @@ async function generateTypeScriptConfig() {
             typedefs: false,
           },
         ],
-        // use with functional/prefer-readonly-type
-        // mark class variables as readonly if it is not mutated
-        '@typescript-eslint/prefer-readonly': 'error',
         // make sure functions which return a promise will just return a rejected promise instead of throwing an error
         '@typescript-eslint/promise-function-async': 'error',
         // allow primitive value in template string
@@ -176,20 +173,47 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
         // do not allow usage of deprecated code
         'deprecation/deprecation': 'error',
-        // use with @typescript-eslint/prefer-readonly
-        'functional/prefer-readonly-type': [
+        // use with functional/type-declaration-immutability
+        'functional/prefer-immutable-types': [
           'error',
           {
-            // sometimes it is easier to mutate, it should be fine to mutate within local scope
-            allowLocalMutation: true,
-            // don't force library consumer to use readonly type
-            allowMutableReturnType: true,
-            // allow mutating class variables
-            ignoreClass: 'fieldsOnly',
+            // as there is no native way to achieve `ReadonlyDeep` in TypeScript
+            enforcement: 'ReadonlyShallow',
+            // reduce the difficult to use this rule
+            ignoreInferredTypes: true,
+            // escape hatch without using eslint-disable
+            ignoreNamePattern: 'Mutable$',
+            ignoreTypePattern: [
+              '^React.', // Some React types does not work with `Readonly`
+            ],
           },
         ],
         // forbid unnecessary callback wrapper
         'functional/prefer-tacit': 'error',
+        // use with functional/prefer-immutable-types
+        'functional/type-declaration-immutability': [
+          'error',
+          {
+            rules: [
+              {
+                identifiers: '.+',
+                immutability: 'ReadonlyShallow',
+                comparator: 'AtLeast',
+                // modified from https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/type-declaration-immutability.md#preset-overrides
+                fixer: [
+                  {
+                    pattern: '^(Array|Map|Set)<(.+)>$',
+                    replace: 'Readonly$1<$2>',
+                  },
+                  {
+                    pattern: '^(.+)$',
+                    replace: 'Readonly<$1>',
+                  },
+                ],
+              },
+            ],
+          },
+        ],
         'no-restricted-syntax': [
           'error',
           {
