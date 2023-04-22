@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@11.0.0...@foray1010/stylelint-config@12.0.0) (2023-04-22)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** require stylelint `^15.5.0`
+
+### Bug Fixes
+
+- **deps:** update dependency stylelint-config-standard to v33 ([799d48f](https://github.com/foray1010/common-presets/commit/799d48f6592e4d73b1d4f7b67f6744e1cda7db96))
+
 ## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@10.1.1...@foray1010/stylelint-config@11.0.0) (2023-03-23)
 
 ### ⚠ BREAKING CHANGES
