@@ -24,7 +24,7 @@
     "husky": "8.0.3",
     "jest": "29.5.0",
     "lerna": "6.6.1",
-    "lint-staged": "13.2.1",
+    "lint-staged": "13.2.2",
     "node-notifier": "10.0.1",
     "prettier": "2.8.8",
     "remark-cli": "11.0.0",
