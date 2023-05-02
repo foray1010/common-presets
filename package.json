@@ -15,8 +15,8 @@
     "remark": "remark --frail --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd --silently-ignore"
   },
   "devDependencies": {
-    "@babel/core": "7.21.4",
-    "@babel/runtime": "7.21.0",
+    "@babel/core": "7.21.5",
+    "@babel/runtime": "7.21.5",
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-conventional": "17.6.1",
     "eslint": "8.39.0",
