@@ -409,18 +409,12 @@ const baseConfig = [
       // use with `unicorn/throw-new-error`
       // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
       'unicorn/new-for-builtins': 'error',
-      // `at()` is simpler to use in array and string
-      'unicorn/prefer-at': 'error',
-      // EventTarget works on both node.js and browsers, but EventEmitter only works on node.js
-      'unicorn/prefer-event-target': 'error',
       // some legacy projects still use commonjs
       'unicorn/prefer-module': 'off',
       // `querySelector` is slower than `getElementById`
       'unicorn/prefer-query-selector': 'off',
       // `Array.from(iterable)` is more readable than `[...iterable]`
       'unicorn/prefer-spread': 'off',
-      // it is cleaner than `.replace(//g)`
-      'unicorn/prefer-string-replace-all': 'error',
       // sometimes it is less readable using ternary expressions
       'unicorn/prefer-ternary': 'off',
       // webpack support on `top level await` is still experimental, and some legacy projects still use commonjs

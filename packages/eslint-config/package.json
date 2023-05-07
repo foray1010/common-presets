@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
-    "@eslint/js": "^8.36.0",
+    "@eslint/js": "^8.38.0",
     "@foray1010/common-presets-utils": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "eslint-plugin-testing-library": "^5.10.2",
-    "eslint-plugin-unicorn": "^46.0.0",
+    "eslint-plugin-unicorn": "^47.0.0",
     "globals": "^13.19.0"
   },
   "devDependencies": {
@@ -49,7 +49,7 @@
     "@types/eslint": "8.37.0"
   },
   "peerDependencies": {
-    "eslint": "^8.36.0",
+    "eslint": "^8.38.0",
     "prettier": "^2.0.0",
     "typescript": "^5.0.2"
   },
