@@ -33,7 +33,7 @@
     "semver": "^7.3.5"
   },
   "devDependencies": {
-    "@types/semver": "7.3.13"
+    "@types/semver": "7.5.0"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0",
