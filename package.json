@@ -7,18 +7,21 @@
     "packages/*"
   ],
   "scripts": {
-    "ci": "yarn lint:js && yarn lint:md && lerna run type:check",
+    "ci": "concurrently 'yarn:lint:*' && lerna run type:check",
     "postinstall": "husky install",
+    "lint:css": "yarn stylelint '**/*.css'",
     "lint:js": "eslint .",
     "lint:md": "yarn remark .",
     "prettier": "prettier --ignore-path=node_modules/@foray1010/prettier-config/prettierignore",
-    "remark": "remark --frail --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd --silently-ignore"
+    "remark": "remark --frail --ignore-path=node_modules/@foray1010/remark-preset/remarkignore --ignore-path-resolve-from=cwd --silently-ignore",
+    "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
   },
   "devDependencies": {
     "@babel/core": "7.22.5",
     "@babel/runtime": "7.22.5",
     "@commitlint/cli": "17.6.5",
     "@commitlint/config-conventional": "17.6.5",
+    "concurrently": "8.2.0",
     "eslint": "8.42.0",
     "fast-glob": "3.2.12",
     "husky": "8.0.3",
