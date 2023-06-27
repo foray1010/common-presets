@@ -1,11 +1,32 @@
+// @ts-expect-error
+import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
 import eslintPluginCompat from 'eslint-plugin-compat'
 import eslintPluginImport from 'eslint-plugin-import'
-import eslintPluginJestDom from 'eslint-plugin-jest-dom'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 import globals from 'globals'
 
 import { testFileGlobs } from '../constants.mjs'
+
+/** @returns {Promise<readonly import('eslint').Linter.FlatConfig[]>} */
+async function generateJestDomConfig() {
+  // `eslint-plugin-jest-dom` depends on `@testing-library/dom` package
+  if (!hasDep('@testing-library/dom')) return []
+
+  const eslintPluginJestDom = (await import('eslint-plugin-jest-dom')).default
+
+  return [
+    {
+      files: testFileGlobs,
+      plugins: {
+        'jest-dom': eslintPluginJestDom,
+      },
+      rules: {
+        ...eslintPluginJestDom.configs['recommended']?.rules,
+      },
+    },
+  ]
+}
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 const browserConfig = [
@@ -30,14 +51,13 @@ const browserConfig = [
       'no-restricted-globals': ['error', ...restrictedGlobals],
     },
   },
+  ...(await generateJestDomConfig()),
   {
     files: testFileGlobs,
     plugins: {
-      'jest-dom': eslintPluginJestDom,
       'testing-library': eslintPluginTestingLibrary,
     },
     rules: {
-      ...eslintPluginJestDom.configs['recommended']?.rules,
       ...eslintPluginTestingLibrary.configs['dom']?.rules,
       // allow to use nodejs modules in tests
       'import/no-nodejs-modules': 'off',
