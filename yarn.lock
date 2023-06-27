@@ -2070,10 +2070,13 @@ __metadata:
     eslint-plugin-unicorn: ^47.0.0
     globals: ^13.19.0
   peerDependencies:
+    "@testing-library/dom": ^9.0.0
     eslint: ^8.38.0
     prettier: ^2.0.0
     typescript: ^5.0.2
   peerDependenciesMeta:
+    "@testing-library/dom":
+      optional: true
     typescript:
       optional: true
   languageName: unknown
