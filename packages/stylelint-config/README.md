@@ -20,14 +20,13 @@ Z for looser rules
 
 1. `yarn add -DE @foray1010/stylelint-config prettier stylelint`
 
-1. Create an `.stylelintrc.cjs` in the project root
+1. Create an `.stylelintrc.mjs` in the project root
 
    ```js
-   'use strict'
-
-   module.exports = {
+   const config = {
      extends: ['@foray1010/stylelint-config'],
    }
+   export default config
    ```
 
 1. Use default stylelintignore via npm script

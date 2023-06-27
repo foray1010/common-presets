@@ -10,7 +10,7 @@
     "directory": "packages/stylelint-config"
   },
   "license": "MIT",
-  "exports": "./index.cjs",
+  "exports": "./index.mjs",
   "files": [
     "**/*.{cjs,js,json,mjs}",
     "*.md",
@@ -28,7 +28,7 @@
   },
   "peerDependencies": {
     "prettier": "^2.0.0",
-    "stylelint": "^15.5.0"
+    "stylelint": "^15.8.0"
   },
   "engines": {
     "node": "^16.14.0 || >=18.12.0"

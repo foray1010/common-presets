@@ -1,7 +1,5 @@
-'use strict'
-
 /** @type {import('stylelint').Config} */
-module.exports = {
+const stylelintConfig = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-css-modules',
@@ -28,3 +26,4 @@ module.exports = {
     ],
   },
 }
+export default stylelintConfig

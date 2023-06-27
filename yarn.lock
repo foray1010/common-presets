@@ -1876,7 +1876,7 @@ __metadata:
     stylelint-prettier: ^3.0.0
   peerDependencies:
     prettier: ^2.0.0
-    stylelint: ^15.5.0
+    stylelint: ^15.8.0
   languageName: unknown
   linkType: soft
 
