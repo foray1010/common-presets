@@ -20,7 +20,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "read-pkg-up": "^9.1.0"
+    "read-pkg-up": "^10.0.0"
   },
   "engines": {
     "node": "^16.14.0 || >=18.12.0"
