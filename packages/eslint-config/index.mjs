@@ -6,21 +6,23 @@ import reactConfig from './bases/react.mjs'
 
 export * from './utils/applyConfig.mjs'
 
-/** @type {readonly import('eslint').Linter.FlatConfig[]} */
+/** @typedef {import('./types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @type {EslintConfig} */
 export const eslintBrowserConfig = [
   ...baseConfig,
   ...browserConfig,
   ...prettierConfig,
 ]
 
-/** @type {readonly import('eslint').Linter.FlatConfig[]} */
+/** @type {EslintConfig} */
 export const eslintNodeConfig = [
   ...baseConfig,
   ...nodeConfig,
   ...prettierConfig,
 ]
 
-/** @type {readonly import('eslint').Linter.FlatConfig[]} */
+/** @type {EslintConfig} */
 export const eslintReactConfig = [
   ...baseConfig,
   ...browserConfig,

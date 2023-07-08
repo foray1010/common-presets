@@ -1,4 +1,6 @@
-/** @type {readonly import('eslint').Linter.FlatConfig[]} */
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @type {EslintConfig} */
 const ignoresConfig = [
   {
     // replace `.eslintignore`

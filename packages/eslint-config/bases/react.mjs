@@ -4,7 +4,9 @@ import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 
 import { testFileGlobs } from '../constants.mjs'
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @type {EslintConfig} */
 const reactConfig = [
   {
     languageOptions: {

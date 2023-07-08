@@ -14,7 +14,9 @@ import {
   typeScriptTestFileGlobs,
 } from '../constants.mjs'
 
-/** @returns {Promise<readonly import('eslint').Linter.FlatConfig[]>} */
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @returns {Promise<EslintConfig>} */
 async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
   if (!hasDep('typescript')) return []
@@ -252,7 +254,7 @@ async function generateTypeScriptConfig() {
   ]
 }
 
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @type {EslintConfig[number]} */
 const cjsConfig = {
   languageOptions: {
     globals: globals.commonjs,
@@ -264,7 +266,7 @@ const cjsConfig = {
   },
 }
 
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @type {EslintConfig[number]} */
 const esmConfig = {
   languageOptions: {
     sourceType: 'module',
@@ -280,7 +282,7 @@ const esmConfig = {
   },
 }
 
-/** @type {readonly import('eslint').Linter.FlatConfig[]} */
+/** @type {EslintConfig} */
 const baseConfig = [
   js.configs.recommended,
   {

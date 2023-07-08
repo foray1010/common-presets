@@ -2,7 +2,9 @@
 import { isESM } from '@foray1010/common-presets-utils'
 import eslintPluginN from 'eslint-plugin-n'
 
-/** @type {import('eslint').Linter.FlatConfig} */
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @type {EslintConfig[number]} */
 const cjsConfig = {
   languageOptions: {
     globals: {
@@ -14,7 +16,7 @@ const cjsConfig = {
   },
 }
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {EslintConfig} */
 const nodeConfig = [
   {
     plugins: {

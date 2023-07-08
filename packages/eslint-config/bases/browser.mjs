@@ -8,7 +8,9 @@ import globals from 'globals'
 
 import { testFileGlobs } from '../constants.mjs'
 
-/** @returns {Promise<readonly import('eslint').Linter.FlatConfig[]>} */
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
+/** @returns {Promise<EslintConfig>} */
 async function generateJestDomConfig() {
   // `eslint-plugin-jest-dom` depends on `@testing-library/dom` package
   if (!hasDep('@testing-library/dom')) return []
@@ -28,7 +30,7 @@ async function generateJestDomConfig() {
   ]
 }
 
-/** @type {import('eslint').Linter.FlatConfig[]} */
+/** @type {EslintConfig} */
 const browserConfig = [
   {
     languageOptions: {

@@ -2,23 +2,25 @@ import path from 'node:path'
 
 import { supportedFilesGlob } from '../constants.mjs'
 
+/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+
 /**
  * Extend the flat configs with default files and ignores
  * @param {{
  *   readonly filePrefixes: string | string[],
  *   readonly ignores?: string | string[] | undefined
  * }} options
- * @param {readonly import('eslint').Linter.FlatConfig[]} flatConfigs
- * @returns {readonly import('eslint').Linter.FlatConfig[]}
+ * @param {EslintConfig} eslintConfig
+ * @returns {EslintConfig}
  */
-export function applyConfig(options, flatConfigs) {
+export function applyConfig(options, eslintConfig) {
   const filePrefixes = [options.filePrefixes].flat()
   if (filePrefixes.length === 0) {
     throw new TypeError('filePrefixes must not be empty')
   }
 
   // Do not allow string such as "eslint:recommended" because it cannot be overridden by files/ignores
-  for (const config of flatConfigs) {
+  for (const config of eslintConfig) {
     if (typeof config === 'string') {
       throw new TypeError(
         `Cannot extend ${config} with files/ignores, use \`@eslint/js\` instead`,
@@ -30,7 +32,7 @@ export function applyConfig(options, flatConfigs) {
     }
   }
 
-  return flatConfigs.map((config) => {
+  return eslintConfig.map((config) => {
     const files = generateCombinations(filePrefixes, config.files)
     return {
       ...config,
