@@ -1941,7 +1941,7 @@ __metadata:
     stylelint-config-concentric-order: ^5.1.0
     stylelint-config-css-modules: ^4.2.0
     stylelint-config-standard: ^34.0.0
-    stylelint-no-unsupported-browser-features: ^6.1.0
+    stylelint-no-unsupported-browser-features: ^7.0.0
     stylelint-prettier: ^3.0.0
   peerDependencies:
     prettier: ^2.0.0
@@ -3908,7 +3908,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.16.1, browserslist@npm:^4.21.3, browserslist@npm:^4.21.5":
+"browserslist@npm:^4.21.3, browserslist@npm:^4.21.5":
   version: 4.21.9
   resolution: "browserslist@npm:4.21.9"
   dependencies:
@@ -4083,10 +4083,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001179, caniuse-lite@npm:^1.0.30001473, caniuse-lite@npm:^1.0.30001503":
-  version: 1.0.30001510
-  resolution: "caniuse-lite@npm:1.0.30001510"
-  checksum: 4b5237c85760a8aea0d003eb329e84f66d00665e36a92f6b3795bd436ac590f67f304aa978111ca480913c893b8b37d806425d615853637b2b760db868d80041
+"caniuse-lite@npm:^1.0.30001473, caniuse-lite@npm:^1.0.30001487, caniuse-lite@npm:^1.0.30001503":
+  version: 1.0.30001513
+  resolution: "caniuse-lite@npm:1.0.30001513"
+  checksum: 7d783f4f40584e7bdeda3f3abc23ffff21f14c37e1fadf1a6b3d2e299727fe9d5a61096101d9d4e4174f881d4ff4c62204fc41f3bc950f4da1b0edfdea025fa4
   languageName: node
   linkType: hard
 
@@ -4727,20 +4727,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-rule-stream@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "css-rule-stream@npm:1.1.0"
-  dependencies:
-    css-tokenize: ^1.0.1
-    duplexer2: 0.0.2
-    ldjson-stream: ^1.2.1
-    through2: ^0.6.3
-  bin:
-    css-rule-stream: index.js
-  checksum: 115f6c90695bca8e1287cf6441978a0ead688e9b83a8f643cbbbd6abaab08bca3f11fa3ab5478686e73481f0b88b521a25a6c484d45e61bbd3c6a29d54bbcb34
-  languageName: node
-  linkType: hard
-
 "css-tokenize@npm:^1.0.1":
   version: 1.0.1
   resolution: "css-tokenize@npm:1.0.1"
@@ -5075,23 +5061,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"doiuse@npm:^4.4.1":
-  version: 4.4.1
-  resolution: "doiuse@npm:4.4.1"
+"doiuse@npm:^6.0.1":
+  version: 6.0.2
+  resolution: "doiuse@npm:6.0.2"
   dependencies:
-    browserslist: ^4.16.1
-    caniuse-lite: ^1.0.30001179
-    css-rule-stream: ^1.1.0
-    duplexer2: 0.0.2
+    browserslist: ^4.21.5
+    caniuse-lite: ^1.0.30001487
+    css-tokenize: ^1.0.1
+    duplexify: ^4.1.2
     ldjson-stream: ^1.2.1
     multimatch: ^5.0.0
-    postcss: ^8.2.4
-    source-map: ^0.7.3
-    through2: ^4.0.2
-    yargs: ^16.2.0
+    postcss: ^8.4.21
+    source-map: ^0.7.4
+    yargs: ^17.7.1
   bin:
-    doiuse: cli.js
-  checksum: bd3346fedd484586de9d1dfc3e3e41784f64173c5558a364c999cd5dbbddbe43966cb2654dabdd6765beae8b95ac3b66f4fb22f25f3e9342e2b628edf2d9ae35
+    doiuse: bin/cli.js
+  checksum: 8f9c5fee2963e56e4a73adfd12faf9143ae4492c884f68ba317a3f166372d3595166d05c86c369542f7f0d3828b09fbd19d650a24db946bb38bdeff334ccb2e7
   languageName: node
   linkType: hard
 
@@ -5111,15 +5096,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"duplexer2@npm:0.0.2":
-  version: 0.0.2
-  resolution: "duplexer2@npm:0.0.2"
-  dependencies:
-    readable-stream: ~1.1.9
-  checksum: ad525ad520bf3e0b69ead8c447446bbc277073d3b602c82d66e636bc84d97e190fd6d7caea3395bd28fcc1e7d7b3a5f6fe5e73bb181268d6118886cb38372669
-  languageName: node
-  linkType: hard
-
 "duplexer3@npm:^0.1.4":
   version: 0.1.5
   resolution: "duplexer3@npm:0.1.5"
@@ -5131,6 +5107,18 @@ __metadata:
   version: 0.1.2
   resolution: "duplexer@npm:0.1.2"
   checksum: 62ba61a830c56801db28ff6305c7d289b6dc9f859054e8c982abd8ee0b0a14d2e9a8e7d086ffee12e868d43e2bbe8a964be55ddbd8c8957714c87373c7a4f9b0
+  languageName: node
+  linkType: hard
+
+"duplexify@npm:^4.1.2":
+  version: 4.1.2
+  resolution: "duplexify@npm:4.1.2"
+  dependencies:
+    end-of-stream: ^1.4.1
+    inherits: ^2.0.3
+    readable-stream: ^3.1.1
+    stream-shift: ^1.0.0
+  checksum: 964376c61c0e92f6ed0694b3ba97c84f199413dc40ab8dfdaef80b7a7f4982fcabf796214e28ed614a5bc1ec45488a29b81e7d46fa3f5ddf65bcb118c20145ad
   languageName: node
   linkType: hard
 
@@ -10612,14 +10600,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.2.4, postcss@npm:^8.3.11, postcss@npm:^8.4.16, postcss@npm:^8.4.24":
-  version: 8.4.24
-  resolution: "postcss@npm:8.4.24"
+"postcss@npm:^8.3.11, postcss@npm:^8.4.16, postcss@npm:^8.4.21, postcss@npm:^8.4.24":
+  version: 8.4.25
+  resolution: "postcss@npm:8.4.25"
   dependencies:
     nanoid: ^3.3.6
     picocolors: ^1.0.0
     source-map-js: ^1.0.2
-  checksum: 814e2126dacfea313588eda09cc99a9b4c26ec55c059188aa7a916d20d26d483483106dc5ff9e560731b59f45c5bb91b945dfadc670aed875cc90ddbbf4e787d
+  checksum: 9ed3ab8af43ad5210c28f56f916fd9b8c9f94fbeaebbf645dcf579bc28bdd8056c2a7ecc934668d399b81fedb6128f0c4b299f931e50454964bc911c25a3a0a2
   languageName: node
   linkType: hard
 
@@ -10993,7 +10981,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"readable-stream@npm:^1.0.33, readable-stream@npm:~1.1.9":
+"readable-stream@npm:^1.0.33":
   version: 1.1.14
   resolution: "readable-stream@npm:1.1.14"
   dependencies:
@@ -12582,7 +12570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.7.3":
+"source-map@npm:^0.7.4":
   version: 0.7.4
   resolution: "source-map@npm:0.7.4"
   checksum: 01cc5a74b1f0e1d626a58d36ad6898ea820567e87f18dfc9d24a9843a351aaa2ec09b87422589906d6ff1deed29693e176194dc88bcae7c9a852dc74b311dbf5
@@ -12688,6 +12676,13 @@ __metadata:
   dependencies:
     escape-string-regexp: ^2.0.0
   checksum: 052bf4d25bbf5f78e06c1d5e67de2e088b06871fa04107ca8d3f0e9d9263326e2942c8bedee3545795fc77d787d443a538345eef74db2f8e35db3558c6f91ff7
+  languageName: node
+  linkType: hard
+
+"stream-shift@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "stream-shift@npm:1.0.1"
+  checksum: 59b82b44b29ec3699b5519a49b3cedcc6db58c72fb40c04e005525dfdcab1c75c4e0c180b923c380f204bed78211b9bad8faecc7b93dece4d004c3f6ec75737b
   languageName: node
   linkType: hard
 
@@ -12938,16 +12933,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-no-unsupported-browser-features@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "stylelint-no-unsupported-browser-features@npm:6.1.0"
+"stylelint-no-unsupported-browser-features@npm:^7.0.0":
+  version: 7.0.0
+  resolution: "stylelint-no-unsupported-browser-features@npm:7.0.0"
   dependencies:
-    doiuse: ^4.4.1
+    doiuse: ^6.0.1
     lodash: ^4.17.15
     postcss: ^8.4.16
   peerDependencies:
     stylelint: ^14.0.0||^15.0.0
-  checksum: be9eba12ee0959107e6d964d88adc78d57ac24b02d86bb1d343b6cd5bbe6edc4597039c87adb31e47a81735772a46038614f76a31e87853e27a8cb3a241f0d32
+  checksum: a8aca2fe0119956c74b7e624064f7a3c361091cffde8b9a9b31ccd5e02569f439b71de36f8186d0587f1546db5c3d69065e5efc2efa15b226d2157dd2ff4ed62
   languageName: node
   linkType: hard
 
@@ -13200,7 +13195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through2@npm:^0.6.1, through2@npm:^0.6.3, through2@npm:~0.6.1":
+"through2@npm:^0.6.1, through2@npm:~0.6.1":
   version: 0.6.5
   resolution: "through2@npm:0.6.5"
   dependencies:
@@ -13220,7 +13215,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"through2@npm:^4.0.0, through2@npm:^4.0.2":
+"through2@npm:^4.0.0":
   version: 4.0.2
   resolution: "through2@npm:4.0.2"
   dependencies:
@@ -14376,7 +14371,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs@npm:^17.0.0, yargs@npm:^17.3.1, yargs@npm:^17.6.2, yargs@npm:^17.7.2":
+"yargs@npm:^17.0.0, yargs@npm:^17.3.1, yargs@npm:^17.6.2, yargs@npm:^17.7.1, yargs@npm:^17.7.2":
   version: 17.7.2
   resolution: "yargs@npm:17.7.2"
   dependencies:
