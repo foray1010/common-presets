@@ -1880,7 +1880,7 @@ __metadata:
   peerDependencies:
     "@testing-library/dom": ^9.0.0
     eslint: ^8.38.0
-    prettier: ^2.0.0
+    prettier: ^3.0.0
     typescript: ^5.0.2
   peerDependenciesMeta:
     "@testing-library/dom":
@@ -1908,7 +1908,7 @@ __metadata:
     "@types/prettier": 2.7.3
     prettier-plugin-packagejson: ^2.4.3
   peerDependencies:
-    prettier: ^2.4.0
+    prettier: ^3.0.0
   languageName: unknown
   linkType: soft
 
@@ -1944,7 +1944,7 @@ __metadata:
     stylelint-no-unsupported-browser-features: ^7.0.0
     stylelint-prettier: ^3.0.0
   peerDependencies:
-    prettier: ^2.0.0
+    prettier: ^3.0.0
     stylelint: ^15.10.0
   languageName: unknown
   linkType: soft
@@ -4448,7 +4448,7 @@ __metadata:
     lerna: 7.1.1
     lint-staged: 13.2.3
     node-notifier: 10.0.1
-    prettier: 2.8.8
+    prettier: 3.0.0
     remark-cli: 11.0.0
     stylelint: 15.10.1
     typescript: 5.1.3
@@ -10649,12 +10649,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:2.8.8":
-  version: 2.8.8
-  resolution: "prettier@npm:2.8.8"
+"prettier@npm:3.0.0":
+  version: 3.0.0
+  resolution: "prettier@npm:3.0.0"
   bin:
-    prettier: bin-prettier.js
-  checksum: b49e409431bf129dd89238d64299ba80717b57ff5a6d1c1a8b1a28b590d998a34e083fa13573bc732bb8d2305becb4c9a4407f8486c81fa7d55100eb08263cf8
+    prettier: bin/prettier.cjs
+  checksum: 6a832876a1552dc58330d2467874e5a0b46b9ccbfc5d3531eb69d15684743e7f83dc9fbd202db6270446deba9c82b79d24383d09924c462b457136a759425e33
   languageName: node
   linkType: hard
 
