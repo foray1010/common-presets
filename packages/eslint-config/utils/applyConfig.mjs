@@ -8,7 +8,7 @@ import { supportedFilesGlob } from '../constants.mjs'
  * Extend the flat configs with default files and ignores
  * @param {{
  *   readonly filePrefixes: string | string[],
- *   readonly ignores?: string | string[] | undefined
+ *   readonly ignores?: string[] | undefined
  * }} options
  * @param {EslintConfig} eslintConfig
  * @returns {EslintConfig}
@@ -44,18 +44,26 @@ export function applyConfig(options, eslintConfig) {
 
 /**
  * @param {string[]} prefixes
- * @param {string | string[] | undefined} originalGlobs
- * @returns {string | string[] | undefined}
+ * @param {EslintConfig[number]['files']} originalGlobs
+ * @returns {string[] | undefined}
  */
 function generateCombinations(prefixes, originalGlobs) {
   if (!originalGlobs || originalGlobs.length === 0) {
     return prefixes.map((prefix) => path.join(prefix, supportedFilesGlob))
   }
 
-  const originalGlobList = [originalGlobs].flat()
+  const verifiedOriginalGlobs = originalGlobs.filter(
+    /** @returns {originalGlob is string} */
+    (originalGlob) => typeof originalGlob === 'string',
+  )
+  if (originalGlobs.length !== verifiedOriginalGlobs.length) {
+    throw new TypeError(
+      `Do not support using non-string value in files/ignores`,
+    )
+  }
 
   return prefixes.flatMap((prefix) => {
-    return originalGlobList.flatMap((originalGlob) => {
+    return verifiedOriginalGlobs.flatMap((originalGlob) => {
       const signRegexp = /^!/
       const sign = originalGlob.match(signRegexp)?.[0] ?? ''
       return sign + path.join(prefix, originalGlob.replace(signRegexp, ''))

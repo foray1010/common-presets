@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
-    "@eslint/js": "^8.38.0",
+    "@eslint/js": "^8.44.0",
     "@foray1010/common-presets-utils": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@types/confusing-browser-globals": "1.0.0",
-    "@types/eslint": "8.40.0"
+    "@types/eslint": "8.44.0"
   },
   "peerDependencies": {
     "@testing-library/dom": "^9.0.0",
