@@ -33,3 +33,14 @@ declare module 'eslint-plugin-*' {
     }
   >
 }
+
+declare module 'eslint-plugin-prettier' {
+  import type { Linter } from 'eslint'
+
+  export const configs: Record<
+    string,
+    {
+      readonly rules: Linter.RulesRecord
+    }
+  >
+}

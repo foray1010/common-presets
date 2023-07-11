@@ -1,8 +1,5 @@
-'use strict'
-
 /** @type {import('prettier').Config} */
-module.exports = {
-  pluginSearchDirs: false,
+const config = {
   plugins: ['prettier-plugin-packagejson'],
 
   arrowParens: 'always',
@@ -28,3 +25,4 @@ module.exports = {
     },
   ],
 }
+export default config

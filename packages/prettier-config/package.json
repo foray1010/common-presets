@@ -10,7 +10,7 @@
     "directory": "packages/prettier-config"
   },
   "license": "MIT",
-  "exports": "./index.cjs",
+  "exports": "./index.mjs",
   "files": [
     "**/*.{cjs,js,json,mjs}",
     "*.md",
@@ -26,7 +26,7 @@
     "@types/prettier": "2.7.3"
   },
   "peerDependencies": {
-    "prettier": "^2.4.0"
+    "prettier": "^3.0.0"
   },
   "engines": {
     "node": "^16.14.0 || >=18.12.0"

@@ -4,12 +4,10 @@
 
 1. `yarn add -DE @foray1010/prettier-config prettier`
 
-1. Create an `.prettierrc.cjs` in the project root
+1. Create an `.prettierrc.mjs` in the project root
 
    ```js
-   'use strict'
-
-   module.exports = require('@foray1010/prettier-config')
+   export { default } from '@foray1010/prettier-config'
    ```
 
 1. Use default prettierignore via npm script
