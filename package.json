@@ -31,7 +31,7 @@
     "node-notifier": "10.0.1",
     "prettier": "3.0.0",
     "remark-cli": "11.0.0",
-    "stylelint": "15.10.1",
+    "stylelint": "15.10.2",
     "typescript": "5.1.6"
   },
   "packageManager": "yarn@3.6.1",
