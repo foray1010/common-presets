@@ -1753,15 +1753,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:^3.2.1":
-  version: 3.2.1
-  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:3.2.1"
+"@eslint-community/eslint-plugin-eslint-comments@npm:^4.0.0":
+  version: 4.1.0
+  resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.1.0"
   dependencies:
-    escape-string-regexp: ^1.0.5
+    escape-string-regexp: ^4.0.0
     ignore: ^5.2.4
   peerDependencies:
-    eslint: ">=4.19.1"
-  checksum: 10d2162d0821a08ba0d133b8d97758011bab8db42387754d12a1d9fafee93c7249e5c557a8910929f90488b7d0465d5264f04447351368831919c2c8854ad406
+    eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
+  checksum: e4274499269e2981146a038d7e1a83cc442a54f5d8a7757acacbfeb9ff1be967a75b6594d59a2b01ea1a081b39ed03104c1f1d894ec53795019f1eaf39f8dc86
   languageName: node
   linkType: hard
 
@@ -1848,7 +1848,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": ^3.2.1
+    "@eslint-community/eslint-plugin-eslint-comments": ^4.0.0
     "@eslint/js": ^8.44.0
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/confusing-browser-globals": 1.0.0
