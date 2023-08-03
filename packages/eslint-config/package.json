@@ -20,7 +20,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "^3.2.1",
+    "@eslint-community/eslint-plugin-eslint-comments": "^4.0.0",
     "@eslint/js": "^8.44.0",
     "@foray1010/common-presets-utils": "workspace:^",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
