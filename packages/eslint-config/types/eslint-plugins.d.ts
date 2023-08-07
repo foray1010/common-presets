@@ -9,6 +9,18 @@ declare module '@eslint-community/eslint-plugin-*' {
   >
 }
 
+declare module '@typescript-eslint/eslint-plugin' {
+  import type { Linter } from 'eslint'
+
+  export const configs: Record<
+    string,
+    {
+      readonly overrides: Array<Linter.ConfigOverride<Linter.OverrideRules>>
+      readonly rules: Linter.RulesRecord
+    }
+  >
+}
+
 declare module '@eslint/js' {
   import type { Linter } from 'eslint'
 

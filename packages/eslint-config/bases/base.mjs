@@ -21,11 +21,14 @@ async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
   if (!hasDep('typescript')) return []
 
+  /* eslint-disable import/no-unresolved */
   const eslintPluginTypescriptEslint = (
     await import('@typescript-eslint/eslint-plugin')
   ).default
-  const typescriptEslintParser = (await import('@typescript-eslint/parser'))
-    .default
+  const typescriptEslintParser =
+    // @ts-expect-error
+    (await import('@typescript-eslint/parser')).default
+  /* eslint-enable import/no-unresolved */
   const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
     .default
   const eslintPluginFunctional = (await import('eslint-plugin-functional'))
@@ -51,7 +54,6 @@ async function generateTypeScriptConfig() {
         },
       },
       plugins: {
-        // @ts-expect-error
         '@typescript-eslint': eslintPluginTypescriptEslint,
         // @ts-expect-error
         deprecation: eslintPluginDeprecation,
@@ -118,8 +120,6 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         // need empty function for react context default value
         '@typescript-eslint/no-empty-function': 'off',
-        // encourage to check error type before use in catch clauses
-        '@typescript-eslint/no-implicit-any-catch': 'error',
         // when using typescript 5.0 with verbatimModuleSyntax flag on, compiler will not remove import statements with only inline type imports which lead to side effects
         '@typescript-eslint/no-import-type-side-effects': 'error',
         // enforce correct usage of `void` type
@@ -234,7 +234,6 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptTestFileGlobs,
       plugins: {
-        // @ts-expect-error
         '@typescript-eslint': eslintPluginTypescriptEslint,
         jest: eslintPluginJest,
       },
