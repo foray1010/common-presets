@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.5.1...@foray1010/eslint-config@11.0.0) (2023-08-10)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** update prettier to v3
+- **deps:** require eslint ^8.38.0
+
+### Features
+
+- **deps:** update eslint-config-prettier to v9 ([5be09d4](https://github.com/foray1010/common-presets/commit/5be09d47bea41e79ea2887391ae80baa6b38eb8c))
+- **deps:** update ts and functional eslint plugin to v6 ([5d7b765](https://github.com/foray1010/common-presets/commit/5d7b7659c9e5b0a8603d3c57b06103741fb1fd0b))
+
+### Bug Fixes
+
+- **deps:** update dependency @eslint-community/eslint-plugin-eslint-comments to v4 ([#683](https://github.com/foray1010/common-presets/issues/683)) ([c50b32a](https://github.com/foray1010/common-presets/commit/c50b32a87158a519ffad8f430827410df0fa46d7))
+- **deps:** update dependency eslint-plugin-jest-dom to v5 ([#651](https://github.com/foray1010/common-presets/issues/651)) ([a8882a9](https://github.com/foray1010/common-presets/commit/a8882a9b4fdb2b34fd233d50e835eab05dba05ec))
+- **deps:** update dependency eslint-plugin-n to v16 ([85aace0](https://github.com/foray1010/common-presets/commit/85aace07945ffa1edaa163340063719220226467))
+- **deps:** update dependency eslint-plugin-unicorn to v47 ([2f6effe](https://github.com/foray1010/common-presets/commit/2f6effea8f83c31632bf37c49778019e835a09cb))
+- **deps:** update eslint-plugin-unicorn to v48 ([d930822](https://github.com/foray1010/common-presets/commit/d9308225b864eaf7d6304c83966e288f688186a7))
+- **deps:** update prettier to v3 ([4724464](https://github.com/foray1010/common-presets/commit/4724464c1c272df3eb686b168d836a9a696c11a2))
+
 ## [10.5.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@10.5.0...@foray1010/eslint-config@10.5.1) (2023-04-22)
 
 ### Bug Fixes

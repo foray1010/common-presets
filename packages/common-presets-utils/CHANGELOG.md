@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [7.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@7.0.2...@foray1010/common-presets-utils@7.0.3) (2023-08-10)
+
+### Bug Fixes
+
+- **deps:** update read-pkg-up to v10 ([2b99001](https://github.com/foray1010/common-presets/commit/2b99001401fc98c4fd550561b9836c92a9eeef86))
+
 ## [7.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@7.0.1...@foray1010/common-presets-utils@7.0.2) (2023-03-29)
 
 **Note:** Version bump only for package @foray1010/common-presets-utils

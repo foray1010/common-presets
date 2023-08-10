@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@12.0.0...@foray1010/stylelint-config@13.0.0) (2023-08-10)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** update prettier to v3
+- **stylelint-config:** require stylelint ^15.10.0
+- **stylelint-config:** require stylelint ^15.8.0
+
+### Bug Fixes
+
+- **deps:** update prettier to v3 ([4724464](https://github.com/foray1010/common-presets/commit/4724464c1c272df3eb686b168d836a9a696c11a2))
+- **deps:** update stylelint-no-unsupported-browser-features to v7 ([0ae75c5](https://github.com/foray1010/common-presets/commit/0ae75c546ae7c9504c7a6ef7ca9198161fb705bf))
+- **stylelint-config:** update stylelint-config-standard to v34 ([400dcaf](https://github.com/foray1010/common-presets/commit/400dcafabf22e807ab1ee1e4a5b0a4a43053c540))
+- **stylelint-config:** use mjs ([b63fb5b](https://github.com/foray1010/common-presets/commit/b63fb5b8c6cfa7a317143d584f390774f5d4b95b))
+
 ## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@11.0.0...@foray1010/stylelint-config@12.0.0) (2023-04-22)
 
 ### ⚠ BREAKING CHANGES
