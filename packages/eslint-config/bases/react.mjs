@@ -82,14 +82,10 @@ const reactConfig = [
           eventModules: ['fire-event'],
         },
       ],
-      // global flag /g holds state and might cause false-positives while querying for elements
-      'testing-library/no-global-regexp-flag-in-query': 'error',
       // explicitly assert the element to prevent reader missed the test cases
       'testing-library/prefer-explicit-assert': 'error',
       // prefer @testing-library/user-event over fireEvent
       'testing-library/prefer-user-event': 'error',
-      // as `wait` is deprecated
-      'testing-library/prefer-wait-for': 'error',
     },
   },
 ]
