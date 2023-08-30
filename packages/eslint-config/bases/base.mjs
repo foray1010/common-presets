@@ -25,9 +25,8 @@ async function generateTypeScriptConfig() {
   const eslintPluginTypescriptEslint = (
     await import('@typescript-eslint/eslint-plugin')
   ).default
-  const typescriptEslintParser =
-    // @ts-expect-error
-    (await import('@typescript-eslint/parser')).default
+  const typescriptEslintParser = (await import('@typescript-eslint/parser'))
+    .default
   /* eslint-enable import/no-unresolved */
   const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
     .default
