@@ -29,7 +29,7 @@
     "lerna": "7.1.5",
     "lint-staged": "14.0.1",
     "node-notifier": "10.0.1",
-    "prettier": "3.0.2",
+    "prettier": "3.0.3",
     "remark-cli": "11.0.0",
     "stylelint": "15.10.3",
     "typescript": "5.2.2"
