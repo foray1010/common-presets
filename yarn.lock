@@ -1984,7 +1984,7 @@ __metadata:
     "@eslint-community/eslint-plugin-eslint-comments": ^4.0.0
     "@eslint/js": ^8.44.0
     "@foray1010/common-presets-utils": "workspace:^"
-    "@types/confusing-browser-globals": 1.0.0
+    "@types/confusing-browser-globals": 1.0.1
     "@types/eslint": 8.44.2
     "@typescript-eslint/eslint-plugin": ^6.2.1
     "@typescript-eslint/parser": ^6.2.1
@@ -3130,10 +3130,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/confusing-browser-globals@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@types/confusing-browser-globals@npm:1.0.0"
-  checksum: ffe4292de02ca2f012d0402b2b66fc69b7973e53c3f7552abeb756f47ba175faa79043ba90fe44c402e93210ad2187d5e20dc84b47b5c810f1d64ecef15b2837
+"@types/confusing-browser-globals@npm:1.0.1":
+  version: 1.0.1
+  resolution: "@types/confusing-browser-globals@npm:1.0.1"
+  checksum: 721f215baebc302e5531e9924e3ad73ad6ef9b821ad22cfcd3424b665d8c9dcec3757ea3cc7c84c4bb603c9c12b211d7dcda0be6ff54b718bd9c978a35152686
   languageName: node
   linkType: hard
 
