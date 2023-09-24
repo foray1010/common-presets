@@ -20,7 +20,7 @@
     "type:check": "echo 'Skipped: non-ts package'"
   },
   "dependencies": {
-    "remark-frontmatter": "^4.0.0",
+    "remark-frontmatter": "^5.0.0",
     "remark-lint-no-dead-urls": "^1.1.0",
     "remark-preset-lint-consistent": "^5.0.0",
     "remark-preset-lint-markdown-style-guide": "^5.0.0",
