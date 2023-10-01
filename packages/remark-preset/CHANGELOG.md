@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [9.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@9.0.0...@foray1010/remark-preset@9.0.1) (2023-10-01)
+
+### Bug Fixes
+
+- **deps:** update dependency remark-frontmatter to v5 ([1fab4fc](https://github.com/foray1010/common-presets/commit/1fab4fcbd809233d636e8b1265fd086e2ea65fac))
+- **deps:** update dependency remark-validate-links to v13 ([2e6a23d](https://github.com/foray1010/common-presets/commit/2e6a23de59fb649bb82e9b3a324af4ac8645b39c))
+
 ## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@8.0.0...@foray1010/remark-preset@9.0.0) (2023-03-23)
 
 ### ⚠ BREAKING CHANGES
