@@ -285,9 +285,9 @@ const baseConfig = [
   js.configs.recommended,
   {
     languageOptions: {
-      ecmaVersion: 2022,
+      ecmaVersion: 2023,
       globals: {
-        // should align with languageOptions.ecmaVersion
+        // No es2022/es2023 preset yet
         ...globals.es2021,
         /* Not using `node` to explicitly import node.js only built-in modules, e.g.
          * import { Buffer } from 'node:buffer'

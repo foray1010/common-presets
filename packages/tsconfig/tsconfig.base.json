@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "incremental": true,
-    "lib": ["ES2021"],
+    "lib": ["ES2023"],
     "module": "Node16",
     "moduleDetection": "force",
     "moduleResolution": "Node16",
@@ -16,7 +16,8 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2021",
+    // typescript 5.2 does not support ES2023 yet
+    "target": "ES2022",
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
   },
