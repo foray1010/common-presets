@@ -4,6 +4,7 @@ import eslintPluginEslintComments from '@eslint-community/eslint-plugin-eslint-c
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
 import eslintPluginImport from 'eslint-plugin-import'
 import eslintPluginJest from 'eslint-plugin-jest'
+import eslintPluginRegexp from 'eslint-plugin-regexp'
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
@@ -299,11 +300,13 @@ const baseConfig = [
     plugins: {
       '@eslint-community/eslint-comments': eslintPluginEslintComments,
       import: eslintPluginImport,
+      regexp: eslintPluginRegexp,
       unicorn: eslintPluginUnicorn,
     },
     rules: {
       ...eslintPluginEslintComments.configs['recommended']?.rules,
       ...eslintPluginImport.configs['recommended']?.rules,
+      ...eslintPluginRegexp.configs['recommended']?.rules,
       ...Object.fromEntries(
         Object.entries(
           eslintPluginUnicorn.configs['recommended']?.rules ?? {},
