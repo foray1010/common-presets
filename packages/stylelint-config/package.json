@@ -20,11 +20,11 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "stylelint-config-concentric-order": "^5.1.0",
-    "stylelint-config-css-modules": "^4.2.0",
+    "stylelint-config-concentric-order": "^5.2.0",
+    "stylelint-config-css-modules": "^4.3.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-no-unsupported-browser-features": "^7.0.0",
-    "stylelint-prettier": "^4.0.0"
+    "stylelint-prettier": "^4.0.2"
   },
   "peerDependencies": {
     "prettier": "^3.0.0",
