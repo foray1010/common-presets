@@ -38,7 +38,7 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptFileGlobs,
       languageOptions: {
-        /** @type {any} */
+        // @ts-expect-error
         parser: typescriptEslintParser,
         parserOptions: {
           // faster linting on cli
@@ -54,6 +54,7 @@ async function generateTypeScriptConfig() {
         },
       },
       plugins: {
+        // @ts-expect-error
         '@typescript-eslint': eslintPluginTypescriptEslint,
         // @ts-expect-error
         deprecation: eslintPluginDeprecation,
@@ -234,6 +235,7 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptTestFileGlobs,
       plugins: {
+        // @ts-expect-error
         '@typescript-eslint': eslintPluginTypescriptEslint,
         jest: eslintPluginJest,
       },
