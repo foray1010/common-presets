@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@11.0.3...@foray1010/eslint-config@12.0.0) (2023-11-17)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** require eslint `^8.52.0`
+- require node `^18.12.0 || >=20.9.0`
+
+### Features
+
+- **eslint-config:** lint regexp ([65fa4ec](https://github.com/foray1010/common-presets/commit/65fa4ec480d1e4569ce2ace9a9a35fcd752f9234))
+- support es2023 ([0993c39](https://github.com/foray1010/common-presets/commit/0993c39c8a2f011b3f18e7796d69c54fc51b8eda))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-unicorn to v49 ([9501170](https://github.com/foray1010/common-presets/commit/9501170f2099029b64c1d9092b7342a0981d2d32))
+
+### Miscellaneous Chores
+
+- require node `^18.12.0 || >=20.9.0` ([e231508](https://github.com/foray1010/common-presets/commit/e231508673cefd6e4792083e4f15fd152446e32d))
+
 ## [11.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@11.0.2...@foray1010/eslint-config@11.0.3) (2023-10-01)
 
 ### Bug Fixes

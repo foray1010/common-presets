@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@10.0.0...@foray1010/prettier-config@11.0.0) (2023-11-17)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^18.12.0 || >=20.9.0`
+
+### Miscellaneous Chores
+
+- require node `^18.12.0 || >=20.9.0` ([e231508](https://github.com/foray1010/common-presets/commit/e231508673cefd6e4792083e4f15fd152446e32d))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@9.0.0...@foray1010/prettier-config@10.0.0) (2023-08-10)
 
 ### ⚠ BREAKING CHANGES

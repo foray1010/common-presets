@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@4.0.0...@foray1010/jest-preset@5.0.0) (2023-11-17)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^18.12.0 || >=20.9.0`
+
+### Features
+
+- **jest-preset:** ignore type definition files when calculate coverage ([081bcac](https://github.com/foray1010/common-presets/commit/081bcac5d72d9100ea62cb2af6a7da6bdf24bf92))
+
+### Miscellaneous Chores
+
+- require node `^18.12.0 || >=20.9.0` ([e231508](https://github.com/foray1010/common-presets/commit/e231508673cefd6e4792083e4f15fd152446e32d))
+
 ## [4.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/jest-preset@3.0.0...@foray1010/jest-preset@4.0.0) (2023-03-23)
 
 ### ⚠ BREAKING CHANGES

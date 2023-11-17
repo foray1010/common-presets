@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@11.0.2...@foray1010/tsconfig@12.0.0) (2023-11-17)
+
+### ⚠ BREAKING CHANGES
+
+- require node `^18.12.0 || >=20.9.0`
+
+### Features
+
+- support es2023 ([0993c39](https://github.com/foray1010/common-presets/commit/0993c39c8a2f011b3f18e7796d69c54fc51b8eda))
+
+### Miscellaneous Chores
+
+- require node `^18.12.0 || >=20.9.0` ([e231508](https://github.com/foray1010/common-presets/commit/e231508673cefd6e4792083e4f15fd152446e32d))
+
 ## [11.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@11.0.1...@foray1010/tsconfig@11.0.2) (2023-08-30)
 
 ### Bug Fixes
