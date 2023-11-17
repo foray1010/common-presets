@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [11.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@11.0.0...@foray1010/prettier-config@11.0.1) (2023-11-17)
+
+### Bug Fixes
+
+- **prettier-config:** ignore typed-css-modules generated files ([46925a8](https://github.com/foray1010/common-presets/commit/46925a8ece033400ddc02c9fc661a391901aa279))
+
 ## [11.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@10.0.0...@foray1010/prettier-config@11.0.0) (2023-11-17)
 
 ### ⚠ BREAKING CHANGES
