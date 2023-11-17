@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.0.0...@foray1010/eslint-config@12.1.0) (2023-11-17)
+
+### Features
+
+- **eslint-config:** enable regexp strict mode ([07d035b](https://github.com/foray1010/common-presets/commit/07d035badb143ce4490cd4731b8bf43667bbf07b))
+
 ## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@11.0.3...@foray1010/eslint-config@12.0.0) (2023-11-17)
 
 ### ⚠ BREAKING CHANGES
