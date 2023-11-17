@@ -9,6 +9,7 @@ const preset = {
     /\/__mocks__\//.source,
     /\/__tests__\//.source,
     /\/node_modules\//.source,
+    /\.d\.(?:cts|mts|ts|tsx)$/.source, // ignore type definition files
   ],
   coverageReporters: ['lcov', 'text-summary'],
   errorOnDeprecated: true,
