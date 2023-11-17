@@ -185,9 +185,9 @@ async function generateTypeScriptConfig() {
             // reduce the difficult to use this rule
             ignoreInferredTypes: true,
             // escape hatch without using eslint-disable
-            ignoreNamePattern: /Mutable$/.source,
+            ignoreNamePattern: /Mutable$/u.source,
             ignoreTypePattern: [
-              /^React\./.source, // Some React types does not work with `Readonly`
+              /^React\./u.source, // Some React types does not work with `Readonly`
             ],
           },
         ],
@@ -205,12 +205,12 @@ async function generateTypeScriptConfig() {
                 // modified from https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/type-declaration-immutability.md#preset-overrides
                 fixer: [
                   {
-                    pattern: /^(Array|Map|Set)<(.+)>$/.source,
-                    replace: /Readonly\$1<\$2>/.source,
+                    pattern: /^(Array|Map|Set)<(.+)>$/u.source,
+                    replace: /Readonly\$1<\$2>/u.source,
                   },
                   {
-                    pattern: /^(.+)$/.source,
-                    replace: /Readonly<\$1>/.source,
+                    pattern: /^(.+)$/u.source,
+                    replace: /Readonly<\$1>/u.source,
                   },
                 ],
               },
@@ -411,6 +411,8 @@ const baseConfig = [
           destructuring: 'all',
         },
       ],
+      // enable regexp strict mode
+      'regexp/require-unicode-regexp': 'error',
       // use with `unicorn/throw-new-error`
       // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
       'unicorn/new-for-builtins': 'error',

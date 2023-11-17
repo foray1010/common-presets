@@ -64,7 +64,7 @@ function generateCombinations(prefixes, originalGlobs) {
 
   return prefixes.flatMap((prefix) => {
     return verifiedOriginalGlobs.flatMap((originalGlob) => {
-      const signRegexp = /^!/
+      const signRegexp = /^!/u
       const sign = originalGlob.match(signRegexp)?.[0] ?? ''
       return sign + path.join(prefix, originalGlob.replace(signRegexp, ''))
     })
