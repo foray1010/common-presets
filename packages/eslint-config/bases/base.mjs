@@ -411,7 +411,7 @@ const baseConfig = [
           destructuring: 'all',
         },
       ],
-      // enable regexp strict mode
+      // enable regexp strict mode (use `v` flag instead when it is widely supported)
       'regexp/require-unicode-regexp': 'error',
       // use with `unicorn/throw-new-error`
       // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
