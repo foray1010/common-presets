@@ -185,9 +185,9 @@ async function generateTypeScriptConfig() {
             // reduce the difficult to use this rule
             ignoreInferredTypes: true,
             // escape hatch without using eslint-disable
-            ignoreNamePattern: 'Mutable$',
+            ignoreNamePattern: /Mutable$/.source,
             ignoreTypePattern: [
-              '^React.', // Some React types does not work with `Readonly`
+              /^React\./.source, // Some React types does not work with `Readonly`
             ],
           },
         ],
@@ -205,12 +205,12 @@ async function generateTypeScriptConfig() {
                 // modified from https://github.com/eslint-functional/eslint-plugin-functional/blob/main/docs/rules/type-declaration-immutability.md#preset-overrides
                 fixer: [
                   {
-                    pattern: '^(Array|Map|Set)<(.+)>$',
-                    replace: 'Readonly$1<$2>',
+                    pattern: /^(Array|Map|Set)<(.+)>$/.source,
+                    replace: /Readonly\$1<\$2>/.source,
                   },
                   {
-                    pattern: '^(.+)$',
-                    replace: 'Readonly<$1>',
+                    pattern: /^(.+)$/.source,
+                    replace: /Readonly<\$1>/.source,
                   },
                 ],
               },

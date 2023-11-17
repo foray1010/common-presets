@@ -4,11 +4,11 @@ const preset = {
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.{cjs,cts,js,mjs,mts,ts,tsx}'],
   coveragePathIgnorePatterns: [
-    '/\\.', // ignore all hidden files
-    '/__fixtures__/',
-    '/__mocks__/',
-    '/__tests__/',
-    '/node_modules/',
+    /\/\./.source, // ignore all hidden files
+    /\/__fixtures__\//.source,
+    /\/__mocks__\//.source,
+    /\/__tests__\//.source,
+    /\/node_modules\//.source,
   ],
   coverageReporters: ['lcov', 'text-summary'],
   errorOnDeprecated: true,
