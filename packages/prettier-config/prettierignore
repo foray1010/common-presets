@@ -3,5 +3,9 @@ build/
 coverage/
 dist/
 node_modules/
+
 # do not format auto-generated files
+## typed-css-modules
+*.css.d.ts
+## pnpm
 pnpm-lock.yaml
