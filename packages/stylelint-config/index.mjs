@@ -4,7 +4,7 @@ const stylelintConfig = {
     'stylelint-config-standard',
     'stylelint-config-css-modules',
     'stylelint-config-concentric-order',
-    'stylelint-prettier/recommended.js',
+    'stylelint-prettier/recommended',
   ],
   plugins: ['stylelint-no-unsupported-browser-features'],
   rules: {
