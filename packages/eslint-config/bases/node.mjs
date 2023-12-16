@@ -8,9 +8,7 @@ import eslintPluginN from 'eslint-plugin-n'
 const cjsConfig = {
   languageOptions: {
     globals: {
-      // @ts-expect-error
       __dirname: 'readonly',
-      // @ts-expect-error
       __filename: 'readonly',
     },
   },
@@ -25,10 +23,8 @@ const nodeConfig = [
     languageOptions: {
       globals: {
         // hack to mute no-undef error, and show n/prefer-global/buffer error instead
-        // @ts-expect-error
         Buffer: 'writable',
         // hack to mute no-undef error, and show n/prefer-global/process error instead
-        // @ts-expect-error
         process: 'writable',
       },
     },

@@ -38,7 +38,6 @@ const browserConfig = [
         ...globals.browser,
         ...globals.webextensions,
         // keep it until webpack has an official way to define env: https://github.com/webpack/webpack/issues/15833
-        // @ts-expect-error
         process: 'readonly',
       },
     },
