@@ -311,7 +311,7 @@ const baseConfig = [
       ...eslintPluginRegexp.configs['recommended']?.rules,
       ...Object.fromEntries(
         Object.entries(
-          eslintPluginUnicorn.configs['recommended']?.rules ?? {},
+          eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
         ).filter(([ruleName]) => {
           // only use a subset of recommended rules as other rules are too strict
           return (
