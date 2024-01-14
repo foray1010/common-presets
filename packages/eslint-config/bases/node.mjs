@@ -53,6 +53,10 @@ const nodeConfig = [
       'n/prefer-global/url': ['error', 'always'],
       // prefer global `URLSearchParams` to be isomorphic
       'n/prefer-global/url-search-params': ['error', 'always'],
+      // prefer `import { promises as dns } from 'node:dns'`
+      'n/prefer-promises/dns': 'error',
+      // prefer `import { promises as fs } from 'node:fs'`
+      'n/prefer-promises/fs': 'error',
       // make `process.exit()` expressions the same code path as `throw`
       'n/process-exit-as-throw': 'error',
       // enforce shebang on the entry bin file
