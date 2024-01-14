@@ -23,9 +23,9 @@ const nodeConfig = [
     languageOptions: {
       globals: {
         // hack to mute no-undef error, and show n/prefer-global/buffer error instead
-        Buffer: 'writable',
+        Buffer: 'readonly',
         // hack to mute no-undef error, and show n/prefer-global/process error instead
-        process: 'writable',
+        process: 'readonly',
       },
     },
     rules: {
