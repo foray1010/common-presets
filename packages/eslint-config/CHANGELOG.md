@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.1.0...@foray1010/eslint-config@12.2.0) (2024-01-20)
+
+### Features
+
+- **eslint-config:** prefer promise style when using nodejs modules ([ff2b07e](https://github.com/foray1010/common-presets/commit/ff2b07ec726573f8e21b3b0ff54b069061591153))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-unicorn to v50 ([aa474d6](https://github.com/foray1010/common-presets/commit/aa474d613a309319f0323ae4dcb32f6dd85f78e4))
+
 ## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.0.0...@foray1010/eslint-config@12.1.0) (2023-11-17)
 
 ### Features
