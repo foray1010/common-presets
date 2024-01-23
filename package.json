@@ -19,8 +19,8 @@
   "devDependencies": {
     "@babel/core": "7.23.7",
     "@babel/runtime": "7.23.8",
-    "@commitlint/cli": "18.4.4",
-    "@commitlint/config-conventional": "18.4.4",
+    "@commitlint/cli": "18.5.0",
+    "@commitlint/config-conventional": "18.5.0",
     "concurrently": "8.2.2",
     "eslint": "8.56.0",
     "fast-glob": "3.3.2",
@@ -29,7 +29,7 @@
     "lerna": "8.0.2",
     "lint-staged": "15.2.0",
     "node-notifier": "10.0.1",
-    "prettier": "3.2.2",
+    "prettier": "3.2.4",
     "remark-cli": "12.0.0",
     "stylelint": "16.2.0",
     "typescript": "5.3.3"
