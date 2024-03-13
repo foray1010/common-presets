@@ -1,4 +1,3 @@
-// @ts-expect-error
 import { isESM } from '@foray1010/common-presets-utils'
 import eslintPluginN from 'eslint-plugin-n'
 

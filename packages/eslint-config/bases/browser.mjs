@@ -1,4 +1,3 @@
-// @ts-expect-error
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
 import eslintPluginCompat from 'eslint-plugin-compat'

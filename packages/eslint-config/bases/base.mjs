@@ -1,6 +1,5 @@
 import js from '@eslint/js'
 import eslintPluginEslintComments from '@eslint-community/eslint-plugin-eslint-comments'
-// @ts-expect-error
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
 import eslintPluginImport from 'eslint-plugin-import'
 import eslintPluginJest from 'eslint-plugin-jest'
@@ -38,7 +37,6 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptFileGlobs,
       languageOptions: {
-        // @ts-expect-error
         parser: typescriptEslintParser,
         parserOptions: {
           // faster linting on cli
