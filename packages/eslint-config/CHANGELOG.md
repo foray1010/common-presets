@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.2.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.2.0...@foray1010/eslint-config@12.2.1) (2024-03-13)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-simple-import-sort to v12 ([dc477c0](https://github.com/foray1010/common-presets/commit/dc477c0ab0abf72f7f3fe7c5d93f86079ed0a702))
+- **deps:** update dependency eslint-plugin-unicorn to v51 ([cde249f](https://github.com/foray1010/common-presets/commit/cde249fa154fc4952e18d678cd523a19ab227ecf))
+- **deps:** update dependency globals to v14 ([9eda897](https://github.com/foray1010/common-presets/commit/9eda8974ac7e3f65c04bbed29164c5b4b040d671))
+- **deps:** update typescript-eslint monorepo to v7 ([49fe30c](https://github.com/foray1010/common-presets/commit/49fe30cdf0f156a2b21422998d4df554813833ce))
+
 ## [12.2.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.1.0...@foray1010/eslint-config@12.2.0) (2024-01-20)
 
 ### Features
