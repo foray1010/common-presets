@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@10.0.0...@foray1010/remark-preset@10.0.1) (2024-04-15)
+
+### Bug Fixes
+
+- **remark-preset:** update remark dependencies ([82dbb94](https://github.com/foray1010/common-presets/commit/82dbb9423a387c9cc660faa44addefc2a2f0d9bc))
+
 ## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@9.0.1...@foray1010/remark-preset@10.0.0) (2023-11-17)
 
 ### ⚠ BREAKING CHANGES
