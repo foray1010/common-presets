@@ -56,6 +56,7 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint': eslintPluginTypescriptEslint,
         // @ts-expect-error
         deprecation: eslintPluginDeprecation,
+        // @ts-expect-error
         functional: eslintPluginFunctional,
       },
       rules: {
@@ -300,13 +301,19 @@ const baseConfig = [
     plugins: {
       '@eslint-community/eslint-comments': eslintPluginEslintComments,
       import: eslintPluginImport,
+      // @ts-expect-error
       regexp: eslintPluginRegexp,
       unicorn: eslintPluginUnicorn,
     },
     rules: {
       ...eslintPluginEslintComments.configs['recommended']?.rules,
       ...eslintPluginImport.configs['recommended']?.rules,
-      ...eslintPluginRegexp.configs['recommended']?.rules,
+      ...(() => {
+        const rules = eslintPluginRegexp.configs['recommended']?.rules
+        return /** @type {import('eslint').Linter.RulesRecord} */ (
+          /** @type {unknown} */ (rules)
+        )
+      })(),
       ...Object.fromEntries(
         Object.entries(
           eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
