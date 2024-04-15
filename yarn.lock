@@ -1871,7 +1871,7 @@ __metadata:
     eslint-plugin-unicorn: "npm:^51.0.0"
     globals: "npm:^15.0.0"
   peerDependencies:
-    "@testing-library/dom": ^9.0.0
+    "@testing-library/dom": ^10.0.0
     eslint: ^8.52.0
     prettier: ^3.0.0
     typescript: ^5.0.2
