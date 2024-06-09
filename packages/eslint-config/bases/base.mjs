@@ -301,7 +301,6 @@ const baseConfig = [
     plugins: {
       '@eslint-community/eslint-comments': eslintPluginEslintComments,
       import: eslintPluginImport,
-      // @ts-expect-error
       regexp: eslintPluginRegexp,
       unicorn: eslintPluginUnicorn,
     },
