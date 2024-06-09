@@ -289,8 +289,7 @@ const baseConfig = [
     languageOptions: {
       ecmaVersion: 2023,
       globals: {
-        // No es2022/es2023 preset yet
-        ...globals.es2021,
+        ...globals.es2023,
         /* Not using `node` to explicitly import node.js only built-in modules, e.g.
          * import { Buffer } from 'node:buffer'
          * import process from 'node:process'
