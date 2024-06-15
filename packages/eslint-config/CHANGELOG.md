@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.2.4](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.2.3...@foray1010/eslint-config@12.2.4) (2024-06-15)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-compat to v5 ([d9743af](https://github.com/foray1010/common-presets/commit/d9743af383e66d3365db4024cbf7c40572eb50d4))
+- **deps:** update dependency eslint-plugin-unicorn to v54 ([33438db](https://github.com/foray1010/common-presets/commit/33438db1de6efc74a90510b5003e6464bcfd630f))
+
 ## [12.2.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.2.2...@foray1010/eslint-config@12.2.3) (2024-06-09)
 
 ### Bug Fixes
