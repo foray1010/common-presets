@@ -16,8 +16,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    // typescript 5.2 does not support ES2023 yet
-    "target": "ES2022",
+    "target": "ES2023",
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
   },
