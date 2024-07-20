@@ -36,3 +36,18 @@ declare module 'eslint-plugin-prettier' {
     }
   >
 }
+
+declare module 'eslint-plugin-react' {
+  import type { Linter } from 'eslint'
+
+  export const configs: {
+    readonly flat: {
+      readonly 'jsx-runtime': {
+        readonly rules: Linter.RulesRecord
+      }
+      readonly recommended: {
+        readonly rules: Linter.RulesRecord
+      }
+    }
+  }
+}

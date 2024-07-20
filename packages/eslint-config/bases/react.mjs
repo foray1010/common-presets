@@ -8,28 +8,18 @@ import { testFileGlobs } from '../constants.mjs'
 
 /** @type {EslintConfig} */
 const reactConfig = [
+  eslintPluginReact.configs.flat.recommended,
+  eslintPluginReact.configs.flat['jsx-runtime'],
   {
-    languageOptions: {
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
-        // copied from `eslintPluginReact.configs['jsx-runtime']`
-        jsxPragma: null, // for @typescript-eslint/parser
-      },
-    },
     settings: {
       react: {
         version: 'detect',
       },
     },
     plugins: {
-      react: eslintPluginReact,
       'react-hooks': eslintPluginReactHooks,
     },
     rules: {
-      ...eslintPluginReact.configs['recommended']?.rules,
-      ...eslintPluginReact.configs['jsx-runtime']?.rules,
       ...eslintPluginReactHooks.configs['recommended']?.rules,
       // avoid unexpected form submits
       'react/button-has-type': 'error',
