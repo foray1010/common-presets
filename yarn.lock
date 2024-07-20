@@ -2046,7 +2046,7 @@ __metadata:
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-react: "npm:^7.35.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
-    eslint-plugin-regexp: "npm:^2.1.1"
+    eslint-plugin-regexp: "npm:^2.6.0"
     eslint-plugin-simple-import-sort: "npm:^12.0.0"
     eslint-plugin-testing-library: "npm:^6.1.2"
     eslint-plugin-unicorn: "npm:^54.0.0"
@@ -6142,7 +6142,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-regexp@npm:^2.1.1":
+"eslint-plugin-regexp@npm:^2.6.0":
   version: 2.6.0
   resolution: "eslint-plugin-regexp@npm:2.6.0"
   dependencies:

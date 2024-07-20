@@ -285,6 +285,7 @@ const esmConfig = {
 /** @type {EslintConfig} */
 const baseConfig = [
   js.configs.recommended,
+  eslintPluginRegexp.configs['flat/recommended'],
   {
     languageOptions: {
       ecmaVersion: 2023,
@@ -306,12 +307,6 @@ const baseConfig = [
     rules: {
       ...eslintPluginEslintComments.configs['recommended']?.rules,
       ...eslintPluginImport.configs['recommended']?.rules,
-      ...(() => {
-        const rules = eslintPluginRegexp.configs['recommended']?.rules
-        return /** @type {import('eslint').Linter.RulesRecord} */ (
-          /** @type {unknown} */ (rules)
-        )
-      })(),
       ...Object.fromEntries(
         Object.entries(
           eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
