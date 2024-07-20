@@ -447,15 +447,15 @@ const baseConfig = [
   },
   {
     files: testFileGlobs,
-    languageOptions: {
-      globals: globals.jest,
-    },
+    ...eslintPluginJest.configs['flat/recommended'],
+    ...eslintPluginJest.configs['flat/style'],
+  },
+  {
+    files: testFileGlobs,
     plugins: {
       jest: eslintPluginJest,
     },
     rules: {
-      ...eslintPluginJest.configs['recommended']?.rules,
-      ...eslintPluginJest.configs['style']?.rules,
       // make sure lifecycle hooks on the top for readability
       'jest/prefer-hooks-on-top': 'error',
     },

@@ -19,12 +19,7 @@ async function generateJestDomConfig() {
   return [
     {
       files: testFileGlobs,
-      plugins: {
-        'jest-dom': eslintPluginJestDom,
-      },
-      rules: {
-        ...eslintPluginJestDom.configs['recommended']?.rules,
-      },
+      ...eslintPluginJestDom.configs['flat/recommended'],
     },
   ]
 }

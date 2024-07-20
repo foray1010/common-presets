@@ -2040,8 +2040,8 @@ __metadata:
     eslint-plugin-deprecation: "npm:^3.0.0"
     eslint-plugin-functional: "npm:^6.0.0"
     eslint-plugin-import: "npm:^2.29.0"
-    eslint-plugin-jest: "npm:^28.0.0"
-    eslint-plugin-jest-dom: "npm:^5.1.0"
+    eslint-plugin-jest: "npm:^28.6.0"
+    eslint-plugin-jest-dom: "npm:^5.4.0"
     eslint-plugin-n: "npm:^17.0.0"
     eslint-plugin-prettier: "npm:^5.2.1"
     eslint-plugin-react: "npm:^7.35.0"
@@ -6033,7 +6033,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest-dom@npm:^5.1.0":
+"eslint-plugin-jest-dom@npm:^5.4.0":
   version: 5.4.0
   resolution: "eslint-plugin-jest-dom@npm:5.4.0"
   dependencies:
@@ -6049,7 +6049,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^28.0.0":
+"eslint-plugin-jest@npm:^28.6.0":
   version: 28.6.0
   resolution: "eslint-plugin-jest@npm:28.6.0"
   dependencies:
