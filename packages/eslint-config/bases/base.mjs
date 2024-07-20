@@ -1,13 +1,13 @@
 import js from '@eslint/js'
 import eslintPluginEslintComments from '@eslint-community/eslint-plugin-eslint-comments'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
-import eslintPluginImport from 'eslint-plugin-import'
+import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginJest from 'eslint-plugin-jest'
 import eslintPluginRegexp from 'eslint-plugin-regexp'
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
-// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import-x/no-unresolved
 import tseslint from 'typescript-eslint'
 
 import {
@@ -47,7 +47,7 @@ async function generateTypeScriptConfig() {
         },
       },
       settings: {
-        'import/resolver': {
+        'import-x/resolver': {
           typescript: true,
         },
       },
@@ -56,7 +56,7 @@ async function generateTypeScriptConfig() {
         functional: eslintPluginFunctional,
       },
       rules: {
-        ...eslintPluginImport.configs['typescript']?.rules,
+        ...eslintPluginImportX.configs['typescript']?.rules,
         // extend existing rule
         '@typescript-eslint/ban-types': [
           'error',
@@ -278,12 +278,13 @@ const baseConfig = [
     },
     plugins: {
       '@eslint-community/eslint-comments': eslintPluginEslintComments,
-      import: eslintPluginImport,
+      // @ts-expect-error Type is not compact with flat config
+      'import-x': eslintPluginImportX,
       unicorn: eslintPluginUnicorn,
     },
     rules: {
       ...eslintPluginEslintComments.configs['recommended']?.rules,
-      ...eslintPluginImport.configs['recommended']?.rules,
+      ...eslintPluginImportX.configs['recommended']?.rules,
       ...Object.fromEntries(
         Object.entries(
           eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
@@ -305,9 +306,9 @@ const baseConfig = [
       // always use named function for easier to debug via stack trace
       'func-names': ['error', 'as-needed'],
       // this rule doesn't support commonjs, some dependencies are using commonjs
-      'import/default': 'off',
+      'import-x/default': 'off',
       // enforce extensions for both cjs and esm
-      'import/extensions': [
+      'import-x/extensions': [
         'error',
         // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
         'always',
@@ -322,12 +323,12 @@ const baseConfig = [
         },
       ],
       // make sure import statements above the others
-      'import/first': 'error',
+      'import-x/first': 'error',
       // separate import statements from the others
-      'import/newline-after-import': 'error',
+      'import-x/newline-after-import': 'error',
       // avoid anonymous function or class for easier to debug via stack trace
       // for other types, enforcing named data can improve autocomplete when importing
-      'import/no-anonymous-default-export': [
+      'import-x/no-anonymous-default-export': [
         'error',
         {
           allowArray: false,
@@ -340,7 +341,7 @@ const baseConfig = [
         },
       ],
       // no circular dependency
-      'import/no-cycle': [
+      'import-x/no-cycle': [
         'error',
         {
           // speed up linting time
@@ -348,7 +349,7 @@ const baseConfig = [
         },
       ],
       // do not allow import packages that are not listed in dependencies or peerDependencies
-      'import/no-extraneous-dependencies': [
+      'import-x/no-extraneous-dependencies': [
         'error',
         {
           devDependencies: [
@@ -359,9 +360,9 @@ const baseConfig = [
         },
       ],
       // forbid a module from importing itself
-      'import/no-self-import': 'error',
+      'import-x/no-self-import': 'error',
       // use the shortest path in import statement, but allow /index because it will be standard to omit index as default file in directory
-      'import/no-useless-path-segments': [
+      'import-x/no-useless-path-segments': [
         'error',
         {
           commonjs: true,
@@ -369,9 +370,10 @@ const baseConfig = [
         },
       ],
       // turn off these rules as they do not support flat config: https://github.com/import-js/eslint-plugin-import/issues/2556
-      'import/namespace': 'off',
-      'import/no-named-as-default': 'off',
-      'import/no-named-as-default-member': 'off',
+      // Getting this error for eslint-plugin-import-x: `sourceType 'module' is not supported when ecmaVersion < 2015. Consider adding `{ ecmaVersion: 2015 }` to the parser options. (undefined:undefined)`
+      'import-x/namespace': 'off',
+      'import-x/no-named-as-default': 'off',
+      'import-x/no-named-as-default-member': 'off',
       // prefer explicitly convert type for readability
       'no-implicit-coercion': 'error',
       // make sure private class members are in-use

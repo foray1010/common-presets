@@ -1,7 +1,7 @@
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
 import eslintPluginCompat from 'eslint-plugin-compat'
-import eslintPluginImport from 'eslint-plugin-import'
+import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 import globals from 'globals'
 
@@ -37,12 +37,13 @@ const browserConfig = [
     },
     plugins: {
       compat: eslintPluginCompat,
-      import: eslintPluginImport,
+      // @ts-expect-error Type is not compact with flat config
+      'import-x': eslintPluginImportX,
     },
     rules: {
       'compat/compat': 'error',
       // frontend environment doesn't support node.js modules
-      'import/no-nodejs-modules': 'error',
+      'import-x/no-nodejs-modules': 'error',
       'no-restricted-globals': ['error', ...restrictedGlobals],
     },
   },
@@ -55,7 +56,7 @@ const browserConfig = [
     rules: {
       ...eslintPluginTestingLibrary.configs['dom']?.rules,
       // allow to use nodejs modules in tests
-      'import/no-nodejs-modules': 'off',
+      'import-x/no-nodejs-modules': 'off',
     },
   },
 ]

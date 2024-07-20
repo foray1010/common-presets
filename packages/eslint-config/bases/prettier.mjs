@@ -1,4 +1,4 @@
-// eslint-disable-next-line import/extensions
+// eslint-disable-next-line import-x/extensions
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 /** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
