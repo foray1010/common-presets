@@ -7,6 +7,8 @@ import eslintPluginRegexp from 'eslint-plugin-regexp'
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
+// eslint-disable-next-line import/no-unresolved
+import tseslint from 'typescript-eslint'
 
 import {
   testFileGlobs,
@@ -21,23 +23,21 @@ async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
   if (!hasDep('typescript')) return []
 
-  /* eslint-disable import/no-unresolved */
-  const eslintPluginTypescriptEslint = (
-    await import('@typescript-eslint/eslint-plugin')
-  ).default
-  const typescriptEslintParser = (await import('@typescript-eslint/parser'))
-    .default
-  /* eslint-enable import/no-unresolved */
   const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
     .default
   const eslintPluginFunctional = (await import('eslint-plugin-functional'))
     .default
 
   return [
-    {
+    // @ts-expect-error `Type 'Config' is not assignable to type 'Readonly<FlatConfig<RulesRecord>>' with 'exactOptionalPropertyTypes: true'`
+    ...tseslint.config({
       files: typeScriptFileGlobs,
+      extends: [
+        tseslint.configs.eslintRecommended,
+        ...tseslint.configs.recommendedTypeChecked,
+        esmConfig,
+      ],
       languageOptions: {
-        parser: typescriptEslintParser,
         parserOptions: {
           // faster linting on cli
           // https://github.com/typescript-eslint/typescript-eslint/issues/3528
@@ -52,24 +52,10 @@ async function generateTypeScriptConfig() {
         },
       },
       plugins: {
-        // @ts-expect-error
-        '@typescript-eslint': eslintPluginTypescriptEslint,
-        // @ts-expect-error
         deprecation: eslintPluginDeprecation,
-        // @ts-expect-error
         functional: eslintPluginFunctional,
       },
       rules: {
-        ...eslintPluginTypescriptEslint.configs[
-          'eslint-recommended'
-        ]?.overrides?.reduce(
-          (acc, override) => ({ ...acc, ...override.rules }),
-          {},
-        ),
-        ...eslintPluginTypescriptEslint.configs['recommended']?.rules,
-        ...eslintPluginTypescriptEslint.configs[
-          'recommended-requiring-type-checking'
-        ]?.rules,
         ...eslintPluginImport.configs['typescript']?.rules,
         // extend existing rule
         '@typescript-eslint/ban-types': [
@@ -230,14 +216,10 @@ async function generateTypeScriptConfig() {
         // It is disabled in recommended config but re-enabled here to enforce a subset of global variables that supported by both node.js and browsers
         'no-undef': 'error',
       },
-    },
+    }),
+    // @ts-expect-error As previous item's type is not correct, this item is affected too
     {
       files: typeScriptTestFileGlobs,
-      plugins: {
-        // @ts-expect-error
-        '@typescript-eslint': eslintPluginTypescriptEslint,
-        jest: eslintPluginJest,
-      },
       rules: {
         // doesn't work with jest.fn<void>()
         '@typescript-eslint/no-invalid-void-type': 'off',
@@ -246,10 +228,6 @@ async function generateTypeScriptConfig() {
         // allow passing an unbound method to `expect` calls
         'jest/unbound-method': ['error', { ignoreStatic: true }],
       },
-    },
-    {
-      files: typeScriptFileGlobs,
-      ...esmConfig,
     },
   ]
 }
@@ -301,7 +279,6 @@ const baseConfig = [
     plugins: {
       '@eslint-community/eslint-comments': eslintPluginEslintComments,
       import: eslintPluginImport,
-      regexp: eslintPluginRegexp,
       unicorn: eslintPluginUnicorn,
     },
     rules: {
@@ -447,9 +424,6 @@ const baseConfig = [
   },
   {
     files: testFileGlobs,
-    plugins: {
-      jest: eslintPluginJest,
-    },
     rules: {
       // make sure lifecycle hooks on the top for readability
       'jest/prefer-hooks-on-top': 'error',
