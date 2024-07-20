@@ -1,19 +1,12 @@
-import eslintConfigPrettier from 'eslint-config-prettier'
-import eslintPluginPrettier from 'eslint-plugin-prettier'
+// eslint-disable-next-line import/extensions
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
 
 /** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
 
 /** @type {EslintConfig} */
+// should be placed at the end to override other configs
 const prettierConfig = [
-  // should be placed at the end to override other configs
-  {
-    plugins: {
-      prettier: eslintPluginPrettier,
-    },
-    rules: {
-      ...eslintConfigPrettier.rules,
-      ...eslintPluginPrettier.configs['recommended']?.rules,
-    },
-  },
+  // This includes `eslint-config-prettier` as peer dependency
+  eslintPluginPrettierRecommended,
 ]
 export default prettierConfig
