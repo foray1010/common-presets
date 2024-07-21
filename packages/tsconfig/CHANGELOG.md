@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@12.0.0...@foray1010/tsconfig@12.1.0) (2024-07-21)
+
+### Features
+
+- **tsconfig:** set target to es2023 ([a134698](https://github.com/foray1010/common-presets/commit/a13469850612714a69acc3677e428d8778097dc3))
+
 ## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@11.0.2...@foray1010/tsconfig@12.0.0) (2023-11-17)
 
 ### ⚠ BREAKING CHANGES
