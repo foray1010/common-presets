@@ -7,8 +7,6 @@ import eslintPluginRegexp from 'eslint-plugin-regexp'
 import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 import eslintPluginUnicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
-// eslint-disable-next-line import-x/no-unresolved
-import tseslint from 'typescript-eslint'
 
 import {
   testFileGlobs,
@@ -23,6 +21,8 @@ async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
   if (!hasDep('typescript')) return []
 
+  // eslint-disable-next-line import-x/no-unresolved
+  const tseslint = (await import('typescript-eslint')).default
   const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
     .default
   const eslintPluginFunctional = (await import('eslint-plugin-functional'))
