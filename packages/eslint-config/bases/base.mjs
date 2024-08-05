@@ -57,17 +57,6 @@ async function generateTypeScriptConfig() {
       },
       rules: {
         ...eslintPluginImportX.configs['typescript']?.rules,
-        // extend existing rule
-        '@typescript-eslint/ban-types': [
-          'error',
-          {
-            types: {
-              // TypeScript team suggests to use `<T extends {}>` https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/#unconstrained-generics-no-longer-assignable-to
-              '{}': false,
-            },
-            extendDefaults: true,
-          },
-        ],
         // separate type exports which allow certain optimizations within compilers
         '@typescript-eslint/consistent-type-exports': [
           'error',
@@ -106,6 +95,8 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         // need empty function for react context default value
         '@typescript-eslint/no-empty-function': 'off',
+        // TypeScript team suggests to use `<T extends {}>` https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/#unconstrained-generics-no-longer-assignable-to
+        '@typescript-eslint/no-empty-object-type': 'off',
         // when using typescript 5.0 with verbatimModuleSyntax flag on, compiler will not remove import statements with only inline type imports which lead to side effects
         '@typescript-eslint/no-import-type-side-effects': 'error',
         // enforce correct usage of `void` type
