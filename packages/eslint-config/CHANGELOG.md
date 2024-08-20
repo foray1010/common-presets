@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.3.1...@foray1010/eslint-config@12.4.0) (2024-08-20)
+
+### Features
+
+- **eslint-config:** support all hooks in use-deep-compare ([e689bce](https://github.com/foray1010/common-presets/commit/e689bceed67924c5b4fa31066d818fa7f73c27a0))
+
+### Bug Fixes
+
+- **deps:** update dependency typescript-eslint to v8 ([e755b3e](https://github.com/foray1010/common-presets/commit/e755b3ef4fe40fa86a1e24b78660dd7911eac5d7))
+
 ## [12.3.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.3.0...@foray1010/eslint-config@12.3.1) (2024-07-25)
 
 ### Bug Fixes
