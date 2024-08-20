@@ -53,7 +53,8 @@ const reactConfig = [
         {
           // support package `use-deep-compare`
           additionalHooks:
-            '(useDeepCompareCallback|useDeepCompareEffect|useDeepCompareMemo)',
+            /^(useDeepCompareCallback|useDeepCompareEffect|useDeepCompareImperativeHandle|useDeepCompareLayoutEffect|useDeepCompareMemo)$/u
+              .source,
         },
       ],
     },
