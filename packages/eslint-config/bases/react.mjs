@@ -60,11 +60,11 @@ const reactConfig = [
   },
   {
     files: testFileGlobs,
-    plugins: {
-      'testing-library': eslintPluginTestingLibrary,
-    },
+    ...eslintPluginTestingLibrary.configs['flat/react'],
+  },
+  {
+    files: testFileGlobs,
     rules: {
-      ...eslintPluginTestingLibrary.configs['react']?.rules,
       // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
       'testing-library/no-await-sync-events': [
         'error',

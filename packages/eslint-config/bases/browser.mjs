@@ -50,11 +50,11 @@ const browserConfig = [
   ...(await generateJestDomConfig()),
   {
     files: testFileGlobs,
-    plugins: {
-      'testing-library': eslintPluginTestingLibrary,
-    },
+    ...eslintPluginTestingLibrary.configs['flat/dom'],
+  },
+  {
+    files: testFileGlobs,
     rules: {
-      ...eslintPluginTestingLibrary.configs['dom']?.rules,
       // allow to use nodejs modules in tests
       'import-x/no-nodejs-modules': 'off',
     },
