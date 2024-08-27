@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.4.0",
+    "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.9.1",
     "@foray1010/common-presets-utils": "workspace:^",
     "confusing-browser-globals": "^1.0.11",

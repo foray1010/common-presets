@@ -61,7 +61,10 @@ const reactConfig = [
   },
   {
     files: testFileGlobs,
-    ...eslintPluginTestingLibrary.configs['flat/react'],
+    rules: {
+      // Do not use flat config directly as eslint v9 does not support duplicated plugins (already defined in browser.mjs)
+      ...eslintPluginTestingLibrary.configs['flat/react']?.rules,
+    },
   },
   {
     files: testFileGlobs,

@@ -1,7 +1,7 @@
+import { fixupPluginRules } from '@eslint/compat'
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
 import eslintPluginCompat from 'eslint-plugin-compat'
-import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 import globals from 'globals'
 
@@ -37,8 +37,6 @@ const browserConfig = [
     },
     plugins: {
       compat: eslintPluginCompat,
-      // @ts-expect-error Type is not compact with flat config
-      'import-x': eslintPluginImportX,
     },
     rules: {
       'compat/compat': 'error',
@@ -50,7 +48,12 @@ const browserConfig = [
   ...(await generateJestDomConfig()),
   {
     files: testFileGlobs,
-    ...eslintPluginTestingLibrary.configs['flat/dom'],
+    plugins: {
+      'testing-library': fixupPluginRules(eslintPluginTestingLibrary),
+    },
+    rules: {
+      ...eslintPluginTestingLibrary.configs['flat/dom']?.rules,
+    },
   },
   {
     files: testFileGlobs,
