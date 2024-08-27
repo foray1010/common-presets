@@ -23,8 +23,6 @@ async function generateTypeScriptConfig() {
 
   // eslint-disable-next-line import-x/no-unresolved
   const tseslint = (await import('typescript-eslint')).default
-  const eslintPluginDeprecation = (await import('eslint-plugin-deprecation'))
-    .default
   const eslintPluginFunctional = (await import('eslint-plugin-functional'))
     .default
 
@@ -52,7 +50,6 @@ async function generateTypeScriptConfig() {
         },
       },
       plugins: {
-        deprecation: eslintPluginDeprecation,
         functional: eslintPluginFunctional,
       },
       rules: {
@@ -91,6 +88,8 @@ async function generateTypeScriptConfig() {
         ],
         // sometimes auto detect can provide a better and narrower type
         '@typescript-eslint/explicit-module-boundary-types': 'off',
+        // do not allow usage of deprecated code
+        '@typescript-eslint/no-deprecated': 'error',
         // disallow duplicated value in enum as it is error-prone
         '@typescript-eslint/no-duplicate-enum-values': 'error',
         // need empty function for react context default value
@@ -150,8 +149,6 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/switch-exhaustiveness-check': 'error',
         // ignore static function as those are not supposed to use `this`
         '@typescript-eslint/unbound-method': ['error', { ignoreStatic: true }],
-        // do not allow usage of deprecated code
-        'deprecation/deprecation': 'error',
         // use with functional/type-declaration-immutability
         'functional/prefer-immutable-types': [
           'error',
