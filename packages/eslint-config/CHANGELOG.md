@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@13.0.0...@foray1010/eslint-config@13.0.1) (2024-08-27)
+
+### Bug Fixes
+
+- **eslint-config:** fix errors when uses with eslint v9 ([9e2bc51](https://github.com/foray1010/common-presets/commit/9e2bc512f84b91963955e0558b7346bb27ba1365))
+
 ## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.4.0...@foray1010/eslint-config@13.0.0) (2024-08-27)
 
 ### ⚠ BREAKING CHANGES
