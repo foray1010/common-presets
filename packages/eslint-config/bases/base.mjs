@@ -254,48 +254,13 @@ const baseConfig = [
   js.configs.recommended,
   eslintPluginRegexp.configs['flat/recommended'],
   {
-    languageOptions: {
-      ecmaVersion: 2023,
-      globals: {
-        ...globals.es2023,
-        /* Not using `node` to explicitly import node.js only built-in modules, e.g.
-         * import { Buffer } from 'node:buffer'
-         * import process from 'node:process'
-         */
-        ...globals['shared-node-browser'],
-      },
-    },
-    plugins: {
-      '@eslint-community/eslint-comments': eslintPluginEslintComments,
-      // @ts-expect-error Type is not compact with flat config
-      'import-x': eslintPluginImportX,
-      unicorn: eslintPluginUnicorn,
-    },
+    ...eslintPluginImportX.flatConfigs.recommended,
     rules: {
-      ...eslintPluginEslintComments.configs['recommended']?.rules,
-      ...eslintPluginImportX.configs['recommended']?.rules,
-      ...Object.fromEntries(
-        Object.entries(
-          eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
-        ).filter(([ruleName]) => {
-          // only use a subset of recommended rules as other rules are too strict
-          return (
-            ruleName.startsWith('unicorn/no-useless-') ||
-            ruleName.startsWith('unicorn/prefer-')
-          )
-        }),
-      ),
-      // allow disable eslint rules for whole file without re-enable it in the end of the file
-      '@eslint-community/eslint-comments/disable-enable-pair': [
-        'error',
-        { allowWholeFile: true },
-      ],
-      // make sure every eslint-disable comments are in use
-      '@eslint-community/eslint-comments/no-unused-disable': 'error',
-      // always use named function for easier to debug via stack trace
-      'func-names': ['error', 'as-needed'],
+      ...eslintPluginImportX.flatConfigs.recommended.rules,
       // this rule doesn't support commonjs, some dependencies are using commonjs
       'import-x/default': 'off',
+      // Does not work after upgrading to eslint-plugin-import-x v4, got this error message: `sourceType 'module' is not supported when ecmaVersion < 2015. Consider adding `{ ecmaVersion: 2015 }` to the parser options. (undefined:undefined)`
+      'import-x/export': 'off',
       // enforce extensions for both cjs and esm
       'import-x/extensions': [
         'error',
@@ -363,6 +328,46 @@ const baseConfig = [
       'import-x/namespace': 'off',
       'import-x/no-named-as-default': 'off',
       'import-x/no-named-as-default-member': 'off',
+    },
+  },
+  {
+    languageOptions: {
+      ecmaVersion: 2023,
+      globals: {
+        ...globals.es2023,
+        /* Not using `node` to explicitly import node.js only built-in modules, e.g.
+         * import { Buffer } from 'node:buffer'
+         * import process from 'node:process'
+         */
+        ...globals['shared-node-browser'],
+      },
+    },
+    plugins: {
+      '@eslint-community/eslint-comments': eslintPluginEslintComments,
+      unicorn: eslintPluginUnicorn,
+    },
+    rules: {
+      ...eslintPluginEslintComments.configs['recommended']?.rules,
+      ...Object.fromEntries(
+        Object.entries(
+          eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
+        ).filter(([ruleName]) => {
+          // only use a subset of recommended rules as other rules are too strict
+          return (
+            ruleName.startsWith('unicorn/no-useless-') ||
+            ruleName.startsWith('unicorn/prefer-')
+          )
+        }),
+      ),
+      // allow disable eslint rules for whole file without re-enable it in the end of the file
+      '@eslint-community/eslint-comments/disable-enable-pair': [
+        'error',
+        { allowWholeFile: true },
+      ],
+      // make sure every eslint-disable comments are in use
+      '@eslint-community/eslint-comments/no-unused-disable': 'error',
+      // always use named function for easier to debug via stack trace
+      'func-names': ['error', 'as-needed'],
       // prefer explicitly convert type for readability
       'no-implicit-coercion': 'error',
       // make sure private class members are in-use
