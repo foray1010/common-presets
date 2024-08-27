@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.4.0...@foray1010/eslint-config@13.0.0) (2024-08-27)
+
+### ⚠ BREAKING CHANGES
+
+- **eslint-config:** require node `^18.18.0 || >=20.9.0`
+
+### Features
+
+- **eslint-config:** require eslint v9 ([198866f](https://github.com/foray1010/common-presets/commit/198866f67ec6f9d534d71878c4a72e8af517d1f0))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-functional to v7 ([3762aa6](https://github.com/foray1010/common-presets/commit/3762aa6819c8efe24b6426b75d385c1991b0e8c4))
+- **deps:** update dependency eslint-plugin-import-x to v4 ([8e5d140](https://github.com/foray1010/common-presets/commit/8e5d140f6e7b8541f17d25a6f47ea75070ffbdd5))
+- **eslint-config:** replace eslint-plugin-deprecation by typescript-eslint ([7b1e637](https://github.com/foray1010/common-presets/commit/7b1e637d55f54f5996451025112257327a6905cf))
+
 ## [12.4.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@12.3.1...@foray1010/eslint-config@12.4.0) (2024-08-20)
 
 ### Features
