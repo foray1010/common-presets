@@ -23,6 +23,7 @@ async function generateTypeScriptConfig() {
 
   // eslint-disable-next-line import-x/no-unresolved
   const tseslint = (await import('typescript-eslint')).default
+  // eslint-disable-next-line import-x/no-unresolved
   const eslintPluginFunctional = (await import('eslint-plugin-functional'))
     .default
 
