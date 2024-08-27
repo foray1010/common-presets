@@ -1858,7 +1858,7 @@ __metadata:
     "@eslint/js": "npm:^8.53.0"
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/confusing-browser-globals": "npm:1.0.3"
-    "@types/eslint": "npm:8.56.12"
+    "@types/eslint": "npm:9.6.0"
     "@types/eslint__js": "npm:8.42.3"
     confusing-browser-globals: "npm:^1.0.11"
     eslint-config-prettier: "npm:^9.1.0"
@@ -3122,13 +3122,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:8.56.12":
+"@types/eslint@npm:*":
   version: 8.56.12
   resolution: "@types/eslint@npm:8.56.12"
   dependencies:
     "@types/estree": "npm:*"
     "@types/json-schema": "npm:*"
   checksum: 10c0/e4ca426abe9d55f82b69a3250bec78b6d340ad1e567f91c97ecc59d3b2d6a1d8494955ac62ad0ea14b97519db580611c02be8277cbea370bdfb0f96aa2910504
+  languageName: node
+  linkType: hard
+
+"@types/eslint@npm:9.6.0":
+  version: 9.6.0
+  resolution: "@types/eslint@npm:9.6.0"
+  dependencies:
+    "@types/estree": "npm:*"
+    "@types/json-schema": "npm:*"
+  checksum: 10c0/69301356bc73b85e381ae00931291de2e96d1cc49a112c592c74ee32b2f85412203dea6a333b4315fd9839bb14f364f265cbfe7743fc5a78492ee0326dd6a2c1
   languageName: node
   linkType: hard
 
