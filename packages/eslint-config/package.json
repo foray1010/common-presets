@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@types/confusing-browser-globals": "1.0.3",
-    "@types/eslint": "8.56.11",
+    "@types/eslint": "8.56.12",
     "@types/eslint__js": "8.42.3"
   },
   "peerDependencies": {
