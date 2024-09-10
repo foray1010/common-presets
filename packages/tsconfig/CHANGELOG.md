@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@12.1.0...@foray1010/tsconfig@13.0.0) (2024-09-10)
+
+### ⚠ BREAKING CHANGES
+
+- **tsconfig:** turn on noUncheckedSideEffectImports flag
+
+### Features
+
+- **tsconfig:** turn on noUncheckedSideEffectImports flag ([507da41](https://github.com/foray1010/common-presets/commit/507da41950f8d33fdc66a0c32a279fb6d295b4ac))
+
 ## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@12.0.0...@foray1010/tsconfig@12.1.0) (2024-07-21)
 
 ### Features
