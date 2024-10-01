@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@10.0.1...@foray1010/remark-preset@10.0.2) (2024-10-01)
+
+### Bug Fixes
+
+- **deps:** update dependency remark-lint-no-dead-urls to v2 ([df1f54a](https://github.com/foray1010/common-presets/commit/df1f54a2d6bd537d6e7b453126f316c8bdc37bcd))
+
 ## [10.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@10.0.0...@foray1010/remark-preset@10.0.1) (2024-04-15)
 
 ### Bug Fixes
