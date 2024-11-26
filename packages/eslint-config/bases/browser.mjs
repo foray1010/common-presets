@@ -1,4 +1,3 @@
-import { fixupPluginRules } from '@eslint/compat'
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
 import eslintPluginCompat from 'eslint-plugin-compat'
@@ -49,7 +48,7 @@ const browserConfig = [
   {
     files: testFileGlobs,
     plugins: {
-      'testing-library': fixupPluginRules(eslintPluginTestingLibrary),
+      'testing-library': eslintPluginTestingLibrary,
     },
     rules: {
       ...eslintPluginTestingLibrary.configs['flat/dom']?.rules,
