@@ -22,7 +22,7 @@
   "dependencies": {
     "stylelint-config-concentric-order": "^5.2.0",
     "stylelint-config-css-modules": "^4.4.0",
-    "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard": "^37.0.0",
     "stylelint-no-unsupported-browser-features": "^8.0.0",
     "stylelint-prettier": "^5.0.0"
   },
