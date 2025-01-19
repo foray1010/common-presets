@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@13.0.2...@foray1010/eslint-config@13.0.3) (2025-01-19)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-config-prettier to v10 ([3af6ad0](https://github.com/foray1010/common-presets/commit/3af6ad03346221dfd0360a694977851c84602481))
+- **deps:** update dependency eslint-plugin-functional to v8 ([24e2725](https://github.com/foray1010/common-presets/commit/24e272555e1dfbc8a9d80a46e148bd08d387fa1f))
+- **deps:** update dependency eslint-plugin-react-hooks to v5 ([1bb4665](https://github.com/foray1010/common-presets/commit/1bb4665f0c5bf62849b5e014e3267fa425fd3c7c))
+- **deps:** update dependency eslint-plugin-testing-library to v7 ([b9a2caa](https://github.com/foray1010/common-presets/commit/b9a2caa046dbaaa5310e8c5236a6e48b7cfc3141))
+
 ## [13.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@13.0.1...@foray1010/eslint-config@13.0.2) (2024-10-06)
 
 ### Bug Fixes
