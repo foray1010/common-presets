@@ -91,8 +91,6 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/explicit-module-boundary-types': 'off',
         // do not allow usage of deprecated code
         '@typescript-eslint/no-deprecated': 'error',
-        // disallow duplicated value in enum as it is error-prone
-        '@typescript-eslint/no-duplicate-enum-values': 'error',
         // need empty function for react context default value
         '@typescript-eslint/no-empty-function': 'off',
         // TypeScript team suggests to use `<T extends {}>` https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/#unconstrained-generics-no-longer-assignable-to
@@ -126,7 +124,6 @@ async function generateTypeScriptConfig() {
             variables: true,
 
             /* options from @typescript-eslint/no-use-before-define */
-            enums: true,
             // confusing option, it will disable `typedefs`
             ignoreTypeReferences: false,
             // tsc allows types to be used before define
@@ -199,6 +196,11 @@ async function generateTypeScriptConfig() {
               ':matches(PropertyDefinition, MethodDefinition, TSParameterProperty)[accessibility="private"]:not([kind="constructor"])',
             message:
               'Use #private instead (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields)',
+          },
+          {
+            selector: 'TSEnumDeclaration',
+            message:
+              '"Use string literals with unions or `as const` instead because they work with Node.js type stripping, see https://news.ycombinator.com/item?id=42767627',
           },
         ],
         // @typescript-eslint/eslint-plugin suggests to disable it: https://github.com/typescript-eslint/typescript-eslint/blob/2588e9ea55f78352fdd6ae92a306135aabb49a1a/docs/linting/TROUBLESHOOTING.md#i-get-errors-from-the-no-undef-rule-about-global-variables-not-being-defined-even-though-there-are-no-typescript-errors
