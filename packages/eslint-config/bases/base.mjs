@@ -87,12 +87,8 @@ async function generateTypeScriptConfig() {
             accessibility: 'explicit',
           },
         ],
-        // sometimes auto detect can provide a better and narrower type
-        '@typescript-eslint/explicit-module-boundary-types': 'off',
         // do not allow usage of deprecated code
         '@typescript-eslint/no-deprecated': 'error',
-        // need empty function for react context default value
-        '@typescript-eslint/no-empty-function': 'off',
         // TypeScript team suggests to use `<T extends {}>` https://devblogs.microsoft.com/typescript/announcing-typescript-4-8/#unconstrained-generics-no-longer-assignable-to
         '@typescript-eslint/no-empty-object-type': 'off',
         // when using typescript 5.0 with verbatimModuleSyntax flag on, compiler will not remove import statements with only inline type imports which lead to side effects
@@ -103,15 +99,6 @@ async function generateTypeScriptConfig() {
         '@typescript-eslint/no-misused-promises': [
           'error',
           { checksVoidReturn: false },
-        ],
-        // declaration merging between classes and interfaces is unsafe
-        '@typescript-eslint/no-unsafe-declaration-merging': 'error',
-        '@typescript-eslint/no-unused-vars': [
-          'error',
-          {
-            // error is optional now
-            caughtErrors: 'all',
-          },
         ],
         // do not block functions referring to other functions
         '@typescript-eslint/no-use-before-define': [
@@ -132,17 +119,6 @@ async function generateTypeScriptConfig() {
         ],
         // make sure functions which return a promise will just return a rejected promise instead of throwing an error
         '@typescript-eslint/promise-function-async': 'error',
-        // allow primitive value in template string
-        '@typescript-eslint/restrict-template-expressions': [
-          'error',
-          {
-            allowNumber: true,
-            allowBoolean: true,
-            allowAny: true, // mistakenly recognize string as any in 4.29.3
-            allowNullish: true,
-            allowRegExp: true,
-          },
-        ],
         // avoid missed switch-case by requiring switch-case statements to be exhaustive with union type
         '@typescript-eslint/switch-exhaustiveness-check': 'error',
         // ignore static function as those are not supposed to use `this`

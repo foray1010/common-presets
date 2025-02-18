@@ -1845,7 +1845,7 @@ __metadata:
     eslint-plugin-testing-library: "npm:^7.0.0"
     eslint-plugin-unicorn: "npm:^56.0.0"
     globals: "npm:^15.9.0"
-    typescript-eslint: "npm:^8.3.0"
+    typescript-eslint: "npm:^8.24.1"
   peerDependencies:
     "@testing-library/dom": ^10.0.0
     eslint: ^9.0.0
@@ -14410,7 +14410,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.3.0":
+"typescript-eslint@npm:^8.24.1":
   version: 8.24.1
   resolution: "typescript-eslint@npm:8.24.1"
   dependencies:
