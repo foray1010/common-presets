@@ -309,6 +309,10 @@ const baseConfig = [
     },
   },
   {
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+      reportUnusedInlineConfigs: 'error',
+    },
     languageOptions: {
       ecmaVersion: 2023,
       globals: {
