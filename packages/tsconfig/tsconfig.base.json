@@ -5,7 +5,7 @@
     "exactOptionalPropertyTypes": true,
     "incremental": true,
     "lib": ["ES2023"],
-    "module": "Node16",
+    "module": "Node18",
     "moduleDetection": "force",
     "moduleResolution": "Node16",
     "noEmit": true,
