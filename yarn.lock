@@ -1822,7 +1822,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.0.2"
     eslint-import-resolver-typescript: "npm:^3.8.3"
     eslint-plugin-compat: "npm:^6.0.2"
-    eslint-plugin-functional: "npm:^8.0.0"
+    eslint-plugin-functional: "npm:^9.0.0"
     eslint-plugin-import-x: "npm:^4.6.1"
     eslint-plugin-jest: "npm:^28.11.0"
     eslint-plugin-jest-dom: "npm:^5.5.0"
@@ -5787,9 +5787,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-functional@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "eslint-plugin-functional@npm:8.0.0"
+"eslint-plugin-functional@npm:^9.0.0":
+  version: 9.0.1
+  resolution: "eslint-plugin-functional@npm:9.0.1"
   dependencies:
     "@typescript-eslint/utils": "npm:^8.20.0"
     deepmerge-ts: "npm:^7.1.3"
@@ -5803,7 +5803,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/973e8353479930a3078ae68f4596f1ebc95077cdd1a4542980f6b8024db3d8d3cfd93aa06d823db1d640e5abc8d6d38248529dca5b66718ad99678bbcafd9c63
+  checksum: 10c0/b54109decad50ee53eefaa7f30a037988ab1b7099b7dccbfbfe623e1a84935092c6f2b2ff2ceff2579aededcecaa9b23ba732d2e0f67fefe8558f03c1bf33273
   languageName: node
   linkType: hard
 
