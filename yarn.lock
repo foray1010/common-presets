@@ -4681,7 +4681,6 @@ __metadata:
     "@commitlint/config-conventional": "npm:19.7.1"
     concurrently: "npm:9.1.2"
     eslint: "npm:9.21.0"
-    fast-glob: "npm:3.3.3"
     husky: "npm:9.1.7"
     jest: "npm:29.7.0"
     lerna: "npm:8.2.0"
@@ -4690,6 +4689,7 @@ __metadata:
     prettier: "npm:3.5.2"
     remark-cli: "npm:12.0.1"
     stylelint: "npm:16.15.0"
+    tinyglobby: "npm:^0.2.12"
     typescript: "npm:5.8.2"
   languageName: unknown
   linkType: soft
@@ -6253,7 +6253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:3.3.3, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2, fast-glob@npm:^3.3.3":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2, fast-glob@npm:^3.3.3":
   version: 3.3.3
   resolution: "fast-glob@npm:3.3.3"
   dependencies:

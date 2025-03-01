@@ -1,13 +1,12 @@
 'use strict'
 
-const fg = require('fast-glob')
 const path = require('node:path')
+const { globSync } = require('tinyglobby')
 
 const packageJson = require('./package.json')
 
-const dirPaths = fg.sync(packageJson.workspaces, {
-  onlyFiles: false,
-  markDirectories: true,
+const dirPaths = globSync(packageJson.workspaces, {
+  onlyDirectories: true,
 })
 const scopes = [
   'deps',
