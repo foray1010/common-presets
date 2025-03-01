@@ -20,14 +20,5 @@
     "target": "ES2023",
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
-  },
-  "ts-node": {
-    "compilerOptions": {
-      // fix `ReferenceError: exports is not defined in ES module scope`
-      // https://github.com/TypeStrong/ts-node/issues/1007#issuecomment-1179500155
-      "module": "ESNext"
-    },
-    "esm": true,
-    "transpileOnly": true
   }
 }
