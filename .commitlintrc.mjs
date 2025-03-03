@@ -1,11 +1,10 @@
-'use strict'
+import path from 'node:path'
 
-const path = require('node:path')
-const { globSync } = require('tinyglobby')
+import { glob } from 'tinyglobby'
 
-const packageJson = require('./package.json')
+import packageJson from './package.json' with { type: 'json' }
 
-const dirPaths = globSync(packageJson.workspaces, {
+const dirPaths = await glob(packageJson.workspaces, {
   onlyDirectories: true,
 })
 const scopes = [
@@ -14,9 +13,10 @@ const scopes = [
   ...dirPaths.map((dirPath) => path.basename(dirPath)),
 ]
 
-module.exports = {
+const config = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'scope-enum': [2, 'always', scopes],
   },
 }
+export default config
