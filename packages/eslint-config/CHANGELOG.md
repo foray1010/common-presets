@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@13.0.3...@foray1010/eslint-config@14.0.0) (2025-03-11)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** require nodejs `^20.10.0 || >=22.11.0`
+- **deps:** require eslint `^9.21.0`
+
+### Features
+
+- **eslint-config:** forbid ts enum ([7613ca0](https://github.com/foray1010/common-presets/commit/7613ca06b492dc5f71d562a1ce5b9810b60ab46f))
+- **eslint-config:** report unused disable directives and inline configs ([7bcd4d2](https://github.com/foray1010/common-presets/commit/7bcd4d264826c2c8640c6ad6bed9083761432410))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-functional to v9 ([e1a3751](https://github.com/foray1010/common-presets/commit/e1a3751a4e14d9bde401643be837f98877898129))
+- **deps:** update dependency eslint-plugin-unicorn to v9 ([c679289](https://github.com/foray1010/common-presets/commit/c679289daa61df03cde537947a7c0f51935ff626))
+- **eslint-config:** remove duplicated typescript-eslint rules ([df34e55](https://github.com/foray1010/common-presets/commit/df34e5519ac288b552e06b6d7cd00b6fb2928085))
+- **eslint-config:** update dependencies ([b88f45c](https://github.com/foray1010/common-presets/commit/b88f45cc4cc78a45525e329c059e64940f717687))
+
 ## [13.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@13.0.2...@foray1010/eslint-config@13.0.3) (2025-01-19)
 
 ### Bug Fixes

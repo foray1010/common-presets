@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [14.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@13.0.0...@foray1010/tsconfig@14.0.0) (2025-03-11)
+
+### ⚠ BREAKING CHANGES
+
+- **tsconfig:** require nodejs `^20.10.0 || >=22.11.0`
+- **tsconfig:** enforce compatibility with --experimental-strip-types flag
+- **tsconfig:** drop ts-node config
+- **tsconfig:** require typescript ^5.8.2
+
+### Features
+
+- **tsconfig:** enable node18 module ([cdd20a3](https://github.com/foray1010/common-presets/commit/cdd20a38d0ef1fe77a008d5b5c8c5e190227fc18))
+- **tsconfig:** enforce compatibility with --experimental-strip-types flag ([4996c21](https://github.com/foray1010/common-presets/commit/4996c21c63f808e19ced348bb4ebc23f3cc3364b))
+
+### Miscellaneous Chores
+
+- **tsconfig:** drop ts-node config ([c3ca62b](https://github.com/foray1010/common-presets/commit/c3ca62b2f3b1c00037e719127ecf6802b5d380fb))
+- **tsconfig:** require nodejs `^20.10.0 || >=22.11.0` ([423f255](https://github.com/foray1010/common-presets/commit/423f255d20f6565c78dedd06dc25b0286e5ebc9d))
+
 ## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@12.1.0...@foray1010/tsconfig@13.0.0) (2024-09-10)
 
 ### ⚠ BREAKING CHANGES
