@@ -1829,7 +1829,6 @@ __metadata:
     eslint-config-prettier: "npm:^10.0.2"
     eslint-import-resolver-typescript: "npm:^3.8.3"
     eslint-plugin-compat: "npm:^6.0.2"
-    eslint-plugin-functional: "npm:^9.0.1"
     eslint-plugin-import-x: "npm:^4.6.1"
     eslint-plugin-jest: "npm:^28.11.0"
     eslint-plugin-jest-dom: "npm:^5.5.0"
@@ -3353,7 +3352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/type-utils@npm:8.26.0, @typescript-eslint/type-utils@npm:^8.0.0":
+"@typescript-eslint/type-utils@npm:8.26.0":
   version: 8.26.0
   resolution: "@typescript-eslint/type-utils@npm:8.26.0"
   dependencies:
@@ -3393,7 +3392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:8.26.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.1.0, @typescript-eslint/utils@npm:^8.15.0, @typescript-eslint/utils@npm:^8.20.0":
+"@typescript-eslint/utils@npm:8.26.0, @typescript-eslint/utils@npm:^6.0.0 || ^7.0.0 || ^8.0.0, @typescript-eslint/utils@npm:^8.1.0, @typescript-eslint/utils@npm:^8.15.0":
   version: 8.26.0
   resolution: "@typescript-eslint/utils@npm:8.26.0"
   dependencies:
@@ -5111,13 +5110,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deepmerge-ts@npm:^7.1.3":
-  version: 7.1.5
-  resolution: "deepmerge-ts@npm:7.1.5"
-  checksum: 10c0/3a265a2086f334e3ecf43a7d4138c950cb99e0b39e816fa7fd7f5326161364e51b13010906908212667619066f5b48de738ed42543212323fbbb5d4ed7ebdc84
-  languageName: node
-  linkType: hard
-
 "deepmerge@npm:^4.2.2":
   version: 4.3.1
   resolution: "deepmerge@npm:4.3.1"
@@ -5756,26 +5748,6 @@ __metadata:
   peerDependencies:
     eslint: ">=8"
   checksum: 10c0/002fda8c029bc5da41e24e7ac11654062831d675fc4f5f20d0de460e24bf1e05cd559000678ef3e46c48641190f4fc07ae3d57aa5e8b085ef5f67e5f63742614
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-functional@npm:^9.0.1":
-  version: 9.0.1
-  resolution: "eslint-plugin-functional@npm:9.0.1"
-  dependencies:
-    "@typescript-eslint/utils": "npm:^8.20.0"
-    deepmerge-ts: "npm:^7.1.3"
-    escape-string-regexp: "npm:^5.0.0"
-    is-immutable-type: "npm:^5.0.1"
-    ts-api-utils: "npm:^2.0.0"
-    ts-declaration-location: "npm:^1.0.5"
-  peerDependencies:
-    eslint: ^9.0.0
-    typescript: ">=4.7.4"
-  peerDependenciesMeta:
-    typescript:
-      optional: true
-  checksum: 10c0/b54109decad50ee53eefaa7f30a037988ab1b7099b7dccbfbfe623e1a84935092c6f2b2ff2ceff2579aededcecaa9b23ba732d2e0f67fefe8558f03c1bf33273
   languageName: node
   linkType: hard
 
@@ -7777,20 +7749,6 @@ __metadata:
   version: 2.0.1
   resolution: "is-hexadecimal@npm:2.0.1"
   checksum: 10c0/3eb60fe2f1e2bbc760b927dcad4d51eaa0c60138cf7fc671803f66353ad90c301605b502c7ea4c6bb0548e1c7e79dfd37b73b632652e3b76030bba603a7e9626
-  languageName: node
-  linkType: hard
-
-"is-immutable-type@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "is-immutable-type@npm:5.0.1"
-  dependencies:
-    "@typescript-eslint/type-utils": "npm:^8.0.0"
-    ts-api-utils: "npm:^2.0.0"
-    ts-declaration-location: "npm:^1.0.4"
-  peerDependencies:
-    eslint: "*"
-    typescript: ">=4.7.4"
-  checksum: 10c0/a46dec39942844f14d9938dd3ff7a9b345ecbb7d9a308a3719b303a088859e5efcfd765730d3bbfcc80fd32bd267d53fa49abaa2313bc792cdaa95ccce0e54c4
   languageName: node
   linkType: hard
 
@@ -14118,23 +14076,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-api-utils@npm:^2.0.0, ts-api-utils@npm:^2.0.1":
+"ts-api-utils@npm:^2.0.1":
   version: 2.0.1
   resolution: "ts-api-utils@npm:2.0.1"
   peerDependencies:
     typescript: ">=4.8.4"
   checksum: 10c0/23fd56a958b332cac00150a652e4c84730df30571bd2faa1ba6d7b511356d1a61656621492bb6c7f15dd6e18847a1408357a0e406671d358115369a17f5bfedd
-  languageName: node
-  linkType: hard
-
-"ts-declaration-location@npm:^1.0.4, ts-declaration-location@npm:^1.0.5":
-  version: 1.0.6
-  resolution: "ts-declaration-location@npm:1.0.6"
-  dependencies:
-    minimatch: "npm:^9.0.5"
-  peerDependencies:
-    typescript: ">=4.0.0"
-  checksum: 10c0/7af024906c2eb59133ef2ffb6e2586c727057d3b58824f38498f5c0e6e45c99db65a6b0962798ab2c5164b31bb221041358aa99350f01139d9939c6d129888f1
   languageName: node
   linkType: hard
 
