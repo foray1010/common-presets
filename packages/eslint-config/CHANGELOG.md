@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.0.0...@foray1010/eslint-config@15.0.1) (2025-03-13)
+
+### Bug Fixes
+
+- **eslint-config:** fix types ([28e3bfa](https://github.com/foray1010/common-presets/commit/28e3bfabce71cd1d80b0186f1ac7f3158a049d33))
+
 ## [15.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@14.0.1...@foray1010/eslint-config@15.0.0) (2025-03-13)
 
 ### ⚠ BREAKING CHANGES
