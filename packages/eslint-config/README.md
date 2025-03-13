@@ -29,8 +29,9 @@ Z for looser rules
        eslintIgnoresConfig,
        eslintNodeConfig,
      } from '@foray1010/eslint-config'
+     import { defineConfig } from 'eslint/config'
 
-     const config = [...eslintIgnoresConfig, ...eslintNodeConfig]
+     const config = defineConfig(eslintIgnoresConfig, eslintNodeConfig)
      export default config
      ```
 
@@ -41,8 +42,9 @@ Z for looser rules
        eslintIgnoresConfig,
        eslintBrowserConfig,
      } from '@foray1010/eslint-config'
+     import { defineConfig } from 'eslint/config'
 
-     const config = [...eslintIgnoresConfig, ...eslintBrowserConfig]
+     const config = defineConfig(eslintIgnoresConfig, eslintBrowserConfig)
      export default config
      ```
 
@@ -53,8 +55,9 @@ Z for looser rules
        eslintIgnoresConfig,
        eslintReactConfig,
      } from '@foray1010/eslint-config'
+     import { defineConfig } from 'eslint/config'
 
-     const config = [...eslintIgnoresConfig, ...eslintReactConfig]
+     const config = defineConfig(eslintIgnoresConfig, eslintReactConfig)
      export default config
      ```
 
@@ -62,28 +65,23 @@ Z for looser rules
 
      ```js
      import {
-       applyConfig,
        eslintIgnoresConfig,
        eslintNodeConfig,
        eslintReactConfig,
      } from '@foray1010/eslint-config'
+     import { defineConfig } from 'eslint/config'
 
-     const config = [
-       ...eslintIgnoresConfig,
-       ...applyConfig(
-         {
-           filePrefixes: '.',
-           ignores: ['src/**'],
-         },
-         eslintNodeConfig,
-       ),
-       ...applyConfig(
-         {
-           filePrefixes: ['src'],
-         },
-         eslintReactConfig,
-       ),
-     ]
+     const config = defineConfig(
+       eslintIgnoresConfig,
+       {
+         ignores: ['src/**'],
+         extends: [eslintNodeConfig],
+       },
+       {
+         files: ['src/**'],
+         extends: [eslintReactConfig],
+       },
+     )
      export default config
      ```
 

@@ -1,26 +1,24 @@
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+import { defineConfig } from 'eslint/config'
 import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 
 import { testFileGlobs } from '../constants.mjs'
 
-/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
-
-/** @type {EslintConfig} */
-const reactConfig = [
-  eslintPluginReact.configs.flat.recommended,
-  eslintPluginReact.configs.flat['jsx-runtime'],
+const reactConfig = defineConfig(
   {
     settings: {
       react: {
         version: 'detect',
       },
     },
-    plugins: {
-      'react-hooks': eslintPluginReactHooks,
-    },
+    extends: [
+      eslintPluginReact.configs.flat.recommended,
+      eslintPluginReact.configs.flat['jsx-runtime'],
+      eslintPluginReactHooks.configs['recommended-latest'],
+    ],
     rules: {
-      ...eslintPluginReactHooks.configs['recommended']?.rules,
       // avoid unexpected form submits
       'react/button-has-type': 'error',
       'react/jsx-no-useless-fragment': [
@@ -61,13 +59,7 @@ const reactConfig = [
   },
   {
     files: testFileGlobs,
-    rules: {
-      // Do not use flat config directly as eslint v9 does not support duplicated plugins (already defined in browser.mjs)
-      ...eslintPluginTestingLibrary.configs['flat/react']?.rules,
-    },
-  },
-  {
-    files: testFileGlobs,
+    extends: [eslintPluginTestingLibrary.configs['flat/react']],
     rules: {
       // avoid using unnecessary `await` as workaround for `not wrapped in act(...)` warnings
       'testing-library/no-await-sync-events': [
@@ -82,5 +74,5 @@ const reactConfig = [
       'testing-library/prefer-user-event': 'error',
     },
   },
-]
+)
 export default reactConfig

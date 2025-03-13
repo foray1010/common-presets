@@ -1,16 +1,13 @@
-/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+import { defineConfig, globalIgnores } from 'eslint/config'
 
-/** @type {EslintConfig} */
-const ignoresConfig = [
-  {
-    // replace `.eslintignore`
-    ignores: [
-      '**/.yarn/**',
-      '**/build/**',
-      '**/coverage/**',
-      '**/dist/**',
-      '**/node_modules/**',
-    ],
-  },
-]
+const ignoresConfig = defineConfig(
+  globalIgnores([
+    '**/.yarn/**',
+    '**/build/**',
+    '**/coverage/**',
+    '**/dist/**',
+    '**/node_modules/**',
+  ]),
+)
 export default ignoresConfig

@@ -1,6 +1,9 @@
 import js from '@eslint/js'
-import eslintPluginEslintComments from '@eslint-community/eslint-plugin-eslint-comments'
+// eslint-disable-next-line import-x/extensions
+import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+import { defineConfig } from 'eslint/config'
 import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginJest from 'eslint-plugin-jest'
 import eslintPluginRegexp from 'eslint-plugin-regexp'
@@ -14,23 +17,20 @@ import {
   typeScriptTestFileGlobs,
 } from '../constants.mjs'
 
-/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
-
-/** @returns {Promise<EslintConfig>} */
 async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
-  if (!hasDep('typescript')) return []
+  if (!hasDep('typescript')) return defineConfig({})
 
   // eslint-disable-next-line import-x/no-unresolved
   const tseslint = (await import('typescript-eslint')).default
 
-  return [
-    // @ts-expect-error `Type 'Config' is not assignable to type 'Readonly<FlatConfig<RulesRecord>>' with 'exactOptionalPropertyTypes: true'`
-    ...tseslint.config({
+  return defineConfig(
+    {
       files: typeScriptFileGlobs,
       extends: [
         tseslint.configs.eslintRecommended,
-        ...tseslint.configs.recommendedTypeChecked,
+        tseslint.configs.recommendedTypeChecked,
+        eslintPluginImportX.configs['typescript'],
         esmConfig,
       ],
       languageOptions: {
@@ -42,13 +42,7 @@ async function generateTypeScriptConfig() {
           project: ['./tsconfig*.json', './packages/*/tsconfig*.json'],
         },
       },
-      settings: {
-        'import-x/resolver': {
-          typescript: true,
-        },
-      },
       rules: {
-        ...eslintPluginImportX.configs['typescript']?.rules,
         // separate type exports which allow certain optimizations within compilers
         '@typescript-eslint/consistent-type-exports': [
           'error',
@@ -136,8 +130,7 @@ async function generateTypeScriptConfig() {
         // It is disabled in recommended config but re-enabled here to enforce a subset of global variables that supported by both node.js and browsers
         'no-undef': 'error',
       },
-    }),
-    // @ts-expect-error As previous item's type is not correct, this item is affected too
+    },
     {
       files: typeScriptTestFileGlobs,
       rules: {
@@ -149,11 +142,10 @@ async function generateTypeScriptConfig() {
         'jest/unbound-method': ['error', { ignoreStatic: true }],
       },
     },
-  ]
+  )
 }
 
-/** @type {EslintConfig[number]} */
-const cjsConfig = {
+const cjsConfig = defineConfig({
   languageOptions: {
     globals: globals.commonjs,
     sourceType: 'script',
@@ -162,10 +154,9 @@ const cjsConfig = {
     // commonjs must use strict mode
     strict: ['error', 'global'],
   },
-}
+})
 
-/** @type {EslintConfig[number]} */
-const esmConfig = {
+const esmConfig = defineConfig({
   languageOptions: {
     sourceType: 'module',
   },
@@ -178,16 +169,25 @@ const esmConfig = {
     // auto sort import statements
     'simple-import-sort/imports': 'error',
   },
-}
+})
 
-/** @type {EslintConfig} */
-const baseConfig = [
+const baseConfig = defineConfig(
   js.configs.recommended,
-  eslintPluginRegexp.configs['flat/recommended'],
   {
-    ...eslintPluginImportX.flatConfigs.recommended,
+    extends: [eslintPluginEslintCommentsConfigs['recommended']],
     rules: {
-      ...eslintPluginImportX.flatConfigs.recommended.rules,
+      // allow disable eslint rules for whole file without re-enable it in the end of the file
+      '@eslint-community/eslint-comments/disable-enable-pair': [
+        'error',
+        { allowWholeFile: true },
+      ],
+      // make sure every eslint-disable comments are in use
+      '@eslint-community/eslint-comments/no-unused-disable': 'error',
+    },
+  },
+  {
+    extends: [eslintPluginImportX.flatConfigs.recommended],
+    rules: {
       // this rule doesn't support commonjs, some dependencies are using commonjs
       'import-x/default': 'off',
       // Does not work after upgrading to eslint-plugin-import-x v4, got this error message: `sourceType 'module' is not supported when ecmaVersion < 2015. Consider adding `{ ecmaVersion: 2015 }` to the parser options. (undefined:undefined)`
@@ -262,27 +262,17 @@ const baseConfig = [
     },
   },
   {
-    linterOptions: {
-      reportUnusedDisableDirectives: 'error',
-      reportUnusedInlineConfigs: 'error',
+    extends: [eslintPluginRegexp.configs['flat/recommended']],
+    rules: {
+      // enable regexp strict mode (use `v` flag instead when it is widely supported)
+      'regexp/require-unicode-regexp': 'error',
     },
-    languageOptions: {
-      ecmaVersion: 2023,
-      globals: {
-        ...globals.es2023,
-        /* Not using `node` to explicitly import node.js only built-in modules, e.g.
-         * import { Buffer } from 'node:buffer'
-         * import process from 'node:process'
-         */
-        ...globals['shared-node-browser'],
-      },
-    },
+  },
+  {
     plugins: {
-      '@eslint-community/eslint-comments': eslintPluginEslintComments,
       unicorn: eslintPluginUnicorn,
     },
     rules: {
-      ...eslintPluginEslintComments.configs['recommended']?.rules,
       ...Object.fromEntries(
         Object.entries(
           eslintPluginUnicorn.configs['flat/recommended']?.rules ?? {},
@@ -294,31 +284,6 @@ const baseConfig = [
           )
         }),
       ),
-      // allow disable eslint rules for whole file without re-enable it in the end of the file
-      '@eslint-community/eslint-comments/disable-enable-pair': [
-        'error',
-        { allowWholeFile: true },
-      ],
-      // make sure every eslint-disable comments are in use
-      '@eslint-community/eslint-comments/no-unused-disable': 'error',
-      // always use named function for easier to debug via stack trace
-      'func-names': ['error', 'as-needed'],
-      // prefer explicitly convert type for readability
-      'no-implicit-coercion': 'error',
-      // make sure private class members are in-use
-      'no-unused-private-class-members': 'error',
-      // avoid assigning anonymous function to object key which is harder to trace when debug
-      'object-shorthand': ['error', 'always'],
-      // prefer `const` when the variable won't be reassigned
-      'prefer-const': [
-        'error',
-        {
-          // if one of the variables will be reassigned, do not enforce `const`
-          destructuring: 'all',
-        },
-      ],
-      // enable regexp strict mode (use `v` flag instead when it is widely supported)
-      'regexp/require-unicode-regexp': 'error',
       // use with `unicorn/throw-new-error`
       // disallow builtins to be created without `new` operator, to be consistent with es6 class syntax
       'unicorn/new-for-builtins': 'error',
@@ -337,29 +302,63 @@ const baseConfig = [
     },
   },
   {
+    linterOptions: {
+      reportUnusedDisableDirectives: 'error',
+      reportUnusedInlineConfigs: 'error',
+    },
+    languageOptions: {
+      ecmaVersion: 2023,
+      globals: {
+        ...globals.es2023,
+        /* Not using `node` to explicitly import node.js only built-in modules, e.g.
+         * import { Buffer } from 'node:buffer'
+         * import process from 'node:process'
+         */
+        ...globals['shared-node-browser'],
+      },
+    },
+    rules: {
+      // always use named function for easier to debug via stack trace
+      'func-names': ['error', 'as-needed'],
+      // prefer explicitly convert type for readability
+      'no-implicit-coercion': 'error',
+      // make sure private class members are in-use
+      'no-unused-private-class-members': 'error',
+      // avoid assigning anonymous function to object key which is harder to trace when debug
+      'object-shorthand': ['error', 'always'],
+      // prefer `const` when the variable won't be reassigned
+      'prefer-const': [
+        'error',
+        {
+          // if one of the variables will be reassigned, do not enforce `const`
+          destructuring: 'all',
+        },
+      ],
+    },
+  },
+  {
     files: ['**/*.js'],
-    ...(isESM() ? esmConfig : cjsConfig),
+    extends: [isESM() ? esmConfig : cjsConfig],
   },
   {
     files: ['**/*.cjs'],
-    ...cjsConfig,
+    extends: [cjsConfig],
   },
   {
     files: ['**/*.mjs'],
-    ...esmConfig,
+    extends: [esmConfig],
   },
   {
     files: testFileGlobs,
-    ...eslintPluginJest.configs['flat/recommended'],
-    ...eslintPluginJest.configs['flat/style'],
-  },
-  {
-    files: testFileGlobs,
+    extends: [
+      eslintPluginJest.configs['flat/recommended'],
+      eslintPluginJest.configs['flat/style'],
+    ],
     rules: {
       // make sure lifecycle hooks on the top for readability
       'jest/prefer-hooks-on-top': 'error',
     },
   },
-  ...(await generateTypeScriptConfig()),
-]
+  await generateTypeScriptConfig(),
+)
 export default baseConfig

@@ -1,20 +1,18 @@
 import { isESM } from '@foray1010/common-presets-utils'
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+import { defineConfig } from 'eslint/config'
 import eslintPluginN from 'eslint-plugin-n'
 
-/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
-
-/** @type {EslintConfig[number]} */
-const cjsConfig = {
+const cjsConfig = defineConfig({
   languageOptions: {
     globals: {
       __dirname: 'readonly',
       __filename: 'readonly',
     },
   },
-}
+})
 
-/** @type {EslintConfig} */
-const nodeConfig = [
+const nodeConfig = defineConfig(
   {
     plugins: {
       n: eslintPluginN,
@@ -67,12 +65,12 @@ const nodeConfig = [
     : [
         {
           files: ['**/*.js'],
-          ...cjsConfig,
+          extends: [cjsConfig],
         },
       ]),
   {
     files: ['**/*.{cjs,cts}'],
-    ...cjsConfig,
+    extends: [cjsConfig],
   },
-]
+)
 export default nodeConfig

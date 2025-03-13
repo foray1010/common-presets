@@ -1,30 +1,26 @@
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
+// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+import { defineConfig } from 'eslint/config'
 import eslintPluginCompat from 'eslint-plugin-compat'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 import globals from 'globals'
 
 import { testFileGlobs } from '../constants.mjs'
 
-/** @typedef {import('../types/internal.d.ts').EslintConfig} EslintConfig */
-
-/** @returns {Promise<EslintConfig>} */
 async function generateJestDomConfig() {
   // `eslint-plugin-jest-dom` depends on `@testing-library/dom` package
-  if (!hasDep('@testing-library/dom')) return []
+  if (!hasDep('@testing-library/dom')) return defineConfig({})
 
   const eslintPluginJestDom = (await import('eslint-plugin-jest-dom')).default
 
-  return [
-    {
-      files: testFileGlobs,
-      ...eslintPluginJestDom.configs['flat/recommended'],
-    },
-  ]
+  return defineConfig({
+    files: testFileGlobs,
+    extends: [eslintPluginJestDom.configs['flat/recommended']],
+  })
 }
 
-/** @type {EslintConfig} */
-const browserConfig = [
+const browserConfig = defineConfig(
   {
     languageOptions: {
       globals: {
@@ -44,22 +40,14 @@ const browserConfig = [
       'no-restricted-globals': ['error', ...restrictedGlobals],
     },
   },
-  ...(await generateJestDomConfig()),
+  await generateJestDomConfig(),
   {
     files: testFileGlobs,
-    plugins: {
-      'testing-library': eslintPluginTestingLibrary,
-    },
-    rules: {
-      ...eslintPluginTestingLibrary.configs['flat/dom']?.rules,
-    },
-  },
-  {
-    files: testFileGlobs,
+    extends: [eslintPluginTestingLibrary.configs['flat/dom']],
     rules: {
       // allow to use nodejs modules in tests
       'import-x/no-nodejs-modules': 'off',
     },
   },
-]
+)
 export default browserConfig

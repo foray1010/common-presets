@@ -1844,7 +1844,7 @@ __metadata:
     typescript-eslint: "npm:^8.25.0"
   peerDependencies:
     "@testing-library/dom": ^10.0.0
-    eslint: ^9.21.0
+    eslint: ^9.22.0
     prettier: ^3.0.0
     typescript: ^5.0.2
   peerDependenciesMeta:
