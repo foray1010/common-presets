@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@14.0.1...@foray1010/eslint-config@15.0.0) (2025-03-13)
+
+### ⚠ BREAKING CHANGES
+
+- drop applyConfig utils
+- require eslint ^9.22.0
+
+### Features
+
+- migrate to eslint defineConfig utils ([faf0aa7](https://github.com/foray1010/common-presets/commit/faf0aa74048b2536e188a45b8371ebe416dcb851))
+
 ## [14.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@14.0.0...@foray1010/eslint-config@14.0.1) (2025-03-11)
 
 ### Bug Fixes
