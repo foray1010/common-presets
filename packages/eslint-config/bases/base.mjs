@@ -28,7 +28,9 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptFileGlobs,
       extends: [
+        // @ts-expect-error tseslint interface does not align with eslint
         tseslint.configs.eslintRecommended,
+        // @ts-expect-error tseslint interface does not align with eslint
         tseslint.configs.recommendedTypeChecked,
         eslintPluginImportX.configs['typescript'],
         esmConfig,
@@ -174,7 +176,10 @@ const esmConfig = defineConfig({
 const baseConfig = defineConfig(
   js.configs.recommended,
   {
-    extends: [eslintPluginEslintCommentsConfigs['recommended']],
+    extends: [
+      // @ts-expect-error no official types
+      eslintPluginEslintCommentsConfigs['recommended'],
+    ],
     rules: {
       // allow disable eslint rules for whole file without re-enable it in the end of the file
       '@eslint-community/eslint-comments/disable-enable-pair': [
@@ -186,7 +191,10 @@ const baseConfig = defineConfig(
     },
   },
   {
-    extends: [eslintPluginImportX.flatConfigs.recommended],
+    extends: [
+      // @ts-expect-error eslint-plugin-import-x interface does not align with eslint
+      eslintPluginImportX.flatConfigs.recommended,
+    ],
     rules: {
       // this rule doesn't support commonjs, some dependencies are using commonjs
       'import-x/default': 'off',
