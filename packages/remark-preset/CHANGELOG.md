@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.4](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@10.0.3...@foray1010/remark-preset@10.0.4) (2025-03-14)
+
+### Bug Fixes
+
+- **remark-preset:** remove remark-lint-no-dead-urls because of false positives ([823207b](https://github.com/foray1010/common-presets/commit/823207b4196f4f74e63df92601e36b788de2b123))
+
+### Reverts
+
+- **remark-preset:** remove remark-validate-links because of false positives ([9ac7609](https://github.com/foray1010/common-presets/commit/9ac7609facf9d835d4d0f18e570841dea19e59b0))
+
 ## [10.0.3](https://github.com/foray1010/common-presets/compare/@foray1010/remark-preset@10.0.2...@foray1010/remark-preset@10.0.3) (2025-03-11)
 
 ### Bug Fixes
