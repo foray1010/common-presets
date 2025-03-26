@@ -1,5 +1,6 @@
 // eslint-disable-next-line import-x/extensions, import-x/no-unresolved
 import { defineConfig } from 'eslint/config'
+import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y'
 import eslintPluginReact from 'eslint-plugin-react'
 import eslintPluginReactCompiler from 'eslint-plugin-react-compiler'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
@@ -19,6 +20,7 @@ const reactConfig = defineConfig(
       eslintPluginReact.configs.flat['jsx-runtime'],
       eslintPluginReactCompiler.configs.recommended,
       eslintPluginReactHooks.configs['recommended-latest'],
+      eslintPluginJsxA11y.flatConfigs.recommended,
     ],
     rules: {
       // avoid unexpected form submits
