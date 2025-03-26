@@ -25,7 +25,7 @@
     "@foray1010/common-presets-utils": "workspace:^",
     "confusing-browser-globals": "^1.0.11",
     "eslint-config-prettier": "^10.0.2",
-    "eslint-import-resolver-typescript": "^3.8.3",
+    "eslint-import-resolver-typescript": "^4.2.3",
     "eslint-plugin-compat": "^6.0.2",
     "eslint-plugin-import-x": "^4.6.1",
     "eslint-plugin-jest": "^28.11.0",
