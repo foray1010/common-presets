@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.0.1...@foray1010/eslint-config@15.1.0) (2025-03-26)
+
+### Features
+
+- **eslint-config:** add eslint-plugin-jsx-a11y ([cb5848c](https://github.com/foray1010/common-presets/commit/cb5848cf44236cd5091e160f356c377a35d527fb))
+- **eslint-config:** add eslint-plugin-react-compiler ([494f8a3](https://github.com/foray1010/common-presets/commit/494f8a3064e630533d494196ba3fdbcbd9d59ef1))
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-import-resolver-typescript to v4 ([2b8fbde](https://github.com/foray1010/common-presets/commit/2b8fbde92a0e2c25fe6514f2627ab500a9e6bb8a))
+- **deps:** update dependency eslint-plugin-unicorn to v58 ([aea1dae](https://github.com/foray1010/common-presets/commit/aea1dae3beaf96b9e414de03d02b60caf2ca317d))
+
 ## [15.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.0.0...@foray1010/eslint-config@15.0.1) (2025-03-13)
 
 ### Bug Fixes
