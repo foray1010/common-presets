@@ -1,6 +1,7 @@
 // eslint-disable-next-line import-x/extensions, import-x/no-unresolved
 import { defineConfig } from 'eslint/config'
 import eslintPluginReact from 'eslint-plugin-react'
+import eslintPluginReactCompiler from 'eslint-plugin-react-compiler'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 
@@ -16,6 +17,7 @@ const reactConfig = defineConfig(
     extends: [
       eslintPluginReact.configs.flat.recommended,
       eslintPluginReact.configs.flat['jsx-runtime'],
+      eslintPluginReactCompiler.configs.recommended,
       eslintPluginReactHooks.configs['recommended-latest'],
     ],
     rules: {
