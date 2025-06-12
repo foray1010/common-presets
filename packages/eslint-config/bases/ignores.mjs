@@ -1,4 +1,4 @@
-// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+// eslint-disable-next-line import-x/extensions
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 const ignoresConfig = defineConfig(

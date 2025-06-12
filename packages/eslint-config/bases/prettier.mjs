@@ -1,4 +1,4 @@
-// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 // eslint-disable-next-line import-x/extensions
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'

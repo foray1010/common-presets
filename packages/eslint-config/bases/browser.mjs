@@ -1,6 +1,6 @@
 import { hasDep } from '@foray1010/common-presets-utils'
 import restrictedGlobals from 'confusing-browser-globals'
-// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 import eslintPluginCompat from 'eslint-plugin-compat'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'

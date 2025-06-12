@@ -2,7 +2,7 @@ import js from '@eslint/js'
 // eslint-disable-next-line import-x/extensions
 import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
-// eslint-disable-next-line import-x/extensions, import-x/no-unresolved
+// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginJest from 'eslint-plugin-jest'
@@ -21,7 +21,6 @@ async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
   if (!hasDep('typescript')) return defineConfig({})
 
-  // eslint-disable-next-line import-x/no-unresolved
   const tseslint = (await import('typescript-eslint')).default
 
   return defineConfig(
