@@ -22,7 +22,7 @@
     "ts-jest-resolver": "^2.0.1"
   },
   "peerDependencies": {
-    "jest": "^29.0.1",
+    "jest": "^30.0.0",
     "node-notifier": "^10.0.1"
   },
   "engines": {
