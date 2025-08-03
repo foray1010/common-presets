@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.1.0...@foray1010/eslint-config@15.1.1) (2025-08-03)
+
+### Bug Fixes
+
+- **deps:** update dependency eslint-plugin-react-compiler to rc2 ([c2b0651](https://github.com/foray1010/common-presets/commit/c2b06518fde68831f0c2e2606a0734c7ad28def1))
+- **deps:** update dependency eslint-plugin-unicorn to v59 ([70a56b1](https://github.com/foray1010/common-presets/commit/70a56b192a84a4d5b5690404059d18d4ded28a37))
+- **deps:** update dependency eslint-plugin-unicorn to v60 ([5d2c0b1](https://github.com/foray1010/common-presets/commit/5d2c0b1f03c8535cf284e9de4d60b0e9619903b2))
+
 ## [15.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.0.1...@foray1010/eslint-config@15.1.0) (2025-03-26)
 
 ### Features
