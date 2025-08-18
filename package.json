@@ -17,8 +17,8 @@
     "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
   },
   "devDependencies": {
-    "@babel/core": "7.28.0",
-    "@babel/runtime": "7.28.2",
+    "@babel/core": "7.28.3",
+    "@babel/runtime": "7.28.3",
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "concurrently": "9.2.0",
