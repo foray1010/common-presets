@@ -6,7 +6,7 @@ const stylelintConfig = {
     'stylelint-config-concentric-order',
     'stylelint-prettier/recommended',
   ],
-  plugins: ['stylelint-no-unsupported-browser-features'],
+  plugins: ['stylelint-gamut', 'stylelint-no-unsupported-browser-features'],
   rules: {
     // unnecessary and may cause unexpected results when used with stylelint-order
     'comment-empty-line-before': null,
@@ -24,6 +24,22 @@ const stylelintConfig = {
         severity: 'warning',
       },
     ],
+
+    /** Enforce oklch color */
+    // prefer oklch color function
+    'color-no-hex': true,
+    // block legacy color functions
+    'function-disallowed-list': [
+      'hsl',
+      'hsla',
+      'hwb',
+      'lab',
+      'lch',
+      'rgb',
+      'rgba',
+    ],
+    // avoid oklch color out of gamut range
+    'gamut/color-no-out-gamut-range': true,
   },
 }
 export default stylelintConfig
