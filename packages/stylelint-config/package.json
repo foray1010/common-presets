@@ -22,13 +22,13 @@
   "dependencies": {
     "stylelint-config-concentric-order": "^5.2.0",
     "stylelint-config-css-modules": "^4.4.0",
-    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard": "^39.0.0",
     "stylelint-no-unsupported-browser-features": "^8.0.0",
     "stylelint-prettier": "^5.0.0"
   },
   "peerDependencies": {
     "prettier": "^3.0.0",
-    "stylelint": "^16.15.0"
+    "stylelint": "^16.23.0"
   },
   "engines": {
     "node": "^20.10.0 || >=22.11.0"
