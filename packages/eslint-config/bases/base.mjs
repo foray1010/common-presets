@@ -19,7 +19,7 @@ import {
 
 async function generateTypeScriptConfig() {
   // typescript plugins are depended on `typescript` package
-  if (!hasDep('typescript')) return defineConfig({})
+  if (!hasDep('typescript')) return []
 
   const tseslint = (await import('typescript-eslint')).default
 
@@ -27,9 +27,7 @@ async function generateTypeScriptConfig() {
     {
       files: typeScriptFileGlobs,
       extends: [
-        // @ts-expect-error tseslint interface does not align with eslint
         tseslint.configs.eslintRecommended,
-        // @ts-expect-error tseslint interface does not align with eslint
         tseslint.configs.recommendedTypeChecked,
         eslintPluginImportX.configs['typescript'],
         esmConfig,
