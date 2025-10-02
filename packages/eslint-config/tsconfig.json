@@ -4,5 +4,6 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true
-  }
+  },
+  "include": ["types/**/*.d.ts"]
 }
