@@ -1904,7 +1904,7 @@ __metadata:
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/confusing-browser-globals": "npm:1.0.3"
     "@types/eslint": "npm:9.6.1"
-    "@types/eslint-plugin-jsx-a11y": "npm:6.10.0"
+    "@types/eslint-plugin-jsx-a11y": "npm:6.10.1"
     confusing-browser-globals: "npm:^1.0.11"
     eslint-config-prettier: "npm:^10.0.2"
     eslint-import-resolver-typescript: "npm:^4.2.3"
@@ -3184,16 +3184,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-plugin-jsx-a11y@npm:6.10.0":
-  version: 6.10.0
-  resolution: "@types/eslint-plugin-jsx-a11y@npm:6.10.0"
+"@types/eslint-plugin-jsx-a11y@npm:6.10.1":
+  version: 6.10.1
+  resolution: "@types/eslint-plugin-jsx-a11y@npm:6.10.1"
   dependencies:
-    "@types/eslint": "npm:*"
-  checksum: 10c0/ec494e0ea56a0a10140316a74463eb8a6ac5ed02d7408ef91444f7c0c9bc875866a9d0be7a761f1631ea543c2413b1db947bf7cb1df9d936171e5d82f71c6772
+    eslint: "npm:^9"
+  checksum: 10c0/fe2ce003279f046225fc8ce5ea9b621254f0b6cf6577ea03da4cdd436c6780a7e1565308c2b3406851f5bb6abda0e9e2694f75dc462d8915f031854b10824012
   languageName: node
   linkType: hard
 
-"@types/eslint@npm:*, @types/eslint@npm:9.6.1":
+"@types/eslint@npm:9.6.1":
   version: 9.6.1
   resolution: "@types/eslint@npm:9.6.1"
   dependencies:
@@ -6167,7 +6167,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:9.37.0":
+"eslint@npm:9.37.0, eslint@npm:^9":
   version: 9.37.0
   resolution: "eslint@npm:9.37.0"
   dependencies:
