@@ -1,8 +1,8 @@
+/* eslint-disable import-x/extensions */
 import js from '@eslint/js'
-// eslint-disable-next-line import-x/extensions
+// @ts-expect-error - no official types
 import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
-// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginJest from 'eslint-plugin-jest'
@@ -173,10 +173,7 @@ const esmConfig = defineConfig({
 const baseConfig = defineConfig(
   js.configs.recommended,
   {
-    extends: [
-      // @ts-expect-error no official types
-      eslintPluginEslintCommentsConfigs['recommended'],
-    ],
+    extends: [eslintPluginEslintCommentsConfigs['recommended']],
     rules: {
       // allow disable eslint rules for whole file without re-enable it in the end of the file
       '@eslint-community/eslint-comments/disable-enable-pair': [

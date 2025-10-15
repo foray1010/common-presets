@@ -2,7 +2,6 @@
 import { defineConfig } from 'eslint/config'
 import eslintPluginJsxA11y from 'eslint-plugin-jsx-a11y'
 import eslintPluginReact from 'eslint-plugin-react'
-import eslintPluginReactCompiler from 'eslint-plugin-react-compiler'
 import eslintPluginReactHooks from 'eslint-plugin-react-hooks'
 import eslintPluginTestingLibrary from 'eslint-plugin-testing-library'
 
@@ -16,9 +15,9 @@ const reactConfig = defineConfig(
       },
     },
     extends: [
-      eslintPluginReact.configs.flat.recommended,
+      eslintPluginReact.configs.flat['recommended'],
       eslintPluginReact.configs.flat['jsx-runtime'],
-      eslintPluginReactCompiler.configs.recommended,
+      // @ts-expect-error - package has types but typescript does not recognize it
       eslintPluginReactHooks.configs['recommended-latest'],
       eslintPluginJsxA11y.flatConfigs.recommended,
     ],
