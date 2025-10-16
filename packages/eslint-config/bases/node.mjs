@@ -26,6 +26,8 @@ const nodeConfig = defineConfig(
       },
     },
     rules: {
+      // enforce shebang on the entry bin file
+      'n/hashbang': 'error',
       // disallow deprecated node APIs
       'n/no-deprecated-api': 'error',
       // disallow the assignment to `exports`
@@ -56,8 +58,6 @@ const nodeConfig = defineConfig(
       'n/prefer-promises/fs': 'error',
       // make `process.exit()` expressions the same code path as `throw`
       'n/process-exit-as-throw': 'error',
-      // enforce shebang on the entry bin file
-      'n/shebang': 'error',
     },
   },
   ...(isESM()
