@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@11.0.1...@foray1010/prettier-config@12.0.0) (2025-10-31)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** bump peer dependencies to current version
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0`
+
+### Miscellaneous Chores
+
+- **deps:** bump peer dependencies to current version ([a47bc48](https://github.com/foray1010/common-presets/commit/a47bc48f7db8f4a527163ab35448f4eba455496f))
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0` ([aae1835](https://github.com/foray1010/common-presets/commit/aae1835f9517621ddc0d71f31bda39e9163213a1))
+
 ## [11.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@11.0.0...@foray1010/prettier-config@11.0.1) (2023-11-17)
 
 ### Bug Fixes

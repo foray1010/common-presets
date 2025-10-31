@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.1.1...@foray1010/eslint-config@16.0.0) (2025-10-31)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** bump peer dependencies to current version
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0`
+
+### Features
+
+- **deps:** update dependency eslint-plugin-jest to v29 ([b1e544f](https://github.com/foray1010/common-presets/commit/b1e544ff950867c82fae3cb3478a973ce885d841))
+- **deps:** update dependency eslint-plugin-react-hooks to v7 ([3834ca1](https://github.com/foray1010/common-presets/commit/3834ca19afa9749997449ee68e9daf809c93a584))
+- **deps:** update dependency eslint-plugin-unicorn to v61 ([06ed9c2](https://github.com/foray1010/common-presets/commit/06ed9c279e567e15b124fb580b7a1b0b66f0cf94))
+- **deps:** update dependency eslint-plugin-unicorn to v62 ([4db59b4](https://github.com/foray1010/common-presets/commit/4db59b4f64a0cb406614a48cc6375dd63f2074d9))
+
+### Bug Fixes
+
+- **eslint-config:** replace deprecated n/shebang with n/hashbang ([8c4d272](https://github.com/foray1010/common-presets/commit/8c4d2721a51de610cb1a0b1b10eaf4946f3fb530))
+
+### Miscellaneous Chores
+
+- **deps:** bump peer dependencies to current version ([a47bc48](https://github.com/foray1010/common-presets/commit/a47bc48f7db8f4a527163ab35448f4eba455496f))
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0` ([aae1835](https://github.com/foray1010/common-presets/commit/aae1835f9517621ddc0d71f31bda39e9163213a1))
+
 ## [15.1.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.1.0...@foray1010/eslint-config@15.1.1) (2025-08-03)
 
 ### Bug Fixes

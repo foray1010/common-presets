@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [15.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@14.0.0...@foray1010/tsconfig@15.0.0) (2025-10-31)
+
+### ⚠ BREAKING CHANGES
+
+- **tsconfig:** based on @tsconfig/node20
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0`
+
+### Miscellaneous Chores
+
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0` ([aae1835](https://github.com/foray1010/common-presets/commit/aae1835f9517621ddc0d71f31bda39e9163213a1))
+
+### Code Refactoring
+
+- **tsconfig:** based on @tsconfig/node20 ([d0f2598](https://github.com/foray1010/common-presets/commit/d0f2598e2738173ad85a1eea4b50ed3a64c1c995))
+
 ## [14.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@13.0.0...@foray1010/tsconfig@14.0.0) (2025-03-11)
 
 ### ⚠ BREAKING CHANGES

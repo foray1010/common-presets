@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@16.0.0...@foray1010/stylelint-config@17.0.0) (2025-10-31)
+
+### ⚠ BREAKING CHANGES
+
+- **deps:** bump peer dependencies to current version
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0`
+- require stylelint ^16.25.0
+- **deps:** require stylelint `^16.23.0`
+
+### Features
+
+- **deps:** update dependency stylelint-config-standard to v39 ([1ce6de8](https://github.com/foray1010/common-presets/commit/1ce6de81dafdeb46d9a41cf3c47bd1599b6d1188))
+- require stylelint ^16.25.0 ([ad9cf5f](https://github.com/foray1010/common-presets/commit/ad9cf5f46f2e5328ded8d350e3616ee5e3bef1a6))
+- **stylelint-config:** enforce oklch color ([d809897](https://github.com/foray1010/common-presets/commit/d8098970c7cfc3f942236965fe6b641677c1f661))
+
+### Miscellaneous Chores
+
+- **deps:** bump peer dependencies to current version ([a47bc48](https://github.com/foray1010/common-presets/commit/a47bc48f7db8f4a527163ab35448f4eba455496f))
+- require nodejs `^20.19.0 || ^22.12.0 || >=24.11.0` ([aae1835](https://github.com/foray1010/common-presets/commit/aae1835f9517621ddc0d71f31bda39e9163213a1))
+
 ## [16.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@15.0.0...@foray1010/stylelint-config@16.0.0) (2025-03-11)
 
 ### ⚠ BREAKING CHANGES
