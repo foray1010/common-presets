@@ -185,10 +185,7 @@ const baseConfig = defineConfig(
     },
   },
   {
-    extends: [
-      // @ts-expect-error eslint-plugin-import-x interface does not align with eslint
-      eslintPluginImportX.flatConfigs.recommended,
-    ],
+    extends: [eslintPluginImportX.flatConfigs.recommended],
     rules: {
       // this rule doesn't support commonjs, some dependencies are using commonjs
       'import-x/default': 'off',

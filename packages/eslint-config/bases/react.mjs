@@ -17,7 +17,6 @@ const reactConfig = defineConfig(
     extends: [
       eslintPluginReact.configs.flat['recommended'],
       eslintPluginReact.configs.flat['jsx-runtime'],
-      // @ts-expect-error - package has types but typescript does not recognize it
       eslintPluginReactHooks.configs['recommended-latest'],
       eslintPluginJsxA11y.flatConfigs.recommended,
     ],
