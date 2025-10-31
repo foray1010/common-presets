@@ -29,7 +29,7 @@
   },
   "peerDependencies": {
     "prettier": "^3.0.0",
-    "stylelint": "^16.23.0"
+    "stylelint": "^16.25.0"
   },
   "engines": {
     "node": "^20.10.0 || >=22.11.0"
