@@ -17,7 +17,7 @@ const reactConfig = defineConfig(
     extends: [
       eslintPluginReact.configs.flat['recommended'],
       eslintPluginReact.configs.flat['jsx-runtime'],
-      eslintPluginReactHooks.configs['recommended-latest'],
+      eslintPluginReactHooks.configs.flat['recommended-latest'],
       eslintPluginJsxA11y.flatConfigs.recommended,
     ],
     rules: {
