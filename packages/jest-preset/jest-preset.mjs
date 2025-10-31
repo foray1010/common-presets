@@ -14,7 +14,9 @@ const preset = {
   coverageReporters: ['lcov', 'text-summary'],
   errorOnDeprecated: true,
   notify: true,
-  resolver: 'ts-jest-resolver',
+  testEnvironmentOptions: {
+    globalsCleanup: 'on',
+  },
   testMatch: ['**/*.{spec,test}.{cjs,cts,js,mjs,mts,ts,tsx}'],
 }
 export default preset
