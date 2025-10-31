@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@16.0.0...@foray1010/eslint-config@16.0.1) (2025-10-31)
+
+### Bug Fixes
+
+- **eslint-config:** fix cannot load eslint-plugin-react-hooks ([3251557](https://github.com/foray1010/common-presets/commit/3251557eb8f3f631a73b9217b42e0ee9682f3501))
+
 ## [16.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@15.1.1...@foray1010/eslint-config@16.0.0) (2025-10-31)
 
 ### ⚠ BREAKING CHANGES
