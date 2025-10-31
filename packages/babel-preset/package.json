@@ -20,17 +20,17 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "@babel/helper-plugin-utils": "^7.22.5",
-    "@babel/plugin-transform-react-constant-elements": "^7.23.3",
-    "@babel/plugin-transform-react-inline-elements": "^7.23.3",
-    "@babel/plugin-transform-runtime": "^7.23.3",
-    "@babel/preset-env": "^7.23.3",
-    "@babel/preset-react": "^7.23.3",
-    "@babel/preset-typescript": "^7.23.3",
+    "@babel/helper-plugin-utils": "^7.27.1",
+    "@babel/plugin-transform-react-constant-elements": "^7.27.1",
+    "@babel/plugin-transform-react-inline-elements": "^7.27.1",
+    "@babel/plugin-transform-runtime": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "@babel/preset-typescript": "^7.28.5",
     "@foray1010/common-presets-utils": "workspace:^",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
-    "browserslist": "^4.22.1",
-    "semver": "^7.5.4"
+    "browserslist": "^4.27.0",
+    "semver": "^7.7.3"
   },
   "devDependencies": {
     "@types/semver": "7.7.1"

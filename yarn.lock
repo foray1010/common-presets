@@ -185,7 +185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-plugin-utils@npm:^7.0.0, @babel/helper-plugin-utils@npm:^7.10.4, @babel/helper-plugin-utils@npm:^7.12.13, @babel/helper-plugin-utils@npm:^7.14.5, @babel/helper-plugin-utils@npm:^7.18.6, @babel/helper-plugin-utils@npm:^7.22.5, @babel/helper-plugin-utils@npm:^7.27.1, @babel/helper-plugin-utils@npm:^7.8.0":
+"@babel/helper-plugin-utils@npm:^7.0.0, @babel/helper-plugin-utils@npm:^7.10.4, @babel/helper-plugin-utils@npm:^7.12.13, @babel/helper-plugin-utils@npm:^7.14.5, @babel/helper-plugin-utils@npm:^7.18.6, @babel/helper-plugin-utils@npm:^7.27.1, @babel/helper-plugin-utils@npm:^7.8.0":
   version: 7.27.1
   resolution: "@babel/helper-plugin-utils@npm:7.27.1"
   checksum: 10c0/94cf22c81a0c11a09b197b41ab488d416ff62254ce13c57e62912c85700dc2e99e555225787a4099ff6bae7a1812d622c80fbaeda824b79baa10a6c5ac4cf69b
@@ -1023,7 +1023,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-constant-elements@npm:^7.23.3":
+"@babel/plugin-transform-react-constant-elements@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/plugin-transform-react-constant-elements@npm:7.27.1"
   dependencies:
@@ -1045,7 +1045,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-react-inline-elements@npm:^7.23.3":
+"@babel/plugin-transform-react-inline-elements@npm:^7.27.1":
   version: 7.27.1
   resolution: "@babel/plugin-transform-react-inline-elements@npm:7.27.1"
   dependencies:
@@ -1129,7 +1129,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.23.3":
+"@babel/plugin-transform-runtime@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/plugin-transform-runtime@npm:7.28.5"
   dependencies:
@@ -1263,7 +1263,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.23.3":
+"@babel/preset-env@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/preset-env@npm:7.28.5"
   dependencies:
@@ -1356,7 +1356,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-react@npm:^7.23.3":
+"@babel/preset-react@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/preset-react@npm:7.28.5"
   dependencies:
@@ -1372,7 +1372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.23.3":
+"@babel/preset-typescript@npm:^7.28.5":
   version: 7.28.5
   resolution: "@babel/preset-typescript@npm:7.28.5"
   dependencies:
@@ -1729,7 +1729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:^4.4.1":
+"@eslint-community/eslint-plugin-eslint-comments@npm:^4.5.0":
   version: 4.5.0
   resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.5.0"
   dependencies:
@@ -1814,7 +1814,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.38.0, @eslint/js@npm:^9.21.0":
+"@eslint/js@npm:9.38.0, @eslint/js@npm:^9.38.0":
   version: 9.38.0
   resolution: "@eslint/js@npm:9.38.0"
   checksum: 10c0/b4a0d561ab93f0b1bc6a3f5e3f83764c9cccade59f2c54f1d718c1dcc71ac4d1be97bef7300cca641932d72e7555c79a7bf07e4e4ce1d0a1ddccc84d6440d2a6
@@ -1842,18 +1842,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/babel-preset@workspace:packages/babel-preset"
   dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.22.5"
-    "@babel/plugin-transform-react-constant-elements": "npm:^7.23.3"
-    "@babel/plugin-transform-react-inline-elements": "npm:^7.23.3"
-    "@babel/plugin-transform-runtime": "npm:^7.23.3"
-    "@babel/preset-env": "npm:^7.23.3"
-    "@babel/preset-react": "npm:^7.23.3"
-    "@babel/preset-typescript": "npm:^7.23.3"
+    "@babel/helper-plugin-utils": "npm:^7.27.1"
+    "@babel/plugin-transform-react-constant-elements": "npm:^7.27.1"
+    "@babel/plugin-transform-react-inline-elements": "npm:^7.27.1"
+    "@babel/plugin-transform-runtime": "npm:^7.28.5"
+    "@babel/preset-env": "npm:^7.28.5"
+    "@babel/preset-react": "npm:^7.28.5"
+    "@babel/preset-typescript": "npm:^7.28.5"
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/semver": "npm:7.7.1"
     babel-plugin-transform-react-remove-prop-types: "npm:^0.4.24"
-    browserslist: "npm:^4.22.1"
-    semver: "npm:^7.5.4"
+    browserslist: "npm:^4.27.0"
+    semver: "npm:^7.7.3"
   peerDependencies:
     "@babel/core": ^7.0.0
     "@babel/runtime": ^7.9.6
@@ -1872,28 +1872,28 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.4.1"
-    "@eslint/js": "npm:^9.21.0"
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.5.0"
+    "@eslint/js": "npm:^9.38.0"
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/confusing-browser-globals": "npm:1.0.3"
     confusing-browser-globals: "npm:^1.0.11"
-    eslint-config-prettier: "npm:^10.0.2"
-    eslint-import-resolver-typescript: "npm:^4.2.3"
+    eslint-config-prettier: "npm:^10.1.8"
+    eslint-import-resolver-typescript: "npm:^4.4.4"
     eslint-plugin-compat: "npm:^6.0.2"
-    eslint-plugin-import-x: "npm:^4.6.1"
+    eslint-plugin-import-x: "npm:^4.16.1"
     eslint-plugin-jest: "npm:^29.0.1"
     eslint-plugin-jest-dom: "npm:^5.5.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
-    eslint-plugin-n: "npm:^17.15.1"
-    eslint-plugin-prettier: "npm:^5.2.3"
-    eslint-plugin-react: "npm:^7.37.4"
-    eslint-plugin-react-hooks: "npm:^7.0.0"
-    eslint-plugin-regexp: "npm:^2.7.0"
+    eslint-plugin-n: "npm:^17.23.1"
+    eslint-plugin-prettier: "npm:^5.5.4"
+    eslint-plugin-react: "npm:^7.37.5"
+    eslint-plugin-react-hooks: "npm:^7.0.1"
+    eslint-plugin-regexp: "npm:^2.10.0"
     eslint-plugin-simple-import-sort: "npm:^12.1.1"
-    eslint-plugin-testing-library: "npm:^7.1.1"
+    eslint-plugin-testing-library: "npm:^7.13.3"
     eslint-plugin-unicorn: "npm:^62.0.0"
-    globals: "npm:^16.0.0"
-    typescript-eslint: "npm:^8.25.0"
+    globals: "npm:^16.4.0"
+    typescript-eslint: "npm:^8.46.2"
   peerDependencies:
     "@testing-library/dom": ^10.0.0
     eslint: ^9.22.0
@@ -1921,7 +1921,7 @@ __metadata:
   resolution: "@foray1010/prettier-config@workspace:packages/prettier-config"
   dependencies:
     "@types/prettier": "npm:3.0.0"
-    prettier-plugin-packagejson: "npm:^2.4.6"
+    prettier-plugin-packagejson: "npm:^2.5.19"
   peerDependencies:
     prettier: ^3.0.0
   languageName: unknown
@@ -1932,11 +1932,11 @@ __metadata:
   resolution: "@foray1010/remark-preset@workspace:packages/remark-preset"
   dependencies:
     remark-frontmatter: "npm:^5.0.0"
-    remark-preset-lint-consistent: "npm:^6.0.0"
-    remark-preset-lint-markdown-style-guide: "npm:^6.0.0"
-    remark-preset-lint-recommended: "npm:^7.0.0"
-    remark-preset-prettier: "npm:^2.0.1"
-    remark-validate-links: "npm:^13.0.1"
+    remark-preset-lint-consistent: "npm:^6.0.1"
+    remark-preset-lint-markdown-style-guide: "npm:^6.0.1"
+    remark-preset-lint-recommended: "npm:^7.0.1"
+    remark-preset-prettier: "npm:^2.0.2"
+    remark-validate-links: "npm:^13.1.0"
   peerDependencies:
     remark-cli: ">=11.0.0"
   languageName: unknown
@@ -1952,12 +1952,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/stylelint-config@workspace:packages/stylelint-config"
   dependencies:
-    stylelint-config-concentric-order: "npm:^5.2.0"
-    stylelint-config-css-modules: "npm:^4.4.0"
-    stylelint-config-standard: "npm:^39.0.0"
+    stylelint-config-concentric-order: "npm:^5.2.1"
+    stylelint-config-css-modules: "npm:^4.5.1"
+    stylelint-config-standard: "npm:^39.0.1"
     stylelint-gamut: "npm:^1.3.4"
-    stylelint-no-unsupported-browser-features: "npm:^8.0.0"
-    stylelint-prettier: "npm:^5.0.0"
+    stylelint-no-unsupported-browser-features: "npm:^8.0.5"
+    stylelint-prettier: "npm:^5.0.3"
   peerDependencies:
     prettier: ^3.0.0
     stylelint: ^16.25.0
@@ -4709,7 +4709,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.22.1, browserslist@npm:^4.24.0, browserslist@npm:^4.24.2, browserslist@npm:^4.26.3":
+"browserslist@npm:^4.24.0, browserslist@npm:^4.24.2, browserslist@npm:^4.26.3, browserslist@npm:^4.27.0":
   version: 4.27.0
   resolution: "browserslist@npm:4.27.0"
   dependencies:
@@ -5258,7 +5258,7 @@ __metadata:
     prettier: "npm:3.6.2"
     remark-cli: "npm:12.0.1"
     stylelint: "npm:16.25.0"
-    tinyglobby: "npm:^0.2.12"
+    tinyglobby: "npm:0.2.15"
     typescript: "npm:5.9.3"
   languageName: unknown
   linkType: soft
@@ -6172,7 +6172,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:^10.0.2":
+"eslint-config-prettier@npm:^10.1.8":
   version: 10.1.8
   resolution: "eslint-config-prettier@npm:10.1.8"
   peerDependencies:
@@ -6198,7 +6198,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-typescript@npm:^4.2.3":
+"eslint-import-resolver-typescript@npm:^4.4.4":
   version: 4.4.4
   resolution: "eslint-import-resolver-typescript@npm:4.4.4"
   dependencies:
@@ -6253,7 +6253,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-x@npm:^4.6.1":
+"eslint-plugin-import-x@npm:^4.16.1":
   version: 4.16.1
   resolution: "eslint-plugin-import-x@npm:4.16.1"
   dependencies:
@@ -6338,7 +6338,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-n@npm:^17.15.1":
+"eslint-plugin-n@npm:^17.23.1":
   version: 17.23.1
   resolution: "eslint-plugin-n@npm:17.23.1"
   dependencies:
@@ -6357,7 +6357,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5.2.3":
+"eslint-plugin-prettier@npm:^5.5.4":
   version: 5.5.4
   resolution: "eslint-plugin-prettier@npm:5.5.4"
   dependencies:
@@ -6377,7 +6377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^7.0.0":
+"eslint-plugin-react-hooks@npm:^7.0.1":
   version: 7.0.1
   resolution: "eslint-plugin-react-hooks@npm:7.0.1"
   dependencies:
@@ -6392,7 +6392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:^7.37.4":
+"eslint-plugin-react@npm:^7.37.5":
   version: 7.37.5
   resolution: "eslint-plugin-react@npm:7.37.5"
   dependencies:
@@ -6420,7 +6420,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-regexp@npm:^2.7.0":
+"eslint-plugin-regexp@npm:^2.10.0":
   version: 2.10.0
   resolution: "eslint-plugin-regexp@npm:2.10.0"
   dependencies:
@@ -6446,7 +6446,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^7.1.1":
+"eslint-plugin-testing-library@npm:^7.13.3":
   version: 7.13.3
   resolution: "eslint-plugin-testing-library@npm:7.13.3"
   dependencies:
@@ -7389,7 +7389,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^16.0.0, globals@npm:^16.4.0":
+"globals@npm:^16.4.0":
   version: 16.4.0
   resolution: "globals@npm:16.4.0"
   checksum: 10c0/a14b447a78b664b42f6d324e8675fcae6fe5e57924fecc1f6328dce08af9b2ca3a3138501e1b1f244a49814a732dc60cfc1aa24e714e0b64ac8bd18910bfac90
@@ -11520,7 +11520,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:^2.4.6":
+"prettier-plugin-packagejson@npm:^2.5.19":
   version: 2.5.19
   resolution: "prettier-plugin-packagejson@npm:2.5.19"
   dependencies:
@@ -12720,7 +12720,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-preset-lint-consistent@npm:^6.0.0":
+"remark-preset-lint-consistent@npm:^6.0.1":
   version: 6.0.1
   resolution: "remark-preset-lint-consistent@npm:6.0.1"
   dependencies:
@@ -12743,7 +12743,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-preset-lint-markdown-style-guide@npm:^6.0.0":
+"remark-preset-lint-markdown-style-guide@npm:^6.0.1":
   version: 6.0.1
   resolution: "remark-preset-lint-markdown-style-guide@npm:6.0.1"
   dependencies:
@@ -12795,7 +12795,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-preset-lint-recommended@npm:^7.0.0":
+"remark-preset-lint-recommended@npm:^7.0.1":
   version: 7.0.1
   resolution: "remark-preset-lint-recommended@npm:7.0.1"
   dependencies:
@@ -12818,7 +12818,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-preset-prettier@npm:^2.0.1":
+"remark-preset-prettier@npm:^2.0.2":
   version: 2.0.2
   resolution: "remark-preset-prettier@npm:2.0.2"
   peerDependencies:
@@ -12838,7 +12838,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"remark-validate-links@npm:^13.0.1":
+"remark-validate-links@npm:^13.1.0":
   version: 13.1.0
   resolution: "remark-validate-links@npm:13.1.0"
   dependencies:
@@ -13789,7 +13789,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-concentric-order@npm:^5.2.0":
+"stylelint-config-concentric-order@npm:^5.2.1":
   version: 5.2.1
   resolution: "stylelint-config-concentric-order@npm:5.2.1"
   dependencies:
@@ -13798,7 +13798,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-css-modules@npm:^4.4.0":
+"stylelint-config-css-modules@npm:^4.5.1":
   version: 4.5.1
   resolution: "stylelint-config-css-modules@npm:4.5.1"
   dependencies:
@@ -13821,7 +13821,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-standard@npm:^39.0.0":
+"stylelint-config-standard@npm:^39.0.1":
   version: 39.0.1
   resolution: "stylelint-config-standard@npm:39.0.1"
   dependencies:
@@ -13843,7 +13843,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-no-unsupported-browser-features@npm:^8.0.0":
+"stylelint-no-unsupported-browser-features@npm:^8.0.5":
   version: 8.0.5
   resolution: "stylelint-no-unsupported-browser-features@npm:8.0.5"
   dependencies:
@@ -13868,7 +13868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-prettier@npm:^5.0.0":
+"stylelint-prettier@npm:^5.0.3":
   version: 5.0.3
   resolution: "stylelint-prettier@npm:5.0.3"
   dependencies:
@@ -14137,7 +14137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.14":
+"tinyglobby@npm:0.2.15, tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.14":
   version: 0.2.15
   resolution: "tinyglobby@npm:0.2.15"
   dependencies:
@@ -14392,7 +14392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.25.0":
+"typescript-eslint@npm:^8.46.2":
   version: 8.46.2
   resolution: "typescript-eslint@npm:8.46.2"
   dependencies:
