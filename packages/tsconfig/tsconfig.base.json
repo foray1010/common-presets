@@ -1,14 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
     "erasableSyntaxOnly": true,
-    "esModuleInterop": true,
     "exactOptionalPropertyTypes": true,
     "incremental": true,
-    "lib": ["ES2023"],
-    "module": "Node18",
+    "module": "Node20",
     "moduleDetection": "force",
-    "moduleResolution": "Node16",
     "noEmit": true,
     "noEmitOnError": true,
     "noImplicitOverride": true,
@@ -16,9 +14,6 @@
     "noUncheckedIndexedAccess": true,
     "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "ES2023",
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
   }

@@ -1969,8 +1969,10 @@ __metadata:
 "@foray1010/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@foray1010/tsconfig@workspace:packages/tsconfig"
+  dependencies:
+    "@tsconfig/node20": "npm:^20.1.6"
   peerDependencies:
-    typescript: ^5.8.2
+    typescript: ^5.9.3
   languageName: unknown
   linkType: soft
 
@@ -3454,6 +3456,13 @@ __metadata:
   dependencies:
     "@sinonjs/commons": "npm:^3.0.0"
   checksum: 10c0/2e2fb6cc57f227912814085b7b01fede050cd4746ea8d49a1e44d5a0e56a804663b0340ae2f11af7559ea9bf4d087a11f2f646197a660ea3cb04e19efc04aa63
+  languageName: node
+  linkType: hard
+
+"@tsconfig/node20@npm:^20.1.6":
+  version: 20.1.6
+  resolution: "@tsconfig/node20@npm:20.1.6"
+  checksum: 10c0/736bca8c405222e78f77da068bf705b398e3afb3f2ec3c1d2a8792505283863bef8cca5646358fcbabd3b07c6fbbf0b1acdf09aa182254fe60eb519827737f09
   languageName: node
   linkType: hard
 

@@ -17,8 +17,11 @@
   "scripts": {
     "type:check": "echo 'Skipped: non-ts package'"
   },
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.6"
+  },
   "peerDependencies": {
-    "typescript": "^5.8.2"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": "^20.19.0 || ^22.12.0 || >=24.11.0"
