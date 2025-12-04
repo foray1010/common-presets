@@ -5236,7 +5236,7 @@ __metadata:
     lerna: "npm:9.0.3"
     lint-staged: "npm:16.2.6"
     node-notifier: "npm:10.0.1"
-    prettier: "npm:3.6.2"
+    prettier: "npm:3.7.3"
     remark-cli: "npm:12.0.1"
     stylelint: "npm:16.25.0"
     tinyglobby: "npm:0.2.15"
@@ -11647,12 +11647,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:*, prettier@npm:3.6.2":
+"prettier@npm:*":
   version: 3.6.2
   resolution: "prettier@npm:3.6.2"
   bin:
     prettier: bin/prettier.cjs
   checksum: 10c0/488cb2f2b99ec13da1e50074912870217c11edaddedeadc649b1244c749d15ba94e846423d062e2c4c9ae683e2d65f754de28889ba06e697ac4f988d44f45812
+  languageName: node
+  linkType: hard
+
+"prettier@npm:3.7.3":
+  version: 3.7.3
+  resolution: "prettier@npm:3.7.3"
+  bin:
+    prettier: bin/prettier.cjs
+  checksum: 10c0/ee86bb06121c74dadc54f30b6f99aff6288966d9b842ce501d6991e20d20c6ce2d45028651b3b0955ca6e5fa89c1bee1e72b6f810243a93cef8bc69737972ef7
   languageName: node
   linkType: hard
 
