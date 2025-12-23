@@ -1,6 +1,5 @@
 /* eslint-disable import-x/extensions */
 import js from '@eslint/js'
-// @ts-expect-error - no official types
 import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
 import { defineConfig } from 'eslint/config'
