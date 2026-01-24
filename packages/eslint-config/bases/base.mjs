@@ -260,7 +260,7 @@ const baseConfig = defineConfig(
     },
   },
   {
-    extends: [eslintPluginRegexp.configs['flat/recommended']],
+    extends: [eslintPluginRegexp.configs.recommended],
     rules: {
       // enable regexp strict mode (use `v` flag instead when it is widely supported)
       'regexp/require-unicode-regexp': 'error',
