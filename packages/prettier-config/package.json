@@ -20,7 +20,7 @@
     "type:check": "tsc"
   },
   "dependencies": {
-    "prettier-plugin-packagejson": "^2.5.19"
+    "prettier-plugin-packagejson": "^3.0.0"
   },
   "devDependencies": {
     "@types/prettier": "3.0.0"
