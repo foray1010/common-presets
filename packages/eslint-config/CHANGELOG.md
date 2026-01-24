@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@16.0.1...@foray1010/eslint-config@16.1.0) (2026-01-24)
+
+### Features
+
+- **deps:** update globals to v17 ([d0b3bd9](https://github.com/foray1010/common-presets/commit/d0b3bd9707098a9e7a95bd0e9e250f417fe33494))
+
+### Bug Fixes
+
+- **deps:** update eslint-plugin-regexp to v3 ([b4e82bb](https://github.com/foray1010/common-presets/commit/b4e82bb23fa2280dbf8c95e92b0d86ee9d420b8a))
+
 ## [16.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@16.0.0...@foray1010/eslint-config@16.0.1) (2025-10-31)
 
 ### Bug Fixes
