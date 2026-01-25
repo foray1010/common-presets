@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@12.0.0...@foray1010/prettier-config@12.1.0) (2026-01-25)
+
+### Features
+
+- **prettier-config:** format AI editor rules files ([b96205a](https://github.com/foray1010/common-presets/commit/b96205a1ccd4539b995d8d1d8426602155bb5d8d))
+- **prettier-config:** use 4 spaces for markdown indentation ([01edd7b](https://github.com/foray1010/common-presets/commit/01edd7be10b7211e546be94751318daa6a72fbc3))
+
+### Bug Fixes
+
+- **deps:** update prettier-plugin-packagejson to v3 ([8f85f37](https://github.com/foray1010/common-presets/commit/8f85f37f9d7fdc1ff012eeabd4f3ffed8a93b4ad))
+
 ## [12.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@11.0.1...@foray1010/prettier-config@12.0.0) (2025-10-31)
 
 ### ⚠ BREAKING CHANGES
