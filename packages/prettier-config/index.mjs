@@ -26,6 +26,14 @@ const config = {
       files: ['*.md'],
       options: markdownOptions,
     },
+    // Format AI editor rules files (like .cursorrules, .windsurfrules, .clinerules) as Markdown
+    {
+      files: '.*rules',
+      options: {
+        parser: 'markdown',
+        ...markdownOptions,
+      },
+    },
   ],
 }
 export default config
