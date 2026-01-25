@@ -1,3 +1,9 @@
+/** @type {import('prettier').Options} */
+const markdownOptions = {
+  // Many markdown parsers does not support using 2 spaces for indentation. Prettier will use 3 spaces for indentation if tabWidth is 2.
+  tabWidth: 4,
+}
+
 /** @type {import('prettier').Config} */
 const config = {
   plugins: ['prettier-plugin-packagejson'],
@@ -18,10 +24,7 @@ const config = {
   overrides: [
     {
       files: ['*.md'],
-      options: {
-        // set to 4 when https://github.com/prettier/prettier/issues/5019 is fixed
-        tabWidth: 2,
-      },
+      options: markdownOptions,
     },
   ],
 }
