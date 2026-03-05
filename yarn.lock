@@ -1957,7 +1957,7 @@ __metadata:
     confusing-browser-globals: "npm:^1.0.11"
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
-    eslint-plugin-compat: "npm:^6.0.2"
+    eslint-plugin-compat: "npm:^7.0.0"
     eslint-plugin-import-x: "npm:^4.16.1"
     eslint-plugin-jest: "npm:^29.0.1"
     eslint-plugin-jest-dom: "npm:^5.5.0"
@@ -4938,7 +4938,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.30001687, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001760":
+"caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001760":
   version: 1.0.30001766
   resolution: "caniuse-lite@npm:1.0.30001766"
   checksum: 10c0/cecc8f9a3758c486fc68434a3cca5f4ca7077db5ac9cdb1689786abf63c4aa9891bf70f2df2c3e549d5e284e8da36a218d0e131ebb26dd59280bc99db49640f6
@@ -6278,21 +6278,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-compat@npm:^6.0.2":
-  version: 6.1.0
-  resolution: "eslint-plugin-compat@npm:6.1.0"
+"eslint-plugin-compat@npm:^7.0.0":
+  version: 7.0.1
+  resolution: "eslint-plugin-compat@npm:7.0.1"
   dependencies:
     "@mdn/browser-compat-data": "npm:^6.1.1"
     ast-metadata-inferer: "npm:^0.8.1"
     browserslist: "npm:^4.25.2"
-    caniuse-lite: "npm:^1.0.30001687"
     find-up: "npm:^5.0.0"
     globals: "npm:^15.7.0"
     lodash.memoize: "npm:^4.1.2"
     semver: "npm:^7.6.2"
   peerDependencies:
-    eslint: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0 || ^9.0.0
-  checksum: 10c0/8210d30a28d10a9737ffc65394077a8f489f497e45346ee68aa0f15d757385f661ebbe59bd968a47008f9be9d032b716eb25a80fe3f9c2332c855a2d69f65d2f
+    eslint: ^9.0.0 || ^10.0.0
+  checksum: 10c0/550c3a95f6a4992fc725c59fb1aa49b74cd86e595136d8c3c51a9c30c41dd3b780a99812fa62c42f82cc08ce9845ce409561631429018e5ac1b7e8671c532912
   languageName: node
   linkType: hard
 
