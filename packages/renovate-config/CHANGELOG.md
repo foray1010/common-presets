@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.0](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.4.2...@foray1010/renovate-config@1.5.0) (2026-04-21)
+
+### Features
+
+- **renovate-config:** set minimumReleaseAge to 7 days
+- update renovate schedule time
+
 ## [1.4.2](https://github.com/foray1010/common-presets/compare/@foray1010/renovate-config@1.4.1...@foray1010/renovate-config@1.4.2) (2022-08-24)
 
 ### Bug Fixes
