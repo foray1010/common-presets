@@ -27,17 +27,17 @@
         ":assignAndReview(foray1010)",
         ":disableDependencyDashboard"
       ],
-      "timezone": "Etc/UTC",
+      "timezone": "Asia/Hong_Kong",
       "schedule": [
-        "after 12am and before 4am"
+        "after 1am and before 6am"
       ],
       "automergeSchedule": [
-        "after 4am and before 7am"
+        "after 6am and before 9am"
       ],
       "lockFileMaintenance": {
         "enabled": true,
         "schedule": [
-          "after 12am and before 4am on Monday"
+          "after 1am and before 6am on Monday"
         ],
         "prPriority": 1
       },
