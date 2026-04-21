@@ -61,7 +61,7 @@
             "^@foray1010/.+(config|preset)$"
           ],
           "groupName": "@foray1010/common-presets monorepo",
-          "stabilityDays": 0
+          "minimumReleaseAge": 0
         },
         {
           "matchPackageNames": [
@@ -74,7 +74,7 @@
         }
       ],
       "prCreation": "not-pending",
-      "stabilityDays": 3,
+      "minimumReleaseAge": 7,
       "labels": [
         "dependencies"
       ]
