@@ -17,24 +17,24 @@
     "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
   },
   "devDependencies": {
-    "@babel/core": "7.28.6",
-    "@babel/runtime": "7.28.6",
-    "@commitlint/cli": "20.3.1",
-    "@commitlint/config-conventional": "20.3.1",
+    "@babel/core": "7.29.0",
+    "@babel/runtime": "7.29.2",
+    "@commitlint/cli": "20.5.0",
+    "@commitlint/config-conventional": "20.5.0",
     "concurrently": "9.2.1",
-    "eslint": "9.39.2",
+    "eslint": "9.39.4",
     "husky": "9.1.7",
-    "jest": "30.2.0",
-    "lerna": "9.0.3",
-    "lint-staged": "16.2.7",
+    "jest": "30.3.0",
+    "lerna": "9.0.7",
+    "lint-staged": "16.4.0",
     "node-notifier": "10.0.1",
-    "prettier": "3.8.1",
+    "prettier": "3.8.2",
     "remark-cli": "12.0.1",
     "stylelint": "16.26.1",
-    "tinyglobby": "0.2.15",
+    "tinyglobby": "0.2.16",
     "typescript": "5.9.3"
   },
-  "packageManager": "yarn@4.10.3",
+  "packageManager": "yarn@4.14.1",
   "engines": {
     "node": "^20.19.0 || ^22.12.0 || >=24.11.0"
   }
