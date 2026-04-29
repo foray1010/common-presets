@@ -1967,7 +1967,7 @@ __metadata:
     stylelint-config-concentric-order: "npm:^5.2.1"
     stylelint-config-css-modules: "npm:^4.5.1"
     stylelint-config-standard: "npm:^39.0.1"
-    stylelint-gamut: "npm:^1.3.4"
+    stylelint-gamut: "npm:^2.0.0"
     stylelint-no-unsupported-browser-features: "npm:^8.0.5"
     stylelint-prettier: "npm:^5.0.3"
   peerDependencies:
@@ -13774,14 +13774,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-gamut@npm:^1.3.4":
-  version: 1.3.4
-  resolution: "stylelint-gamut@npm:1.3.4"
+"stylelint-gamut@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "stylelint-gamut@npm:2.0.0"
   dependencies:
     colorjs.io: "npm:^0.4.5"
   peerDependencies:
-    stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
-  checksum: 10c0/d65c025b56ca3460dd7293e2371625f0bb67c93752de0957d4c62c29b7185d4b9689aa83c2b7de562dac1eaccc781f5829e82ec7bef9075ec38e97850422f018
+    stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+  checksum: 10c0/053dd199202828dd7d7c714da50257044b12da610e752df86a1a663dbb3c4e7bed97d8525158f9929b4fb2b43b1983685607aa765d4b9515078b99b63c0ff7b8
   languageName: node
   linkType: hard
 
