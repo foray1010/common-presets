@@ -19,8 +19,8 @@
   "devDependencies": {
     "@babel/core": "7.29.0",
     "@babel/runtime": "7.29.2",
-    "@commitlint/cli": "20.5.0",
-    "@commitlint/config-conventional": "20.5.0",
+    "@commitlint/cli": "20.5.3",
+    "@commitlint/config-conventional": "20.5.3",
     "concurrently": "9.2.1",
     "eslint": "9.39.4",
     "husky": "9.1.7",
