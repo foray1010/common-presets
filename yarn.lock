@@ -1141,7 +1141,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/plugin-transform-runtime@npm:^7.28.5":
+"@babel/plugin-transform-runtime@npm:^7.29.0":
   version: 7.29.0
   resolution: "@babel/plugin-transform-runtime@npm:7.29.0"
   dependencies:
@@ -1275,7 +1275,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.28.5":
+"@babel/preset-env@npm:^7.29.5":
   version: 7.29.5
   resolution: "@babel/preset-env@npm:7.29.5"
   dependencies:
@@ -1769,7 +1769,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint-community/eslint-plugin-eslint-comments@npm:^4.5.0":
+"@eslint-community/eslint-plugin-eslint-comments@npm:^4.7.1":
   version: 4.7.1
   resolution: "@eslint-community/eslint-plugin-eslint-comments@npm:4.7.1"
   dependencies:
@@ -1861,18 +1861,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/babel-preset@workspace:packages/babel-preset"
   dependencies:
-    "@babel/helper-plugin-utils": "npm:^7.27.1"
+    "@babel/helper-plugin-utils": "npm:^7.28.6"
     "@babel/plugin-transform-react-constant-elements": "npm:^7.27.1"
     "@babel/plugin-transform-react-inline-elements": "npm:^7.27.1"
-    "@babel/plugin-transform-runtime": "npm:^7.28.5"
-    "@babel/preset-env": "npm:^7.28.5"
+    "@babel/plugin-transform-runtime": "npm:^7.29.0"
+    "@babel/preset-env": "npm:^7.29.5"
     "@babel/preset-react": "npm:^7.28.5"
     "@babel/preset-typescript": "npm:^7.28.5"
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/semver": "npm:7.7.1"
     babel-plugin-transform-react-remove-prop-types: "npm:^0.4.24"
-    browserslist: "npm:^4.27.0"
-    semver: "npm:^7.7.3"
+    browserslist: "npm:^4.28.2"
+    semver: "npm:^7.8.0"
   peerDependencies:
     "@babel/core": ^7.28.5
     "@babel/runtime": ^7.28.4
@@ -1891,7 +1891,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/eslint-config@workspace:packages/eslint-config"
   dependencies:
-    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.5.0"
+    "@eslint-community/eslint-plugin-eslint-comments": "npm:^4.7.1"
     "@eslint/js": "npm:^10.0.1"
     "@foray1010/common-presets-utils": "workspace:^"
     "@types/confusing-browser-globals": "npm:1.0.3"
@@ -1899,20 +1899,20 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
     eslint-plugin-compat: "npm:^7.0.2"
-    eslint-plugin-import-x: "npm:^4.16.1"
-    eslint-plugin-jest: "npm:^29.0.1"
+    eslint-plugin-import-x: "npm:^4.16.2"
+    eslint-plugin-jest: "npm:^29.15.2"
     eslint-plugin-jest-dom: "npm:^5.5.0"
     eslint-plugin-jsx-a11y: "npm:^6.10.2"
     eslint-plugin-n: "npm:^18.0.1"
-    eslint-plugin-prettier: "npm:^5.5.4"
+    eslint-plugin-prettier: "npm:^5.5.5"
     eslint-plugin-react: "npm:^7.37.5"
-    eslint-plugin-react-hooks: "npm:^7.0.1"
-    eslint-plugin-regexp: "npm:^3.0.0"
+    eslint-plugin-react-hooks: "npm:^7.1.1"
+    eslint-plugin-regexp: "npm:^3.1.0"
     eslint-plugin-simple-import-sort: "npm:^13.0.0"
-    eslint-plugin-testing-library: "npm:^7.13.3"
+    eslint-plugin-testing-library: "npm:^7.16.2"
     eslint-plugin-unicorn: "npm:^64.0.0"
-    globals: "npm:^17.1.0"
-    typescript-eslint: "npm:^8.46.2"
+    globals: "npm:^17.6.0"
+    typescript-eslint: "npm:^8.59.2"
   peerDependencies:
     "@testing-library/dom": ^10.4.1
     eslint: ^10.3.0
@@ -1940,7 +1940,7 @@ __metadata:
   resolution: "@foray1010/prettier-config@workspace:packages/prettier-config"
   dependencies:
     "@types/prettier": "npm:3.0.0"
-    prettier-plugin-packagejson: "npm:^3.0.0"
+    prettier-plugin-packagejson: "npm:^3.0.2"
   peerDependencies:
     prettier: ^3.6.2
   languageName: unknown
@@ -4670,7 +4670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.24.0, browserslist@npm:^4.25.2, browserslist@npm:^4.26.3, browserslist@npm:^4.27.0, browserslist@npm:^4.28.1":
+"browserslist@npm:^4.24.0, browserslist@npm:^4.25.2, browserslist@npm:^4.26.3, browserslist@npm:^4.28.1, browserslist@npm:^4.28.2":
   version: 4.28.2
   resolution: "browserslist@npm:4.28.2"
   dependencies:
@@ -6200,7 +6200,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-x@npm:^4.16.1":
+"eslint-plugin-import-x@npm:^4.16.2":
   version: 4.16.2
   resolution: "eslint-plugin-import-x@npm:4.16.2"
   dependencies:
@@ -6243,7 +6243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:^29.0.1":
+"eslint-plugin-jest@npm:^29.15.2":
   version: 29.15.2
   resolution: "eslint-plugin-jest@npm:29.15.2"
   dependencies:
@@ -6314,7 +6314,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^5.5.4":
+"eslint-plugin-prettier@npm:^5.5.5":
   version: 5.5.5
   resolution: "eslint-plugin-prettier@npm:5.5.5"
   dependencies:
@@ -6334,7 +6334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^7.0.1":
+"eslint-plugin-react-hooks@npm:^7.1.1":
   version: 7.1.1
   resolution: "eslint-plugin-react-hooks@npm:7.1.1"
   dependencies:
@@ -6377,7 +6377,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-regexp@npm:^3.0.0":
+"eslint-plugin-regexp@npm:^3.1.0":
   version: 3.1.0
   resolution: "eslint-plugin-regexp@npm:3.1.0"
   dependencies:
@@ -6403,7 +6403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^7.13.3":
+"eslint-plugin-testing-library@npm:^7.16.2":
   version: 7.16.2
   resolution: "eslint-plugin-testing-library@npm:7.16.2"
   dependencies:
@@ -7285,7 +7285,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^17.1.0, globals@npm:^17.4.0":
+"globals@npm:^17.4.0, globals@npm:^17.6.0":
   version: 17.6.0
   resolution: "globals@npm:17.6.0"
   checksum: 10c0/cf94fb4329cc5c68cf81018fd68324f413181ee169f0235b0b33b82bc93fe7825a21beea951f83a80e8e4bbdad9c0c80515a145b5fd4b5cb52f2a80db899a93f
@@ -11360,7 +11360,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-packagejson@npm:^3.0.0":
+"prettier-plugin-packagejson@npm:^3.0.2":
   version: 3.0.2
   resolution: "prettier-plugin-packagejson@npm:3.0.2"
   dependencies:
@@ -12974,7 +12974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.7.4, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.2, semver@npm:^7.6.3, semver@npm:^7.7.1, semver@npm:^7.7.2, semver@npm:^7.7.3, semver@npm:^7.7.4":
+"semver@npm:7.7.4":
   version: 7.7.4
   resolution: "semver@npm:7.7.4"
   bin:
@@ -12989,6 +12989,15 @@ __metadata:
   bin:
     semver: bin/semver.js
   checksum: 10c0/e3d79b609071caa78bcb6ce2ad81c7966a46a7431d9d58b8800cfa9cb6a63699b3899a0e4bcce36167a284578212d9ae6942b6929ba4aa5015c079a67751d42d
+  languageName: node
+  linkType: hard
+
+"semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.2, semver@npm:^7.6.3, semver@npm:^7.7.1, semver@npm:^7.7.2, semver@npm:^7.7.3, semver@npm:^7.7.4, semver@npm:^7.8.0":
+  version: 7.8.0
+  resolution: "semver@npm:7.8.0"
+  bin:
+    semver: bin/semver.js
+  checksum: 10c0/8f096ca9b80ffd47b308d03f9ce8c873e27e2983f36023c559cdc92c51e8433fc23ebbfe57ec9623fc155636a6961ee989501099841ae4bb1babc8d2b3f048cd
   languageName: node
   linkType: hard
 
@@ -14186,7 +14195,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-eslint@npm:^8.46.2":
+"typescript-eslint@npm:^8.59.2":
   version: 8.59.2
   resolution: "typescript-eslint@npm:8.59.2"
   dependencies:
