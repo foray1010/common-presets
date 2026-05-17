@@ -1,4 +1,3 @@
-export const supportedFilesGlob = '**/*.{cjs,cts,js,mjs,mts,ts,tsx}'
 export const testFileGlobs = [
   '**/__fixtures__/**/*.{cjs,cts,js,mjs,mts,ts,tsx}',
   '**/__mocks__/**/*.{cjs,cts,js,mjs,mts,ts,tsx}',
