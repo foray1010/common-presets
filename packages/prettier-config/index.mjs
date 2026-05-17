@@ -34,6 +34,12 @@ const config = {
         ...markdownOptions,
       },
     },
+    {
+      files: ['.renovaterc.json', 'tsconfig*.json'],
+      options: {
+        parser: 'jsonc',
+      },
+    },
   ],
 }
 export default config
