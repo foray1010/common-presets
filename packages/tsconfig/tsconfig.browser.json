@@ -4,6 +4,6 @@
   "compilerOptions": {
     "lib": ["ES2024", "DOM"],
     "module": "ESNext",
-    "moduleResolution": "Bundler"
-  }
+    "moduleResolution": "Bundler",
+  },
 }

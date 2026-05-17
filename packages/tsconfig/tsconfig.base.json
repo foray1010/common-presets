@@ -15,6 +15,6 @@
     "noUncheckedSideEffectImports": true,
     "resolveJsonModule": true,
     "useDefineForClassFields": true,
-    "verbatimModuleSyntax": true
-  }
+    "verbatimModuleSyntax": true,
+  },
 }
