@@ -2,6 +2,7 @@
 import js from '@eslint/js'
 import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
+import eslintPluginFoxglove from '@foxglove/eslint-plugin'
 import { defineConfig } from 'eslint/config'
 import eslintPluginImportX from 'eslint-plugin-import-x'
 import eslintPluginJest from 'eslint-plugin-jest'
@@ -31,6 +32,9 @@ async function generateTypeScriptConfig() {
         eslintPluginImportX.configs['typescript'],
         esmConfig,
       ],
+      plugins: {
+        '@foxglove': eslintPluginFoxglove,
+      },
       languageOptions: {
         parserOptions: {
           // faster linting on cli
@@ -41,6 +45,8 @@ async function generateTypeScriptConfig() {
         },
       },
       rules: {
+        // promote named parameters by disallowing boolean parameters (boolean trap)
+        '@foxglove/no-boolean-parameters': 'error',
         // separate type exports which allow certain optimizations within compilers
         '@typescript-eslint/consistent-type-exports': [
           'error',
@@ -318,6 +324,8 @@ const baseConfig = defineConfig(
     rules: {
       // always use named function for easier to debug via stack trace
       'func-names': ['error', 'as-needed'],
+      // promote named parameters by limiting function parameters
+      'max-params': ['error', { max: 3, countThis: 'never' }],
       // prefer explicitly convert type for readability
       'no-implicit-coercion': 'error',
       // make sure private class members are in-use
