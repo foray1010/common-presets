@@ -1907,7 +1907,7 @@ __metadata:
     "@testing-library/dom": ^10.4.1
     eslint: ^10.3.0
     prettier: ^3.6.2
-    typescript: ^5.9.3
+    typescript: ^6.0.3
   peerDependenciesMeta:
     "@testing-library/dom":
       optional: true
@@ -1979,7 +1979,7 @@ __metadata:
   dependencies:
     "@tsconfig/node20": "npm:^20.1.6"
   peerDependencies:
-    typescript: ^5.9.3
+    typescript: ^6.0.3
   languageName: unknown
   linkType: soft
 
