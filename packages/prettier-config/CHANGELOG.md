@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [13.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@12.1.0...@foray1010/prettier-config@13.0.0) (2026-05-17)
+
+### ⚠ BREAKING CHANGES
+
+- drop node v20 and v25
+
+### Features
+
+- **prettier-config:** renovaterc and tsconfig should use jsonc format
+
+### Miscellaneous Chores
+
+- drop node v20 and v25
+
 ## [12.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/prettier-config@12.0.0...@foray1010/prettier-config@12.1.0) (2026-01-25)
 
 ### Features

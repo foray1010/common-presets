@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [18.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@17.0.0...@foray1010/stylelint-config@18.0.0) (2026-05-17)
+
+### ⚠ BREAKING CHANGES
+
+- **stylelint-config:** require stylelint `^17.11.0`
+- drop node v20 and v25
+
+### Features
+
+- **stylelint-config:** require stylelint `^17.11.0`
+
+### Miscellaneous Chores
+
+- drop node v20 and v25
+
 ## [17.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/stylelint-config@16.0.0...@foray1010/stylelint-config@17.0.0) (2025-10-31)
 
 ### ⚠ BREAKING CHANGES

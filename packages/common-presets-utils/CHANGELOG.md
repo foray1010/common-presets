@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@9.0.0...@foray1010/common-presets-utils@10.0.0) (2026-05-17)
+
+### ⚠ BREAKING CHANGES
+
+- drop node v20 and v25
+
+### Miscellaneous Chores
+
+- drop node v20 and v25
+
 ## [9.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/common-presets-utils@8.0.0...@foray1010/common-presets-utils@9.0.0) (2025-10-31)
 
 ### ⚠ BREAKING CHANGES

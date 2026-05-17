@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [16.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@15.0.0...@foray1010/tsconfig@16.0.0) (2026-05-17)
+
+### ⚠ BREAKING CHANGES
+
+- **tsconfig:** exported tsconfig are now in jsonc format
+- drop node v20 and v25
+- **deps:** require typescript `^6.0.3`
+
+### Features
+
+- support es2024
+
+### Miscellaneous Chores
+
+- **deps:** require typescript `^6.0.3`
+- drop node v20 and v25
+
+### Code Refactoring
+
+- **tsconfig:** exported tsconfig are now in jsonc format
+
 ## [15.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/tsconfig@14.0.0...@foray1010/tsconfig@15.0.0) (2025-10-31)
 
 ### ⚠ BREAKING CHANGES

@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@16.1.0...@foray1010/eslint-config@17.0.0) (2026-05-17)
+
+### ⚠ BREAKING CHANGES
+
+- drop node v20 and v25
+- **deps:** require typescript `^6.0.3`
+- **eslint-config:** require eslint `^10.3.0`
+
+### Features
+
+- **eslint-config:** encourage to use named parameters
+- **eslint-config:** require eslint `^10.3.0`
+- **eslint-config:** update eslint-plugin-unicorn to v64 (major)
+- support es2024
+
+### Bug Fixes
+
+- **eslint-config:** update eslint-plugin-compat to v7 (major)
+- **eslint-config:** update eslint-plugin-n to v18 (major)
+- **eslint-config:** update eslint-plugin-simple-import-sort to v13 (major)
+
+### Miscellaneous Chores
+
+- **deps:** require typescript `^6.0.3`
+- drop node v20 and v25
+
 ## [16.1.0](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@16.0.1...@foray1010/eslint-config@16.1.0) (2026-01-24)
 
 ### Features
