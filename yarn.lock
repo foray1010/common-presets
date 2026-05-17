@@ -2018,7 +2018,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@foray1010/tsconfig@workspace:packages/tsconfig"
   dependencies:
-    "@tsconfig/node22": "npm:^22.0.5"
+    "@tsconfig/node24": "npm:^24.0.0"
   peerDependencies:
     typescript: ^6.0.3
   languageName: unknown
@@ -3485,10 +3485,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsconfig/node22@npm:^22.0.5":
-  version: 22.0.5
-  resolution: "@tsconfig/node22@npm:22.0.5"
-  checksum: 10c0/c64b1d51e1556da9212463799f5096289d2cc8561eaed10cd0a0a36c25790b4c6bed30c0f846afccf8da75b5750326fa281216a908c2b67ead7b55adaf3eda22
+"@tsconfig/node24@npm:^24.0.0":
+  version: 24.0.4
+  resolution: "@tsconfig/node24@npm:24.0.4"
+  checksum: 10c0/9c5d4173204c6935c45d3ff0584fd423bd7d8bc3f6b246e646320ae584e4226b34ea1c66ec67cd16769c73e7e80f4cc562287b0acaa4ec81aa482463972ff83f
   languageName: node
   linkType: hard
 
