@@ -4,19 +4,19 @@
   "packageRules": [
     {
       "matchDepTypes": ["dependencies", "peerDependencies"],
-      "rangeStrategy": "replace"
+      "rangeStrategy": "replace",
     },
     {
       "matchDepTypes": ["dependencies", "peerDependencies"],
       "pin": {
-        "enabled": false
-      }
+        "enabled": false,
+      },
     },
     {
       "matchDepTypes": ["devDependencies"],
       "pin": {
-        "enabled": true
-      }
-    }
-  ]
+        "enabled": true,
+      },
+    },
+  ],
 }

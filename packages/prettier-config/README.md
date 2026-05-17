@@ -6,18 +6,18 @@
 
 1. Create an `.prettierrc.mjs` in the project root
 
-   ```js
-   export { default } from '@foray1010/prettier-config'
-   ```
+    ```js
+    export { default } from '@foray1010/prettier-config'
+    ```
 
 1. Use default prettierignore via npm script
 
-   ```json
-   {
-     "scripts": {
-       "prettier": "prettier --ignore-path=node_modules/@foray1010/prettier-config/prettierignore"
-     }
-   }
-   ```
+    ```json
+    {
+        "scripts": {
+            "prettier": "prettier --ignore-path=node_modules/@foray1010/prettier-config/prettierignore"
+        }
+    }
+    ```
 
-   then use `npm run prettier` or `yarn prettier` to replace `prettier`
+    then use `npm run prettier` or `yarn prettier` to replace `prettier`

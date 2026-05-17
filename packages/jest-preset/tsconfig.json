@@ -4,6 +4,6 @@
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,
-    "types": ["node"]
-  }
+    "types": ["node"],
+  },
 }

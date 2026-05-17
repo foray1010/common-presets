@@ -22,21 +22,21 @@ Z for looser rules
 
 1. Create an `.stylelintrc.mjs` in the project root
 
-   ```js
-   const config = {
-     extends: ['@foray1010/stylelint-config'],
-   }
-   export default config
-   ```
+    ```js
+    const config = {
+        extends: ['@foray1010/stylelint-config'],
+    }
+    export default config
+    ```
 
 1. Use default stylelintignore via npm script
 
-   ```json
-   {
-     "scripts": {
-       "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
-     }
-   }
-   ```
+    ```json
+    {
+        "scripts": {
+            "stylelint": "stylelint --ignore-path=node_modules/@foray1010/stylelint-config/stylelintignore"
+        }
+    }
+    ```
 
-   then use `npm run stylelint` or `yarn stylelint` to replace `stylelint`
+    then use `npm run stylelint` or `yarn stylelint` to replace `stylelint`

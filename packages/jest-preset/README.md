@@ -6,9 +6,9 @@
 
 1. Create an `jest.config.mjs` in the project root
 
-   ```js
-   const config = {
-     preset: '@foray1010',
-   }
-   export default config
-   ```
+    ```js
+    const config = {
+        preset: '@foray1010',
+    }
+    export default config
+    ```
