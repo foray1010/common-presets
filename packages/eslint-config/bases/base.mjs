@@ -305,9 +305,9 @@ const baseConfig = defineConfig(
       reportUnusedInlineConfigs: 'error',
     },
     languageOptions: {
-      ecmaVersion: 2023,
+      ecmaVersion: 2024,
       globals: {
-        ...globals.es2023,
+        ...globals.es2024,
         /* Not using `node` to explicitly import node.js only built-in modules, e.g.
          * import { Buffer } from 'node:buffer'
          * import process from 'node:process'
