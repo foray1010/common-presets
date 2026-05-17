@@ -3,6 +3,7 @@
   "extends": "@foray1010/tsconfig/tsconfig.base.json",
   "compilerOptions": {
     "allowJs": true,
-    "checkJs": true
+    "checkJs": true,
+    "types": ["node"]
   }
 }

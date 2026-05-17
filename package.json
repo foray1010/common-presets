@@ -21,6 +21,7 @@
     "@babel/runtime": "7.29.2",
     "@commitlint/cli": "20.5.3",
     "@commitlint/config-conventional": "20.5.3",
+    "@types/node": "25.6.2",
     "concurrently": "9.2.1",
     "eslint": "10.3.0",
     "husky": "9.1.7",
@@ -32,7 +33,7 @@
     "remark-cli": "12.0.1",
     "stylelint": "16.26.1",
     "tinyglobby": "0.2.16",
-    "typescript": "5.9.3"
+    "typescript": "6.0.3"
   },
   "packageManager": "yarn@4.14.1",
   "engines": {
