@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.0.2](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@17.0.1...@foray1010/eslint-config@17.0.2) (2026-05-25)
+
+### Bug Fixes
+
+- **eslint-config:** do not check import extension on packages
+
 ## [17.0.1](https://github.com/foray1010/common-presets/compare/@foray1010/eslint-config@17.0.0...@foray1010/eslint-config@17.0.1) (2026-05-25)
 
 ### Bug Fixes
