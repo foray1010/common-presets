@@ -1,5 +1,4 @@
 import { isESM } from '@foray1010/common-presets-utils'
-// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 import eslintPluginN from 'eslint-plugin-n'
 

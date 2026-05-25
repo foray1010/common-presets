@@ -1,4 +1,3 @@
-// eslint-disable-next-line import-x/extensions
 import { defineConfig } from 'eslint/config'
 
 import baseConfig from './bases/base.mjs'
