@@ -1,4 +1,3 @@
-/* eslint-disable import-x/extensions */
 import js from '@eslint/js'
 import eslintPluginEslintCommentsConfigs from '@eslint-community/eslint-plugin-eslint-comments/configs'
 import { hasDep, isESM } from '@foray1010/common-presets-utils'
@@ -200,7 +199,7 @@ const baseConfig = defineConfig(
       'import-x/extensions': [
         'error',
         // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
-        'always',
+        'ignorePackages',
       ],
       // make sure import statements above the others
       'import-x/first': 'error',
