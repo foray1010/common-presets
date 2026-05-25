@@ -201,15 +201,6 @@ const baseConfig = defineConfig(
         'error',
         // https://nodejs.org/docs/latest-v14.x/api/esm.html#esm_mandatory_file_extensions
         'always',
-        {
-          pattern: {
-            // eslint-plugin-import does not support checking es modules in typescript files
-            cts: 'never',
-            mts: 'never',
-            ts: 'never',
-            tsx: 'never',
-          },
-        },
       ],
       // make sure import statements above the others
       'import-x/first': 'error',
