@@ -1472,30 +1472,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commitlint/cli@npm:21.0.0"
+"@commitlint/cli@npm:21.0.1":
+  version: 21.0.1
+  resolution: "@commitlint/cli@npm:21.0.1"
   dependencies:
-    "@commitlint/format": "npm:^21.0.0"
-    "@commitlint/lint": "npm:^21.0.0"
-    "@commitlint/load": "npm:^21.0.0"
-    "@commitlint/read": "npm:^21.0.0"
-    "@commitlint/types": "npm:^21.0.0"
+    "@commitlint/format": "npm:^21.0.1"
+    "@commitlint/lint": "npm:^21.0.1"
+    "@commitlint/load": "npm:^21.0.1"
+    "@commitlint/read": "npm:^21.0.1"
+    "@commitlint/types": "npm:^21.0.1"
     tinyexec: "npm:^1.0.0"
     yargs: "npm:^18.0.0"
   bin:
-    commitlint: ./cli.js
-  checksum: 10c0/c9071c7f88cf80369d6a5dda745a42a2a0547fad7dba08c8cfaf688e7057e5ae9b212c05a118fdaec1c5484bc8a6622a2a80e158a933c8977e6765b54e433a60
+    commitlint: cli.js
+  checksum: 10c0/b4455b05ad6f069b831b977612757b83e39d868ca376f0ef74da1a7addfe6b3d29b721afe3ab65373d5b68b52bacd4247b9fc3f9059e2f0a7ad662b8f42bbf0e
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commitlint/config-conventional@npm:21.0.0"
+"@commitlint/config-conventional@npm:21.0.1":
+  version: 21.0.1
+  resolution: "@commitlint/config-conventional@npm:21.0.1"
   dependencies:
-    "@commitlint/types": "npm:^21.0.0"
+    "@commitlint/types": "npm:^21.0.1"
     conventional-changelog-conventionalcommits: "npm:^9.2.0"
-  checksum: 10c0/9f4356a70616b977328a8a3f558a287ec6ac3a2416aabbb72ae06525a25b34e781dd6d169afa03399b1df3d979d13faa8d311ff42b569ed1ecf84f5e36fae9b4
+  checksum: 10c0/b713491392ce561a882071435ccbdfe30c7adc389674d6e3f4ece4ddf0056e21310ec086e2e6433e9b6620c532b53bbadae59ff38220ba82fd34911e69e690b8
   languageName: node
   linkType: hard
 
@@ -1526,7 +1526,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^21.0.0":
+"@commitlint/format@npm:^21.0.1":
   version: 21.0.1
   resolution: "@commitlint/format@npm:21.0.1"
   dependencies:
@@ -1546,7 +1546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^21.0.0":
+"@commitlint/lint@npm:^21.0.1":
   version: 21.0.1
   resolution: "@commitlint/lint@npm:21.0.1"
   dependencies:
@@ -1558,7 +1558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^21.0.0":
+"@commitlint/load@npm:^21.0.1":
   version: 21.0.1
   resolution: "@commitlint/load@npm:21.0.1"
   dependencies:
@@ -1593,7 +1593,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^21.0.0":
+"@commitlint/read@npm:^21.0.1":
   version: 21.0.1
   resolution: "@commitlint/read@npm:21.0.1"
   dependencies:
@@ -1646,7 +1646,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^21.0.0, @commitlint/types@npm:^21.0.1":
+"@commitlint/types@npm:^21.0.1":
   version: 21.0.1
   resolution: "@commitlint/types@npm:21.0.1"
   dependencies:
@@ -5369,8 +5369,8 @@ __metadata:
   dependencies:
     "@babel/core": "npm:7.29.0"
     "@babel/runtime": "npm:7.29.2"
-    "@commitlint/cli": "npm:21.0.0"
-    "@commitlint/config-conventional": "npm:21.0.0"
+    "@commitlint/cli": "npm:21.0.1"
+    "@commitlint/config-conventional": "npm:21.0.1"
     "@types/node": "npm:25.6.2"
     concurrently: "npm:9.2.1"
     eslint: "npm:10.3.0"
