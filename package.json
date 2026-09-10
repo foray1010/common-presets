@@ -21,7 +21,7 @@
     "@babel/runtime": "7.29.7",
     "@commitlint/cli": "21.2.2",
     "@commitlint/config-conventional": "21.2.2",
-    "@types/node": "22.20.1",
+    "@types/node": "22.20.2",
     "concurrently": "10.0.5",
     "eslint": "10.9.1",
     "husky": "9.1.7",
