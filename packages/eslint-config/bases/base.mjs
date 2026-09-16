@@ -236,6 +236,7 @@ const baseConfig = defineConfig(
             '**/.*', // allow config rc files
             ...testFileGlobs,
           ],
+          includeTypes: true,
         },
       ],
       // forbid a module from importing itself
