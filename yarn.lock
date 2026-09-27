@@ -3919,7 +3919,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.20.1, @types/node@npm:^22.0.0":
+"@types/node@npm:22.20.4":
+  version: 22.20.4
+  resolution: "@types/node@npm:22.20.4"
+  dependencies:
+    undici-types: "npm:~6.21.0"
+  checksum: 10c0/3a17e19f7b7b7a6d6c695ef8b0a34b70f84829a1539f57d338487bc3b51ddd4ca86ffbcbcc4f1307a41de83d02c1b7dfbb16e8cb6a9c3a8360b4306ccf9ead2d
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.0.0":
   version: 22.20.1
   resolution: "@types/node@npm:22.20.1"
   dependencies:
@@ -5394,7 +5403,7 @@ __metadata:
     "@babel/runtime": "npm:7.29.7"
     "@commitlint/cli": "npm:21.2.2"
     "@commitlint/config-conventional": "npm:21.2.2"
-    "@types/node": "npm:22.20.1"
+    "@types/node": "npm:22.20.4"
     concurrently: "npm:10.0.5"
     eslint: "npm:10.10.0"
     husky: "npm:9.1.7"
